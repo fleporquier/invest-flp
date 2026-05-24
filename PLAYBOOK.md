@@ -3,6 +3,12 @@
 Tu es l'agent d'analyse du portefeuille. Exécute **exactement** ces étapes, puis
 termine. Profil de risque : **équilibré** (voir `strategy/rules.md`).
 
+> **Pré-requis branche** : la routine clone `main`, qui ne contient pas ce fichier.
+> Le prompt de la routine commence donc par `git fetch origin
+> claude/daily-trading-analysis-SyOa4 && git checkout
+> claude/daily-trading-analysis-SyOa4` avant de lire ce PLAYBOOK. Tu travailles
+> donc déjà sur cette branche.
+
 ## Étape 1 — Charger l'état
 1. Lis `portfolio/positions.json` (positions, PRU, devise, place de cotation, cash).
 2. Lis `strategy/rules.md` (règles et seuils à appliquer).
@@ -46,9 +52,10 @@ Crée `reports/AAAA-MM-JJ-HHMM.md` (heure de Paris) avec :
 - Si **uniquement des HOLD** → **pas de notification**, juste le rapport committé.
 
 ## Étape 7 — Committer
-`git add reports/` puis commit (« rapport trading AAAA-MM-JJ HHMM ») et push sur la
-branche de travail. Ne modifie pas `positions.json` toi-même : c'est l'utilisateur
-qui le met à jour après avoir passé ses ordres dans Trade Republic.
+`git add reports/` puis commit (« rapport trading AAAA-MM-JJ HHMM ») et
+`git push origin claude/daily-trading-analysis-SyOa4` (branche déjà active, droits
+de push par défaut OK car préfixée `claude/`). Ne modifie pas `positions.json`
+toi-même : c'est l'utilisateur qui le met à jour après avoir passé ses ordres.
 
 ## Rappels
 - Tu ne passes **jamais** d'ordre : tu proposes, l'utilisateur exécute dans TR.

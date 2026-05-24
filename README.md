@@ -30,19 +30,31 @@ Session planifiée (3x/jour, cloud)
 | `reports/` | Un rapport daté par run (historique). |
 | `CLAUDE.md` | Contexte pour toute session. |
 
-## Mise en place du déclencheur planifié
+## Mise en place de la routine planifiée
 
-1. Renseigne tes vraies positions dans `portfolio/positions.json`.
-2. Dans **Claude Code sur le web**, crée un **déclencheur planifié** (schedule) sur
-   ce repo + cette branche, avec comme instruction :
-   > `Exécute PLAYBOOK.md`
-3. Cadence visée : **~9h, ~13h, ~17h (heure de Paris)**. Les plannings sont souvent
-   exprimés en **UTC** :
-   - Été (CEST, UTC+2) : 07:00 / 11:00 / 15:00 UTC
-   - Hiver (CET, UTC+1) : 08:00 / 12:00 / 16:00 UTC
+La planification passe par les **Routines** (claude.ai/code/routines, ou `/schedule`).
 
-Doc des déclencheurs et environnements :
-https://code.claude.com/docs/en/claude-code-on-the-web
+1. Tiens à jour tes positions dans `portfolio/positions.json` **sur la branche
+   `claude/daily-trading-analysis-SyOa4`** (c'est là que la routine lit et écrit).
+2. Crée une **routine** : repo `fleporquier/invest-flp`, environnement **Default**
+   (Trusted suffit — WebSearch fonctionne, pas besoin d'accès « Full »).
+3. **Prompt** de la routine (auto-suffisant ; il bascule sur la bonne branche car la
+   routine clone `main` par défaut) :
+   > `D'abord : git fetch origin claude/daily-trading-analysis-SyOa4 && git checkout
+   > claude/daily-trading-analysis-SyOa4. Ensuite exécute PLAYBOOK.md de bout en bout :
+   > lis positions.json et strategy/rules.md, récupère cours + actu via WebSearch
+   > (profil équilibré), écris un rapport daté dans reports/, signale les ordres à
+   > passer, puis commit et push sur cette branche. Termine après le rapport.`
+4. **Déclencheur Schedule**, **lundi→vendredi**, à **09:00 / 13:00 / 17:00 (heure de
+   Paris)**. Les heures sont saisies en heure locale et **converties automatiquement**
+   (gère l'heure d'été) — aucune conversion UTC à faire.
+   - Compact : 1 cron `0 9,13,17 * * 1-5` via `/schedule update` (vérifie qu'il
+     résout bien en heure de Paris ; sinon préférer 3 presets « Weekdays »).
+   - Robuste : 3 presets « Weekdays » à 09:00, 13:00, 17:00.
+5. Intervalle minimum d'une routine : **1 h**. Consomme le quota d'abonnement + un
+   plafond quotidien de runs.
+
+Doc : https://code.claude.com/docs/en/routines
 
 ## Limites connues
 - **Réseau en liste blanche** : seules les recherches via WebSearch ramènent les

@@ -1,0 +1,27 @@
+{
+  "base_currency": "EUR",
+  "broker": "Trade Republic",
+  "last_updated": "2026-05-24",
+  "cash_eur": 0,
+  "positions": [
+    {
+      "name": "EXEMPLE - ASML Holding",
+      "isin": "NL0010273215",
+      "yahoo_symbol": "ASML.AS",
+      "exchange": "Euronext Amsterdam",
+      "quantity": 0,
+      "avg_buy_price": 0,
+      "currency": "EUR",
+      "notes": "Ligne d'exemple a remplacer par tes vraies positions."
+    }
+  ],
+  "_instructions": {
+    "but": "Source de verite des positions, lue a chaque run automatique.",
+    "a_mettre_a_jour": "Edite ce fichier (quantite / prix de revient / cash) chaque fois que tu passes un ordre dans Trade Republic.",
+    "champs": {
+      "yahoo_symbol": "Symbole de la PLACE DE COTATION reelle (ex: ASML.AS pour Amsterdam en EUR, pas l'ADR US). Sert a lever toute ambiguite de cours/devise.",
+      "avg_buy_price": "Prix de revient unitaire (PRU) dans la devise de la ligne.",
+      "cash_eur": "Liquidites disponibles pour acheter."
+    }
+  }
+}

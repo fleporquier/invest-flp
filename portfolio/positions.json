@@ -1,27 +1,141 @@
 {
   "base_currency": "EUR",
-  "broker": "Trade Republic",
   "last_updated": "2026-05-24",
-  "cash_eur": 0,
-  "positions": [
+  "note_interpretation_TR": "Pour Trade Republic, la capture donne valeur actuelle + plus/moins-value TOTALE depuis l'achat (montants ronds => investissement en euros, fractions d'actions). cost_basis_eur est reconstitue = current_value_eur - pnl_eur. Pas de PRU/quantite unitaire disponibles depuis la vue liste.",
+  "accounts": [
     {
-      "name": "EXEMPLE - ASML Holding",
-      "isin": "NL0010273215",
-      "yahoo_symbol": "ASML.AS",
-      "exchange": "Euronext Amsterdam",
-      "quantity": 0,
-      "avg_buy_price": 0,
-      "currency": "EUR",
-      "notes": "Ligne d'exemple a remplacer par tes vraies positions."
+      "broker": "Trade Republic",
+      "cash_eur": 2000,
+      "positions": [
+        {
+          "name": "Ottobock SE",
+          "yahoo_symbol": "A_VERIFIER",
+          "exchange": "Francfort / XETRA (a verifier)",
+          "isin": "",
+          "current_value_eur": 1053.60,
+          "pnl_eur": -196.40,
+          "cost_basis_eur": 1250.00,
+          "pnl_pct": -15.71,
+          "notes": "IPO recente ? Verifier symbole + cours EUR via WebSearch."
+        },
+        {
+          "name": "Hermes International",
+          "yahoo_symbol": "RMS.PA",
+          "exchange": "Euronext Paris",
+          "isin": "FR0000052292",
+          "current_value_eur": 855.53,
+          "pnl_eur": -144.47,
+          "cost_basis_eur": 1000.00,
+          "pnl_pct": -14.45,
+          "notes": "Luxe."
+        },
+        {
+          "name": "IperionX Limited",
+          "yahoo_symbol": "IPX",
+          "exchange": "Nasdaq (USD) / ASX IPX.AX (AUD) - sur TR cote en EUR via place allemande",
+          "isin": "",
+          "current_value_eur": 737.71,
+          "pnl_eur": 50.21,
+          "cost_basis_eur": 687.50,
+          "pnl_pct": 7.30,
+          "notes": "Titane US/AU. Sous-jacent USD/AUD => verifier devise/place."
+        },
+        {
+          "name": "Contemporary Amperex Technology (CATL)",
+          "yahoo_symbol": "3750.HK",
+          "exchange": "Hong Kong 3750.HK (HKD) / Shenzhen 300750.SZ - sur TR en EUR a verifier",
+          "isin": "",
+          "current_value_eur": 497.12,
+          "pnl_eur": -2.88,
+          "cost_basis_eur": 500.00,
+          "pnl_pct": -0.58,
+          "notes": "Batteries. Verifier place/devise."
+        },
+        {
+          "name": "ASML Holding",
+          "yahoo_symbol": "ASML.AS",
+          "exchange": "Euronext Amsterdam",
+          "isin": "NL0010273215",
+          "current_value_eur": 278.58,
+          "pnl_eur": 28.58,
+          "cost_basis_eur": 250.00,
+          "pnl_pct": 11.43,
+          "notes": "Semi-conducteurs. Attention a l'ADR US en USD, utiliser ASML.AS en EUR."
+        },
+        {
+          "name": "BYD Company",
+          "yahoo_symbol": "1211.HK",
+          "exchange": "Hong Kong 1211.HK (HKD) / Shenzhen 002594.SZ - sur TR en EUR a verifier",
+          "isin": "",
+          "current_value_eur": 265.83,
+          "pnl_eur": -38.68,
+          "cost_basis_eur": 304.51,
+          "pnl_pct": -12.70,
+          "notes": "VE chinois. Verifier place/devise."
+        },
+        {
+          "name": "D-Wave Quantum",
+          "yahoo_symbol": "QBTS",
+          "exchange": "Nasdaq (USD) - sur TR en EUR via place allemande a verifier",
+          "isin": "",
+          "current_value_eur": 107.05,
+          "pnl_eur": 23.26,
+          "cost_basis_eur": 83.79,
+          "pnl_pct": 27.76,
+          "notes": "Quantum, tres volatil/speculatif."
+        }
+      ]
+    },
+    {
+      "broker": "Boursorama",
+      "cash_eur": 3000,
+      "positions": [
+        {
+          "name": "Amundi IS MSCI World SWAP ETF EUR Dist",
+          "yahoo_symbol": "A_VERIFIER",
+          "exchange": "Euronext Paris",
+          "isin": "",
+          "quantity": 166,
+          "avg_buy_price": 30.52,
+          "last_price": 39.63,
+          "current_value_eur": 6577.92,
+          "pnl_eur": 1511.80,
+          "cost_basis_eur": 5066.32,
+          "pnl_pct": 29.84,
+          "currency": "EUR",
+          "notes": "ETF coeur monde, distribuant."
+        },
+        {
+          "name": "iShares Core EURO STOXX 50 ETF EUR Dist",
+          "yahoo_symbol": "EUE.PA",
+          "exchange": "Euronext (a verifier)",
+          "isin": "IE0008471009",
+          "quantity": 16,
+          "avg_buy_price": 57.55,
+          "last_price": 61.68,
+          "current_value_eur": 986.88,
+          "pnl_eur": 66.16,
+          "cost_basis_eur": 920.80,
+          "pnl_pct": 7.19,
+          "currency": "EUR",
+          "notes": "ETF grandes cap zone euro, distribuant."
+        },
+        {
+          "name": "iShares EURO STOXX Banks 30-15 ETF (DE) Acc",
+          "yahoo_symbol": "EXX1.DE",
+          "exchange": "XETRA",
+          "isin": "DE0006289309",
+          "quantity": 510,
+          "avg_buy_price": 16.95,
+          "last_price": 17.71,
+          "current_value_eur": 9033.12,
+          "pnl_eur": 387.14,
+          "cost_basis_eur": 8644.50,
+          "pnl_pct": 4.48,
+          "currency": "EUR",
+          "notes": "ETF sectoriel banques zone euro, capitalisant."
+        }
+      ]
     }
-  ],
-  "_instructions": {
-    "but": "Source de verite des positions, lue a chaque run automatique.",
-    "a_mettre_a_jour": "Edite ce fichier (quantite / prix de revient / cash) chaque fois que tu passes un ordre dans Trade Republic.",
-    "champs": {
-      "yahoo_symbol": "Symbole de la PLACE DE COTATION reelle (ex: ASML.AS pour Amsterdam en EUR, pas l'ADR US). Sert a lever toute ambiguite de cours/devise.",
-      "avg_buy_price": "Prix de revient unitaire (PRU) dans la devise de la ligne.",
-      "cash_eur": "Liquidites disponibles pour acheter."
-    }
-  }
+  ]
 }

@@ -1,8 +1,8 @@
 # Contexte du repo
 
-Système d'**analyse trading quotidienne** du portefeuille Trade Republic de
-l'utilisateur. Semi-automatique : l'agent analyse et **propose** des ordres,
-l'utilisateur les passe **manuellement** dans Trade Republic.
+Système d'**analyse trading quotidienne** des portefeuilles de l'utilisateur
+(**Trade Republic** + **Boursorama**). Semi-automatique : l'agent analyse et
+**propose** des ordres, l'utilisateur les passe **manuellement** chez son courtier.
 
 ## Si tu es lancé par un déclencheur planifié
 Exécute `PLAYBOOK.md` de bout en bout, puis termine.

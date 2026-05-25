@@ -1,0 +1,14 @@
+# Opportunities Scanner dependencies.
+# NB: pandas-ta is intentionally NOT used — it fails to import under NumPy 2.x
+# (references the removed numpy.NaN). Indicators are implemented in-house in
+# opportunities/technical.py.
+yfinance>=0.2.40
+anthropic>=0.40.0
+pandas>=2.0
+numpy>=1.26
+pyyaml>=6.0
+rich>=13.0
+openpyxl>=3.1
+python-dotenv>=1.0
+# Tests
+pytest>=8.0

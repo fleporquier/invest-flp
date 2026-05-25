@@ -172,7 +172,14 @@ def build_result(
     return result
 
 
-def run(config: dict, universe_arg: str, dry_run: bool, top_override: int | None) -> list[dict]:
+def run(
+    config: dict,
+    universe_arg: str,
+    dry_run: bool,
+    top_override: int | None,
+    source_override: str | None = None,
+    cache_dir_override: str | None = None,
+) -> list[dict]:
     """Execute the full scan pipeline.
 
     Args:
@@ -180,23 +187,30 @@ def run(config: dict, universe_arg: str, dry_run: bool, top_override: int | None
         universe_arg: CLI universe selection.
         dry_run: Whether to skip news and Claude calls.
         top_override: Optional override of ``output.top_n``.
+        source_override: Optional override of ``data.source``.
+        cache_dir_override: Optional override of ``data.cache_dir``.
 
     Returns:
         The list of qualified result dicts.
     """
     seuils = config.get("seuils", {})
     output_cfg = config.get("output", {})
+    data_cfg = config.get("data", {})
     top_n = top_override or int(output_cfg.get("top_n", 15))
+    source = source_override or data_cfg.get("source", "auto")
+    cache_dir = cache_dir_override or data_cfg.get("cache_dir", "data/prices")
 
     include_us, include_china, include_etf = resolve_universe_flags(config, universe_arg)
     tickers = universe.all_tickers(include_us, include_china, include_etf)
     logger.info("Scanning %d tickers (us=%s china=%s etf=%s)", len(tickers), include_us, include_china, include_etf)
 
-    histories = scanner.fetch_performance(tickers)
+    histories = scanner.fetch_performance(tickers, source=source, cache_dir=cache_dir)
     if not histories:
         logger.warning(
-            "No price history retrieved — likely no network access to Yahoo Finance. "
-            "Run locally or in a Full-network environment."
+            "No price history retrieved (source=%s). In the allowlisted routine "
+            "environment, Yahoo is blocked: refresh the CSV cache via GitHub Actions "
+            "(.github/workflows/refresh-prices.yml) or run with --source cache.",
+            source,
         )
         return []
 
@@ -230,6 +244,13 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser.add_argument("--universe", choices=["us", "china", "etf", "all"], default="all", help="Filtre d'univers")
     parser.add_argument("--dry-run", action="store_true", help="Ignore les appels Claude (sortie technique uniquement)")
     parser.add_argument("--top", type=int, default=None, help="Override du nombre de candidats (top_n)")
+    parser.add_argument(
+        "--source",
+        choices=["yfinance", "cache", "auto"],
+        default=None,
+        help="Source des cours : yfinance (réseau), cache (CSV committés), auto (essaie yfinance puis cache)",
+    )
+    parser.add_argument("--cache-dir", default=None, help="Répertoire du cache CSV de cours")
     return parser.parse_args(argv)
 
 
@@ -258,7 +279,7 @@ def main(argv: list[str] | None = None) -> int:
         logger.error("%s", exc)
         return 1
 
-    results = run(config, args.universe, args.dry_run, args.top)
+    results = run(config, args.universe, args.dry_run, args.top, args.source, args.cache_dir)
 
     output_cfg = config.get("output", {})
     formats = output_cfg.get("formats", ["console"])

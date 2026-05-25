@@ -10,6 +10,14 @@ universe:
   include_china: true
   include_etf: true
 
+data:
+  # Source des cours : "yfinance" (réseau ouvert requis), "cache" (lit les CSV
+  # committés dans cache_dir), ou "auto" (essaie yfinance puis bascule sur le cache).
+  # Dans l'environnement routine en liste blanche, Yahoo est bloqué -> utiliser
+  # "cache" (alimenté par le workflow GitHub Actions refresh-prices.yml).
+  source: "auto"
+  cache_dir: "data/prices"
+
 claude:
   model: "claude-opus-4-7"
   max_tokens: 1000

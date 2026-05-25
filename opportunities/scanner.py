@@ -1,7 +1,8 @@
 """Market scanner pipeline: fetch prices, compute drops, filter, rank.
 
-Network access to Yahoo Finance is required at runtime. In restricted
-environments (e.g. an allowlisted sandbox) ``yfinance`` calls fail; every
+Price history is obtained through :mod:`opportunities.providers`, which abstracts
+the data source (live ``yfinance`` or a CSV cache committed to the repo). In the
+allowlisted routine environment Yahoo is blocked, so the CSV cache is used; every
 network touch point degrades gracefully, logging a warning and continuing.
 """
 
@@ -11,6 +12,8 @@ import logging
 from dataclasses import dataclass, field
 
 import pandas as pd
+
+from . import providers
 
 logger = logging.getLogger(__name__)
 
@@ -48,86 +51,28 @@ def fetch_performance(
     tickers: list[str],
     period: str = "3mo",
     interval: str = "1d",
+    source: str = "auto",
+    cache_dir: str = "data/prices",
 ) -> dict[str, pd.DataFrame]:
-    """Download price history for a batch of tickers via ``yfinance``.
+    """Fetch price history for a batch of tickers via the provider layer.
 
     Args:
-        tickers: Ticker symbols to download.
-        period: History period accepted by ``yfinance`` (e.g. ``"3mo"``).
+        tickers: Ticker symbols to fetch.
+        period: History period (e.g. ``"3mo"``).
         interval: Bar interval (e.g. ``"1d"``).
+        source: Data source: ``"yfinance"``, ``"cache"`` or ``"auto"`` (try
+            yfinance then fall back to the committed CSV cache).
+        cache_dir: Directory of the CSV cache.
 
     Returns:
-        Mapping of ticker to its OHLCV :class:`pandas.DataFrame`. Tickers that
-        fail to download or return empty data are omitted.
+        Mapping of ticker to its OHLCV :class:`pandas.DataFrame`. Tickers with
+        no usable data are omitted.
     """
     if not tickers:
         return {}
-
-    try:
-        import yfinance as yf
-    except ImportError as exc:  # pragma: no cover - dependency guard
-        logger.error("yfinance is not installed: %s", exc)
-        return {}
-
-    try:
-        raw = yf.download(
-            tickers=tickers,
-            period=period,
-            interval=interval,
-            group_by="ticker",
-            auto_adjust=True,
-            threads=True,
-            progress=False,
-        )
-    except Exception as exc:  # noqa: BLE001 - yfinance raises broad errors
-        logger.warning("Batch download failed (%s); falling back per ticker", exc)
-        raw = None
-
-    histories: dict[str, pd.DataFrame] = {}
-
-    if raw is not None and not raw.empty:
-        if isinstance(raw.columns, pd.MultiIndex):
-            for ticker in tickers:
-                if ticker in raw.columns.get_level_values(0):
-                    frame = raw[ticker].dropna(how="all")
-                    if not frame.empty:
-                        histories[ticker] = frame
-        elif len(tickers) == 1:
-            frame = raw.dropna(how="all")
-            if not frame.empty:
-                histories[tickers[0]] = frame
-
-    missing = [t for t in tickers if t not in histories]
-    for ticker in missing:
-        frame = _fetch_single(yf, ticker, period, interval)
-        if frame is not None and not frame.empty:
-            histories[ticker] = frame
-
-    logger.info("Fetched price history for %d/%d tickers", len(histories), len(tickers))
-    return histories
-
-
-def _fetch_single(yf, ticker: str, period: str, interval: str) -> pd.DataFrame | None:
-    """Download a single ticker, returning ``None`` on failure.
-
-    Args:
-        yf: The imported ``yfinance`` module.
-        ticker: Ticker symbol.
-        period: History period.
-        interval: Bar interval.
-
-    Returns:
-        The OHLCV frame, or ``None`` if the request failed or was empty.
-    """
-    try:
-        frame = yf.Ticker(ticker).history(period=period, interval=interval)
-    except Exception as exc:  # noqa: BLE001 - yfinance raises broad errors
-        logger.warning("Failed to fetch %s: %s", ticker, exc)
-        return None
-    if frame is None or frame.empty:
-        logger.warning("No data returned for %s", ticker)
-        return None
-    return frame
+    return providers.fetch_history(
+        tickers, source=source, period=period, interval=interval, cache_dir=cache_dir
+    )
 
 
 def _pct_change(close: pd.Series, sessions: int) -> float | None:

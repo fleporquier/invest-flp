@@ -1,0 +1,53 @@
+name: Refresh price cache
+
+# Alimente data/prices/*.csv via yfinance. Les runners GitHub Actions ont un
+# réseau OUVERT, donc yfinance fonctionne ici — contrairement à l'environnement
+# routine en liste blanche, qui se contente ensuite de lire les CSV committés.
+
+on:
+  schedule:
+    # En semaine, ~05:30 UTC (avant l'ouverture des marchés européens).
+    - cron: "30 5 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      period:
+        description: "Période d'historique yfinance"
+        default: "1y"
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-prices
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install "yfinance>=0.2.40" "pandas>=2.0"
+
+      - name: Refresh price cache
+        run: python -m opportunities.refresh_cache --cache-dir data/prices --period "${{ github.event.inputs.period || '1y' }}" --universe all
+
+      - name: Commit updated cache
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/prices
+          if git diff --quiet --cached; then
+            echo "No price changes to commit."
+          else
+            git commit -m "chore: refresh price cache ($(date -u +%Y-%m-%d))"
+            git push
+          fi

@@ -122,18 +122,18 @@
         },
         {
           "name": "iShares EURO STOXX Banks 30-15 ETF (DE) Acc",
-          "yahoo_symbol": "EXX1.DE",
+          "yahoo_symbol": "EXA1.DE",
           "exchange": "XETRA",
-          "isin": "DE0006289309",
+          "isin": "DE000A2QP372",
           "quantity": 510,
           "avg_buy_price": 16.95,
-          "last_price": 17.71,
-          "current_value_eur": 9033.12,
-          "pnl_eur": 387.14,
+          "last_price": 18.122,
+          "current_value_eur": 9242.22,
+          "pnl_eur": 597.72,
           "cost_basis_eur": 8644.50,
-          "pnl_pct": 4.48,
+          "pnl_pct": 6.91,
           "currency": "EUR",
-          "notes": "ETF sectoriel banques zone euro, capitalisant."
+          "notes": "ETF sectoriel banques zone euro, capitalisant. Ticker corrige EXX1->EXA1 (ISIN DE000A2QP372, ~18 EUR) le 2026-05-25 : EXX1.DE (~26 EUR) etait une AUTRE version. Cours/valeur au 2026-05-25 12:14."
         }
       ]
     }

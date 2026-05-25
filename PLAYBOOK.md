@@ -24,8 +24,14 @@ Pour **chaque** ligne du portefeuille :
 Puis contexte global : grands indices (CAC 40, EuroStoxx, Nasdaq) et tendance du
 secteur concerné.
 
+⚠️ Identifie chaque titre par son **ISIN**, pas seulement par son nom (plusieurs
+versions d'un même ETF ont des cours très différents — ex. EXA1 ~18 € vs EXX1 ~26 €).
 ⚠️ Vérifie la cohérence cours/devise. Si un cours paraît douteux (mauvaise place,
 ordre de grandeur incohérent), marque la ligne `HOLD` et explique le doute.
+⚠️ **Ne jamais « corriger » `positions.json` à partir d'un prix web** : si le cours
+web s'écarte fortement de `last_price`, c'est probablement un mauvais ticker/place —
+**signale l'écart** (drapeau de risque) sans recalculer le portefeuille sur le prix
+web, et garde `quantity` / `avg_buy_price` du fichier comme référence.
 
 ## Étape 3 — Analyser ligne par ligne
 Applique `strategy/rules.md`. Pour chaque ligne, décide :

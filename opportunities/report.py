@@ -1,15 +1,19 @@
-"""Render scan results to console, Markdown and Excel.
+"""Render scan results to console, Markdown, Excel and JSON.
 
 A *result* is a flat dict combining drop metrics, technical indicators, the
 Claude verdict and PEA / Trade Republic eligibility for one ticker. Heavy
 optional dependencies (``rich``, ``openpyxl``) are imported lazily so the
 module stays importable without them.
+
+The JSON output is **automatically redacted** via :mod:`dashboard.redact`
+because it is intended to feed the public dashboard.
 """
 
 from __future__ import annotations
 
+import json
 import logging
-from datetime import date as date_cls
+from datetime import date as date_cls, datetime, timezone
 from pathlib import Path
 
 logger = logging.getLogger(__name__)
@@ -284,6 +288,42 @@ def _autosize(worksheet, n_cols: int) -> None:
         worksheet.column_dimensions[letter].width = min(max(longest + 2, 10), 45)
 
 
+def write_json(
+    results: list[dict],
+    output_dir: str | Path,
+    run_date: date_cls | None = None,
+    redact: bool = True,
+) -> Path:
+    """Write a redacted JSON snapshot fit for the public dashboard.
+
+    Args:
+        results: Scan results.
+        output_dir: Destination directory.
+        run_date: Report date (defaults to today).
+        redact: When ``True`` (default), euro amounts, market caps and
+            similar absolute figures are stripped before serialisation.
+
+    Returns:
+        Path to the written JSON file.
+    """
+    run_date = run_date or date_cls.today()
+    out_dir = Path(output_dir)
+    out_dir.mkdir(parents=True, exist_ok=True)
+    path = out_dir / f"opportunities_{run_date.isoformat()}.json"
+
+    payload = {
+        "generated_at": datetime.now(tz=timezone.utc).isoformat(timespec="seconds"),
+        "results": results,
+    }
+    if redact:
+        from dashboard.redact import redact as _redact
+
+        payload = _redact(payload)
+    path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    logger.info("JSON report written to %s", path)
+    return path
+
+
 def generate_reports(
     results: list[dict],
     formats: list[str],
@@ -295,7 +335,7 @@ def generate_reports(
 
     Args:
         results: Scan results.
-        formats: Subset of ``{"console", "markdown", "excel"}``.
+        formats: Subset of ``{"console", "markdown", "excel", "json"}``.
         output_dir: Destination directory for file outputs.
         top: Number of rows for the console table.
         run_date: Report date (defaults to today).
@@ -311,4 +351,6 @@ def generate_reports(
         written["markdown"] = write_markdown(results, output_dir, run_date)
     if "excel" in formats:
         written["excel"] = write_excel(results, output_dir, run_date)
+    if "json" in formats:
+        written["json"] = write_json(results, output_dir, run_date)
     return written

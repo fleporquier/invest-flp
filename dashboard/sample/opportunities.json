@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-05-25T08:00:00+02:00",
+  "results": [
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corp",
+      "category": "us_tech_ai",
+      "drop_5d": -8.2,
+      "drop_1m": -18.0,
+      "rsi_14": 27.5,
+      "macd_signal": "BULLISH_CROSS",
+      "range_52w_position": 0.21,
+      "technical_score": 85,
+      "verdict": "ACHETER",
+      "conviction": 8,
+      "type_baisse": "CONJONCTURELLE",
+      "raison_baisse": "Correction sectorielle IA, fondamentaux intacts.",
+      "pea": false,
+      "etf_pea_alt": "PUST.PA"
+    },
+    {
+      "ticker": "BABA",
+      "name": "Alibaba",
+      "category": "china_tech",
+      "drop_5d": -6.0,
+      "drop_1m": -12.0,
+      "rsi_14": 34.0,
+      "macd_signal": "NEUTRAL",
+      "range_52w_position": 0.30,
+      "technical_score": 50,
+      "verdict": "ATTENDRE",
+      "conviction": 5,
+      "type_baisse": "MIXTE",
+      "raison_baisse": "Risque réglementaire chinois persistant.",
+      "pea": false,
+      "etf_pea_alt": "PAEEM.PA"
+    },
+    {
+      "ticker": "KWEB",
+      "name": "KraneShares China Internet",
+      "category": "etf",
+      "drop_5d": -5.5,
+      "drop_1m": -9.0,
+      "rsi_14": 41.0,
+      "macd_signal": "BEARISH_CROSS",
+      "range_52w_position": 0.45,
+      "technical_score": 20,
+      "verdict": "EVITER",
+      "conviction": 3,
+      "type_baisse": "STRUCTURELLE",
+      "raison_baisse": "Tendance baissière confirmée.",
+      "pea": false,
+      "etf_pea_alt": null
+    }
+  ]
+}

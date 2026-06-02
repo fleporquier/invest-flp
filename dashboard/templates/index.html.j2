@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>invest-flp — Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>invest-flp</h1>
+    <p class="subtitle">Dashboard personnel — chiffres absolus masqués.</p>
+  </header>
+
+  <main>
+    <section id="portefeuille" class="card">
+      <h2>📊 Mes actions en cours</h2>
+      {% if portfolio.generated_at %}
+        <p class="meta">Dernière analyse : <time>{{ portfolio.generated_at }}</time></p>
+      {% endif %}
+      {% if portfolio.positions %}
+        <table class="grid">
+          <thead>
+            <tr>
+              <th>Ticker</th>
+              <th>Nom</th>
+              <th class="num">P&amp;L</th>
+              <th>Signal</th>
+              <th>Conv.</th>
+              <th>Justification</th>
+            </tr>
+          </thead>
+          <tbody>
+          {% for pos in portfolio.positions %}
+            <tr>
+              <td class="ticker">{{ pos.ticker }}</td>
+              <td>{{ pos.name }}</td>
+              <td class="num {{ 'pos' if (pos.pnl_pct or 0) >= 0 else 'neg' }}">
+                {% if pos.pnl_pct is not none %}{{ '%+.1f'|format(pos.pnl_pct) }}%{% else %}—{% endif %}
+              </td>
+              <td><span class="badge sig-{{ (pos.signal or 'HOLD')|lower|replace(' ', '-') }}">{{ pos.signal or 'HOLD' }}</span></td>
+              <td>{{ pos.confidence or '—' }}</td>
+              <td class="rationale">{{ pos.rationale or '' }}</td>
+            </tr>
+          {% endfor %}
+          </tbody>
+        </table>
+
+        {% if portfolio.orders_to_consider %}
+          <h3>Ordres proposés</h3>
+          <ul class="orders">
+          {% for order in portfolio.orders_to_consider %}
+            <li>
+              <span class="badge sig-{{ (order.action or '')|lower|replace(' ', '-') }}">{{ order.action }}</span>
+              <strong>{{ order.instrument }}</strong>
+              {% if order.details %}— {{ order.details }}{% endif %}
+              {% if order.rationale %}<div class="rationale">{{ order.rationale }}</div>{% endif %}
+            </li>
+          {% endfor %}
+          </ul>
+        {% endif %}
+
+        {% if portfolio.risk_flags %}
+          <h3>Drapeaux de risque</h3>
+          <ul class="flags">
+          {% for flag in portfolio.risk_flags %}
+            <li>{{ flag }}</li>
+          {% endfor %}
+          </ul>
+        {% endif %}
+      {% else %}
+        <p class="placeholder">Aucune analyse de portefeuille publiée pour l'instant.</p>
+      {% endif %}
+    </section>
+
+    <section id="opportunites" class="card">
+      <h2>🎯 Mes opportunités</h2>
+      {% if opportunities.generated_at %}
+        <p class="meta">Dernier scan : <time>{{ opportunities.generated_at }}</time></p>
+      {% endif %}
+      {% if opportunities.results %}
+        <table class="grid">
+          <thead>
+            <tr>
+              <th>Ticker</th>
+              <th>Nom</th>
+              <th class="num">Baisse 5j</th>
+              <th class="num">Baisse 1m</th>
+              <th class="num">RSI</th>
+              <th class="num">Tech</th>
+              <th>Verdict</th>
+              <th>Conv.</th>
+              <th>PEA / ETF</th>
+              <th>Pourquoi</th>
+            </tr>
+          </thead>
+          <tbody>
+          {% for r in opportunities.results %}
+            <tr>
+              <td class="ticker">{{ r.ticker }}</td>
+              <td>{{ r.name }}</td>
+              <td class="num neg">{% if r.drop_5d is not none %}{{ '%+.1f'|format(r.drop_5d) }}%{% else %}—{% endif %}</td>
+              <td class="num neg">{% if r.drop_1m is not none %}{{ '%+.1f'|format(r.drop_1m) }}%{% else %}—{% endif %}</td>
+              <td class="num">{{ r.rsi_14 if r.rsi_14 is not none else '—' }}</td>
+              <td class="num">{{ r.technical_score if r.technical_score is not none else '—' }}</td>
+              <td><span class="badge ver-{{ (r.verdict or 'attendre')|lower }}">{{ r.verdict or '—' }}</span></td>
+              <td>{{ r.conviction or '—' }}</td>
+              <td>{% if r.pea %}PEA{% elif r.etf_pea_alt %}→{{ r.etf_pea_alt }}{% else %}—{% endif %}</td>
+              <td class="rationale">{{ r.raison_baisse or '' }}</td>
+            </tr>
+          {% endfor %}
+          </tbody>
+        </table>
+      {% else %}
+        <p class="placeholder">Aucun scan d'opportunités publié pour l'instant.</p>
+      {% endif %}
+    </section>
+  </main>
+
+  <footer>
+    <p>Données générées automatiquement. Signaux argumentés mais non garantis. Pas un conseil financier.</p>
+  </footer>
+</body>
+</html>

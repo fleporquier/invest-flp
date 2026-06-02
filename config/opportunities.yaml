@@ -25,5 +25,6 @@ claude:
 
 output:
   top_n: 15
-  formats: ["console", "markdown", "excel"]
+  # "json" alimente le dashboard (sortie auto-redactee : pas de montants, pas de quantites).
+  formats: ["console", "markdown", "excel", "json"]
   output_dir: "reports/"

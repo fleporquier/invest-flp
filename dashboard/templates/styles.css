@@ -1,0 +1,136 @@
+:root {
+  --bg: #0e1116;
+  --card: #161b22;
+  --border: #2a2f37;
+  --text: #e6edf3;
+  --muted: #8b949e;
+  --accent: #58a6ff;
+  --green: #3fb950;
+  --red: #f85149;
+  --amber: #d29922;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.45;
+}
+
+header {
+  padding: 1.5rem 1.25rem 0.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.6rem;
+  letter-spacing: -0.5px;
+}
+
+.subtitle {
+  margin: 0.25rem 0 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 1.25rem 2rem;
+  display: grid;
+  gap: 1.25rem;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1.25rem;
+}
+
+.card h2 {
+  margin: 0 0 0.4rem;
+  font-size: 1.2rem;
+}
+
+.card h3 {
+  margin: 1.25rem 0 0.4rem;
+  font-size: 1rem;
+  color: var(--muted);
+}
+
+.meta {
+  margin: 0 0 1rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.placeholder {
+  color: var(--muted);
+  font-style: italic;
+  margin: 0.5rem 0 0;
+}
+
+.grid {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+  overflow-x: auto;
+  display: block;
+}
+
+@media (min-width: 720px) {
+  .grid { display: table; }
+}
+
+.grid th, .grid td {
+  text-align: left;
+  padding: 0.5rem 0.6rem;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+
+.grid th {
+  font-weight: 600;
+  color: var(--muted);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.grid .num { text-align: right; font-variant-numeric: tabular-nums; }
+.grid .ticker { font-weight: 700; }
+.grid .rationale { color: var(--muted); font-size: 0.85rem; }
+
+.num.pos { color: var(--green); }
+.num.neg { color: var(--red); }
+
+.badge {
+  display: inline-block;
+  padding: 0.12rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.04);
+}
+
+.badge.sig-hold, .badge.ver-attendre { color: var(--amber); border-color: rgba(210,153,34,0.4); }
+.badge.sig-acheter, .badge.sig-renforcer, .badge.ver-acheter { color: var(--green); border-color: rgba(63,185,80,0.4); }
+.badge.sig-alléger, .badge.sig-vendre, .badge.ver-eviter, .badge.sig-poser-un-stop { color: var(--red); border-color: rgba(248,81,73,0.4); }
+
+.orders, .flags { padding-left: 1.1rem; margin: 0.4rem 0; }
+.orders li, .flags li { margin: 0.4rem 0; }
+
+footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0.5rem 1.25rem 2rem;
+  color: var(--muted);
+  font-size: 0.8rem;
+}

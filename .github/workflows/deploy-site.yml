@@ -1,0 +1,96 @@
+name: Deploy dashboard
+
+# Construit le dashboard public a partir des derniers JSON committes par les
+# routines (portefeuille + opportunites) sur leurs branches respectives, puis
+# pousse le site sur la branche gh-pages (GitHub Pages s'occupe du serving).
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Toutes les heures en semaine pendant les heures de bureau Paris.
+    - cron: "5 7-17 * * 1-5"
+  push:
+    branches:
+      - main
+      - "claude/daily-trading-analysis-**"
+      - "feature/opportunities-scanner"
+    paths:
+      - "dashboard/**"
+      - "reports/opportunities_*.json"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: deploy-site
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install build deps
+        run: pip install "jinja2>=3.1"
+
+      - name: Collect latest JSON from feature branches
+        run: |
+          mkdir -p /tmp/data
+          git fetch origin --quiet --no-tags
+
+          # Portfolio JSON: latest from the trading branch (best-effort).
+          for ref in $(git for-each-ref --format='%(refname:strip=2)' "refs/remotes/origin/claude/daily-trading-analysis-*"); do
+            if git show "$ref:dashboard/portfolio.json" > /tmp/data/portfolio.json 2>/dev/null; then
+              echo "Picked portfolio.json from $ref"
+              break
+            fi
+          done
+          [ -f /tmp/data/portfolio.json ] || echo "{}" > /tmp/data/portfolio.json
+
+          # Opportunities JSON: latest from main or the feature branch.
+          for ref in origin/main origin/feature/opportunities-scanner; do
+            latest=$(git ls-tree -r "$ref" --name-only 2>/dev/null | grep -E '^reports/opportunities_.*\.json$' | sort | tail -1 || true)
+            if [ -n "$latest" ] && git show "$ref:$latest" > /tmp/data/opportunities.json 2>/dev/null; then
+              echo "Picked $latest from $ref"
+              break
+            fi
+          done
+          [ -f /tmp/data/opportunities.json ] || echo "{}" > /tmp/data/opportunities.json
+
+      - name: Build site
+        run: |
+          python -m dashboard.builder \
+            --portfolio /tmp/data/portfolio.json \
+            --opportunities /tmp/data/opportunities.json \
+            --out /tmp/site
+
+      - name: Deploy to gh-pages
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          # Create / reset a fresh gh-pages working tree.
+          git worktree add /tmp/gh-pages-wt gh-pages 2>/dev/null || \
+            git worktree add --detach /tmp/gh-pages-wt
+          cd /tmp/gh-pages-wt
+          git checkout --orphan gh-pages 2>/dev/null || git checkout gh-pages
+          # Clear everything except .git.
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
+          cp -r /tmp/site/. .
+          touch .nojekyll
+          git add -A
+          if git diff --quiet --cached; then
+            echo "No site changes to deploy."
+          else
+            git commit -m "chore: rebuild dashboard ($(date -u +%Y-%m-%dT%H:%M:%SZ))"
+            git push -u origin gh-pages
+          fi

@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-05-25T09:45:00+02:00",
+  "broker_count": 2,
+  "positions": [
+    {
+      "ticker": "ASML",
+      "name": "ASML Holding",
+      "pnl_pct": 11.4,
+      "signal": "HOLD",
+      "confidence": "élevé",
+      "rationale": "Strong Buy analystes, proche plus-haut 52 sem. Renforcer sur repli."
+    },
+    {
+      "ticker": "OBCK",
+      "name": "Ottobock SE",
+      "pnl_pct": -15.7,
+      "signal": "POSER UN STOP",
+      "confidence": "moyen",
+      "rationale": "Post-IPO baissier, seuil de réévaluation §3 atteint, stop ~50 EUR."
+    },
+    {
+      "ticker": "QBTS",
+      "name": "D-Wave Quantum",
+      "pnl_pct": 27.8,
+      "signal": "ALLÉGER",
+      "confidence": "moyen+",
+      "rationale": "Spike vertical sur news (+14 %), fondamentaux faibles, prise de profit."
+    },
+    {
+      "ticker": "EXA1",
+      "name": "iShares EURO STOXX Banks 30-15",
+      "pnl_pct": 6.9,
+      "signal": "ALLÉGER",
+      "confidence": "moyen",
+      "rationale": "Concentration sur un seul secteur, réduire l'exposition."
+    }
+  ],
+  "orders_to_consider": [
+    {
+      "action": "ALLÉGER",
+      "instrument": "D-Wave Quantum (QBTS)",
+      "details": "vendre environ la moitié de la ligne",
+      "rationale": "Sécurise après un spike parabolique sur news non contraignante."
+    },
+    {
+      "action": "ALLÉGER",
+      "instrument": "iShares EURO STOXX Banks (EXA1)",
+      "details": "réduire pour repasser sous 25 % de pondération",
+      "rationale": "Concentration sectorielle élevée + alerte BofA sur les actions européennes."
+    }
+  ],
+  "risk_flags": [
+    "Concentration banques sur un seul secteur.",
+    "Ottobock proche du plus-bas 52 semaines."
+  ]
+}

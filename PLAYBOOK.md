@@ -52,16 +52,58 @@ Crée `reports/AAAA-MM-JJ-HHMM.md` (heure de Paris) avec :
   aucun). Format par ordre : `ACTION — instrument — quantité/montant — prix indicatif`.
 - Drapeaux de risque éventuels.
 
+## Étape 5b — Snapshot JSON pour le dashboard public
+
+Écris **aussi** `dashboard/portfolio.json` (crée le dossier si nécessaire). Ce
+fichier alimente le dashboard GitHub Pages — il est **public**, donc **n'y mets
+JAMAIS** de montants en euros, de quantités, de cash ou de valeurs absolues.
+
+Schéma à respecter (champs autorisés uniquement) :
+
+```json
+{
+  "generated_at": "AAAA-MM-JJTHH:MM:SS+02:00",
+  "broker_count": 2,
+  "positions": [
+    {
+      "ticker": "ASML",
+      "name": "ASML Holding",
+      "pnl_pct": 11.4,
+      "signal": "HOLD",
+      "confidence": "élevé",
+      "rationale": "1 phrase, sans aucun montant"
+    }
+  ],
+  "orders_to_consider": [
+    {
+      "action": "ALLÉGER",
+      "instrument": "D-Wave Quantum (QBTS)",
+      "details": "vendre environ la moitié de la ligne",
+      "rationale": "1 phrase, en termes relatifs"
+    }
+  ],
+  "risk_flags": ["Concentration sectorielle élevée."]
+}
+```
+
+Règles :
+- `signal` ∈ `HOLD` | `ACHETER` | `RENFORCER` | `ALLÉGER` | `VENDRE` | `POSER UN STOP`.
+- `confidence` ∈ `faible` | `moyen` | `élevé`.
+- `pnl_pct` est un nombre (positif/négatif), **percentage uniquement**.
+- `details` / `rationale` : exprime les tailles en **fraction / pourcentage** ou
+  en termes relatifs (« ~la moitié », « ~1/3 »), **jamais en euros ni en parts**.
+
 ## Étape 6 — Notifier (seulement si ordre actionnable)
 - S'il y a **au moins un ordre** dans « ORDRES À PASSER » → envoie une **notification
   push** résumant le(s) ordre(s) (ex. « 2 ordres proposés : ALLÉGER ASML, RENFORCER X »).
 - Si **uniquement des HOLD** → **pas de notification**, juste le rapport committé.
 
 ## Étape 7 — Committer
-`git add reports/` puis commit (« rapport trading AAAA-MM-JJ HHMM ») et
-`git push origin claude/daily-trading-analysis-SyOa4` (branche déjà active, droits
-de push par défaut OK car préfixée `claude/`). Ne modifie pas `positions.json`
-toi-même : c'est l'utilisateur qui le met à jour après avoir passé ses ordres.
+`git add reports/ dashboard/portfolio.json` puis commit (« rapport trading
+AAAA-MM-JJ HHMM ») et `git push origin claude/daily-trading-analysis-SyOa4`
+(branche déjà active, droits de push par défaut OK car préfixée `claude/`). Ne
+modifie pas `positions.json` toi-même : c'est l'utilisateur qui le met à jour
+après avoir passé ses ordres.
 
 ## Rappels
 - Tu ne passes **jamais** d'ordre : tu proposes, l'utilisateur exécute dans TR.

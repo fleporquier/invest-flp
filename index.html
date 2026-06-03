@@ -16,7 +16,135 @@
   <main>
     <section id="portefeuille" class="card">
       <h2>📊 Mes actions en cours</h2>
-        <p class="placeholder">Aucune analyse de portefeuille publiée pour l'instant.</p>
+        <p class="meta">Dernière analyse : <time>2026-06-03T09:30:00+02:00</time></p>
+        <table class="grid">
+          <thead>
+            <tr>
+              <th>Ticker</th>
+              <th>Nom</th>
+              <th class="num">P&amp;L</th>
+              <th>Signal</th>
+              <th>Conv.</th>
+              <th>Justification</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="ticker">OBCK.DE</td>
+              <td>Ottobock SE &amp; Co. KGaA</td>
+              <td class="num neg">
+-15.7%              </td>
+              <td><span class="badge sig-alléger">ALLÉGER</span></td>
+              <td>moyen</td>
+              <td class="rationale">Seuil de réévaluation forcée −15 % franchi, tendance baissière persistante sur 12 mois sans catalyseur de retournement identifié.</td>
+            </tr>
+            <tr>
+              <td class="ticker">RMS.PA</td>
+              <td>Hermès International</td>
+              <td class="num neg">
+-14.4%              </td>
+              <td><span class="badge sig-alléger">ALLÉGER</span></td>
+              <td>moyen</td>
+              <td class="rationale">Perte &gt;−10 % vs PRU déclenchant §3 combinée à un chiffre d&#39;affaires Q1 en recul sur base publiée et tendance baissière persistante.</td>
+            </tr>
+            <tr>
+              <td class="ticker">IPX</td>
+              <td>IperionX Limited</td>
+              <td class="num pos">
++7.3%              </td>
+              <td><span class="badge sig-hold">HOLD</span></td>
+              <td>élevé</td>
+              <td class="rationale">Catalyseur fort : validation US Army des fixations titane et triplement de la capacité de production ; attendre un repli pour envisager un renforcement.</td>
+            </tr>
+            <tr>
+              <td class="ticker">3750.HK</td>
+              <td>Contemporary Amperex Technology (CATL)</td>
+              <td class="num neg">
+-0.6%              </td>
+              <td><span class="badge sig-hold">HOLD</span></td>
+              <td>élevé</td>
+              <td class="rationale">Un seul facteur positif (leadership marché batteries), P&amp;L quasi nul et cours proche du plus-haut annuel ; porte de conviction non atteinte.</td>
+            </tr>
+            <tr>
+              <td class="ticker">ASML.AS</td>
+              <td>ASML Holding</td>
+              <td class="num pos">
++11.4%              </td>
+              <td><span class="badge sig-hold">HOLD</span></td>
+              <td>élevé</td>
+              <td class="rationale">Fondamentaux solides (CA Q1 fort, guidance relevée, demande IA soutenue) ; seuil de prise de profit +20 % non encore atteint.</td>
+            </tr>
+            <tr>
+              <td class="ticker">1211.HK</td>
+              <td>BYD Company</td>
+              <td class="num neg">
+-12.7%              </td>
+              <td><span class="badge sig-hold">HOLD</span></td>
+              <td>moyen</td>
+              <td class="rationale">Rebond de plus de 6 % le 02/06 porté par la reprise des ventes mondiales de mai ; tendance court terme non dégradante, signal négatif non confirmé.</td>
+            </tr>
+            <tr>
+              <td class="ticker">QBTS</td>
+              <td>D-Wave Quantum</td>
+              <td class="num pos">
++27.8%              </td>
+              <td><span class="badge sig-alléger">ALLÉGER</span></td>
+              <td>moyen</td>
+              <td class="rationale">Plus-value &gt;+20 % vs PRU et catalyseur Investor Day du 01/06 désormais digéré ; sécuriser environ un quart de la ligne sur ce titre très spéculatif.</td>
+            </tr>
+            <tr>
+              <td class="ticker">EWLD.PA</td>
+              <td>Amundi MSCI World Swap ETF EUR Dist</td>
+              <td class="num pos">
++29.8%              </td>
+              <td><span class="badge sig-hold">HOLD</span></td>
+              <td>moyen</td>
+              <td class="rationale">Plus-value &gt;+20 % mais aucun signe d&#39;essoufflement confirmé aujourd&#39;hui ; deux facteurs non réunis pour déclencher la prise de profit.</td>
+            </tr>
+            <tr>
+              <td class="ticker">EUE.PA</td>
+              <td>iShares Core EURO STOXX 50 ETF EUR Dist</td>
+              <td class="num pos">
++8.4%              </td>
+              <td><span class="badge sig-hold">HOLD</span></td>
+              <td>élevé</td>
+              <td class="rationale">EuroStoxx 50 en hausse ce jour, P&amp;L modéré, pas de signal actionnable.</td>
+            </tr>
+            <tr>
+              <td class="ticker">EXA1.DE</td>
+              <td>iShares EURO STOXX Banks 30-15 ETF (DE) Acc</td>
+              <td class="num pos">
++6.2%              </td>
+              <td><span class="badge sig-hold">HOLD</span></td>
+              <td>faible</td>
+              <td class="rationale">P&amp;L positif sans signe de dégradation immédiate, mais concentration critique du portefeuille justifie une décision explicite de l&#39;utilisateur à moyen terme.</td>
+            </tr>
+          </tbody>
+        </table>
+
+          <h3>Ordres proposés</h3>
+          <ul class="orders">
+            <li>
+              <span class="badge sig-alléger">ALLÉGER</span>
+              <strong>Ottobock SE (OBCK.DE)</strong>
+— vendre environ un quart de la ligne au prix actuel (~54,90 €)<div class="rationale">Seuil de réévaluation forcée −15 % franchi selon §3 ; réduire l&#39;exposition tout en conservant la position si la thèse fondamentale est maintenue.</div>            </li>
+            <li>
+              <span class="badge sig-alléger">ALLÉGER</span>
+              <strong>Hermès International (RMS.PA)</strong>
+— vendre environ un cinquième de la ligne (~1 603 €)<div class="rationale">Perte &gt;−10 % combinée à une tendance dégradée ; stop mental à ~1 529 € (52S-low), alléger avant franchissement.</div>            </li>
+            <li>
+              <span class="badge sig-alléger">ALLÉGER</span>
+              <strong>D-Wave Quantum (QBTS)</strong>
+— vendre environ un quart de la ligne (~29,65 $ USD)<div class="rationale">Plus-value &gt;+27 % sur titre très spéculatif, catalyseur Investor Day intégré dans les prix ; sécuriser une partie des gains.</div>            </li>
+          </ul>
+
+          <h3>Drapeaux de risque</h3>
+          <ul class="flags">
+            <li>CONCENTRATION CRITIQUE : iShares EURO STOXX Banks (EXA1.DE) représente ~36 % du portefeuille total, bien au-delà du seuil de 25 %.</li>
+            <li>CONCENTRATION ÉLEVÉE : Amundi MSCI World (EWLD) représente ~26 % du portefeuille, légèrement au-dessus du seuil.</li>
+            <li>BYD : rebond &gt;6 % le 02/06, signal ALLÉGER annulé — surveiller rechute sous 90 HKD.</li>
+            <li>Symboles à corriger dans positions.json : OBCK.DE (Ottobock) et EWLD.PA (Amundi MSCI World).</li>
+          </ul>
     </section>
 
     <section id="opportunites" class="card">

@@ -1,0 +1,112 @@
+{
+  "generated_at": "2026-06-03T09:30:00+02:00",
+  "broker_count": 2,
+  "positions": [
+    {
+      "ticker": "OBCK.DE",
+      "name": "Ottobock SE & Co. KGaA",
+      "pnl_pct": -15.71,
+      "signal": "ALLÉGER",
+      "confidence": "moyen",
+      "rationale": "Seuil de réévaluation forcée −15 % franchi, tendance baissière persistante sur 12 mois sans catalyseur de retournement identifié."
+    },
+    {
+      "ticker": "RMS.PA",
+      "name": "Hermès International",
+      "pnl_pct": -14.45,
+      "signal": "ALLÉGER",
+      "confidence": "moyen",
+      "rationale": "Perte >−10 % vs PRU déclenchant §3 combinée à un chiffre d'affaires Q1 en recul sur base publiée et tendance baissière persistante."
+    },
+    {
+      "ticker": "IPX",
+      "name": "IperionX Limited",
+      "pnl_pct": 7.3,
+      "signal": "HOLD",
+      "confidence": "élevé",
+      "rationale": "Catalyseur fort : validation US Army des fixations titane et triplement de la capacité de production ; attendre un repli pour envisager un renforcement."
+    },
+    {
+      "ticker": "3750.HK",
+      "name": "Contemporary Amperex Technology (CATL)",
+      "pnl_pct": -0.58,
+      "signal": "HOLD",
+      "confidence": "élevé",
+      "rationale": "Un seul facteur positif (leadership marché batteries), P&L quasi nul et cours proche du plus-haut annuel ; porte de conviction non atteinte."
+    },
+    {
+      "ticker": "ASML.AS",
+      "name": "ASML Holding",
+      "pnl_pct": 11.43,
+      "signal": "HOLD",
+      "confidence": "élevé",
+      "rationale": "Fondamentaux solides (CA Q1 fort, guidance relevée, demande IA soutenue) ; seuil de prise de profit +20 % non encore atteint."
+    },
+    {
+      "ticker": "1211.HK",
+      "name": "BYD Company",
+      "pnl_pct": -12.7,
+      "signal": "HOLD",
+      "confidence": "moyen",
+      "rationale": "Rebond de plus de 6 % le 02/06 porté par la reprise des ventes mondiales de mai ; tendance court terme non dégradante, signal négatif non confirmé."
+    },
+    {
+      "ticker": "QBTS",
+      "name": "D-Wave Quantum",
+      "pnl_pct": 27.76,
+      "signal": "ALLÉGER",
+      "confidence": "moyen",
+      "rationale": "Plus-value >+20 % vs PRU et catalyseur Investor Day du 01/06 désormais digéré ; sécuriser environ un quart de la ligne sur ce titre très spéculatif."
+    },
+    {
+      "ticker": "EWLD.PA",
+      "name": "Amundi MSCI World Swap ETF EUR Dist",
+      "pnl_pct": 29.84,
+      "signal": "HOLD",
+      "confidence": "moyen",
+      "rationale": "Plus-value >+20 % mais aucun signe d'essoufflement confirmé aujourd'hui ; deux facteurs non réunis pour déclencher la prise de profit."
+    },
+    {
+      "ticker": "EUE.PA",
+      "name": "iShares Core EURO STOXX 50 ETF EUR Dist",
+      "pnl_pct": 8.4,
+      "signal": "HOLD",
+      "confidence": "élevé",
+      "rationale": "EuroStoxx 50 en hausse ce jour, P&L modéré, pas de signal actionnable."
+    },
+    {
+      "ticker": "EXA1.DE",
+      "name": "iShares EURO STOXX Banks 30-15 ETF (DE) Acc",
+      "pnl_pct": 6.2,
+      "signal": "HOLD",
+      "confidence": "faible",
+      "rationale": "P&L positif sans signe de dégradation immédiate, mais concentration critique du portefeuille justifie une décision explicite de l'utilisateur à moyen terme."
+    }
+  ],
+  "orders_to_consider": [
+    {
+      "action": "ALLÉGER",
+      "instrument": "Ottobock SE (OBCK.DE)",
+      "details": "vendre environ un quart de la ligne au prix actuel (~54,90 €)",
+      "rationale": "Seuil de réévaluation forcée −15 % franchi selon §3 ; réduire l'exposition tout en conservant la position si la thèse fondamentale est maintenue."
+    },
+    {
+      "action": "ALLÉGER",
+      "instrument": "Hermès International (RMS.PA)",
+      "details": "vendre environ un cinquième de la ligne (~1 603 €)",
+      "rationale": "Perte >−10 % combinée à une tendance dégradée ; stop mental à ~1 529 € (52S-low), alléger avant franchissement."
+    },
+    {
+      "action": "ALLÉGER",
+      "instrument": "D-Wave Quantum (QBTS)",
+      "details": "vendre environ un quart de la ligne (~29,65 $ USD)",
+      "rationale": "Plus-value >+27 % sur titre très spéculatif, catalyseur Investor Day intégré dans les prix ; sécuriser une partie des gains."
+    }
+  ],
+  "risk_flags": [
+    "CONCENTRATION CRITIQUE : iShares EURO STOXX Banks (EXA1.DE) représente ~36 % du portefeuille total, bien au-delà du seuil de 25 %.",
+    "CONCENTRATION ÉLEVÉE : Amundi MSCI World (EWLD) représente ~26 % du portefeuille, légèrement au-dessus du seuil.",
+    "BYD : rebond >6 % le 02/06, signal ALLÉGER annulé — surveiller rechute sous 90 HKD.",
+    "Symboles à corriger dans positions.json : OBCK.DE (Ottobock) et EWLD.PA (Amundi MSCI World)."
+  ]
+}

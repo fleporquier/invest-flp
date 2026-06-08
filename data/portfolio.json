@@ -1,38 +1,38 @@
 {
-  "generated_at": "2026-06-05T09:00:00+02:00",
+  "generated_at": "2026-06-08T09:30:00+02:00",
   "broker_count": 2,
   "positions": [
     {
       "ticker": "EWLD.PA",
       "name": "Amundi MSCI World Swap UCITS ETF EUR Dist (à confirmer)",
-      "pnl_pct": 23.3,
+      "pnl_pct": 23.0,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "ETF core monde ; P&L au-dessus de +20 % mais déjà en repli depuis la dernière MAJ — on ne vend pas après un repli ; ticker à confirmer dans l'interface Boursorama."
+      "rationale": "P&L au-dessus de +20 % mais en repli depuis le pic ; on ne vend pas après un repli ; ticker toujours à confirmer dans l'interface Boursorama."
     },
     {
       "ticker": "EXA1.DE",
       "name": "iShares EURO STOXX Banks 30-15 UCITS ETF (DE)",
-      "pnl_pct": 5.5,
+      "pnl_pct": 6.2,
       "signal": "HOLD",
       "confidence": "élevé",
-      "rationale": "Concentration sectorielle très élevée dans le portefeuille ; P&L insuffisant pour déclencher une prise de profit ; allègement progressif à envisager dès signal de marché favorable."
+      "rationale": "Concentration sectorielle très élevée dans le portefeuille ; variation dans le bruit ; P&L insuffisant pour déclencher une prise de profit."
     },
     {
       "ticker": "EUE.PA",
       "name": "iShares Core EURO STOXX 50 ETF EUR Dist",
-      "pnl_pct": 6.3,
+      "pnl_pct": 6.0,
       "signal": "HOLD",
-      "confidence": "élevé",
-      "rationale": "ETF core zone euro, aucun signal fort, variation journalière dans le bruit."
+      "confidence": "faible",
+      "rationale": "Cours estimé sur l'indice faute de cotation directe ; aucun signal fort, variation dans le bruit."
     },
     {
       "ticker": "OBCK.DE",
       "name": "Ottobock SE & Co. KGaA",
       "pnl_pct": -15.7,
-      "signal": "HOLD",
-      "confidence": "faible",
-      "rationale": "Seuil −15 % atteint : réévaluation forcée requise ; Q1 positif (CA +3 % vs estimé, FCF +32 %) mais rapport short-seller en cours d'analyse — choix explicite requis avant prochain run."
+      "signal": "RÉDUIRE",
+      "confidence": "moyen",
+      "rationale": "Seuil de perte critique franchi pour la 3e fois sans résolution et tendance moyen terme qui se dégrade nettement : décision active de réduction partielle plutôt que d'attendre encore."
     },
     {
       "ticker": "RMS.PA",
@@ -40,15 +40,15 @@
       "pnl_pct": -14.4,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "P&L approche le seuil critique avec deux catalyseurs négatifs concordants : T1 2026 en retrait sous les attentes et dégradation d'analyste (DZ Bank)."
+      "rationale": "Thèse inchangée vs run précédent : P&L proche du seuil critique avec deux catalyseurs négatifs concordants toujours valides (résultats T1 décevants, dégradation analyste)."
     },
     {
       "ticker": "IPX",
       "name": "IperionX Limited ADR",
       "pnl_pct": 7.3,
       "signal": "HOLD",
-      "confidence": "moyen",
-      "rationale": "DFS Titan publié le 4 juin (VAN élevée, TRI solide) et contrat DoD : catalyseurs très positifs récents ; attendre la stabilisation du cours post-annonce avant d'envisager un renforcement sur repli."
+      "confidence": "faible",
+      "rationale": "Cours non rafraîchi malgré catalyseurs récents très positifs ; nouveau facteur de prudence (enquête juridique en cours aux États-Unis) contrebalancé par un consensus analystes très favorable."
     },
     {
       "ticker": "3750.HK",
@@ -56,52 +56,52 @@
       "pnl_pct": -0.6,
       "signal": "HOLD",
       "confidence": "élevé",
-      "rationale": "Position quasi à l'équilibre, variation journalière dans le bruit ; lancement des batteries sodium-ion en 2026 et part de marché de 46,6 % sont des soutiens long terme."
+      "rationale": "Position quasi à l'équilibre, variation dans le bruit ; signaux d'analystes contradictoires cette semaine, pas de conviction nette."
     },
     {
       "ticker": "ASML.AS",
       "name": "ASML Holding",
-      "pnl_pct": 11.4,
+      "pnl_pct": 11.5,
       "signal": "HOLD",
       "confidence": "élevé",
-      "rationale": "Correction de −3 % après un mois de mai exceptionnel (+13 %) ; P&L < 20 %, seuil de prise de profit non atteint ; partenariat Inde et guidance relevée soutiennent la thèse long terme."
+      "rationale": "Résiste bien à une déroute sectorielle des semi-conducteurs grâce à une guidance 2026 relevée et des carnets de commandes robustes ; P&L sous le seuil de prise de profit."
     },
     {
       "ticker": "1211.HK",
       "name": "BYD Company",
       "pnl_pct": -12.7,
       "signal": "HOLD",
-      "confidence": "faible",
-      "rationale": "Record d'exports en mai (+80 % sur un an) contrebalance la tendance baissière ; données de cours contradictoires entre sources — vérification dans l'interface TR recommandée."
+      "confidence": "moyen",
+      "rationale": "Catalyseur positif fort confirmé (record d'exports mensuels, +80 % sur un an) et consensus analystes très favorable contrebalancent la perte ; pas de dégradation de tendance qui justifierait une réduction."
     },
     {
       "ticker": "QBTS",
       "name": "D-Wave Quantum",
-      "pnl_pct": 27.8,
-      "signal": "ALLÉGER",
+      "pnl_pct": 9.5,
+      "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Gains supérieurs à +20 % sur valeur très spéculative ; catalyseurs Investor Day et CHIPS Act publiés le 1er juin, potentiellement déjà intégrés dans le cours."
+      "rationale": "Chute brutale du cours en quelques séances a probablement ramené le gain sous le seuil de prise de profit ; le signal d'allègement de la semaine passée est désormais obsolète, mieux vaut ne pas vendre après un effondrement."
     }
   ],
   "orders_to_consider": [
     {
-      "action": "ALLÉGER",
-      "instrument": "D-Wave Quantum (QBTS)",
-      "details": "vendre environ un quart de la ligne",
-      "rationale": "Sécurisation de gains supérieurs à +20 % sur une valeur très spéculative après publication des catalyseurs récents."
+      "action": "RÉDUIRE",
+      "instrument": "Ottobock SE (OBCK.DE)",
+      "details": "vendre environ un quart à un tiers de la ligne, avec un seuil de sortie mental",
+      "rationale": "Seuil de perte critique franchi pour la troisième fois sans résolution, combiné à une tendance moyen terme qui se dégrade nettement : décision active plutôt que différée à nouveau."
     },
     {
       "action": "ALLÉGER",
       "instrument": "Hermès International (RMS.PA)",
       "details": "vendre environ un cinquième de la ligne",
-      "rationale": "Perte approchant le seuil critique avec deux catalyseurs négatifs concordants (résultats T1 décevants, dégradation analyste)."
+      "rationale": "Ordre reconduit : perte proche du seuil critique avec deux catalyseurs négatifs concordants toujours valides (résultats décevants, dégradation d'analyste)."
     }
   ],
   "risk_flags": [
     "CRITIQUE — iShares Banks (EXA1.DE) représente environ 45 % du portefeuille investi, bien au-delà du seuil de concentration de 25 %.",
-    "Ticker Amundi MSCI World non confirmé (A_VERIFIER dans le portefeuille) : vérifier dans l'interface Boursorama.",
-    "Ottobock (OBCK.DE) à −15,7 % : réévaluation forcée requise, lire le rapport short-seller avant de décider.",
-    "IperionX (IPX) : DFS Titan publié le 4 juin — vérifier le cours actuel, potentiellement impacté à la hausse.",
-    "BYD (1211.HK) : données de cours contradictoires entre sources — vérifier dans l'interface TR."
+    "Ottobock (OBCK.DE) : seuil de perte critique franchi pour la troisième fois consécutive — passage à une décision active de réduction cette semaine plutôt que d'attendre encore.",
+    "D-Wave Quantum (QBTS) : chute brutale du cours a probablement invalidé le signal d'allègement de la semaine passée ; ne pas vendre après un effondrement sectoriel.",
+    "Ticker Amundi MSCI World toujours non confirmé (A_VERIFIER dans le portefeuille) : à vérifier dans l'interface Boursorama.",
+    "IperionX (IPX) : une enquête juridique est en cours aux États-Unis sur d'éventuelles violations de la réglementation sur les valeurs mobilières — à suivre."
   ]
 }

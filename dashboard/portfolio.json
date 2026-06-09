@@ -1,46 +1,46 @@
 {
-  "generated_at": "2026-06-08T09:30:00+02:00",
+  "generated_at": "2026-06-09T09:30:00+02:00",
   "broker_count": 2,
   "positions": [
     {
       "ticker": "EWLD.PA",
       "name": "Amundi MSCI World Swap UCITS ETF EUR Dist (à confirmer)",
-      "pnl_pct": 23.0,
+      "pnl_pct": 29.84,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "P&L au-dessus de +20 % mais en repli depuis le pic ; on ne vend pas après un repli ; ticker toujours à confirmer dans l'interface Boursorama."
+      "rationale": "ETF cœur monde en forte plus-value ; aucun catalyseur négatif ; ticker toujours à confirmer dans l'interface Boursorama."
     },
     {
       "ticker": "EXA1.DE",
       "name": "iShares EURO STOXX Banks 30-15 UCITS ETF (DE)",
-      "pnl_pct": 6.2,
+      "pnl_pct": 6.91,
       "signal": "HOLD",
       "confidence": "élevé",
-      "rationale": "Concentration sectorielle très élevée dans le portefeuille ; variation dans le bruit ; P&L insuffisant pour déclencher une prise de profit."
+      "rationale": "Secteur bancaire zone euro fondamentalement soutenu (double-digit EPS growth attendu 2026) ; concentration critique dans le portefeuille mais P&L insuffisant pour déclencher une prise de profit."
     },
     {
       "ticker": "EUE.PA",
       "name": "iShares Core EURO STOXX 50 ETF EUR Dist",
-      "pnl_pct": 6.0,
+      "pnl_pct": 7.19,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Cours estimé sur l'indice faute de cotation directe ; aucun signal fort, variation dans le bruit."
+      "rationale": "ETF indiciel zone euro légèrement en repli avec les marchés européens ; aucun catalyseur spécifique, variation dans le bruit."
     },
     {
       "ticker": "OBCK.DE",
       "name": "Ottobock SE & Co. KGaA",
-      "pnl_pct": -15.7,
-      "signal": "RÉDUIRE",
+      "pnl_pct": -15.71,
+      "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Seuil de perte critique franchi pour la 3e fois sans résolution et tendance moyen terme qui se dégrade nettement : décision active de réduction partielle plutôt que d'attendre encore."
+      "rationale": "Seuil de perte critique franchi et rally post-Q1 2026 non maintenu malgré un beat des estimations : signal de distribution, réduction partielle recommandée."
     },
     {
       "ticker": "RMS.PA",
       "name": "Hermès International",
-      "pnl_pct": -14.4,
+      "pnl_pct": -14.45,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Thèse inchangée vs run précédent : P&L proche du seuil critique avec deux catalyseurs négatifs concordants toujours valides (résultats T1 décevants, dégradation analyste)."
+      "rationale": "P&L proche du seuil de réévaluation forcée et abaissement d'objectif analyste toujours valide : ordre reconduit, légère reprise depuis le creux de mai ne lève pas la thèse."
     },
     {
       "ticker": "IPX",
@@ -48,60 +48,66 @@
       "pnl_pct": 7.3,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Cours non rafraîchi malgré catalyseurs récents très positifs ; nouveau facteur de prudence (enquête juridique en cours aux États-Unis) contrebalancé par un consensus analystes très favorable."
+      "rationale": "Catalyseurs positifs récents (contrat DoD, DFS Titan) mais enquête juridique en cours aux États-Unis à surveiller ; P&L positif sous le seuil de prise de profit."
     },
     {
       "ticker": "3750.HK",
       "name": "CATL (Contemporary Amperex Technology)",
-      "pnl_pct": -0.6,
+      "pnl_pct": -0.58,
       "signal": "HOLD",
-      "confidence": "élevé",
-      "rationale": "Position quasi à l'équilibre, variation dans le bruit ; signaux d'analystes contradictoires cette semaine, pas de conviction nette."
+      "confidence": "moyen",
+      "rationale": "Baisse de marché de près de 4 % aujourd'hui sans catalyseur négatif propre à CATL ; position quasi à l'équilibre, un seul facteur insuffisant pour agir."
     },
     {
       "ticker": "ASML.AS",
       "name": "ASML Holding",
-      "pnl_pct": 11.5,
+      "pnl_pct": 11.43,
       "signal": "HOLD",
       "confidence": "élevé",
-      "rationale": "Résiste bien à une déroute sectorielle des semi-conducteurs grâce à une guidance 2026 relevée et des carnets de commandes robustes ; P&L sous le seuil de prise de profit."
+      "rationale": "Bond de plus de 7 % le 8 juin sur catalyseurs majeurs (projet Terafab SpaceX/Tesla, partenariat Tata Inde) ; P&L estimé proche de 19 % — surveiller le seuil de prise de profit au prochain run."
     },
     {
       "ticker": "1211.HK",
       "name": "BYD Company",
       "pnl_pct": -12.7,
-      "signal": "HOLD",
+      "signal": "POSER UN STOP",
       "confidence": "moyen",
-      "rationale": "Catalyseur positif fort confirmé (record d'exports mensuels, +80 % sur un an) et consensus analystes très favorable contrebalancent la perte ; pas de dégradation de tendance qui justifierait une réduction."
+      "rationale": "Perte supérieure au seuil d'alerte de 10 % et cours au niveau du plus bas 52 semaines : stop mental recommandé pour éviter une dégradation non maîtrisée."
     },
     {
       "ticker": "QBTS",
       "name": "D-Wave Quantum",
-      "pnl_pct": 9.5,
+      "pnl_pct": 27.76,
       "signal": "HOLD",
-      "confidence": "moyen",
-      "rationale": "Chute brutale du cours en quelques séances a probablement ramené le gain sous le seuil de prise de profit ; le signal d'allègement de la semaine passée est désormais obsolète, mieux vaut ne pas vendre après un effondrement."
+      "confidence": "faible",
+      "rationale": "Rebond de plus de 11 % le 8 juin après un krach de 14 % le 5 juin ; P&L en EUR difficile à préciser depuis TR — signal d'allègement partiel conditionnel si l'app confirme une plus-value supérieure à 20 %."
     }
   ],
   "orders_to_consider": [
     {
-      "action": "RÉDUIRE",
+      "action": "ALLÉGER",
       "instrument": "Ottobock SE (OBCK.DE)",
-      "details": "vendre environ un quart à un tiers de la ligne, avec un seuil de sortie mental",
-      "rationale": "Seuil de perte critique franchi pour la troisième fois sans résolution, combiné à une tendance moyen terme qui se dégrade nettement : décision active plutôt que différée à nouveau."
+      "details": "réduire d'environ un quart à un tiers de la ligne, avec un stop mental",
+      "rationale": "Seuil de perte critique persistant et rally post-résultats Q1 non tenu : deux facteurs de distribution concordants."
     },
     {
       "action": "ALLÉGER",
       "instrument": "Hermès International (RMS.PA)",
-      "details": "vendre environ un cinquième de la ligne",
-      "rationale": "Ordre reconduit : perte proche du seuil critique avec deux catalyseurs négatifs concordants toujours valides (résultats décevants, dégradation d'analyste)."
+      "details": "réduire d'environ un cinquième de la ligne",
+      "rationale": "P&L proche du seuil de réévaluation forcée avec deux facteurs négatifs concordants toujours valides."
+    },
+    {
+      "action": "POSER UN STOP",
+      "instrument": "BYD Company (1211.HK)",
+      "details": "stop mental au niveau du plus bas 52 semaines, soit environ 87 HKD ou son équivalent en euros sur TR",
+      "rationale": "Perte dépassant le seuil d'alerte et cours proche d'un support clé à ne pas laisser casser sans décision explicite."
     }
   ],
   "risk_flags": [
-    "CRITIQUE — iShares Banks (EXA1.DE) représente environ 45 % du portefeuille investi, bien au-delà du seuil de concentration de 25 %.",
-    "Ottobock (OBCK.DE) : seuil de perte critique franchi pour la troisième fois consécutive — passage à une décision active de réduction cette semaine plutôt que d'attendre encore.",
-    "D-Wave Quantum (QBTS) : chute brutale du cours a probablement invalidé le signal d'allègement de la semaine passée ; ne pas vendre après un effondrement sectoriel.",
-    "Ticker Amundi MSCI World toujours non confirmé (A_VERIFIER dans le portefeuille) : à vérifier dans l'interface Boursorama.",
-    "IperionX (IPX) : une enquête juridique est en cours aux États-Unis sur d'éventuelles violations de la réglementation sur les valeurs mobilières — à suivre."
+    "CRITIQUE — iShares Banks (EXA1.DE) représente environ 45 % du portefeuille investi, bien au-delà du seuil de 25 %.",
+    "ASML proche du seuil de prise de profit après le bond du 8 juin — à réévaluer au run de 13h/17h.",
+    "D-Wave Quantum (QBTS) : signal d'allègement conditionnel — vérifier le P&L réel affiché dans l'app Trade Republic.",
+    "BYD (1211.HK) au niveau du plus bas 52 semaines : stop mental recommandé.",
+    "Tickers à confirmer dans positions.json : Amundi World (probable EWLD.PA), EUE.PA, Ottobock (OBCK.DE confirmé)."
   ]
 }

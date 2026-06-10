@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T09:30:00+02:00",
+  "generated_at": "2026-06-10T09:30:00+02:00",
   "broker_count": 2,
   "positions": [
     {
@@ -8,7 +8,7 @@
       "pnl_pct": 29.84,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "ETF cœur monde en forte plus-value ; aucun catalyseur négatif ; ticker toujours à confirmer dans l'interface Boursorama."
+      "rationale": "ETF cœur monde toujours en forte plus-value ; aucune cotation fraîche trouvée aujourd'hui et aucun catalyseur négatif ; ticker toujours à confirmer."
     },
     {
       "ticker": "EXA1.DE",
@@ -16,7 +16,7 @@
       "pnl_pct": 6.91,
       "signal": "HOLD",
       "confidence": "élevé",
-      "rationale": "Secteur bancaire zone euro fondamentalement soutenu (double-digit EPS growth attendu 2026) ; concentration critique dans le portefeuille mais P&L insuffisant pour déclencher une prise de profit."
+      "rationale": "Le secteur bancaire progresse aujourd'hui malgré un repli global des indices européens (rotation sectorielle favorable) ; plus-value toujours sous le seuil de prise de profit."
     },
     {
       "ticker": "EUE.PA",
@@ -24,7 +24,7 @@
       "pnl_pct": 7.19,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "ETF indiciel zone euro légèrement en repli avec les marchés européens ; aucun catalyseur spécifique, variation dans le bruit."
+      "rationale": "Indices européens en repli modéré et mixte (rotation sectorielle) ; aucun catalyseur spécifique, petite ligne."
     },
     {
       "ticker": "OBCK.DE",
@@ -32,15 +32,15 @@
       "pnl_pct": -15.71,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Seuil de perte critique franchi et rally post-Q1 2026 non maintenu malgré un beat des estimations : signal de distribution, réduction partielle recommandée."
+      "rationale": "Seuil de perte critique reconduit pour la 3e fois consécutive sans amélioration du cours, malgré des résultats Q1 solides : une décision explicite (réduction ou renforcement) est désormais recommandée plutôt qu'une nouvelle reconduction."
     },
     {
       "ticker": "RMS.PA",
       "name": "Hermès International",
       "pnl_pct": -14.45,
-      "signal": "ALLÉGER",
-      "confidence": "moyen",
-      "rationale": "P&L proche du seuil de réévaluation forcée et abaissement d'objectif analyste toujours valide : ordre reconduit, légère reprise depuis le creux de mai ne lève pas la thèse."
+      "signal": "HOLD",
+      "confidence": "faible",
+      "rationale": "Signal d'allègement levé : signe de reprise technique au-dessus de la moyenne mobile 50 jours et catalyseur négatif désormais digéré ; secteur du luxe reste structurellement faible et à surveiller."
     },
     {
       "ticker": "IPX",
@@ -48,7 +48,7 @@
       "pnl_pct": 7.3,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Catalyseurs positifs récents (contrat DoD, DFS Titan) mais enquête juridique en cours aux États-Unis à surveiller ; P&L positif sous le seuil de prise de profit."
+      "rationale": "Repli du cours sur les dernières séances mais sans catalyseur négatif : au contraire, plusieurs relèvements d'objectifs de cours et nouvelles positives récentes."
     },
     {
       "ticker": "3750.HK",
@@ -56,7 +56,7 @@
       "pnl_pct": -0.58,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Baisse de marché de près de 4 % aujourd'hui sans catalyseur négatif propre à CATL ; position quasi à l'équilibre, un seul facteur insuffisant pour agir."
+      "rationale": "Léger rebond dans la marge de bruit après la baisse de la veille ; aucun catalyseur spécifique, position proche de l'équilibre."
     },
     {
       "ticker": "ASML.AS",
@@ -64,7 +64,7 @@
       "pnl_pct": 11.43,
       "signal": "HOLD",
       "confidence": "élevé",
-      "rationale": "Bond de plus de 7 % le 8 juin sur catalyseurs majeurs (projet Terafab SpaceX/Tesla, partenariat Tata Inde) ; P&L estimé proche de 19 % — surveiller le seuil de prise de profit au prochain run."
+      "rationale": "Repli depuis les sommets de la semaine malgré des fondamentaux exceptionnels (capitalisation record, guidance relevée) : la plus-value s'éloigne du seuil de prise de profit, mais valorisation jugée élevée à surveiller."
     },
     {
       "ticker": "1211.HK",
@@ -72,7 +72,7 @@
       "pnl_pct": -12.7,
       "signal": "POSER UN STOP",
       "confidence": "moyen",
-      "rationale": "Perte supérieure au seuil d'alerte de 10 % et cours au niveau du plus bas 52 semaines : stop mental recommandé pour éviter une dégradation non maîtrisée."
+      "rationale": "Cours toujours au plus bas annuel et perte au-delà du seuil d'alerte : stop mental maintenu malgré des ventes export records."
     },
     {
       "ticker": "QBTS",
@@ -80,34 +80,30 @@
       "pnl_pct": 27.76,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Rebond de plus de 11 % le 8 juin après un krach de 14 % le 5 juin ; P&L en EUR difficile à préciser depuis TR — signal d'allègement partiel conditionnel si l'app confirme une plus-value supérieure à 20 %."
+      "rationale": "Net repli du secteur quantique après le rebond précédent : la condition d'allègement posée au run précédent est probablement caduque, à vérifier dans l'application."
     }
   ],
   "orders_to_consider": [
     {
       "action": "ALLÉGER",
       "instrument": "Ottobock SE (OBCK.DE)",
-      "details": "réduire d'environ un quart à un tiers de la ligne, avec un stop mental",
-      "rationale": "Seuil de perte critique persistant et rally post-résultats Q1 non tenu : deux facteurs de distribution concordants."
-    },
-    {
-      "action": "ALLÉGER",
-      "instrument": "Hermès International (RMS.PA)",
-      "details": "réduire d'environ un cinquième de la ligne",
-      "rationale": "P&L proche du seuil de réévaluation forcée avec deux facteurs négatifs concordants toujours valides."
+      "details": "réduire d'environ un quart à un tiers de la ligne, avec un stop mental sur le solde",
+      "rationale": "Seuil de perte critique reconduit pour la 3e fois sans amélioration : une décision explicite est désormais recommandée plutôt qu'une nouvelle attente."
     },
     {
       "action": "POSER UN STOP",
       "instrument": "BYD Company (1211.HK)",
-      "details": "stop mental au niveau du plus bas 52 semaines, soit environ 87 HKD ou son équivalent en euros sur TR",
-      "rationale": "Perte dépassant le seuil d'alerte et cours proche d'un support clé à ne pas laisser casser sans décision explicite."
+      "details": "stop mental au niveau du plus bas annuel, soit environ son équivalent en euros sur TR",
+      "rationale": "Perte dépassant le seuil d'alerte et cours toujours proche du plus bas annuel à ne pas laisser casser sans décision explicite."
     }
   ],
   "risk_flags": [
     "CRITIQUE — iShares Banks (EXA1.DE) représente environ 45 % du portefeuille investi, bien au-delà du seuil de 25 %.",
-    "ASML proche du seuil de prise de profit après le bond du 8 juin — à réévaluer au run de 13h/17h.",
-    "D-Wave Quantum (QBTS) : signal d'allègement conditionnel — vérifier le P&L réel affiché dans l'app Trade Republic.",
-    "BYD (1211.HK) au niveau du plus bas 52 semaines : stop mental recommandé.",
-    "Tickers à confirmer dans positions.json : Amundi World (probable EWLD.PA), EUE.PA, Ottobock (OBCK.DE confirmé)."
+    "Ottobock (OBCK.DE) : signal d'allègement reconduit pour la 3e fois consécutive sans exécution — une décision explicite est recommandée.",
+    "ASML proche de ses récents sommets avec une valorisation jugée élevée par les analystes — à surveiller en cas de nouveau pic.",
+    "D-Wave Quantum (QBTS) : forte volatilité, condition d'allègement du run précédent probablement caduque — vérifier le P&L réel dans l'application.",
+    "BYD (1211.HK) toujours au plus bas annuel : stop mental maintenu.",
+    "Hermès : signal d'allègement levé ce jour, mais secteur du luxe structurellement faible — pourrait être réactivé si la baisse reprend.",
+    "Tickers à confirmer dans positions.json : Amundi World (probable EWLD.PA), iShares Euro Stoxx 50 (EUE.PA)."
   ]
 }

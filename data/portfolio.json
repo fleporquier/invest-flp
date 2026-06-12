@@ -1,54 +1,54 @@
 {
-  "generated_at": "2026-06-11T09:30:00+02:00",
+  "generated_at": "2026-06-12T09:30:00+02:00",
   "broker_count": 2,
   "positions": [
     {
       "ticker": "EWLD.PA",
       "name": "Amundi MSCI World Swap UCITS ETF EUR Dist (à confirmer)",
-      "pnl_pct": 27.4,
+      "pnl_pct": 27,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "ETF cœur monde toujours en très forte plus-value malgré un léger repli ; aucun catalyseur négatif spécifique ; ticker toujours à confirmer."
+      "rationale": "Un cours trouvé aujourd'hui impliquerait un repli incohérent avec le net rebond généralisé des marchés actions ; donnée probablement obsolète, P&L maintenu par prudence sans recalcul."
     },
     {
       "ticker": "EXA1.DE",
       "name": "iShares EURO STOXX Banks 30-15 UCITS ETF (DE)",
-      "pnl_pct": 3.3,
+      "pnl_pct": 4.5,
       "signal": "HOLD",
       "confidence": "élevé",
-      "rationale": "Rebond sectoriel aujourd'hui mais recul cumulé sur les dernières semaines ; secteur bancaire désormais exposé au risque de récession européenne lié au choc pétrolier ; concentration toujours critique."
+      "rationale": "Secteur bancaire zone euro parmi les meilleurs performeurs après une hausse de taux de la banque centrale et une détente du risque pétrolier ; concentration toujours critique."
     },
     {
       "ticker": "EUE.PA",
       "name": "iShares Core EURO STOXX 50 ETF EUR Dist",
-      "pnl_pct": 8.9,
+      "pnl_pct": 9,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Petite ligne en légère hausse, cohérente avec la résilience relative de la zone euro ; aucun catalyseur spécifique."
+      "rationale": "Petite ligne en légère hausse portée par l'indice de référence ; aucun catalyseur spécifique."
     },
     {
       "ticker": "OBCK.DE",
       "name": "Ottobock SE & Co. KGaA",
-      "pnl_pct": -15.71,
-      "signal": "HOLD",
-      "confidence": "faible",
-      "rationale": "Deux lectures de cours très divergentes (écart d'environ +9%) sans catalyseur identifié : vérification du cours et du P&L réels recommandée avant toute décision."
+      "pnl_pct": -18,
+      "signal": "ALLÉGER",
+      "confidence": "moyen",
+      "rationale": "La divergence de cours qui rendait la décision conditionnelle est résolue en faveur de la lecture la plus basse, aggravant la perte au-delà du seuil de réévaluation forcée, sans catalyseur positif identifié."
     },
     {
       "ticker": "RMS.PA",
       "name": "Hermès International",
-      "pnl_pct": -16,
-      "signal": "ALLÉGER",
+      "pnl_pct": -14.5,
+      "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Seuil de perte critique probablement franchi et nouvelle escalade géopolitique majeure menaçant directement la demande d'une zone clé pour la marque, dans un secteur en déclin structurel continu."
+      "rationale": "Le facteur géopolitique qui justifiait l'allègement de la veille s'est inversé en sens opposé, et le cours rebondit légèrement, ramenant la perte sous le seuil de réévaluation forcée."
     },
     {
       "ticker": "IPX",
       "name": "IperionX Limited ADR",
-      "pnl_pct": 7.3,
-      "signal": "RENFORCER",
+      "pnl_pct": 9.5,
+      "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Catalyseur fondamental majeur et très récent (étude de faisabilité confirmant un projet à très fort retour) sur une ligne toujours gagnante après un repli des dernières semaines."
+      "rationale": "Le catalyseur identifié la veille s'est déjà traduit par une forte hausse du cours ; renforcer maintenant reviendrait à acheter sur la force plutôt que sur un repli."
     },
     {
       "ticker": "3750.HK",
@@ -56,23 +56,23 @@
       "pnl_pct": -6,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Repli net dans le sillage d'un dégagement collectif du secteur des batteries et de la faiblesse générale du marché ; seuil d'alerte pas encore atteint mais à surveiller."
+      "rationale": "Pas de cotation plus récente disponible ; aucune actualité négative spécifique identifiée, le repli semble sectoriel et le seuil d'alerte n'est pas atteint."
     },
     {
       "ticker": "ASML.AS",
       "name": "ASML Holding",
-      "pnl_pct": 13.5,
+      "pnl_pct": 18.5,
       "signal": "HOLD",
       "confidence": "élevé",
-      "rationale": "Repli supplémentaire depuis les sommets récents mais variation du jour dans la marge de bruit ; fondamentaux toujours excellents et plus-value qui s'éloigne du seuil de prise de profit."
+      "rationale": "Momentum fondamental toujours très positif et plus-value qui approche le seuil de prise de profit, à surveiller au prochain run."
     },
     {
       "ticker": "1211.HK",
       "name": "BYD Company",
-      "pnl_pct": -14.5,
+      "pnl_pct": -16,
       "signal": "VENDRE",
       "confidence": "élevé",
-      "rationale": "Stop mental franchi avec un nouveau plus bas annuel, combiné à un nouveau catalyseur négatif spécifique introduisant un risque financier inédit ; perte proche du seuil de réévaluation forcée."
+      "rationale": "La tendance baissière se poursuit malgré le net rebond général des marchés, avec un nouveau plus bas annuel et un seuil de perte critique désormais franchi."
     },
     {
       "ticker": "QBTS",
@@ -80,35 +80,30 @@
       "pnl_pct": 17,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Rebond porté par une actualité positive ; la plus-value reste sous le seuil de prise de profit, la condition d'allègement précédente reste caduque."
+      "rationale": "Aucune évolution notable depuis la veille ; la plus-value reste sous le seuil de prise de profit."
     }
   ],
   "orders_to_consider": [
     {
       "action": "ALLÉGER",
-      "instrument": "Hermès International (RMS.PA)",
-      "details": "vendre environ 15 à 20 % de la ligne",
-      "rationale": "Seuil de perte critique probablement franchi et escalade géopolitique majeure menaçant directement une zone de demande clé, dans un secteur déjà en déclin structurel."
+      "instrument": "Ottobock SE & Co. KGaA (OBCK.DE)",
+      "details": "vendre environ 25 à 30 % de la ligne",
+      "rationale": "La divergence de cours qui rendait cet ordre conditionnel depuis plusieurs jours est résolue, confirmant et aggravant le franchissement du seuil de perte critique, sans catalyseur positif en vue."
     },
     {
       "action": "VENDRE",
       "instrument": "BYD Company (1211.HK)",
       "details": "réduire d'environ la moitié de la ligne, avec un stop mental resserré sur le solde",
-      "rationale": "Stop mental franchi avec un nouveau plus bas annuel et un nouveau catalyseur négatif spécifique introduisant un risque financier inédit."
-    },
-    {
-      "action": "RENFORCER",
-      "instrument": "IperionX (IPX)",
-      "details": "renforcer modestement, environ 15 à 20 % de la ligne",
-      "rationale": "Catalyseur fondamental majeur et très récent sur une ligne toujours gagnante après un repli des dernières semaines."
+      "rationale": "Nouveau plus bas annuel atteint malgré un net rebond général des marchés, confirmant une faiblesse spécifique au titre et le franchissement du seuil de perte critique."
     }
   ],
   "risk_flags": [
-    "NOUVEAU — Escalade majeure du conflit Iran (fermeture totale annoncée du détroit d'Ormuz) : choc pétrolier ravivé, inflation US au plus haut depuis 2023, risque de récession européenne en hausse — facteur déclencheur principal des signaux du jour.",
-    "CRITIQUE — iShares Banks (EXA1.DE) représente environ 45 % du portefeuille investi, bien au-delà du seuil de 25 %, dans un contexte macro européen qui se détériore.",
-    "Ottobock (OBCK.DE) : écart de cours important entre deux lectures (~+9 %) sans catalyseur identifié — vérification du cours et du P&L réels recommandée avant toute décision.",
-    "CATL (3750.HK) : repli sectoriel net sur les valeurs batteries chinoises, à surveiller de près.",
-    "BYD (1211.HK) : nouveau plus bas annuel, stop mental franchi.",
-    "Tickers à confirmer dans positions.json : Amundi World (probable EWLD.PA), iShares Euro Stoxx 50 (EUE.PA)."
+    "Revirement majeur du contexte géopolitique depuis la veille au soir : la trajectoire d'escalade s'est inversée en désescalade, ce qui annule le signal d'allègement émis sur Hermès la veille.",
+    "CRITIQUE — iShares Banks (EXA1.DE) représente environ 45 % du portefeuille investi, bien au-delà du seuil de 25 %.",
+    "Ottobock (OBCK.DE) : la divergence de cours précédemment signalée est résolue, confirmant et aggravant le franchissement du seuil de perte critique.",
+    "BYD (1211.HK) : nouveau plus bas annuel atteint malgré le rebond général des marchés.",
+    "Amundi MSCI World : un cours trouvé aujourd'hui semble incohérent avec le rebond général des marchés et est probablement obsolète, à vérifier manuellement.",
+    "ASML (ASML.AS) : plus-value proche du seuil de prise de profit, à surveiller au prochain run.",
+    "Tickers à confirmer dans positions.json : Amundi World (probable EWLD.PA), iShares Euro Stoxx 50 (EUE.PA/EUEA)."
   ]
 }

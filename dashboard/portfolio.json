@@ -1,70 +1,70 @@
 {
-  "generated_at": "2026-06-15T09:30:00+02:00",
+  "generated_at": "2026-06-16T09:30:00+02:00",
   "broker_count": 2,
   "positions": [
     {
       "ticker": "EWLD.PA",
-      "name": "Amundi MSCI World Swap UCITS ETF EUR Dist (à confirmer)",
-      "pnl_pct": 29.5,
+      "name": "Amundi MSCI World Swap UCITS ETF EUR Dist",
+      "pnl_pct": 29.84,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Un cours incohérent avec le rallye des marchés refait surface pour la deuxième séance consécutive ; une lecture de valeur liquidative plus cohérente avec le contexte haussier est retenue à la place."
+      "rationale": "ETF cœur monde au-dessus du seuil de plus-value de 20 % sans signe d'essoufflement ; marchés mondiaux en légère hausse ce jour."
     },
     {
       "ticker": "EXA1.DE",
-      "name": "iShares EURO STOXX Banks 30-15 UCITS ETF (DE)",
-      "pnl_pct": 4.5,
+      "name": "iShares EURO STOXX Banks 30-15 UCITS ETF (DE) Acc",
+      "pnl_pct": 6.91,
       "signal": "HOLD",
       "confidence": "élevé",
-      "rationale": "Cours stable et cohérent avec la valeur liquidative de référence ; la récente hausse de taux de la banque centrale reste un facteur structurellement favorable pour le secteur bancaire, mais la concentration reste critique."
+      "rationale": "Secteur bancaire soutenu par la politique de taux de la banque centrale ; concentration critique (environ 36 % du portefeuille) surveillée en permanence."
     },
     {
       "ticker": "EUE.PA",
       "name": "iShares Core EURO STOXX 50 ETF EUR Dist",
-      "pnl_pct": 8.9,
+      "pnl_pct": 7.19,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Cours cohérent avec l'estimation précédente ; petite ligne sans catalyseur spécifique."
+      "rationale": "Petite ligne ETF zone euro en légère progression avec l'indice ce matin ; pas de catalyseur spécifique."
     },
     {
       "ticker": "OBCK.DE",
       "name": "Ottobock SE & Co. KGaA",
-      "pnl_pct": -18,
+      "pnl_pct": -17.0,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Aucune cotation plus récente ni avancée sur le dossier de cession en cours ; le seuil de perte critique reste franchi sans catalyseur positif, l'ordre confirmé précédemment est reconduit sans changement."
+      "rationale": "Seuil de réévaluation forcée à la baisse toujours franchi ; cession d'un site sans avancée officielle — réduction partielle d'environ un quart à un tiers de la ligne proposée pour le quatrième run consécutif."
     },
     {
       "ticker": "RMS.PA",
       "name": "Hermès International",
-      "pnl_pct": -14.5,
+      "pnl_pct": -7.0,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Pas de cours frais confirmé ; actualité mitigée mais contexte macro très favorable, la perte reste juste sous le seuil de réévaluation forcée."
+      "rationale": "Fort rebond du titre ce jour ramène la perte estimée vers la moitié du niveau du snapshot de référence ; le seuil critique de réévaluation semble dégagé — surveiller la tenue des gains."
     },
     {
       "ticker": "IPX",
       "name": "IperionX Limited ADR",
-      "pnl_pct": 9.5,
+      "pnl_pct": 8.0,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Catalyseur fondamental positif désormais finalisé sans nouvelle négative ; une lecture de cours isolée et non confirmée ferait franchir le seuil de prise de profit si elle se vérifiait, à recouper au prochain run."
+      "rationale": "Étude de faisabilité définitive confirmée avec des retours très attractifs et tests militaires positifs ; fondamentaux solides, la plus-value reste sous le seuil de prise de profit."
     },
     {
       "ticker": "3750.HK",
-      "name": "CATL (Contemporary Amperex Technology)",
-      "pnl_pct": 0.5,
+      "name": "Contemporary Amperex Technology (CATL)",
+      "pnl_pct": -0.58,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Des sources divergentes suggèrent une amélioration depuis le dernier cours retenu, avec une actualité sectorielle positive et sans catalyseur négatif, mais aucun seuil n'est franchi dans tous les cas."
+      "rationale": "Position proche de l'équilibre en légère hausse ce jour ; consensus analystes à conserver, innovations batteries en cours sans catalyseur immédiat sur le cours."
     },
     {
       "ticker": "ASML.AS",
       "name": "ASML Holding",
-      "pnl_pct": 23,
+      "pnl_pct": 23.0,
       "signal": "HOLD",
       "confidence": "élevé",
-      "rationale": "Nouveau plus haut historique porté par une guidance relevée et des objectifs analystes encore au-dessus du cours actuel ; le seuil de prise de profit est franchi mais sans signe d'essoufflement, à surveiller en priorité au prochain run."
+      "rationale": "Seuil de prise de profit franchi mais pas de signe d'essoufflement (cibles analystes au-dessus du cours, plus haut annuel en cours de formation) ; à ré-évaluer si le cours cale sous le niveau de clôture de vendredi."
     },
     {
       "ticker": "1211.HK",
@@ -72,37 +72,35 @@
       "pnl_pct": -15.5,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Le titre se stabilise proche de ses plus bas sans nouveau plancher, et un nouveau catalyseur à l'export tempère la conviction de vente ; réduction allégée plutôt que désengagement massif, en attendant confirmation par les prix."
+      "rationale": "Seuil de réévaluation forcée franchi malgré un rebond des exportations qui n'a pas soutenu le cours ; réduction d'environ un cinquième de la ligne proposée en attendant confirmation d'un retournement."
     },
     {
       "ticker": "QBTS",
       "name": "D-Wave Quantum",
-      "pnl_pct": 14,
+      "pnl_pct": 14.0,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Léger repli depuis la dernière lecture dans un contexte sectoriel sous pression ; la plus-value s'éloigne du seuil de prise de profit."
+      "rationale": "Feuille de route technologique publiée et conférence utilisateurs prévue dans deux jours — catalyseur potentiel à court terme ; la plus-value reste sous le seuil de prise de profit."
     }
   ],
   "orders_to_consider": [
     {
       "action": "ALLÉGER",
-      "instrument": "Ottobock SE & Co. KGaA (OBCK.DE)",
-      "details": "vendre environ 25 à 30 % de la ligne",
-      "rationale": "Aucune amélioration du dossier ni du cours depuis le dernier run ; le seuil de perte critique reste franchi sans catalyseur positif, ordre reconduit sans changement pour la troisième fois consécutive."
+      "instrument": "Ottobock SE (OBCK.DE)",
+      "details": "réduire d'environ un quart à un tiers de la ligne",
+      "rationale": "Seuil de perte critique toujours franchi sans catalyseur positif suffisant ; cession en cours sans calendrier confirmé, quatrième reconduction de l'ordre."
     },
     {
       "action": "ALLÉGER",
       "instrument": "BYD Company (1211.HK)",
-      "details": "vendre environ 20 à 25 % de la ligne (taille réduite par rapport au run précédent)",
-      "rationale": "Le seuil de perte critique reste franchi, mais un nouveau catalyseur positif à l'export tempère la conviction de vente ; réduction allégée plutôt que désengagement massif, en attendant confirmation par les prix."
+      "details": "réduire d'environ un cinquième à un quart de la ligne",
+      "rationale": "Seuil de réévaluation forcée franchi ; le rebond des ventes à l'export n'a pas tenu sur le cours, stabilisation proche des plus bas annuels."
     }
   ],
   "risk_flags": [
-    "Contexte macro très favorable : un accord de paix a été confirmé ce matin entre les belligérants d'un conflit régional, avec chute marquée du pétrole et marchés en hausse, confirmant le revirement identifié la veille au soir.",
-    "CRITIQUE — iShares Banks (EXA1.DE) représente environ 44 % du portefeuille investi, bien au-delà du seuil de 25 %.",
-    "ASML (ASML.AS) franchit le seuil de prise de profit de +20 % suite à un nouveau plus haut historique, sans signe d'essoufflement pour l'instant — priorité de surveillance au prochain run.",
-    "BYD (1211.HK) : signal de réduction maintenu mais revu à la baisse suite à un nouveau catalyseur positif à l'export.",
-    "Ottobock (OBCK.DE) : ordre de réduction reconduit pour la troisième fois consécutive sans nouvelle donnée.",
-    "Plusieurs cotations restent instables ou divergentes entre sources (Amundi World, IperionX, CATL) et nécessitent une vérification manuelle."
+    "CRITIQUE — iShares Banks (EXA1.DE) représente environ 36 % du portefeuille total, bien au-dessus du seuil de 25 %.",
+    "Amundi MSCI World (EWLD.PA) représente environ 26 % du portefeuille total — légèrement au-dessus du seuil de signalement.",
+    "ASML : seuil de prise de profit de 20 % franchi (environ +23 % estimé) — surveiller tout signe de calage pour déclencher une prise partielle.",
+    "Ottobock : ordre de réduction reconduit pour le quatrième run consécutif sans confirmation d'exécution."
   ]
 }

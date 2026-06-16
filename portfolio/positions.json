@@ -1,22 +1,23 @@
 {
   "base_currency": "EUR",
-  "last_updated": "2026-05-24",
+  "last_updated": "2026-06-16",
   "note_interpretation_TR": "Pour Trade Republic, la capture donne valeur actuelle + plus/moins-value TOTALE depuis l'achat (montants ronds => investissement en euros, fractions d'actions). cost_basis_eur est reconstitue = current_value_eur - pnl_eur. Pas de PRU/quantite unitaire disponibles depuis la vue liste.",
   "accounts": [
     {
       "broker": "Trade Republic",
-      "cash_eur": 2000,
+      "cash_eur": 2296,
+      "note_cash": "Estimatif au 16/06 : +526 EUR (Ottobock 50%) +266 EUR (BYD 100%) -496 EUR (Siemens). Valeurs approx. basees sur snapshot 24/05.",
       "positions": [
         {
           "name": "Ottobock SE",
-          "yahoo_symbol": "A_VERIFIER",
-          "exchange": "Francfort / XETRA (a verifier)",
+          "yahoo_symbol": "OBCK.DE",
+          "exchange": "XETRA",
           "isin": "",
-          "current_value_eur": 1053.60,
-          "pnl_eur": -196.40,
-          "cost_basis_eur": 1250.00,
+          "current_value_eur": 526.80,
+          "pnl_eur": -98.20,
+          "cost_basis_eur": 625.00,
           "pnl_pct": -15.71,
-          "notes": "IPO recente ? Verifier symbole + cours EUR via WebSearch."
+          "notes": "50% de la ligne vendu le 16/06/2026. Valeurs restantes = 50% du snapshot 24/05 (approximatif). Ticker confirme : OBCK.DE (XETRA). Surveiller cession Konigssee."
         },
         {
           "name": "Hermes International",
@@ -63,15 +64,15 @@
           "notes": "Semi-conducteurs. Attention a l'ADR US en USD, utiliser ASML.AS en EUR."
         },
         {
-          "name": "BYD Company",
-          "yahoo_symbol": "1211.HK",
-          "exchange": "Hong Kong 1211.HK (HKD) / Shenzhen 002594.SZ - sur TR en EUR a verifier",
-          "isin": "",
-          "current_value_eur": 265.83,
-          "pnl_eur": -38.68,
-          "cost_basis_eur": 304.51,
-          "pnl_pct": -12.70,
-          "notes": "VE chinois. Verifier place/devise."
+          "name": "Siemens AG",
+          "yahoo_symbol": "SIE.DE",
+          "exchange": "XETRA",
+          "isin": "DE0007236101",
+          "current_value_eur": 496.32,
+          "pnl_eur": 0.00,
+          "cost_basis_eur": 496.32,
+          "pnl_pct": 0.00,
+          "notes": "Achat le 16/06/2026 a 264 EUR, 1,88 actions (264 x 1,88 = 496,32 EUR). Industrie / tech / energie diversifie."
         },
         {
           "name": "D-Wave Quantum",

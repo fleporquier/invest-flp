@@ -1,106 +1,95 @@
 {
-  "generated_at": "2026-06-16T09:30:00+02:00",
+  "generated_at": "2026-06-17T09:19:00+02:00",
   "broker_count": 2,
   "positions": [
     {
-      "ticker": "EWLD.PA",
-      "name": "Amundi MSCI World Swap UCITS ETF EUR Dist",
-      "pnl_pct": 29.84,
-      "signal": "HOLD",
-      "confidence": "faible",
-      "rationale": "ETF cœur monde au-dessus du seuil de plus-value de 20 % sans signe d'essoufflement ; marchés mondiaux en légère hausse ce jour."
-    },
-    {
-      "ticker": "EXA1.DE",
-      "name": "iShares EURO STOXX Banks 30-15 UCITS ETF (DE) Acc",
-      "pnl_pct": 6.91,
-      "signal": "HOLD",
-      "confidence": "élevé",
-      "rationale": "Secteur bancaire soutenu par la politique de taux de la banque centrale ; concentration critique (environ 36 % du portefeuille) surveillée en permanence."
-    },
-    {
-      "ticker": "EUE.PA",
-      "name": "iShares Core EURO STOXX 50 ETF EUR Dist",
-      "pnl_pct": 7.19,
-      "signal": "HOLD",
-      "confidence": "faible",
-      "rationale": "Petite ligne ETF zone euro en légère progression avec l'indice ce matin ; pas de catalyseur spécifique."
-    },
-    {
       "ticker": "OBCK.DE",
-      "name": "Ottobock SE & Co. KGaA",
-      "pnl_pct": -17.0,
-      "signal": "ALLÉGER",
+      "name": "Ottobock SE",
+      "pnl_pct": -15.71,
+      "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Seuil de réévaluation forcée à la baisse toujours franchi ; cession d'un site sans avancée officielle — réduction partielle d'environ un quart à un tiers de la ligne proposée pour le quatrième run consécutif."
+      "rationale": "Seuil -15 % atteint, réévaluation forcée. 50 % déjà cédé le 16/06. Analystes à l'achat, pas de second facteur négatif."
     },
     {
       "ticker": "RMS.PA",
       "name": "Hermès International",
-      "pnl_pct": -7.0,
+      "pnl_pct": -14.45,
       "signal": "HOLD",
-      "confidence": "faible",
-      "rationale": "Fort rebond du titre ce jour ramène la perte estimée vers la moitié du niveau du snapshot de référence ; le seuil critique de réévaluation semble dégagé — surveiller la tenue des gains."
+      "confidence": "moyen",
+      "rationale": "Proche du seuil -15 %. T1 2026 en léger repli. Prochains résultats le 29/07."
     },
     {
       "ticker": "IPX",
-      "name": "IperionX Limited ADR",
-      "pnl_pct": 8.0,
+      "name": "IperionX Limited",
+      "pnl_pct": 7.3,
       "signal": "HOLD",
-      "confidence": "faible",
-      "rationale": "Étude de faisabilité définitive confirmée avec des retours très attractifs et tests militaires positifs ; fondamentaux solides, la plus-value reste sous le seuil de prise de profit."
+      "confidence": "moyen",
+      "rationale": "En repli depuis début juin. Consensus Strong Buy. Devise/place à vérifier."
     },
     {
       "ticker": "3750.HK",
-      "name": "Contemporary Amperex Technology (CATL)",
+      "name": "CATL",
       "pnl_pct": -0.58,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Position proche de l'équilibre en légère hausse ce jour ; consensus analystes à conserver, innovations batteries en cours sans catalyseur immédiat sur le cours."
+      "rationale": "Position quasi flat. Conversion HKD/EUR incertaine sur TR."
     },
     {
       "ticker": "ASML.AS",
       "name": "ASML Holding",
-      "pnl_pct": 23.0,
+      "pnl_pct": 11.43,
       "signal": "HOLD",
       "confidence": "élevé",
-      "rationale": "Seuil de prise de profit franchi mais pas de signe d'essoufflement (cibles analystes au-dessus du cours, plus haut annuel en cours de formation) ; à ré-évaluer si le cours cale sous le niveau de clôture de vendredi."
+      "rationale": "Consolidation après ATH à 1 669 €. Vague IA intacte. Sous le seuil de prise de profit."
     },
     {
-      "ticker": "1211.HK",
-      "name": "BYD Company",
-      "pnl_pct": -15.5,
-      "signal": "ALLÉGER",
-      "confidence": "moyen",
-      "rationale": "Seuil de réévaluation forcée franchi malgré un rebond des exportations qui n'a pas soutenu le cours ; réduction d'environ un cinquième de la ligne proposée en attendant confirmation d'un retournement."
+      "ticker": "SIE.DE",
+      "name": "Siemens AG",
+      "pnl_pct": 0.0,
+      "signal": "HOLD",
+      "confidence": "élevé",
+      "rationale": "Achat très récent (16/06). T2 solide (+6 % CA, +18 % commandes). Trop tôt pour agir."
     },
     {
       "ticker": "QBTS",
       "name": "D-Wave Quantum",
-      "pnl_pct": 14.0,
+      "pnl_pct": 27.76,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Feuille de route technologique publiée et conférence utilisateurs prévue dans deux jours — catalyseur potentiel à court terme ; la plus-value reste sous le seuil de prise de profit."
-    }
-  ],
-  "orders_to_consider": [
-    {
-      "action": "ALLÉGER",
-      "instrument": "Ottobock SE (OBCK.DE)",
-      "details": "réduire d'environ un quart à un tiers de la ligne",
-      "rationale": "Seuil de perte critique toujours franchi sans catalyseur positif suffisant ; cession en cours sans calendrier confirmé, quatrième reconduction de l'ordre."
+      "rationale": "P&L > 20 % mais cours loin du sommet 52 sem. Position très petite, secteur spéculatif."
     },
     {
-      "action": "ALLÉGER",
-      "instrument": "BYD Company (1211.HK)",
-      "details": "réduire d'environ un cinquième à un quart de la ligne",
-      "rationale": "Seuil de réévaluation forcée franchi ; le rebond des ventes à l'export n'a pas tenu sur le cours, stabilisation proche des plus bas annuels."
+      "ticker": "EWLD",
+      "name": "Amundi MSCI World ETF",
+      "pnl_pct": 29.84,
+      "signal": "HOLD",
+      "confidence": "moyen",
+      "rationale": "ETF cœur monde diversifié. Pas de prise de profit sur le pilier du portefeuille. Ticker à confirmer."
+    },
+    {
+      "ticker": "EUE.PA",
+      "name": "iShares EURO STOXX 50 ETF",
+      "pnl_pct": 7.19,
+      "signal": "HOLD",
+      "confidence": "moyen",
+      "rationale": "Performance modérée. Pas de signal directionnel."
+    },
+    {
+      "ticker": "EXA1.DE",
+      "name": "iShares EURO STOXX Banks ETF",
+      "pnl_pct": 6.91,
+      "signal": "HOLD",
+      "confidence": "moyen",
+      "rationale": "Pas de catalyseur sectoriel fort. Ligne surpondérée dans le portefeuille."
     }
   ],
+  "orders_to_consider": [],
   "risk_flags": [
-    "CRITIQUE — iShares Banks (EXA1.DE) représente environ 36 % du portefeuille total, bien au-dessus du seuil de 25 %.",
-    "Amundi MSCI World (EWLD.PA) représente environ 26 % du portefeuille total — légèrement au-dessus du seuil de signalement.",
-    "ASML : seuil de prise de profit de 20 % franchi (environ +23 % estimé) — surveiller tout signe de calage pour déclencher une prise partielle.",
-    "Ottobock : ordre de réduction reconduit pour le quatrième run consécutif sans confirmation d'exécution."
+    "CRITIQUE — iShares Banks (EXA1.DE) représente ~36 % du portefeuille (seuil 25 %).",
+    "Amundi MSCI World (EWLD) représente ~26 % du portefeuille — légèrement au-dessus du seuil.",
+    "Ottobock en zone de réévaluation forcée (-15,71 % vs PRU).",
+    "Hermès proche du seuil de réévaluation (-14,45 %).",
+    "Ticker Amundi MSCI World non confirmé (écart possible avec le cours web).",
+    "Devise/place incertaine pour IperionX, CATL et D-Wave sur Trade Republic."
   ]
 }

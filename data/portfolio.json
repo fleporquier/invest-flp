@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T09:19:00+02:00",
+  "generated_at": "2026-06-18T09:18:00+02:00",
   "broker_count": 2,
   "positions": [
     {
@@ -8,7 +8,7 @@
       "pnl_pct": -15.71,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Seuil -15 % atteint, réévaluation forcée. 50 % déjà cédé le 16/06. Analystes à l'achat, pas de second facteur négatif."
+      "rationale": "Seuil -15 % atteint, 50 % déjà cédé le 16/06. Rebond depuis le point bas de mars, pas de catalyseur négatif récent."
     },
     {
       "ticker": "RMS.PA",
@@ -16,7 +16,7 @@
       "pnl_pct": -14.45,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Proche du seuil -15 %. T1 2026 en léger repli. Prochains résultats le 29/07."
+      "rationale": "Proche du seuil -15 %. Luxe sous pression (CA Q1 -1,4 %) mais expansion continue (Bond Street, Japon)."
     },
     {
       "ticker": "IPX",
@@ -24,7 +24,7 @@
       "pnl_pct": 7.3,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "En repli depuis début juin. Consensus Strong Buy. Devise/place à vérifier."
+      "rationale": "DFS Titan positive (NPV 813 M$) + acquisition Covia Camden. Titre en repli post-DFS, signaux contradictoires."
     },
     {
       "ticker": "3750.HK",
@@ -32,7 +32,7 @@
       "pnl_pct": -0.58,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Position quasi flat. Conversion HKD/EUR incertaine sur TR."
+      "rationale": "Fondamentaux solides (sodium-ion 2026, capacité en hausse). Position flat, pas de signal net. Devise/place à vérifier."
     },
     {
       "ticker": "ASML.AS",
@@ -40,7 +40,7 @@
       "pnl_pct": 11.43,
       "signal": "HOLD",
       "confidence": "élevé",
-      "rationale": "Consolidation après ATH à 1 669 €. Vague IA intacte. Sous le seuil de prise de profit."
+      "rationale": "Momentum exceptionnel : backlog EUV record, percée source lumineuse, guidance relevée. Sous le seuil de prise de profit."
     },
     {
       "ticker": "SIE.DE",
@@ -48,31 +48,31 @@
       "pnl_pct": 0.0,
       "signal": "HOLD",
       "confidence": "élevé",
-      "rationale": "Achat très récent (16/06). T2 solide (+6 % CA, +18 % commandes). Trop tôt pour agir."
+      "rationale": "Achat très récent (16/06). Q2 solide : commandes +18 %, backlog record 124 Md€, rachat d'actions 6 Md€."
     },
     {
       "ticker": "QBTS",
       "name": "D-Wave Quantum",
       "pnl_pct": 27.76,
       "signal": "HOLD",
-      "confidence": "faible",
-      "rationale": "P&L > 20 % mais cours loin du sommet 52 sem. Position très petite, secteur spéculatif."
+      "confidence": "moyen",
+      "rationale": "Gain > 20 % mais pas d'essoufflement : Analyst Day positif, Mizuho relève PT à 35 $, consensus Strong Buy. Position très petite."
     },
     {
       "ticker": "EWLD",
       "name": "Amundi MSCI World ETF",
       "pnl_pct": 29.84,
       "signal": "HOLD",
-      "confidence": "moyen",
-      "rationale": "ETF cœur monde diversifié. Pas de prise de profit sur le pilier du portefeuille. Ticker à confirmer."
+      "confidence": "élevé",
+      "rationale": "ETF cœur monde diversifié. Gain cumulatif long terme, pas de prise de profit sur le pilier du portefeuille."
     },
     {
       "ticker": "EUE.PA",
       "name": "iShares EURO STOXX 50 ETF",
       "pnl_pct": 7.19,
       "signal": "HOLD",
-      "confidence": "moyen",
-      "rationale": "Performance modérée. Pas de signal directionnel."
+      "confidence": "élevé",
+      "rationale": "ETF grandes caps zone euro en progression régulière. Pas de signal directionnel."
     },
     {
       "ticker": "EXA1.DE",
@@ -80,7 +80,7 @@
       "pnl_pct": 6.91,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Pas de catalyseur sectoriel fort. Ligne surpondérée dans le portefeuille."
+      "rationale": "Secteur bancaire toujours porteur mais décélération après le record 2025. Ligne surpondérée dans le portefeuille."
     }
   ],
   "orders_to_consider": [],
@@ -89,7 +89,6 @@
     "Amundi MSCI World (EWLD) représente ~26 % du portefeuille — légèrement au-dessus du seuil.",
     "Ottobock en zone de réévaluation forcée (-15,71 % vs PRU).",
     "Hermès proche du seuil de réévaluation (-14,45 %).",
-    "Ticker Amundi MSCI World non confirmé (écart possible avec le cours web).",
     "Devise/place incertaine pour IperionX, CATL et D-Wave sur Trade Republic."
   ]
 }

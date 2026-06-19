@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T09:18:00+02:00",
+  "generated_at": "2026-06-19T09:19:47+02:00",
   "broker_count": 2,
   "positions": [
     {
@@ -8,7 +8,7 @@
       "pnl_pct": -15.71,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Seuil -15 % atteint, 50 % déjà cédé le 16/06. Rebond depuis le point bas de mars, pas de catalyseur négatif récent."
+      "rationale": "Seuil -15% franchi, réévaluation forcée. Ligne déjà réduite de moitié le 16/06, solde conservé avec stop mental."
     },
     {
       "ticker": "RMS.PA",
@@ -16,7 +16,7 @@
       "pnl_pct": -14.45,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Proche du seuil -15 %. Luxe sous pression (CA Q1 -1,4 %) mais expansion continue (Bond Street, Japon)."
+      "rationale": "Proche du seuil -15%. Luxe en ralentissement mais pas de second facteur pour couper."
     },
     {
       "ticker": "IPX",
@@ -24,7 +24,7 @@
       "pnl_pct": 7.3,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "DFS Titan positive (NPV 813 M$) + acquisition Covia Camden. Titre en repli post-DFS, signaux contradictoires."
+      "rationale": "DFS Titan positive, tests US Army concluants. Recul post-publication, fondamentaux intacts."
     },
     {
       "ticker": "3750.HK",
@@ -32,7 +32,7 @@
       "pnl_pct": -0.58,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Fondamentaux solides (sodium-ion 2026, capacité en hausse). Position flat, pas de signal net. Devise/place à vérifier."
+      "rationale": "Position quasi flat, capacité en hausse et innovation batterie. Devise/place à vérifier."
     },
     {
       "ticker": "ASML.AS",
@@ -40,55 +40,62 @@
       "pnl_pct": 11.43,
       "signal": "HOLD",
       "confidence": "élevé",
-      "rationale": "Momentum exceptionnel : backlog EUV record, percée source lumineuse, guidance relevée. Sous le seuil de prise de profit."
+      "rationale": "Guidance relevée, percée EUV. Risque géopolitique (suspicion machine en Chine) à surveiller."
     },
     {
       "ticker": "SIE.DE",
       "name": "Siemens AG",
-      "pnl_pct": 0.0,
+      "pnl_pct": 4.8,
       "signal": "HOLD",
       "confidence": "élevé",
-      "rationale": "Achat très récent (16/06). Q2 solide : commandes +18 %, backlog record 124 Md€, rachat d'actions 6 Md€."
+      "rationale": "Achat très récent, proche ATH, partenariat IA avec NVIDIA. Momentum positif."
     },
     {
       "ticker": "QBTS",
       "name": "D-Wave Quantum",
       "pnl_pct": 27.76,
-      "signal": "HOLD",
-      "confidence": "moyen",
-      "rationale": "Gain > 20 % mais pas d'essoufflement : Analyst Day positif, Mizuho relève PT à 35 $, consensus Strong Buy. Position très petite."
+      "signal": "ALLÉGER",
+      "confidence": "faible",
+      "rationale": "P&L au-dessus du seuil de prise de profit, essoufflement post-spike Investor Day. Position très petite."
     },
     {
       "ticker": "EWLD",
-      "name": "Amundi MSCI World ETF",
+      "name": "Amundi MSCI World SWAP ETF",
       "pnl_pct": 29.84,
       "signal": "HOLD",
       "confidence": "élevé",
-      "rationale": "ETF cœur monde diversifié. Gain cumulatif long terme, pas de prise de profit sur le pilier du portefeuille."
+      "rationale": "ETF cœur monde diversifié. P&L élevé mais pas d'essoufflement, socle du portefeuille."
     },
     {
       "ticker": "EUE.PA",
-      "name": "iShares EURO STOXX 50 ETF",
+      "name": "iShares Core EURO STOXX 50 ETF",
       "pnl_pct": 7.19,
       "signal": "HOLD",
-      "confidence": "élevé",
-      "rationale": "ETF grandes caps zone euro en progression régulière. Pas de signal directionnel."
+      "confidence": "moyen",
+      "rationale": "Position stable. Place de cotation à vérifier, écart possible entre fichier et cours web."
     },
     {
       "ticker": "EXA1.DE",
-      "name": "iShares EURO STOXX Banks ETF",
+      "name": "iShares EURO STOXX Banks 30-15 ETF",
       "pnl_pct": 6.91,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Secteur bancaire toujours porteur mais décélération après le record 2025. Ligne surpondérée dans le portefeuille."
+      "rationale": "Secteur bancaire européen solide, mais concentration excessive dans le portefeuille."
     }
   ],
-  "orders_to_consider": [],
+  "orders_to_consider": [
+    {
+      "action": "ALLÉGER",
+      "instrument": "D-Wave Quantum (QBTS)",
+      "details": "vendre environ un tiers de la ligne",
+      "rationale": "P&L > seuil 20%, essoufflement post-Investor Day. Position très petite, impact quasi-symbolique."
+    }
+  ],
   "risk_flags": [
-    "CRITIQUE — iShares Banks (EXA1.DE) représente ~36 % du portefeuille (seuil 25 %).",
-    "Amundi MSCI World (EWLD) représente ~26 % du portefeuille — légèrement au-dessus du seuil.",
-    "Ottobock en zone de réévaluation forcée (-15,71 % vs PRU).",
-    "Hermès proche du seuil de réévaluation (-14,45 %).",
-    "Devise/place incertaine pour IperionX, CATL et D-Wave sur Trade Republic."
+    "Concentration excessive : ETF banques zone euro (EXA1) représente plus d'un tiers du portefeuille, bien au-dessus du plafond de 25%.",
+    "Ottobock : perte au-delà de -15%, seuil de réévaluation forcée franchi (position déjà réduite de moitié).",
+    "Hermès : perte -14,45%, proche du seuil critique de -15%.",
+    "Devise/place incertaine sur IperionX, CATL et D-Wave (sous-jacents USD/HKD cotés en EUR).",
+    "Risque géopolitique ASML : suspicion US de machine EUV transférée en Chine."
   ]
 }

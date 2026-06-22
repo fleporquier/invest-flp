@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T09:19:47+02:00",
+  "generated_at": "2026-06-22T09:18:52+02:00",
   "broker_count": 2,
   "positions": [
     {
@@ -8,7 +8,7 @@
       "pnl_pct": -15.71,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Seuil -15% franchi, réévaluation forcée. Ligne déjà réduite de moitié le 16/06, solde conservé avec stop mental."
+      "rationale": "Seuil -15% franchi. Catalyseur positif : cession Human Mobility signée le 19/06, recentrage stratégique. Stop mental maintenu."
     },
     {
       "ticker": "RMS.PA",
@@ -16,7 +16,7 @@
       "pnl_pct": -14.45,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Proche du seuil -15%. Luxe en ralentissement mais pas de second facteur pour couper."
+      "rationale": "Proche du seuil -15%. Luxe en ralentissement mais Hermès reste le plus résilient, un seul facteur négatif."
     },
     {
       "ticker": "IPX",
@@ -24,7 +24,7 @@
       "pnl_pct": 7.3,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "DFS Titan positive, tests US Army concluants. Recul post-publication, fondamentaux intacts."
+      "rationale": "DFS Titan positive et tests US Army concluants. Recul post-publication, fondamentaux intacts."
     },
     {
       "ticker": "3750.HK",
@@ -32,7 +32,7 @@
       "pnl_pct": -0.58,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Position quasi flat, capacité en hausse et innovation batterie. Devise/place à vérifier."
+      "rationale": "Position quasi flat. Innovation continue (plateforme One Shell Two Cells, batteries Na-ion). Devise/place à vérifier."
     },
     {
       "ticker": "ASML.AS",
@@ -40,15 +40,15 @@
       "pnl_pct": 11.43,
       "signal": "HOLD",
       "confidence": "élevé",
-      "rationale": "Guidance relevée, percée EUV. Risque géopolitique (suspicion machine en Chine) à surveiller."
+      "rationale": "Léger repli depuis ATH. BNP relève son objectif. Risque géopolitique EUV/Chine à surveiller."
     },
     {
       "ticker": "SIE.DE",
       "name": "Siemens AG",
-      "pnl_pct": 4.8,
+      "pnl_pct": 3.98,
       "signal": "HOLD",
       "confidence": "élevé",
-      "rationale": "Achat très récent, proche ATH, partenariat IA avec NVIDIA. Momentum positif."
+      "rationale": "Achat récent, perspective FY26 relevée, proche ATH. Momentum positif."
     },
     {
       "ticker": "QBTS",
@@ -61,7 +61,7 @@
     {
       "ticker": "EWLD",
       "name": "Amundi MSCI World SWAP ETF",
-      "pnl_pct": 29.84,
+      "pnl_pct": 31.9,
       "signal": "HOLD",
       "confidence": "élevé",
       "rationale": "ETF cœur monde diversifié. P&L élevé mais pas d'essoufflement, socle du portefeuille."
@@ -69,18 +69,18 @@
     {
       "ticker": "EUE.PA",
       "name": "iShares Core EURO STOXX 50 ETF",
-      "pnl_pct": 7.19,
+      "pnl_pct": 10.2,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Position stable. Place de cotation à vérifier, écart possible entre fichier et cours web."
+      "rationale": "Position stable, légère progression. Place de cotation à vérifier."
     },
     {
       "ticker": "EXA1.DE",
       "name": "iShares EURO STOXX Banks 30-15 ETF",
-      "pnl_pct": 6.91,
+      "pnl_pct": 4.7,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Secteur bancaire européen solide, mais concentration excessive dans le portefeuille."
+      "rationale": "Secteur bancaire stable, consolidation en cours. Concentration excessive dans le portefeuille."
     }
   ],
   "orders_to_consider": [
@@ -88,12 +88,12 @@
       "action": "ALLÉGER",
       "instrument": "D-Wave Quantum (QBTS)",
       "details": "vendre environ un tiers de la ligne",
-      "rationale": "P&L > seuil 20%, essoufflement post-Investor Day. Position très petite, impact quasi-symbolique."
+      "rationale": "P&L > seuil 20%, essoufflement post-Investor Day. Recommandation maintenue depuis le 19/06, impact quasi-symbolique."
     }
   ],
   "risk_flags": [
     "Concentration excessive : ETF banques zone euro (EXA1) représente plus d'un tiers du portefeuille, bien au-dessus du plafond de 25%.",
-    "Ottobock : perte au-delà de -15%, seuil de réévaluation forcée franchi (position déjà réduite de moitié).",
+    "Ottobock : perte au-delà de -15%, seuil de réévaluation forcée franchi. Catalyseur positif (cession Human Mobility) atténue le risque.",
     "Hermès : perte -14,45%, proche du seuil critique de -15%.",
     "Devise/place incertaine sur IperionX, CATL et D-Wave (sous-jacents USD/HKD cotés en EUR).",
     "Risque géopolitique ASML : suspicion US de machine EUV transférée en Chine."

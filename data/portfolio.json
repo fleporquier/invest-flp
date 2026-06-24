@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T09:19:28+02:00",
+  "generated_at": "2026-06-24T09:18:00+02:00",
   "broker_count": 2,
   "positions": [
     {
@@ -8,7 +8,7 @@
       "pnl_pct": 6.91,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Pas de catalyseur sectoriel negatif, banques EU stables. Concentration a surveiller."
+      "rationale": "Secteur bancaire EU bien oriente (Goldman : 'better for longer'), mais concentration excessive a traiter."
     },
     {
       "ticker": "EWLD",
@@ -16,23 +16,23 @@
       "pnl_pct": 29.84,
       "signal": "HOLD",
       "confidence": "élevé",
-      "rationale": "ETF coeur monde, allocation long terme. Pas de signal de sortie."
+      "rationale": "ETF coeur monde, aucun signe d'essoufflement. Allocation long terme maintenue."
     },
     {
       "ticker": "EUE.PA",
       "name": "iShares Core EURO STOXX 50 ETF (Dist)",
       "pnl_pct": 7.19,
       "signal": "HOLD",
-      "confidence": "moyen",
-      "rationale": "PnL modere, EuroStoxx 50 stable. Pas de signal."
+      "confidence": "élevé",
+      "rationale": "EuroStoxx 50 en hausse moderee, pas de signal actionnable."
     },
     {
       "ticker": "RMS.PA",
       "name": "Hermès International",
       "pnl_pct": -14.45,
       "signal": "HOLD",
-      "confidence": "élevé",
-      "rationale": "Proche du seuil -15 % mais fondamentaux luxe intacts, aucun catalyseur negatif."
+      "confidence": "moyen",
+      "rationale": "Luxe en ralentissement (Q1 sous attentes, Moyen-Orient/Chine faibles) mais Hermes reste le plus resilient du secteur."
     },
     {
       "ticker": "IPX",
@@ -40,7 +40,7 @@
       "pnl_pct": 7.3,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "DFS Titan positive mais cours en recul post-publication. Tendance incertaine."
+      "rationale": "DFS Titan tres positive (NPV 813 M$, IRR 39 %), tests US Army valides. Cours en recul recent."
     },
     {
       "ticker": "OBCK.DE",
@@ -48,7 +48,7 @@
       "pnl_pct": -15.71,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Seuil -15 % franchi mais un seul facteur negatif (prix), fondamentaux Q1 corrects."
+      "rationale": "Seuil -15 % franchi, reevaluation forcee. Fondamentaux intacts (CA +11,7 %, consensus 81 EUR). Maintien argumente."
     },
     {
       "ticker": "3750.HK",
@@ -56,7 +56,7 @@
       "pnl_pct": -0.58,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Quasi flat, news fondamentales positives (sodium-ion, lithium-air)."
+      "rationale": "Sodium-ion en production de masse, lithium-air en R&D. Cours HKD volatile, conversion EUR incertaine."
     },
     {
       "ticker": "SIE.DE",
@@ -64,7 +64,7 @@
       "pnl_pct": 0.0,
       "signal": "HOLD",
       "confidence": "élevé",
-      "rationale": "Achat recent, Q2 solide, backlog record. Pas de signal sur position jeune."
+      "rationale": "Position recente, partenariat NVIDIA etendu pour IA industrielle, nouveau CTO IA. Pas de signal."
     },
     {
       "ticker": "ASML.AS",
@@ -72,7 +72,7 @@
       "pnl_pct": 11.43,
       "signal": "HOLD",
       "confidence": "élevé",
-      "rationale": "Upgrades analystes, tendance haussiere intacte. Sous le seuil de prise de profit."
+      "rationale": "Baisse ponctuelle sur craintes export US/Chine, mais WFE 2027 releve par Wells Fargo. Fondamentaux solides."
     },
     {
       "ticker": "QBTS",
@@ -80,15 +80,15 @@
       "pnl_pct": 27.76,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "PnL au-dessus du seuil +20 % mais position trop petite pour un ordre pratique."
+      "rationale": "Au-dessus du seuil +20 % mais deja corrige du plus-haut. Roadmap gate-model et simulateur positifs."
     }
   ],
   "orders_to_consider": [],
   "risk_flags": [
     "Concentration majeure : iShares Banks a ~36 % du portefeuille (seuil 25 %).",
-    "Ottobock a -15,71 % : seuil de reevaluation forcee franchi, decision explicite requise.",
-    "Hermes a -14,45 % : proche du seuil -15 %, a surveiller.",
-    "D-Wave a +27,76 % : seuil de prise de profit atteint mais position minuscule.",
-    "Devise/place incertaine sur IperionX, CATL et D-Wave (sous-jacents USD/HKD cotes en EUR)."
+    "Amundi MSCI World a ~26 % du portefeuille, juste au-dessus du seuil.",
+    "Ottobock a -15,71 % : seuil de reevaluation forcee franchi.",
+    "Hermes a -14,45 % : proche du seuil -15 %, luxe en ralentissement.",
+    "Devise/place incertaine sur IperionX, CATL et D-Wave (sous-jacents USD/HKD)."
   ]
 }

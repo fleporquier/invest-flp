@@ -1,38 +1,22 @@
 {
-  "generated_at": "2026-06-24T09:18:00+02:00",
+  "generated_at": "2026-06-25T09:19:00+02:00",
   "broker_count": 2,
   "positions": [
     {
-      "ticker": "EXA1.DE",
-      "name": "iShares EURO STOXX Banks 30-15 ETF (Acc)",
-      "pnl_pct": 6.91,
+      "ticker": "OBCK.DE",
+      "name": "Ottobock SE",
+      "pnl_pct": -15.71,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Secteur bancaire EU bien oriente (Goldman : 'better for longer'), mais concentration excessive a traiter."
-    },
-    {
-      "ticker": "EWLD",
-      "name": "Amundi MSCI World SWAP ETF (Dist)",
-      "pnl_pct": 29.84,
-      "signal": "HOLD",
-      "confidence": "élevé",
-      "rationale": "ETF coeur monde, aucun signe d'essoufflement. Allocation long terme maintenue."
-    },
-    {
-      "ticker": "EUE.PA",
-      "name": "iShares Core EURO STOXX 50 ETF (Dist)",
-      "pnl_pct": 7.19,
-      "signal": "HOLD",
-      "confidence": "élevé",
-      "rationale": "EuroStoxx 50 en hausse moderee, pas de signal actionnable."
+      "rationale": "Réévaluation forcée mais catalyseur positif (cession Human Mobility, recentrage stratégique). Consensus Strong Buy."
     },
     {
       "ticker": "RMS.PA",
       "name": "Hermès International",
       "pnl_pct": -14.45,
-      "signal": "HOLD",
+      "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Luxe en ralentissement (Q1 sous attentes, Moyen-Orient/Chine faibles) mais Hermes reste le plus resilient du secteur."
+      "rationale": "Tendance dégradée et croissance T1 décevante ; approche du seuil de réévaluation forcée."
     },
     {
       "ticker": "IPX",
@@ -40,39 +24,31 @@
       "pnl_pct": 7.3,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "DFS Titan tres positive (NPV 813 M$, IRR 39 %), tests US Army valides. Cours en recul recent."
-    },
-    {
-      "ticker": "OBCK.DE",
-      "name": "Ottobock SE",
-      "pnl_pct": -15.71,
-      "signal": "HOLD",
-      "confidence": "moyen",
-      "rationale": "Seuil -15 % franchi, reevaluation forcee. Fondamentaux intacts (CA +11,7 %, consensus 81 EUR). Maintien argumente."
+      "rationale": "DFS Titan solide, titane stratégique US. Pas de seuil atteint."
     },
     {
       "ticker": "3750.HK",
-      "name": "CATL (Contemporary Amperex Technology)",
+      "name": "CATL",
       "pnl_pct": -0.58,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Sodium-ion en production de masse, lithium-air en R&D. Cours HKD volatile, conversion EUR incertaine."
-    },
-    {
-      "ticker": "SIE.DE",
-      "name": "Siemens AG",
-      "pnl_pct": 0.0,
-      "signal": "HOLD",
-      "confidence": "élevé",
-      "rationale": "Position recente, partenariat NVIDIA etendu pour IA industrielle, nouveau CTO IA. Pas de signal."
+      "rationale": "Catalyseurs positifs (lithium-air, Na-ion) mais quasi à l'équilibre. Pas de signal net."
     },
     {
       "ticker": "ASML.AS",
       "name": "ASML Holding",
       "pnl_pct": 11.43,
       "signal": "HOLD",
+      "confidence": "moyen",
+      "rationale": "Correction récente sur craintes taux et export controls Chine. Signaux mixtes."
+    },
+    {
+      "ticker": "SIE.DE",
+      "name": "Siemens AG",
+      "pnl_pct": 2.8,
+      "signal": "HOLD",
       "confidence": "élevé",
-      "rationale": "Baisse ponctuelle sur craintes export US/Chine, mais WFE 2027 releve par Wells Fargo. Fondamentaux solides."
+      "rationale": "Position récente, fondamentaux solides, carnet de commandes record."
     },
     {
       "ticker": "QBTS",
@@ -80,15 +56,46 @@
       "pnl_pct": 27.76,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Au-dessus du seuil +20 % mais deja corrige du plus-haut. Roadmap gate-model et simulateur positifs."
+      "rationale": "P&L élevé mais pas d'essoufflement ; catalyseurs frais (exec. orders quantum, bookings en forte hausse)."
+    },
+    {
+      "ticker": "EWLD",
+      "name": "Amundi MSCI World SWAP ETF (Dist)",
+      "pnl_pct": 29.84,
+      "signal": "HOLD",
+      "confidence": "élevé",
+      "rationale": "ETF cœur de portefeuille diversifié, prise de profit non pertinente."
+    },
+    {
+      "ticker": "EUE.PA",
+      "name": "iShares Core EURO STOXX 50 ETF (Dist)",
+      "pnl_pct": 7.19,
+      "signal": "HOLD",
+      "confidence": "élevé",
+      "rationale": "Progression régulière, pas de signal actionnable."
+    },
+    {
+      "ticker": "EXA1.DE",
+      "name": "iShares EURO STOXX Banks 30-15 ETF (Acc)",
+      "pnl_pct": 6.91,
+      "signal": "HOLD",
+      "confidence": "élevé",
+      "rationale": "Momentum bancaire positif. Concentration à surveiller."
     }
   ],
-  "orders_to_consider": [],
+  "orders_to_consider": [
+    {
+      "action": "ALLÉGER",
+      "instrument": "Hermès International (RMS.PA)",
+      "details": "vendre environ la moitié de la ligne, au cours de marché",
+      "rationale": "Tendance dégradée et croissance décevante, approche du seuil de réévaluation forcée à -15 %."
+    }
+  ],
   "risk_flags": [
-    "Concentration majeure : iShares Banks a ~36 % du portefeuille (seuil 25 %).",
-    "Amundi MSCI World a ~26 % du portefeuille, juste au-dessus du seuil.",
-    "Ottobock a -15,71 % : seuil de reevaluation forcee franchi.",
-    "Hermes a -14,45 % : proche du seuil -15 %, luxe en ralentissement.",
+    "Concentration majeure : iShares Banks (EXA1.DE) à ~36 % du portefeuille (seuil 25 %).",
+    "Amundi MSCI World à ~26 % du portefeuille, juste au-dessus du seuil (ETF diversifié).",
+    "Hermès à -14,45 % : approche du seuil de réévaluation forcée, tendance dégradée.",
+    "Ottobock à -15,71 % : seuil franchi, maintenu sur catalyseurs positifs.",
     "Devise/place incertaine sur IperionX, CATL et D-Wave (sous-jacents USD/HKD)."
   ]
 }

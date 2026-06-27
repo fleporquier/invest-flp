@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T07:21:45+00:00",
+  "generated_at": "2026-06-27T08:16:49+00:00",
   "results": [
     {
       "ticker": "CTSH",
@@ -17,8 +17,17 @@
       "dist_ma200_pct": -40.93,
       "range_52w_position": 0.0,
       "technical_score": 65,
+      "low_news_coverage": true,
       "verdict": "ATTENDRE",
-      "conviction": null,
+      "type_baisse": "MIXTE",
+      "raison_baisse": "Analyse Claude indisponible.",
+      "catalyseur_rebond": null,
+      "niveau_entree_suggere": null,
+      "horizon": "MOYEN",
+      "conviction": 0,
+      "risques_majeurs": [
+        "Verdict non disponible"
+      ],
       "pea": false,
       "tr": true,
       "etf_pea_alt": "PUST.PA"
@@ -39,8 +48,17 @@
       "dist_ma200_pct": -35.4,
       "range_52w_position": 0.0,
       "technical_score": 65,
+      "low_news_coverage": true,
       "verdict": "ATTENDRE",
-      "conviction": null,
+      "type_baisse": "MIXTE",
+      "raison_baisse": "Analyse Claude indisponible.",
+      "catalyseur_rebond": null,
+      "niveau_entree_suggere": null,
+      "horizon": "MOYEN",
+      "conviction": 0,
+      "risques_majeurs": [
+        "Verdict non disponible"
+      ],
       "pea": false,
       "tr": true,
       "etf_pea_alt": "PAEEM.PA"
@@ -61,8 +79,17 @@
       "dist_ma200_pct": -32.57,
       "range_52w_position": 0.0,
       "technical_score": 65,
+      "low_news_coverage": true,
       "verdict": "ATTENDRE",
-      "conviction": null,
+      "type_baisse": "MIXTE",
+      "raison_baisse": "Analyse Claude indisponible.",
+      "catalyseur_rebond": null,
+      "niveau_entree_suggere": null,
+      "horizon": "MOYEN",
+      "conviction": 0,
+      "risques_majeurs": [
+        "Verdict non disponible"
+      ],
       "pea": false,
       "tr": true,
       "etf_pea_alt": "PUST.PA"
@@ -83,8 +110,17 @@
       "dist_ma200_pct": -40.66,
       "range_52w_position": 0.026,
       "technical_score": 20,
+      "low_news_coverage": true,
       "verdict": "ATTENDRE",
-      "conviction": null,
+      "type_baisse": "MIXTE",
+      "raison_baisse": "Analyse Claude indisponible.",
+      "catalyseur_rebond": null,
+      "niveau_entree_suggere": null,
+      "horizon": "MOYEN",
+      "conviction": 0,
+      "risques_majeurs": [
+        "Verdict non disponible"
+      ],
       "pea": false,
       "tr": true,
       "etf_pea_alt": "PUST.PA"
@@ -105,8 +141,17 @@
       "dist_ma200_pct": -36.03,
       "range_52w_position": 0.0,
       "technical_score": 65,
+      "low_news_coverage": true,
       "verdict": "ATTENDRE",
-      "conviction": null,
+      "type_baisse": "MIXTE",
+      "raison_baisse": "Analyse Claude indisponible.",
+      "catalyseur_rebond": null,
+      "niveau_entree_suggere": null,
+      "horizon": "MOYEN",
+      "conviction": 0,
+      "risques_majeurs": [
+        "Verdict non disponible"
+      ],
       "pea": false,
       "tr": true,
       "etf_pea_alt": "PAEEM.PA"
@@ -127,8 +172,17 @@
       "dist_ma200_pct": -24.8,
       "range_52w_position": 0.087,
       "technical_score": 35,
+      "low_news_coverage": true,
       "verdict": "ATTENDRE",
-      "conviction": null,
+      "type_baisse": "MIXTE",
+      "raison_baisse": "Analyse Claude indisponible.",
+      "catalyseur_rebond": null,
+      "niveau_entree_suggere": null,
+      "horizon": "MOYEN",
+      "conviction": 0,
+      "risques_majeurs": [
+        "Verdict non disponible"
+      ],
       "pea": false,
       "tr": true,
       "etf_pea_alt": "PUST.PA"
@@ -149,8 +203,17 @@
       "dist_ma200_pct": -33.13,
       "range_52w_position": 0.0,
       "technical_score": 50,
+      "low_news_coverage": true,
       "verdict": "ATTENDRE",
-      "conviction": null,
+      "type_baisse": "MIXTE",
+      "raison_baisse": "Analyse Claude indisponible.",
+      "catalyseur_rebond": null,
+      "niveau_entree_suggere": null,
+      "horizon": "MOYEN",
+      "conviction": 0,
+      "risques_majeurs": [
+        "Verdict non disponible"
+      ],
       "pea": false,
       "tr": true,
       "etf_pea_alt": "PAEEM.PA"
@@ -171,8 +234,17 @@
       "dist_ma200_pct": -47.53,
       "range_52w_position": 0.0,
       "technical_score": 35,
+      "low_news_coverage": true,
       "verdict": "ATTENDRE",
-      "conviction": null,
+      "type_baisse": "MIXTE",
+      "raison_baisse": "Analyse Claude indisponible.",
+      "catalyseur_rebond": null,
+      "niveau_entree_suggere": null,
+      "horizon": "MOYEN",
+      "conviction": 0,
+      "risques_majeurs": [
+        "Verdict non disponible"
+      ],
       "pea": false,
       "tr": true,
       "etf_pea_alt": "PUST.PA"
@@ -193,8 +265,17 @@
       "dist_ma200_pct": -27.13,
       "range_52w_position": 0.0,
       "technical_score": 65,
+      "low_news_coverage": true,
       "verdict": "ATTENDRE",
-      "conviction": null,
+      "type_baisse": "MIXTE",
+      "raison_baisse": "Analyse Claude indisponible.",
+      "catalyseur_rebond": null,
+      "niveau_entree_suggere": null,
+      "horizon": "MOYEN",
+      "conviction": 0,
+      "risques_majeurs": [
+        "Verdict non disponible"
+      ],
       "pea": false,
       "tr": true,
       "etf_pea_alt": "PUST.PA"
@@ -215,8 +296,17 @@
       "dist_ma200_pct": -18.7,
       "range_52w_position": 0.237,
       "technical_score": 50,
+      "low_news_coverage": true,
       "verdict": "ATTENDRE",
-      "conviction": null,
+      "type_baisse": "MIXTE",
+      "raison_baisse": "Analyse Claude indisponible.",
+      "catalyseur_rebond": null,
+      "niveau_entree_suggere": null,
+      "horizon": "MOYEN",
+      "conviction": 0,
+      "risques_majeurs": [
+        "Verdict non disponible"
+      ],
       "pea": false,
       "tr": true,
       "etf_pea_alt": "PAEEM.PA"
@@ -237,8 +327,17 @@
       "dist_ma200_pct": -36.73,
       "range_52w_position": 0.107,
       "technical_score": 20,
+      "low_news_coverage": true,
       "verdict": "ATTENDRE",
-      "conviction": null,
+      "type_baisse": "MIXTE",
+      "raison_baisse": "Analyse Claude indisponible.",
+      "catalyseur_rebond": null,
+      "niveau_entree_suggere": null,
+      "horizon": "MOYEN",
+      "conviction": 0,
+      "risques_majeurs": [
+        "Verdict non disponible"
+      ],
       "pea": false,
       "tr": true,
       "etf_pea_alt": "PUST.PA"
@@ -259,8 +358,17 @@
       "dist_ma200_pct": -14.25,
       "range_52w_position": 0.064,
       "technical_score": 65,
+      "low_news_coverage": true,
       "verdict": "ATTENDRE",
-      "conviction": null,
+      "type_baisse": "MIXTE",
+      "raison_baisse": "Analyse Claude indisponible.",
+      "catalyseur_rebond": null,
+      "niveau_entree_suggere": null,
+      "horizon": "MOYEN",
+      "conviction": 0,
+      "risques_majeurs": [
+        "Verdict non disponible"
+      ],
       "pea": false,
       "tr": true,
       "etf_pea_alt": "PAEEM.PA"
@@ -281,8 +389,17 @@
       "dist_ma200_pct": -33.81,
       "range_52w_position": 0.0,
       "technical_score": 65,
+      "low_news_coverage": true,
       "verdict": "ATTENDRE",
-      "conviction": null,
+      "type_baisse": "MIXTE",
+      "raison_baisse": "Analyse Claude indisponible.",
+      "catalyseur_rebond": null,
+      "niveau_entree_suggere": null,
+      "horizon": "MOYEN",
+      "conviction": 0,
+      "risques_majeurs": [
+        "Verdict non disponible"
+      ],
       "pea": false,
       "tr": true,
       "etf_pea_alt": "PUST.PA"
@@ -303,8 +420,17 @@
       "dist_ma200_pct": -21.05,
       "range_52w_position": 0.0,
       "technical_score": 65,
+      "low_news_coverage": true,
       "verdict": "ATTENDRE",
-      "conviction": null,
+      "type_baisse": "MIXTE",
+      "raison_baisse": "Analyse Claude indisponible.",
+      "catalyseur_rebond": null,
+      "niveau_entree_suggere": null,
+      "horizon": "MOYEN",
+      "conviction": 0,
+      "risques_majeurs": [
+        "Verdict non disponible"
+      ],
       "pea": false,
       "tr": true,
       "etf_pea_alt": "PE500.PA"
@@ -325,8 +451,17 @@
       "dist_ma200_pct": -50.29,
       "range_52w_position": 0.0,
       "technical_score": 65,
+      "low_news_coverage": true,
       "verdict": "ATTENDRE",
-      "conviction": null,
+      "type_baisse": "MIXTE",
+      "raison_baisse": "Analyse Claude indisponible.",
+      "catalyseur_rebond": null,
+      "niveau_entree_suggere": null,
+      "horizon": "MOYEN",
+      "conviction": 0,
+      "risques_majeurs": [
+        "Verdict non disponible"
+      ],
       "pea": false,
       "tr": true,
       "etf_pea_alt": "PUST.PA"

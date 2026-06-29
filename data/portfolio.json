@@ -1,62 +1,30 @@
 {
-  "generated_at": "2026-06-26T09:30:00+02:00",
+  "generated_at": "2026-06-29T09:18:00+02:00",
   "broker_count": 2,
   "positions": [
-    {
-      "ticker": "EXA1.DE",
-      "name": "iShares EURO STOXX Banks 30-15 ETF (Acc)",
-      "pnl_pct": 5.0,
-      "signal": "HOLD",
-      "confidence": "élevé",
-      "rationale": "Secteur bancaire en consolidation après rallye 2025, fondamentaux toujours porteurs."
-    },
-    {
-      "ticker": "EWLD",
-      "name": "Amundi MSCI World SWAP ETF (Dist)",
-      "pnl_pct": 31.4,
-      "signal": "HOLD",
-      "confidence": "élevé",
-      "rationale": "ETF cœur monde diversifié, pas de signe d'essoufflement."
-    },
-    {
-      "ticker": "EUE.PA",
-      "name": "iShares Core EURO STOXX 50 ETF (Dist)",
-      "pnl_pct": 12.1,
-      "signal": "HOLD",
-      "confidence": "élevé",
-      "rationale": "Grandes capitalisations zone euro, performance solide."
-    },
-    {
-      "ticker": "RMS.PA",
-      "name": "Hermès International",
-      "pnl_pct": -14.45,
-      "signal": "HOLD",
-      "confidence": "moyen",
-      "rationale": "Proche du seuil de réévaluation, downgrades analystes mais consensus reste acheteur."
-    },
-    {
-      "ticker": "IPX",
-      "name": "IperionX Limited",
-      "pnl_pct": 7.3,
-      "signal": "HOLD",
-      "confidence": "moyen",
-      "rationale": "Actu positive mais forte volatilité, prix EUR non vérifiable."
-    },
     {
       "ticker": "OBCK.DE",
       "name": "Ottobock SE",
       "pnl_pct": -15.71,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Seuil de réévaluation forcée atteint, pas de catalyseur négatif additionnel."
+      "rationale": "Fondamentaux en amélioration (cession fauteuils, marge Q1 en hausse) mais cours déprimé — pas de signal net."
     },
     {
-      "ticker": "SIE.DE",
-      "name": "Siemens AG",
-      "pnl_pct": 3.18,
+      "ticker": "RMS.PA",
+      "name": "Hermès International",
+      "pnl_pct": -14.45,
+      "signal": "POSER UN STOP",
+      "confidence": "moyen",
+      "rationale": "Proche du seuil -15 %, secteur luxe en pression (Chine, révisions analystes à la baisse)."
+    },
+    {
+      "ticker": "IPX",
+      "name": "IperionX Limited",
+      "pnl_pct": 7.3,
       "signal": "HOLD",
-      "confidence": "élevé",
-      "rationale": "Achat récent, lancement IA et rachat d'actions en cours."
+      "confidence": "faible",
+      "rationale": "Écart de prix majeur détecté — le cours USD a fortement chuté, P&L réel probablement bien inférieur au snapshot."
     },
     {
       "ticker": "3750.HK",
@@ -64,7 +32,7 @@
       "pnl_pct": -0.58,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Batteries sodium-ion en production de masse, conversion EUR non vérifiable."
+      "rationale": "Actu innovation positive (sodium-ion, lithium-air) mais devise/place incertaine."
     },
     {
       "ticker": "ASML.AS",
@@ -72,29 +40,60 @@
       "pnl_pct": 11.43,
       "signal": "HOLD",
       "confidence": "élevé",
-      "rationale": "Guidance relevée, percée technologique, risque géopolitique export controls."
+      "rationale": "Tendance haussière intacte, guidance relevée, pas d'essoufflement."
+    },
+    {
+      "ticker": "SIE.DE",
+      "name": "Siemens AG",
+      "pnl_pct": 0.0,
+      "signal": "HOLD",
+      "confidence": "élevé",
+      "rationale": "Achat récent, cours dans la marge de bruit, consensus positif."
     },
     {
       "ticker": "QBTS",
       "name": "D-Wave Quantum",
       "pnl_pct": 27.76,
-      "signal": "ALLÉGER",
+      "signal": "HOLD",
+      "confidence": "faible",
+      "rationale": "P&L au-dessus du seuil +20 % mais position très petite et pullback récent — pas de conviction suffisante."
+    },
+    {
+      "ticker": "EWLD",
+      "name": "Amundi MSCI World SWAP ETF",
+      "pnl_pct": 29.84,
+      "signal": "HOLD",
+      "confidence": "élevé",
+      "rationale": "Cœur de portefeuille diversifié monde, pas de raison tactique de vendre."
+    },
+    {
+      "ticker": "EUE.PA",
+      "name": "iShares Core EURO STOXX 50 ETF",
+      "pnl_pct": 7.19,
+      "signal": "HOLD",
+      "confidence": "élevé",
+      "rationale": "Légère baisse dans la fourchette normale, pas de catalyseur."
+    },
+    {
+      "ticker": "EXA1.DE",
+      "name": "iShares EURO STOXX Banks 30-15 ETF",
+      "pnl_pct": 6.91,
+      "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "PnL au-dessus du seuil de prise de profit, insider selling et volatilité extrême."
+      "rationale": "Pas de catalyseur sectoriel net, mais concentration excessive à surveiller."
     }
   ],
   "orders_to_consider": [
     {
-      "action": "ALLÉGER",
-      "instrument": "D-Wave Quantum (QBTS)",
-      "details": "vendre environ un tiers de la ligne",
-      "rationale": "PnL > seuil de prise de profit, insider selling signalé, position très spéculative et très petite."
+      "action": "POSER UN STOP",
+      "instrument": "Hermès International (RMS.PA)",
+      "details": "stop mental sur la totalité de la ligne à environ -20 % vs PRU",
+      "rationale": "P&L proche de -15 %, secteur luxe en dégradation — couper si le seuil est franchi."
     }
   ],
   "risk_flags": [
-    "Concentration sectorielle élevée : ETF Banques EUR représente environ un tiers du portefeuille.",
-    "Ottobock à −15,7 % — seuil de réévaluation forcée atteint, choix explicite requis.",
-    "Hermès à −14,5 % — proche du seuil de réévaluation, à surveiller.",
-    "Tickers IPX, CATL, QBTS : prix EUR sur place allemande non vérifiables via web."
+    "Concentration iShares Banks (EXA1) à ~36 % du portefeuille — très au-dessus du plafond de 25 %.",
+    "IperionX (IPX) : écart de prix majeur détecté, vérifier la valeur réelle dans l'application TR.",
+    "Hermès (RMS) proche du seuil de réévaluation forcée (-15 %)."
   ]
 }

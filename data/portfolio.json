@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-06-29T09:18:00+02:00",
+  "generated_at": "2026-06-30T09:30:00+02:00",
   "broker_count": 2,
   "positions": [
     {
       "ticker": "OBCK.DE",
       "name": "Ottobock SE",
-      "pnl_pct": -15.71,
+      "pnl_pct": -17.3,
       "signal": "HOLD",
-      "confidence": "moyen",
-      "rationale": "Fondamentaux en amélioration (cession fauteuils, marge Q1 en hausse) mais cours déprimé — pas de signal net."
+      "confidence": "faible",
+      "rationale": "Seuil -15 % potentiellement franchi (cours web ~52 EUR) mais données suspectes (consensus analystes plancher 66 EUR) — impossible de confirmer sans vérification sur TR."
     },
     {
       "ticker": "RMS.PA",
       "name": "Hermès International",
-      "pnl_pct": -14.45,
+      "pnl_pct": -14.9,
       "signal": "POSER UN STOP",
       "confidence": "moyen",
-      "rationale": "Proche du seuil -15 %, secteur luxe en pression (Chine, révisions analystes à la baisse)."
+      "rationale": "P&L à -15 %, secteur luxe dégradé (HSBC downgrade, JPMorgan PT cut). Stop mental recommandé à ~1 550 EUR."
     },
     {
       "ticker": "IPX",
@@ -24,76 +24,83 @@
       "pnl_pct": 7.3,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Écart de prix majeur détecté — le cours USD a fortement chuté, P&L réel probablement bien inférieur au snapshot."
+      "rationale": "DFS très positif (NPV $813M, IRR 39 %) mais réaction sell-the-news en USD ; P&L réel en EUR inconnu — vérifier sur TR."
     },
     {
       "ticker": "3750.HK",
       "name": "CATL",
-      "pnl_pct": -0.58,
+      "pnl_pct": -0.6,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Actu innovation positive (sodium-ion, lithium-air) mais devise/place incertaine."
+      "rationale": "Fondamentaux solides (profit Q1 +49 %, upgrades DBS/Barclays/Citi, cible Citi +30 %) mais devise/place TR incertaine — vérifier avant d'agir."
     },
     {
       "ticker": "ASML.AS",
       "name": "ASML Holding",
-      "pnl_pct": 11.43,
+      "pnl_pct": 11.2,
       "signal": "HOLD",
       "confidence": "élevé",
-      "rationale": "Tendance haussière intacte, guidance relevée, pas d'essoufflement."
+      "rationale": "ATH atteint le 22/06, repli -7 % lié aux export controls (Pax Silica). Seuil prise de profit non atteint, analystes toujours bullish."
     },
     {
       "ticker": "SIE.DE",
       "name": "Siemens AG",
-      "pnl_pct": 0.0,
+      "pnl_pct": 1.8,
       "signal": "HOLD",
       "confidence": "élevé",
-      "rationale": "Achat récent, cours dans la marge de bruit, consensus positif."
+      "rationale": "Achat récent, légère hausse dans la marge de bruit, Q2 FY2026 solide — rien à faire."
     },
     {
       "ticker": "QBTS",
       "name": "D-Wave Quantum",
-      "pnl_pct": 27.76,
+      "pnl_pct": 19.0,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "P&L au-dessus du seuil +20 % mais position très petite et pullback récent — pas de conviction suffisante."
+      "rationale": "P&L proche du seuil +20 % mais position très petite et conversion EUR incertaine. Q1 record en bookings mais très spéculatif."
     },
     {
       "ticker": "EWLD",
-      "name": "Amundi MSCI World SWAP ETF",
-      "pnl_pct": 29.84,
+      "name": "Amundi MSCI World SWAP ETF Dist",
+      "pnl_pct": 31.4,
       "signal": "HOLD",
       "confidence": "élevé",
-      "rationale": "Cœur de portefeuille diversifié monde, pas de raison tactique de vendre."
+      "rationale": "Cœur de portefeuille monde diversifié — P&L >+30 % mais pas de raison tactique de réduire."
     },
     {
       "ticker": "EUE.PA",
       "name": "iShares Core EURO STOXX 50 ETF",
-      "pnl_pct": 7.19,
+      "pnl_pct": 4.3,
       "signal": "HOLD",
       "confidence": "élevé",
-      "rationale": "Légère baisse dans la fourchette normale, pas de catalyseur."
+      "rationale": "ETF cœur zone euro, stable, pas de catalyseur d'action."
     },
     {
       "ticker": "EXA1.DE",
       "name": "iShares EURO STOXX Banks 30-15 ETF",
-      "pnl_pct": 6.91,
-      "signal": "HOLD",
+      "pnl_pct": 15.8,
+      "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Pas de catalyseur sectoriel net, mais concentration excessive à surveiller."
+      "rationale": "Concentration ~38 % du portefeuille (bien au-dessus du plafond 25 %) + P&L +15,8 % approchant la zone de prise de profit : 2 facteurs concordants pour réduire d'environ un tiers."
     }
   ],
   "orders_to_consider": [
     {
+      "action": "ALLÉGER",
+      "instrument": "iShares EURO STOXX Banks 30-15 ETF (EXA1.DE)",
+      "details": "vendre environ 30 % de la ligne (~150 parts sur 510) pour ramener la concentration vers 25–27 %",
+      "rationale": "Concentration structurelle excessive (~38 %) + P&L sain à +15,8 % : bon moment pour rééquilibrer sans pression."
+    },
+    {
       "action": "POSER UN STOP",
       "instrument": "Hermès International (RMS.PA)",
-      "details": "stop mental sur la totalité de la ligne à environ -20 % vs PRU",
-      "rationale": "P&L proche de -15 %, secteur luxe en dégradation — couper si le seuil est franchi."
+      "details": "stop mental sur la totalité de la ligne à environ -20 % vs PRU estimé (~1 550 EUR)",
+      "rationale": "P&L à ~-15 %, secteur luxe en dégradation continue — couper si le cours franchit 1 550 EUR à la baisse."
     }
   ],
   "risk_flags": [
-    "Concentration iShares Banks (EXA1) à ~36 % du portefeuille — très au-dessus du plafond de 25 %.",
-    "IperionX (IPX) : écart de prix majeur détecté, vérifier la valeur réelle dans l'application TR.",
-    "Hermès (RMS) proche du seuil de réévaluation forcée (-15 %)."
+    "EXA1 (Banks) : concentration ~38 % du portefeuille, bien au-dessus du plafond 25 %. Ordre ALLÉGER proposé.",
+    "Hermès (RMS) : P&L à ~-15 %, seuil de réévaluation forcée. Stop mental à ~1 550 EUR.",
+    "Ottobock (OBCK.DE) : cours web ~52 EUR très inférieur au consensus analystes (plancher 66 EUR) — vérifier impérativement dans l'appli TR.",
+    "IperionX (IPX) : prix USD très volatile et P&L EUR inconnu — vérifier dans l'appli TR."
   ]
 }

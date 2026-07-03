@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T09:19:00+02:00",
+  "generated_at": "2026-07-03T09:18:00+02:00",
   "broker_count": 2,
   "positions": [
     {
@@ -8,7 +8,7 @@
       "pnl_pct": -15.71,
       "signal": "POSER UN STOP",
       "confidence": "moyen",
-      "rationale": "Seuil de réévaluation forcée (-15 %) franchi ; cession stratégique en négociations finales et soutien analystes fort, mais cours web toujours instable — on maintient avec stop mental."
+      "rationale": "Seuil de réévaluation forcée (-15 %) franchi, tendance baissière confirmée sur plusieurs échelles de temps ; cours web toujours instable — on maintient avec stop mental."
     },
     {
       "ticker": "RMS.PA",
@@ -16,7 +16,7 @@
       "pnl_pct": -14.45,
       "signal": "POSER UN STOP",
       "confidence": "moyen",
-      "rationale": "P&L proche du seuil de réévaluation forcée, tendance hebdomadaire dégradée. Stop mental maintenu en attendant les résultats S1 fin juillet."
+      "rationale": "P&L proche du seuil de réévaluation forcée, tendance de fond baissière. Stop mental maintenu en attendant les résultats S1 fin juillet."
     },
     {
       "ticker": "IPX",
@@ -32,7 +32,7 @@
       "pnl_pct": -0.58,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Mouvement du jour dans la marge de bruit, place de cotation TR toujours à confirmer."
+      "rationale": "Mouvement du jour dans la marge de bruit, titre stabilisé après un récent aller-retour ; place de cotation TR toujours à confirmer."
     },
     {
       "ticker": "ASML.AS",
@@ -40,15 +40,15 @@
       "pnl_pct": 11.43,
       "signal": "POSER UN STOP",
       "confidence": "moyen",
-      "rationale": "Chute nette sur craintes de restrictions à l'export après un plus-haut historique : on protège la plus-value avec un stop mental, sans vendre."
+      "rationale": "Rebond net après le décrochage précédent : on protège la plus-value avec un stop mental relevé, sans vendre, avant la publication trimestrielle de juillet."
     },
     {
       "ticker": "SIE.DE",
       "name": "Siemens AG",
       "pnl_pct": 0.0,
       "signal": "HOLD",
-      "confidence": "faible",
-      "rationale": "Position tout juste ouverte, quasi au prix de revient. Cours web incohérents entre sources et actualité mitigée — signal encore à former."
+      "confidence": "moyen",
+      "rationale": "Cours proche d'un plus haut historique avec soutien analystes clair, mais pas de repli net pour renforcer ni de signal de vente."
     },
     {
       "ticker": "QBTS",
@@ -56,7 +56,7 @@
       "pnl_pct": 27.76,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Seuil de prise de profit dépassé mais aucun signe d'essoufflement près d'un sommet — à surveiller de près."
+      "rationale": "Seuil de prise de profit dépassé, inquiétudes de valorisation mentionnées mais pas de spike net ni de repli marqué — à surveiller de près."
     },
     {
       "ticker": "EWLD",
@@ -64,7 +64,7 @@
       "pnl_pct": 29.84,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Cœur de portefeuille mondial très diversifié — aucune raison tactique de réduire malgré une incertitude persistante sur le ticker exact."
+      "rationale": "Cœur de portefeuille mondial très diversifié — aucune raison tactique de réduire ; ticker exact identifié aujourd'hui (à confirmer par l'utilisateur)."
     },
     {
       "ticker": "EUE.PA",
@@ -72,7 +72,7 @@
       "pnl_pct": 7.19,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Cours web non exploitable aujourd'hui (donnée d'indice plutôt que de part) : référence du fichier conservée, pas de signal net."
+      "rationale": "Cours de part introuvable aujourd'hui : référence du fichier conservée, pas de signal net."
     },
     {
       "ticker": "EXA1.DE",
@@ -80,7 +80,7 @@
       "pnl_pct": 6.91,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Concentration très au-dessus du plafond de 25 % du portefeuille, combinée à un gain sain et un contexte sectoriel porteur : bon moment pour rééquilibrer d'environ un quart de la ligne."
+      "rationale": "Concentration très au-dessus du plafond de 25 % du portefeuille, combinée à un gain sain : bon moment pour rééquilibrer d'environ un quart de la ligne."
     }
   ],
   "orders_to_consider": [
@@ -88,33 +88,33 @@
       "action": "ALLÉGER",
       "instrument": "iShares EURO STOXX Banks 30-15 ETF (EXA1.DE)",
       "details": "vendre environ 25 à 30 % de la ligne pour ramener la concentration vers ~26-27 %",
-      "rationale": "Concentration structurelle excessive (~36 % du portefeuille) combinée à un gain sain et un contexte sectoriel porteur pour les banques."
+      "rationale": "Concentration structurelle excessive (~36 % du portefeuille) combinée à un gain sain."
     },
     {
       "action": "POSER UN STOP",
       "instrument": "Ottobock SE (OBCK.DE)",
-      "details": "stop mental sur la ligne restante si le P&L s'aggrave au-delà d'environ -20 %",
-      "rationale": "Seuil de réévaluation forcée déjà franchi, malgré un soutien analyste fort et une cession stratégique en cours."
+      "details": "stop mental sur la ligne restante si le P&L s'aggrave nettement",
+      "rationale": "Seuil de réévaluation forcée déjà franchi, tendance baissière confirmée sur plusieurs échelles de temps."
     },
     {
       "action": "POSER UN STOP",
       "instrument": "Hermès International (RMS.PA)",
       "details": "stop mental sur la totalité de la ligne si casse nette sous les niveaux actuels",
-      "rationale": "P&L proche du seuil de réévaluation forcée, tendance hebdomadaire dégradée."
+      "rationale": "P&L proche du seuil de réévaluation forcée, tendance de fond baissière."
     },
     {
       "action": "POSER UN STOP",
       "instrument": "ASML Holding (ASML.AS)",
-      "details": "stop mental sur la ligne, sans vente immédiate",
-      "rationale": "Chute nette après un plus-haut historique, sur craintes de restrictions à l'export : protection de la plus-value en cours."
+      "details": "stop mental relevé sur la ligne, sans vente immédiate",
+      "rationale": "Rebond net après le décrochage précédent : protection de la plus-value avant la publication trimestrielle de juillet."
     }
   ],
   "risk_flags": [
-    "EXA1 (Banks) : concentration ~36 % du portefeuille, bien au-dessus du plafond de 25 %. Ordre ALLÉGER proposé à nouveau.",
+    "EXA1 (Banks) : concentration ~36 % du portefeuille, bien au-dessus du plafond de 25 %. Ordre ALLÉGER reconduit sans exécution constatée.",
     "Amundi MSCI World Dist à ~26 %, légèrement au-dessus du seuil de 25 % (risque moindre, ETF très diversifié).",
-    "Ottobock : seuil de réévaluation forcée (-15 %) franchi, stop mental posé.",
+    "Ottobock : seuil de réévaluation forcée (-15 %) franchi, tendance baissière confirmée, stop mental maintenu.",
     "Hermès : P&L proche du seuil de réévaluation forcée (-15 %), stop mental maintenu.",
-    "ASML : chute nette après un plus-haut historique sur craintes de restrictions à l'export, nouveau stop mental posé.",
-    "Plusieurs lignes ont des cours web incohérents ou non fiables (Ottobock, IperionX, Siemens, CATL, EURO STOXX 50) — vérifier dans les applis courtier avant toute action."
+    "ASML : rebond net après le décrochage précédent, stop mental relevé pour protéger la plus-value.",
+    "Cours web incohérents ou non fiables pour Ottobock, IperionX et l'ETF EURO STOXX 50 (EUE.PA) — vérifier dans les applis courtier avant toute action."
   ]
 }

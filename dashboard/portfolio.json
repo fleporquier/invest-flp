@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T09:18:00+02:00",
+  "generated_at": "2026-07-08T09:18:00+02:00",
   "broker_count": 2,
   "positions": [
     {
@@ -8,7 +8,7 @@
       "pnl_pct": -15.71,
       "signal": "POSER UN STOP",
       "confidence": "moyen",
-      "rationale": "Seuil de réévaluation forcée franchi ; cession stratégique en cours (Human Mobility), stop mental maintenu plutôt que vente."
+      "rationale": "Seuil de réévaluation forcée franchi ; actualité récente plutôt positive à moyen terme (acquisition, partenariat), stop mental maintenu."
     },
     {
       "ticker": "RMS.PA",
@@ -16,23 +16,23 @@
       "pnl_pct": -14.45,
       "signal": "POSER UN STOP",
       "confidence": "moyen",
-      "rationale": "Proche du seuil de réévaluation forcée, cours web trop incohérents pour affiner. Stop mental maintenu par prudence."
+      "rationale": "Proche du seuil de réévaluation forcée, objectif d'analyste abaissé sur fond de faiblesse chinoise, résultats attendus fin juillet."
     },
     {
       "ticker": "IPX",
       "name": "IperionX Limited",
       "pnl_pct": 7.30,
-      "signal": "HOLD",
-      "confidence": "faible",
-      "rationale": "Sources de cours toujours trop divergentes, malgré un fond positif (contrats défense US)."
+      "signal": "ALLÉGER",
+      "confidence": "moyen",
+      "rationale": "Levée de fonds dilutive tout juste actée et repli marqué du cours depuis les plus hauts récents."
     },
     {
       "ticker": "3750.HK",
       "name": "CATL",
       "pnl_pct": -0.58,
       "signal": "HOLD",
-      "confidence": "moyen",
-      "rationale": "Mouvement du jour dans la marge de bruit, fondamentaux solides mais déjà connus, rien de matériel à 24h."
+      "confidence": "faible",
+      "rationale": "Cours web proche des plus hauts historiques, incohérent avec la valorisation du fichier ; à vérifier avant toute action."
     },
     {
       "ticker": "ASML.AS",
@@ -40,7 +40,7 @@
       "pnl_pct": 11.43,
       "signal": "POSER UN STOP",
       "confidence": "moyen",
-      "rationale": "Repli du jour lié au décrochage sectoriel des semi-conducteurs ; stop mental pour protéger la plus-value avant les résultats du 15/07."
+      "rationale": "Repli du jour lié à une contagion sectorielle ; stop mental pour protéger la plus-value avant les résultats prochains."
     },
     {
       "ticker": "SIE.DE",
@@ -48,7 +48,7 @@
       "pnl_pct": 0.0,
       "signal": "HOLD",
       "confidence": "élevé",
-      "rationale": "Mouvement du jour dans la marge de bruit, aucune actualité négative, ligne trop récente pour un signal."
+      "rationale": "Baisse du jour alignée sur un marché européen globalement baissier, fondamentaux trimestriels solides."
     },
     {
       "ticker": "QBTS",
@@ -56,7 +56,7 @@
       "pnl_pct": 27.76,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Gain très supérieur à 20 % sur ligne spéculative, risque de valorisation sectorielle signalé par les analystes."
+      "rationale": "Gain très supérieur à 20 % sur ligne spéculative ; une nouvelle acquisition ajoute un risque de dilution/intégration."
     },
     {
       "ticker": "EWLD",
@@ -64,7 +64,7 @@
       "pnl_pct": 29.84,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Cœur de portefeuille mondial très diversifié, contexte indiciel global toujours porteur."
+      "rationale": "Cœur de portefeuille mondial très diversifié, pas de signal net d'essoufflement propre à la ligne aujourd'hui."
     },
     {
       "ticker": "EUE.PA",
@@ -72,7 +72,7 @@
       "pnl_pct": 7.19,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Contexte sectoriel porteur (indice proche de ses records), pas de signal net justifiant une action."
+      "rationale": "Repli du jour dans un contexte de prudence générale, aucun seuil de décision franchi."
     },
     {
       "ticker": "EXA1.DE",
@@ -80,7 +80,7 @@
       "pnl_pct": 6.91,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Concentration très au-dessus du plafond de 25 % du portefeuille, combinée à un gain sain et un contexte sectoriel porteur."
+      "rationale": "Concentration très au-dessus du plafond de 25 % du portefeuille, combinée à un gain sain."
     }
   ],
   "orders_to_consider": [
@@ -94,7 +94,13 @@
       "action": "ALLÉGER",
       "instrument": "D-Wave Quantum (QBTS)",
       "details": "vendre environ 20 à 25 % de la ligne",
-      "rationale": "Gain supérieur à 20 % sur ligne spéculative, risque de valorisation sectorielle signalé."
+      "rationale": "Gain supérieur à 20 % sur ligne spéculative ; nouvelle acquisition ajoutant un risque de dilution."
+    },
+    {
+      "action": "ALLÉGER",
+      "instrument": "IperionX (IPX)",
+      "details": "vendre environ 20 à 33 % de la ligne",
+      "rationale": "Levée de fonds dilutive tout juste actée et repli marqué du cours depuis les plus hauts récents."
     },
     {
       "action": "POSER UN STOP",
@@ -106,21 +112,22 @@
       "action": "POSER UN STOP",
       "instrument": "Hermès International (RMS.PA)",
       "details": "stop mental sur la totalité de la ligne",
-      "rationale": "P&L proche du seuil de réévaluation forcée."
+      "rationale": "P&L proche du seuil de réévaluation forcée, objectif d'analyste abaissé."
     },
     {
       "action": "POSER UN STOP",
       "instrument": "ASML Holding (ASML.AS)",
       "details": "stop mental relevé sur la ligne, sans vente immédiate",
-      "rationale": "Protection de la plus-value avant la publication trimestrielle, dans un contexte de décrochage sectoriel."
+      "rationale": "Protection de la plus-value avant la publication trimestrielle, contagion sectorielle en cours."
     }
   ],
   "risk_flags": [
     "EXA1 (Banks) : concentration ~36 % du portefeuille, bien au-dessus du plafond de 25 %. Ordre ALLÉGER reconduit sans exécution constatée.",
     "Amundi MSCI World Dist à ~26 %, légèrement au-dessus du seuil de 25 % (risque moindre, ETF très diversifié).",
     "Ottobock : seuil de réévaluation forcée (-15 %) franchi, stop mental maintenu.",
-    "Hermès : proche du seuil de réévaluation forcée, cours web incohérents.",
-    "D-Wave : signal de prise de profit maintenu, risque de valorisation sectorielle sur le secteur quantique.",
-    "Cours web incohérents ou peu fiables pour Hermès, IperionX et (en première recherche) l'ETF EURO STOXX 50 — vérifier dans les applis courtier avant toute action."
+    "Hermès : proche du seuil de réévaluation forcée, objectif d'analyste abaissé, résultats fin juillet.",
+    "D-Wave : signal de prise de profit maintenu, nouvelle acquisition ajoutant un risque de dilution/intégration.",
+    "IperionX : levée de fonds dilutive tout juste actée, repli marqué du cours depuis les plus hauts récents.",
+    "Qualité des données : valorisation CATL et IperionX dans le fichier de suivi probablement obsolète au regard des cours actuels — à vérifier dans les applis courtier."
   ]
 }

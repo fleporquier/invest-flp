@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T09:18:00+02:00",
+  "generated_at": "2026-07-09T09:17:00+02:00",
   "broker_count": 2,
   "positions": [
     {
@@ -16,7 +16,7 @@
       "pnl_pct": -14.45,
       "signal": "POSER UN STOP",
       "confidence": "moyen",
-      "rationale": "Proche du seuil de réévaluation forcée, objectif d'analyste abaissé sur fond de faiblesse chinoise, résultats attendus fin juillet."
+      "rationale": "Proche du seuil de réévaluation forcée ; repli récent surtout lié au contexte de marché général, résultats attendus fin juillet."
     },
     {
       "ticker": "IPX",
@@ -24,7 +24,7 @@
       "pnl_pct": 7.30,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Levée de fonds dilutive tout juste actée et repli marqué du cours depuis les plus hauts récents."
+      "rationale": "Placement dilutif confirmé et recul de cours rapporté par la presse, cotation du jour peu fiable."
     },
     {
       "ticker": "3750.HK",
@@ -32,15 +32,15 @@
       "pnl_pct": -0.58,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Cours web proche des plus hauts historiques, incohérent avec la valorisation du fichier ; à vérifier avant toute action."
+      "rationale": "Cours de marché toujours en forte contradiction avec la valorisation du fichier ; à vérifier avant toute action."
     },
     {
       "ticker": "ASML.AS",
       "name": "ASML Holding",
       "pnl_pct": 11.43,
       "signal": "POSER UN STOP",
-      "confidence": "moyen",
-      "rationale": "Repli du jour lié à une contagion sectorielle ; stop mental pour protéger la plus-value avant les résultats prochains."
+      "confidence": "faible",
+      "rationale": "Cours du jour écarté pour incohérence ; stop mental maintenu pour protéger la plus-value avant les résultats prochains."
     },
     {
       "ticker": "SIE.DE",
@@ -48,7 +48,7 @@
       "pnl_pct": 0.0,
       "signal": "HOLD",
       "confidence": "élevé",
-      "rationale": "Baisse du jour alignée sur un marché européen globalement baissier, fondamentaux trimestriels solides."
+      "rationale": "Repli aligné sur un marché européen tendu par le contexte géopolitique, fondamentaux solides et pas d'actualité négative propre."
     },
     {
       "ticker": "QBTS",
@@ -56,7 +56,7 @@
       "pnl_pct": 27.76,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Gain très supérieur à 20 % sur ligne spéculative ; une nouvelle acquisition ajoute un risque de dilution/intégration."
+      "rationale": "Gain très supérieur à 20 % et repli net depuis les plus hauts malgré une actualité positive, signe d'essoufflement confirmé."
     },
     {
       "ticker": "EWLD",
@@ -72,7 +72,7 @@
       "pnl_pct": 7.19,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Repli du jour dans un contexte de prudence générale, aucun seuil de décision franchi."
+      "rationale": "Repli limité de l'indice de référence, aucun seuil de décision franchi ; cotation de l'ETF peu fiable ce run."
     },
     {
       "ticker": "EXA1.DE",
@@ -94,13 +94,13 @@
       "action": "ALLÉGER",
       "instrument": "D-Wave Quantum (QBTS)",
       "details": "vendre environ 20 à 25 % de la ligne",
-      "rationale": "Gain supérieur à 20 % sur ligne spéculative ; nouvelle acquisition ajoutant un risque de dilution."
+      "rationale": "Gain supérieur à 20 % sur ligne spéculative et repli net depuis les plus hauts, essoufflement confirmé."
     },
     {
       "action": "ALLÉGER",
       "instrument": "IperionX (IPX)",
       "details": "vendre environ 20 à 33 % de la ligne",
-      "rationale": "Levée de fonds dilutive tout juste actée et repli marqué du cours depuis les plus hauts récents."
+      "rationale": "Placement dilutif confirmé et recul de cours rapporté par la presse."
     },
     {
       "action": "POSER UN STOP",
@@ -112,22 +112,22 @@
       "action": "POSER UN STOP",
       "instrument": "Hermès International (RMS.PA)",
       "details": "stop mental sur la totalité de la ligne",
-      "rationale": "P&L proche du seuil de réévaluation forcée, objectif d'analyste abaissé."
+      "rationale": "P&L proche du seuil de réévaluation forcée, résultats fin juillet à venir."
     },
     {
       "action": "POSER UN STOP",
       "instrument": "ASML Holding (ASML.AS)",
       "details": "stop mental relevé sur la ligne, sans vente immédiate",
-      "rationale": "Protection de la plus-value avant la publication trimestrielle, contagion sectorielle en cours."
+      "rationale": "Protection de la plus-value avant la publication trimestrielle du 15/07."
     }
   ],
   "risk_flags": [
     "EXA1 (Banks) : concentration ~36 % du portefeuille, bien au-dessus du plafond de 25 %. Ordre ALLÉGER reconduit sans exécution constatée.",
     "Amundi MSCI World Dist à ~26 %, légèrement au-dessus du seuil de 25 % (risque moindre, ETF très diversifié).",
     "Ottobock : seuil de réévaluation forcée (-15 %) franchi, stop mental maintenu.",
-    "Hermès : proche du seuil de réévaluation forcée, objectif d'analyste abaissé, résultats fin juillet.",
-    "D-Wave : signal de prise de profit maintenu, nouvelle acquisition ajoutant un risque de dilution/intégration.",
-    "IperionX : levée de fonds dilutive tout juste actée, repli marqué du cours depuis les plus hauts récents.",
-    "Qualité des données : valorisation CATL et IperionX dans le fichier de suivi probablement obsolète au regard des cours actuels — à vérifier dans les applis courtier."
+    "Hermès : proche du seuil de réévaluation forcée, résultats fin juillet.",
+    "D-Wave : signal de prise de profit renforcé par un repli net depuis les plus hauts malgré une actualité positive.",
+    "IperionX : placement dilutif confirmé, recul de cours rapporté par la presse, cotation du jour peu fiable.",
+    "Qualité des données : run atypique avec plusieurs cotations incohérentes (ASML, Siemens, EXA1.DE, IperionX) — à vérifier dans les applis courtier avant toute action."
   ]
 }

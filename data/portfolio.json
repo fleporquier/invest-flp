@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T09:18:00+02:00",
+  "generated_at": "2026-07-13T09:17:00+02:00",
   "broker_count": 2,
   "positions": [
     {
@@ -8,7 +8,7 @@
       "pnl_pct": -15.71,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Ligne déjà réduite de moitié en juin, soutien analystes fort sans catalyseur négatif frais malgré le franchissement du seuil -15 %."
+      "rationale": "Acquisition stratégique récente et partenariat renforcé, aucun catalyseur négatif frais malgré le franchissement du seuil -15 %."
     },
     {
       "ticker": "RMS.PA",
@@ -16,7 +16,7 @@
       "pnl_pct": -14.45,
       "signal": "POSER UN STOP",
       "confidence": "moyen",
-      "rationale": "Deux dégradations d'analystes concordantes et proximité du seuil de réévaluation forcée justifient un stop mental avant les résultats fin juillet."
+      "rationale": "Tendance de fond qui se dégrade et proximité du seuil de réévaluation forcée justifient le maintien d'un stop mental avant les résultats fin juillet."
     },
     {
       "ticker": "IPX",
@@ -24,7 +24,7 @@
       "pnl_pct": 7.3,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Levée de capital dilutive récente compensée par des objectifs analystes relevés, signaux mixtes."
+      "rationale": "Levée de capital dilutive récente compensée par des soutiens publics/défense positifs, signaux mixtes et cours web peu fiable."
     },
     {
       "ticker": "3750.HK",
@@ -32,7 +32,7 @@
       "pnl_pct": -0.58,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Cours quasi stable, variation dans la marge de bruit, aucune actualité matérielle."
+      "rationale": "Initiation d'une couverture analyste positive mais position quasi à l'équilibre, pas de conviction suffisante pour renforcer."
     },
     {
       "ticker": "ASML.AS",
@@ -40,7 +40,7 @@
       "pnl_pct": 11.43,
       "signal": "HOLD",
       "confidence": "élevé",
-      "rationale": "Tendance sectorielle haussière mais pas de repli pour renforcer ; résultats à venir sous surveillance."
+      "rationale": "Consensus très favorable mais résultats trimestriels imminents, on attend la publication avant tout arbitrage."
     },
     {
       "ticker": "SIE.DE",
@@ -48,7 +48,7 @@
       "pnl_pct": 0.0,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Hausse du jour portée par la dynamique de marché générale, sans catalyseur spécifique à la ligne."
+      "rationale": "Actualité stratégique positive mais non matérielle à court terme, aucun repli net pour renforcer."
     },
     {
       "ticker": "QBTS",
@@ -56,15 +56,15 @@
       "pnl_pct": 27.76,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Gain supérieur à 20 % combiné à un signe d'essoufflement sectoriel, prise de profit partielle justifiée."
+      "rationale": "Gain toujours supérieur à 20 % sur ligne spéculative, actualité positive continue mais repli du jour offrant un point d'exécution correct pour une prise de profit partielle."
     },
     {
       "ticker": "EWLD",
       "name": "Amundi MSCI World SWAP ETF Dist",
       "pnl_pct": 29.84,
       "signal": "HOLD",
-      "confidence": "moyen",
-      "rationale": "Cœur de portefeuille diversifié, aucun signe d'essoufflement propre à la ligne malgré le gain élevé."
+      "confidence": "faible",
+      "rationale": "Aucun signal net identifié, cœur de portefeuille diversifié à conserver."
     },
     {
       "ticker": "EUE.PA",
@@ -72,7 +72,7 @@
       "pnl_pct": 7.19,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Hausse modérée, aucun signal net de décision."
+      "rationale": "Cours web peu fiables selon la source, aucun signal net exploitable."
     },
     {
       "ticker": "EXA1.DE",
@@ -80,7 +80,7 @@
       "pnl_pct": 6.91,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Gain modéré dans la tendance sectorielle bancaire, mais ligne très surpondérée à surveiller pour un rééquilibrage progressif."
+      "rationale": "Secteur bancaire européen en fort momentum mais gain encore loin du seuil de prise de profit, ligne très surpondérée à surveiller pour un rééquilibrage progressif."
     }
   ],
   "orders_to_consider": [
@@ -88,19 +88,19 @@
       "action": "ALLÉGER",
       "instrument": "D-Wave Quantum (QBTS)",
       "details": "vendre environ un quart à un tiers de la ligne",
-      "rationale": "Gain supérieur à 20 % sur ligne spéculative et signe d'essoufflement sectoriel récent."
+      "rationale": "Gain toujours supérieur à 20 % sur ligne spéculative, repli du jour offrant un point d'exécution correct pour sécuriser une partie du gain."
     },
     {
       "action": "POSER UN STOP",
       "instrument": "Hermès International (RMS.PA)",
       "details": "stop mental à environ -20 % vs PRU sur la ligne",
-      "rationale": "Dégradations d'analystes concordantes et proximité du seuil de réévaluation forcée avant les résultats fin juillet."
+      "rationale": "Tendance de fond qui se dégrade et proximité du seuil de réévaluation forcée avant les résultats fin juillet."
     }
   ],
   "risk_flags": [
-    "Concentration sévère : une ligne (secteur bancaire) représente plus d'un tiers du portefeuille total, bien au-dessus du plafond de 25 %.",
-    "Concentration : le cœur de portefeuille monde diversifié dépasse également le seuil de 25 % du portefeuille total.",
-    "Ces deux lignes cumulées représentent une large majorité des actifs investis : diversification insuffisante à surveiller.",
-    "Cotation d'une ligne (luxe) très incohérente entre sources aujourd'hui, prudence sur toute décision basée sur le cours instantané."
+    "Positions.json non resynchronisé depuis plusieurs semaines malgré des recommandations actionnables passées.",
+    "Concentration sévère sur la ligne banques européennes (~36 % du portefeuille total).",
+    "Concentration sur l'ETF monde (~26 % du portefeuille total).",
+    "Cours web dispersés/peu fiables sur plusieurs lignes (Hermès, IperionX, ETF actions Europe)."
   ]
 }

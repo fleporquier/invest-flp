@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T09:16:00+02:00",
+  "generated_at": "2026-07-15T09:20:00+02:00",
   "broker_count": 2,
   "positions": [
     {
@@ -7,8 +7,8 @@
       "name": "Ottobock SE",
       "pnl_pct": -15.71,
       "signal": "HOLD",
-      "confidence": "moyen",
-      "rationale": "Cession en cours de la division Human Mobility et consensus analystes très favorable compensent le franchissement du seuil -15 %."
+      "confidence": "faible",
+      "rationale": "Cours web dispersé et incohérent aujourd'hui, aucun élément nouveau matériel sur la cession en cours de la division Human Mobility."
     },
     {
       "ticker": "RMS.PA",
@@ -16,7 +16,7 @@
       "pnl_pct": -14.45,
       "signal": "POSER UN STOP",
       "confidence": "moyen",
-      "rationale": "Secteur luxe sous tension avant les résultats S1 et position proche du seuil de réévaluation forcée -15 % justifient un stop mental."
+      "rationale": "Position toujours proche du seuil de réévaluation forcée -15 % à l'approche des résultats du 29/07, stop mental maintenu."
     },
     {
       "ticker": "IPX",
@@ -24,7 +24,7 @@
       "pnl_pct": 7.3,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Nouveaux contrats défense américains positifs mais cours web trop dispersés pour trancher aujourd'hui."
+      "rationale": "Levée de fonds dilutive ayant fait chuter le titre sur l'annonce, nouveau facteur de prudence, cours encore trop volatil pour trancher."
     },
     {
       "ticker": "3750.HK",
@@ -32,15 +32,15 @@
       "pnl_pct": -0.58,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Guidance de production relevée et profits records, mais position quasi à l'équilibre sans repli net pour renforcer."
+      "rationale": "Flux d'actualité produit toujours positif mais position quasi à l'équilibre, sans repli net pour renforcer."
     },
     {
       "ticker": "ASML.AS",
       "name": "ASML Holding",
       "pnl_pct": 11.43,
-      "signal": "POSER UN STOP",
+      "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Résultats trimestriels demain en pleine correction sectorielle des semi-conducteurs : stop mental de protection du gain avant publication."
+      "rationale": "Résultats trimestriels publiés ce matin nettement au-dessus des attentes avec une guidance relevée, stop de protection levé ; secteur semi-conducteurs encore fragile."
     },
     {
       "ticker": "SIE.DE",
@@ -48,7 +48,7 @@
       "pnl_pct": 0.0,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Carnet de commandes record et objectifs relevés, mais achat trop récent pour un repli exploitable."
+      "rationale": "Aucun catalyseur nouveau aujourd'hui, position trop récente pour un signal de renforcement."
     },
     {
       "ticker": "QBTS",
@@ -56,23 +56,23 @@
       "pnl_pct": 27.76,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Gain toujours supérieur à 20 % sur ligne spéculative, repli sectoriel macro du jour offrant un point d'exécution pour sécuriser une partie du gain."
+      "rationale": "Gain toujours supérieur à 20 % sur ligne spéculative, recommandation de sécurisation partielle reconduite."
     },
     {
       "ticker": "EWLD",
       "name": "Amundi MSCI World SWAP ETF Dist",
       "pnl_pct": 29.84,
       "signal": "HOLD",
-      "confidence": "moyen",
-      "rationale": "Aucun signe d'essoufflement franc malgré le gain, cœur de portefeuille diversifié à conserver ; concentration à surveiller."
+      "confidence": "faible",
+      "rationale": "Cotation du jour non trouvée de façon fiable, contexte indices mondiaux plutôt porteur ; concentration à surveiller."
     },
     {
       "ticker": "EUE.PA",
       "name": "iShares Core EURO STOXX 50 ETF",
       "pnl_pct": 7.19,
       "signal": "HOLD",
-      "confidence": "moyen",
-      "rationale": "Indice quasi stable, aucun catalyseur matériel identifié."
+      "confidence": "faible",
+      "rationale": "Cours web aberrant aujourd'hui, ligne classée par prudence sans action sur une donnée non fiable."
     },
     {
       "ticker": "EXA1.DE",
@@ -80,7 +80,7 @@
       "pnl_pct": 6.91,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Secteur toujours porteur mais analystes évoquent une fin de cycle ; ligne très surpondérée à rééquilibrer progressivement."
+      "rationale": "Secteur bancaire européen toujours en forte dynamique, gain réel qui se rapproche du seuil de prise de profit ; ligne très surpondérée à surveiller."
     }
   ],
   "orders_to_consider": [
@@ -88,26 +88,21 @@
       "action": "ALLÉGER",
       "instrument": "D-Wave Quantum (QBTS)",
       "details": "vendre environ un quart à un tiers de la ligne",
-      "rationale": "Gain toujours supérieur à 20 % sur ligne spéculative, repli sectoriel macro du jour offrant un point d'exécution pour sécuriser une partie du gain."
+      "rationale": "Gain toujours supérieur à 20 % sur ligne spéculative, recommandation de sécurisation partielle reconduite sans exécution."
     },
     {
       "action": "POSER UN STOP",
       "instrument": "Hermès International (RMS.PA)",
       "details": "stop mental à environ -20 % vs PRU sur la ligne",
-      "rationale": "Secteur luxe sous tension et proximité du seuil de réévaluation forcée avant les résultats du 29/07."
-    },
-    {
-      "action": "POSER UN STOP",
-      "instrument": "ASML Holding (ASML.AS)",
-      "details": "stop mental de protection sur environ un tiers à la moitié du gain de la ligne",
-      "rationale": "Résultats trimestriels imminents en pleine correction sectorielle des semi-conducteurs."
+      "rationale": "Position proche du seuil de réévaluation forcée avant les résultats du 29/07."
     }
   ],
   "risk_flags": [
-    "Concentration sévère sur la ligne banques européennes (~36 % du portefeuille total).",
-    "Concentration sur l'ETF monde (~26 % du portefeuille total).",
+    "Concentration sévère sur la ligne banques européennes, gain réel qui se rapproche du seuil de prise de profit de +20 %.",
+    "Concentration sur l'ETF monde (environ un quart du portefeuille total).",
     "Positions.json non resynchronisé depuis plusieurs semaines malgré des recommandations actionnables passées.",
-    "Cours web dispersés/peu fiables sur plusieurs lignes (Hermès, IperionX).",
-    "Catalyseurs binaires imminents : résultats ASML demain, Hermès fin juillet, en contexte de correction sectorielle des semi-conducteurs."
+    "Cours web douteux ou dispersés aujourd'hui sur plusieurs lignes (Ottobock, iShares Core EURO STOXX 50, IperionX).",
+    "Nouveau risque à surveiller : levée de fonds dilutive sur IperionX.",
+    "Catalyseur binaire restant : résultats Hermès le 29/07, position proche du seuil de réévaluation forcée."
   ]
 }

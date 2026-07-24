@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T09:19:00+02:00",
+  "generated_at": "2026-07-24T09:18:00+02:00",
   "broker_count": 2,
   "positions": [
     {
@@ -8,7 +8,7 @@
       "pnl_pct": -15.71,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Cours cohérent aujourd'hui ; seuil de réévaluation forcée -15 % déjà tranché lors d'un run antérieur, aucune actualité fraîche ne remet en cause le maintien."
+      "rationale": "Cession de la division fauteuils roulants et relèvement d'objectif analyste jugés positifs malgré la perte latente, décision déjà tranchée."
     },
     {
       "ticker": "RMS.PA",
@@ -16,7 +16,7 @@
       "pnl_pct": -14.45,
       "signal": "POSER UN STOP",
       "confidence": "moyen",
-      "rationale": "Toujours tout près du seuil de réévaluation forcée -15 %, stop mental proposé maintenu en attendant les résultats semestriels dans six jours."
+      "rationale": "Toujours tout près du seuil de réévaluation forcée, stop mental maintenu à quelques jours des résultats semestriels."
     },
     {
       "ticker": "IPX",
@@ -24,7 +24,7 @@
       "pnl_pct": 7.3,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Cours web toujours trop dispersés entre sources pour être exploitables, pas de signal net."
+      "rationale": "Cours du jour introuvable, donnée la plus récente périmée, pas de signal exploitable."
     },
     {
       "ticker": "3750.HK",
@@ -32,7 +32,7 @@
       "pnl_pct": -0.58,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Relèvement à l'achat d'un grand courtier et lancement produit positifs, mais conseil d'administration/résultats semestriels attendus dès demain : pas de décision avant ce catalyseur binaire."
+      "rationale": "Sources de cours du jour contradictoires ; conseil d'administration pour les résultats semestriels aujourd'hui, publication demain, pas de décision avant ce catalyseur."
     },
     {
       "ticker": "ASML.AS",
@@ -40,7 +40,7 @@
       "pnl_pct": 11.43,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Pas de repli frais confirmé aujourd'hui, donc pas de nouveau signal de renforcement ; le renforcement proposé au run précédent reste valable si non exécuté."
+      "rationale": "Repli sectoriel large sur les semi-conducteurs, mais pas de cotation propre à la ligne fraîche et fiable pour confirmer un signal."
     },
     {
       "ticker": "SIE.DE",
@@ -48,7 +48,7 @@
       "pnl_pct": 0.0,
       "signal": "HOLD",
       "confidence": "élevé",
-      "rationale": "Position quasi flat, aucune actualité propre à la ligne identifiée dans les dernières 24h."
+      "rationale": "Actualité de résultats et de guidance très favorable, mais pas de repli propice à un renforcement."
     },
     {
       "ticker": "QBTS",
@@ -56,7 +56,7 @@
       "pnl_pct": 27.76,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Gain supérieur à 20 % avec spike hors bruit à la veille d'un transfert de cotation, événement ponctuel plutôt que fondamental durable sur ligne spéculative."
+      "rationale": "Gain antérieur important suivi d'un net essoufflement sectoriel et d'un transfert de cotation à risque, sécuriser une partie du gain."
     },
     {
       "ticker": "EWLD",
@@ -64,7 +64,7 @@
       "pnl_pct": 29.84,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Pas de cours frais aujourd'hui, référence précédente cohérente avec le fichier ; ligne cœur diversifiée sans signe d'essoufflement, mais fortement pondérée."
+      "rationale": "Ligne cœur diversifiée sans signe d'essoufflement spécifique malgré le repli de marché généralisé, mais fortement pondérée."
     },
     {
       "ticker": "EUE.PA",
@@ -72,7 +72,7 @@
       "pnl_pct": 7.19,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Cours récupéré aujourd'hui incohérent en échelle, doute persistant sur la place de cotation exacte, non exploitable en l'état."
+      "rationale": "Cours du jour manifestement erroné, décision reportée par prudence."
     },
     {
       "ticker": "EXA1.DE",
@@ -80,7 +80,7 @@
       "pnl_pct": 6.91,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Écart significatif entre sources aujourd'hui, cours non retenu pour trancher ; secteur bancaire européen resté porteur, ligne très surpondérée à surveiller de près."
+      "rationale": "Sources de cours contradictoires aujourd'hui, secteur bancaire toujours porteur, mais ligne très surpondérée à surveiller de près."
     }
   ],
   "orders_to_consider": [
@@ -88,7 +88,7 @@
       "action": "ALLÉGER",
       "instrument": "D-Wave Quantum (QBTS)",
       "details": "vendre environ un cinquième à un tiers de la ligne",
-      "rationale": "Gain toujours supérieur à 20 % sur ligne spéculative, spike hors bruit à la veille d'un transfert de cotation vers un autre marché."
+      "rationale": "Gain antérieur élevé et net essoufflement sectoriel confirmé par l'actualité, à l'occasion d'un transfert de cotation à risque."
     },
     {
       "action": "POSER UN STOP",
@@ -100,10 +100,10 @@
   "risk_flags": [
     "Concentration sévère sur la ligne banques européennes, environ 36 % du portefeuille total.",
     "Concentration sur l'ETF monde, environ un quart du portefeuille total.",
-    "Positions.json non resynchronisé depuis plus d'un mois malgré des recommandations actionnables toujours en attente.",
-    "Cours web non fiables aujourd'hui sur plusieurs lignes (IperionX, iShares Core EURO STOXX 50, banques européennes, indice CAC 40).",
+    "positions.json non resynchronisé depuis plus d'un mois malgré des recommandations actionnables toujours en attente.",
+    "Cours web non fiables ou contradictoires aujourd'hui sur plusieurs lignes (IperionX, CATL, iShares Core EURO STOXX 50, banques européennes, ASML).",
     "Ottobock et Hermès toutes deux au seuil ou proches du seuil de réévaluation forcée -15 %.",
     "Recommandations en attente depuis plusieurs runs (ALLÉGER QBTS, POSER UN STOP Hermès) toujours non exécutées.",
-    "Catalyseurs binaires à venir : résultats CATL et transfert de cotation D-Wave demain (24/07), résultats Hermès le 29/07."
+    "Catalyseurs binaires imminents : résultats CATL demain (25/07), transfert de cotation D-Wave effectif aujourd'hui, résultats Hermès le 29/07."
   ]
 }

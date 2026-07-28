@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T09:23:00+02:00",
+  "generated_at": "2026-07-28T09:20:00+02:00",
   "broker_count": 2,
   "positions": [
     {
@@ -8,7 +8,7 @@
       "pnl_pct": -15.71,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Cession en cours de la division fauteuils roulants jugée positive malgré la perte latente, décision déjà tranchée les runs précédents."
+      "rationale": "Cession en cours de la division fauteuils roulants et actualité récente neutre-positive (acquisition, nouveau produit), pas de facteur négatif nouveau."
     },
     {
       "ticker": "RMS.PA",
@@ -16,7 +16,7 @@
       "pnl_pct": -14.45,
       "signal": "POSER UN STOP",
       "confidence": "moyen",
-      "rationale": "Toujours tout près du seuil de réévaluation forcée, stop mental maintenu à 2 jours des résultats semestriels."
+      "rationale": "Proche du seuil de réévaluation forcée, stop mental maintenu à un jour des résultats semestriels."
     },
     {
       "ticker": "IPX",
@@ -24,23 +24,23 @@
       "pnl_pct": 7.3,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Signaux mêlés entre levée de fonds dilutive et contrat de défense gagné, cours du jour incertain."
+      "rationale": "Signaux mêlés entre levée de fonds dilutive et contrats de défense gagnés, devise/place à vérifier."
     },
     {
       "ticker": "3750.HK",
       "name": "CATL",
       "pnl_pct": -0.58,
       "signal": "RENFORCER",
-      "confidence": "moyen",
-      "rationale": "Résultats semestriels très solides et annonce d'un rachat d'actions massif le jour même, catalyseur fort."
+      "confidence": "élevé",
+      "rationale": "Résultats semestriels très solides et rachat d'actions massif confirmés par des données plus cohérentes aujourd'hui."
     },
     {
       "ticker": "ASML.AS",
       "name": "ASML Holding",
       "pnl_pct": 11.43,
       "signal": "RENFORCER",
-      "confidence": "moyen",
-      "rationale": "Repli depuis les plus hauts et guidance annuelle relevée deux fois cette année sur la demande IA, thèse confirmée après plusieurs runs en attente de donnée fiable."
+      "confidence": "élevé",
+      "rationale": "Repli mineur du jour combiné à une guidance annuelle relevée deux fois sur la demande IA."
     },
     {
       "ticker": "SIE.DE",
@@ -48,15 +48,15 @@
       "pnl_pct": 0.0,
       "signal": "HOLD",
       "confidence": "élevé",
-      "rationale": "Guidance annuelle confirmée solide, mais pas de repli propice et résultats attendus dans quelques jours."
+      "rationale": "Actualité positive mais diffuse, pas de repli propice et résultats attendus dans quelques jours."
     },
     {
       "ticker": "QBTS",
       "name": "D-Wave Quantum",
       "pnl_pct": 27.76,
       "signal": "ALLÉGER",
-      "confidence": "moyen",
-      "rationale": "Gain antérieur important et essoufflement sectoriel déjà confirmé, reprise de cotation à risque ce jour."
+      "confidence": "élevé",
+      "rationale": "Gain important tiré en partie par un événement mécanique de cotation, résultats trimestriels à venir dans une dizaine de jours."
     },
     {
       "ticker": "EWLD",
@@ -64,7 +64,7 @@
       "pnl_pct": 29.84,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Ligne cœur diversifiée sans signe d'essoufflement, mais fortement pondérée."
+      "rationale": "Ligne cœur diversifiée sans signal technique net, mais fortement pondérée."
     },
     {
       "ticker": "EUE.PA",
@@ -72,7 +72,7 @@
       "pnl_pct": 7.19,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Cours du jour légèrement décalé selon la place de cotation, pas de signal spécifique."
+      "rationale": "Cours du jour incohérents entre places de cotation, pas de signal spécifique."
     },
     {
       "ticker": "EXA1.DE",
@@ -80,42 +80,42 @@
       "pnl_pct": 6.91,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Secteur bancaire porté par la hausse du marché du jour, mais ligne très surpondérée à surveiller de près."
+      "rationale": "Secteur bancaire porté par une forte dynamique trimestrielle, mais ligne très surpondérée à surveiller de près."
     }
   ],
   "orders_to_consider": [
     {
       "action": "ALLÉGER",
       "instrument": "D-Wave Quantum (QBTS)",
-      "details": "vendre environ un cinquième à un tiers de la ligne",
-      "rationale": "Gain antérieur élevé et essoufflement sectoriel confirmé, à l'occasion d'une reprise de cotation à risque."
+      "details": "vendre environ un cinquième à un quart de la ligne",
+      "rationale": "Gain élevé tiré en partie par un événement mécanique de cotation, résultats trimestriels approchants."
     },
     {
       "action": "POSER UN STOP",
       "instrument": "Hermès International (RMS.PA)",
       "details": "stop mental à environ 5-10 % sous le cours actuel",
-      "rationale": "Position proche du seuil de réévaluation forcée, à quelques jours des résultats semestriels."
+      "rationale": "Position proche du seuil de réévaluation forcée, à un jour des résultats semestriels."
     },
     {
       "action": "RENFORCER",
       "instrument": "CATL (3750.HK)",
       "details": "ajouter environ 15 à 20 % à la ligne",
-      "rationale": "Résultats semestriels très solides et rachat d'actions massif annoncé le jour même."
+      "rationale": "Résultats semestriels très solides et rachat d'actions massif annoncé."
     },
     {
       "action": "RENFORCER",
       "instrument": "ASML Holding (ASML.AS)",
       "details": "ajouter environ 10 à 15 % à la ligne",
-      "rationale": "Repli depuis les plus hauts combiné à une guidance annuelle relevée deux fois sur la demande IA."
+      "rationale": "Repli mineur combiné à une guidance annuelle relevée deux fois sur la demande IA."
     }
   ],
   "risk_flags": [
     "Concentration sévère sur la ligne banques européennes, environ 36 % du portefeuille total.",
     "Concentration sur l'ETF monde, environ un quart du portefeuille total.",
-    "positions.json non resynchronisé depuis plus d'un mois malgré des recommandations actionnables toujours en attente.",
-    "Cours du jour non exploitables ou incertains sur plusieurs lignes (IperionX, CATL, D-Wave, ETF monde).",
+    "positions.json non resynchronisé depuis plus de 6 semaines, visible notamment sur Hermès et l'ETF monde.",
+    "Cours du jour incohérents ou incertains sur plusieurs lignes (IperionX, D-Wave, ETF EURO STOXX 50).",
     "Ottobock et Hermès toutes deux au seuil ou proches du seuil de réévaluation forcée -15 %.",
-    "Recommandations en attente depuis plusieurs runs (ALLÉGER QBTS, POSER UN STOP Hermès) toujours non exécutées.",
-    "Catalyseurs binaires imminents : résultats Hermès le 29/07, résultats Siemens le 31/07."
+    "Recommandations en attente depuis plusieurs runs (ALLÉGER QBTS, POSER UN STOP Hermès, RENFORCER CATL/ASML) toujours non exécutées.",
+    "Catalyseurs binaires imminents : résultats Hermès demain, résultats Siemens le 31/07."
   ]
 }

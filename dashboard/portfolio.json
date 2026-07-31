@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T09:19:00+02:00",
+  "generated_at": "2026-07-31T09:19:00+02:00",
   "broker_count": 2,
   "positions": [
     {
@@ -7,8 +7,8 @@
       "name": "Ottobock SE",
       "pnl_pct": -15.71,
       "signal": "HOLD",
-      "confidence": "faible",
-      "rationale": "Tendance haussière modérée récente mais un seul facteur positif, sans catalyseur confirmant une conviction forte."
+      "confidence": "moyen",
+      "rationale": "Ligne au seuil de réévaluation forcée mais fondamentaux en amélioration (croissance, guidance confirmée) : conservée par choix explicite."
     },
     {
       "ticker": "RMS.PA",
@@ -16,7 +16,7 @@
       "pnl_pct": -14.45,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Fort repli post-résultats confirmé aujourd'hui malgré des fondamentaux solides, craintes sur le marché chinois : gestion du risque avant réévaluation forcée."
+      "rationale": "Recommandation reconduite : pression persistante malgré des résultats semestriels solides, craintes Chine/Moyen-Orient toujours présentes."
     },
     {
       "ticker": "IPX",
@@ -24,7 +24,7 @@
       "pnl_pct": 7.30,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Cours incertain entre plusieurs places de cotation ; actualité mixte entre levée de capital dilutive et subvention publique."
+      "rationale": "Forte incohérence entre les cotations disponibles ; doute sérieux sur le cours, ligne conservée par prudence."
     },
     {
       "ticker": "3750.HK",
@@ -32,15 +32,15 @@
       "pnl_pct": -0.58,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Résultats semestriels très solides et rachat d'actions record, mais ligne proche de l'équilibre sans repli propice à un renfort."
+      "rationale": "Actualité très positive (résultats, rachat d'actions) mais ligne en pleine hausse sans repli propice à un renfort."
     },
     {
       "ticker": "ASML.AS",
       "name": "ASML Holding",
       "pnl_pct": 11.43,
       "signal": "HOLD",
-      "confidence": "moyen",
-      "rationale": "Perspectives annuelles relevées mais nouvelle menace concurrentielle sur le secteur ; gain sous le seuil de prise de profits."
+      "confidence": "élevé",
+      "rationale": "Forte hausse suite à des résultats et une guidance relevés, mais gain de ligne encore sous le seuil de prise de profits."
     },
     {
       "ticker": "SIE.DE",
@@ -48,7 +48,7 @@
       "pnl_pct": 0.0,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Cours quasi stable depuis l'achat, en attente des résultats trimestriels à venir."
+      "rationale": "Cours web en nette hausse depuis l'achat mais tendance sans repli ; résultats trimestriels attendus prochainement."
     },
     {
       "ticker": "QBTS",
@@ -56,7 +56,7 @@
       "pnl_pct": 27.76,
       "signal": "ALLÉGER",
       "confidence": "élevé",
-      "rationale": "Recommandation reconduite depuis plusieurs runs ; spike vertical sur une annonce de partenariat ponctuelle, gain de ligne largement au-dessus du seuil de prise de profits."
+      "rationale": "Recommandation reconduite et renforcée : le spike vertical s'essouffle davantage chaque jour, fenêtre de sécurisation du gain qui se referme."
     },
     {
       "ticker": "EWLD",
@@ -64,7 +64,7 @@
       "pnl_pct": 29.84,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Cours du jour non confirmé avec certitude ; ligne proche du seuil de concentration du portefeuille."
+      "rationale": "Gain au-dessus du seuil de prise de profits mais aucun signe d'essoufflement identifié ; cours du jour non confirmé."
     },
     {
       "ticker": "EUE.PA",
@@ -80,7 +80,7 @@
       "pnl_pct": 6.91,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Secteur bancaire européen très porteur mais achat proche des plus hauts ; ligne très concentrée dans le portefeuille."
+      "rationale": "Secteur bancaire structurellement porteur mais cours proche des plus hauts ; ligne très concentrée dans le portefeuille."
     }
   ],
   "orders_to_consider": [
@@ -88,20 +88,20 @@
       "action": "ALLÉGER",
       "instrument": "Hermès International (RMS)",
       "details": "vendre environ 1/5 à 1/4 de la ligne",
-      "rationale": "sécuriser après un repli marqué post-résultats sur fond de craintes de ralentissement en Chine"
+      "rationale": "sécuriser après une pression persistante malgré des résultats solides, recommandation reconduite depuis le run précédent"
     },
     {
       "action": "ALLÉGER",
       "instrument": "D-Wave Quantum (QBTS)",
-      "details": "vendre environ 1/4 à 1/3 de la ligne",
-      "rationale": "sécuriser une plus-value après un spike vertical sur une annonce ponctuelle, recommandation reconduite depuis plusieurs runs"
+      "details": "vendre environ 1/3 de la ligne",
+      "rationale": "sécuriser une plus-value alors que le spike s'essouffle davantage, recommandation reconduite et renforcée"
     }
   ],
   "risk_flags": [
     "Concentration très élevée sur une ligne d'ETF sectoriel bancaire, largement au-dessus du seuil de 25 % du portefeuille.",
     "Concentration élevée sur une ligne d'ETF monde, proche du seuil de 25 % du portefeuille.",
-    "Hermès franchit le seuil de réévaluation forcée à -15 % suite au repli post-résultats du 29/07.",
-    "Plusieurs cours n'ont pas pu être confirmés avec certitude via recherche web (doubles cotations, petites capitalisations).",
-    "Recommandation en attente depuis plusieurs runs (ALLÉGER QBTS) toujours non exécutée."
+    "Ottobock et Hermès proches ou au seuil de réévaluation forcée à -15 % vs PRU, conservées avec justification explicite.",
+    "Plusieurs cours n'ont pas pu être confirmés avec certitude via recherche web (doubles cotations, sources divergentes).",
+    "Recommandations en attente depuis plusieurs runs (ALLÉGER Hermès, ALLÉGER QBTS) toujours non exécutées."
   ]
 }

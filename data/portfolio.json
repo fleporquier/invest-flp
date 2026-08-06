@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T09:22:00+02:00",
+  "generated_at": "2026-08-06T09:24:00+02:00",
   "broker_count": 2,
   "positions": [
     {
@@ -8,7 +8,7 @@
       "pnl_pct": -15.71,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Seuil de réévaluation forcée franchi mais catalyseur positif en cours (cession de division en négociations finales) ; cours web trop dispersés pour être fiables."
+      "rationale": "Cours web trop dispersés pour être exploitables ; seuil de réévaluation forcée franchi mais catalyseur stratégique en cours, position conservée."
     },
     {
       "ticker": "RMS.PA",
@@ -24,7 +24,7 @@
       "pnl_pct": 7.3,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Levée de fonds dilutive récente et cotations incohérentes selon la place ; pas de tendance nette."
+      "rationale": "Cotations très dispersées entre places/devises malgré objectif de cours relevé par un analyste ; pas de tendance nette fiable."
     },
     {
       "ticker": "3750.HK",
@@ -32,7 +32,7 @@
       "pnl_pct": -0.58,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Résultats trimestriels solides déjà en grande partie intégrés ; titre encore en correction depuis son pic."
+      "rationale": "Résultats trimestriels solides déjà en grande partie intégrés ; marge scrutée négativement par un analyste, pas de signal net."
     },
     {
       "ticker": "ASML.AS",
@@ -47,8 +47,8 @@
       "name": "Siemens AG",
       "pnl_pct": 0.0,
       "signal": "HOLD",
-      "confidence": "moyen",
-      "rationale": "Cours proche des plus hauts, mais résultats trimestriels attendus demain ; prudence avant publication."
+      "confidence": "élevé",
+      "rationale": "Résultats trimestriels publiés ce jour nettement supérieurs aux attentes, guidance relevée ; pas de repli pour un renfort immédiat."
     },
     {
       "ticker": "QBTS",
@@ -56,31 +56,31 @@
       "pnl_pct": 27.76,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Recommandation reconduite : gain bien au-dessus du seuil de prise de profits, signe d'essoufflement depuis le plus haut annuel, résultats imminents."
+      "rationale": "Recommandation reconduite : gain bien au-dessus du seuil de prise de profits, signe de dégradation technique, résultats trimestriels publiés ce jour."
     },
     {
       "ticker": "EWLD",
       "name": "Amundi MSCI World SWAP ETF Dist",
       "pnl_pct": 29.84,
-      "signal": "HOLD",
-      "confidence": "faible",
-      "rationale": "Gain au-dessus du seuil de prise de profits mais aucun signe d'essoufflement des indices mondiaux ; ligne proche du plafond de concentration recommandé."
+      "signal": "ALLÉGER",
+      "confidence": "moyen",
+      "rationale": "Gain très au-dessus du seuil de prise de profits et ligne en large dépassement du plafond de concentration recommandé."
     },
     {
       "ticker": "EUE.PA",
       "name": "iShares Core EURO STOXX 50 ETF",
       "pnl_pct": 7.19,
       "signal": "HOLD",
-      "confidence": "faible",
-      "rationale": "Données de marché non actualisées disponibles ; contexte indiciel européen porteur, pas de signal net."
+      "confidence": "moyen",
+      "rationale": "Contexte indiciel européen porteur, gain sous le seuil de prise de profits, pas de signal net."
     },
     {
       "ticker": "EXA1.DE",
       "name": "iShares EURO STOXX Banks 30-15 ETF",
       "pnl_pct": 6.91,
-      "signal": "HOLD",
+      "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Secteur bancaire structurellement porteur mais ligne largement au-dessus du plafond de concentration recommandé."
+      "rationale": "Concentration extrême sur cette ligne, très au-delà du plafond recommandé, et secteur bancaire européen en repli ce jour."
     }
   ],
   "orders_to_consider": [
@@ -94,15 +94,28 @@
       "action": "ALLÉGER",
       "instrument": "D-Wave Quantum (QBTS)",
       "details": "vendre environ 1/4 à 1/3 de la ligne",
-      "rationale": "sécuriser une plus-value importante avant des résultats trimestriels imminents sur une ligne très spéculative"
+      "rationale": "sécuriser une plus-value importante, résultats trimestriels publiés ce jour sur une ligne très spéculative"
+    },
+    {
+      "action": "ALLÉGER",
+      "instrument": "Amundi MSCI World SWAP ETF Dist (EWLD)",
+      "details": "vendre environ 10 à 15 % de la ligne",
+      "rationale": "prise de profit partielle de rééquilibrage : gain élevé et concentration excessive de la ligne"
+    },
+    {
+      "action": "ALLÉGER",
+      "instrument": "iShares EURO STOXX Banks 30-15 ETF (EXA1)",
+      "details": "vendre environ 15 à 20 % de la ligne",
+      "rationale": "réduire une concentration extrême sur un secteur en repli le jour même"
     }
   ],
   "risk_flags": [
-    "Concentration très élevée sur une ligne d'ETF sectoriel bancaire, largement au-dessus du seuil de 25 % du portefeuille.",
-    "Concentration élevée sur une ligne d'ETF monde, au-dessus du seuil de 25 % du portefeuille.",
+    "Concentration extrême sur une ligne d'ETF sectoriel bancaire (~44 % des actions du portefeuille), très au-delà du seuil de 25 %.",
+    "Concentration élevée sur une ligne d'ETF monde (~33 % des actions du portefeuille), au-dessus du seuil de 25 %.",
+    "Deux lignes ETF concentrent à elles seules environ 77 % des actions du portefeuille.",
     "Ottobock et Hermès au seuil ou au-delà du seuil de réévaluation forcée à -15 % vs PRU.",
-    "Deux recommandations ALLÉGER (Hermès, D-Wave) reconduites depuis plusieurs runs sans avoir été exécutées.",
-    "Résultats trimestriels de Siemens et D-Wave Quantum attendus demain (06/08) : volatilité potentielle.",
-    "Plusieurs cours n'ont pas pu être confirmés avec certitude via recherche web (sources incohérentes ou non actualisées)."
+    "Recommandations ALLÉGER Hermès et D-Wave reconduites depuis plusieurs runs sans avoir été exécutées.",
+    "Résultats trimestriels publiés/attendus aujourd'hui sur Siemens et D-Wave Quantum : volatilité potentielle.",
+    "Plusieurs cours n'ont pas pu être confirmés avec certitude via recherche web (Ottobock, IperionX)."
   ]
 }

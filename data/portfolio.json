@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T09:22:00+02:00",
+  "generated_at": "2026-08-10T09:31:00+02:00",
   "broker_count": 2,
   "positions": [
     {
@@ -8,7 +8,7 @@
       "pnl_pct": -15.71,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Cours web toujours difficile à corroborer ; cession stratégique en négociations finales sans catalyseur de résolution neuf."
+      "rationale": "Cession de division déjà connue et intégrée, pas d'actualité nouvelle ; cours toujours difficile à corroborer entre sources."
     },
     {
       "ticker": "RMS.PA",
@@ -24,7 +24,7 @@
       "pnl_pct": 7.3,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Cotations toujours très dispersées entre places/devises ; pas de tendance nette fiable."
+      "rationale": "Cotations toujours très dispersées entre sources/places ; pas de tendance nette fiable."
     },
     {
       "ticker": "3750.HK",
@@ -32,15 +32,15 @@
       "pnl_pct": -0.58,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Pas d'actualité nouvelle marquante depuis les résultats déjà intégrés ; pas de signal net."
+      "rationale": "Résultats déjà intégrés par le marché, pas d'actualité nouvelle marquante ; pas de signal net."
     },
     {
       "ticker": "ASML.AS",
       "name": "ASML Holding",
       "pnl_pct": 11.43,
-      "signal": "RENFORCER",
-      "confidence": "moyen",
-      "rationale": "Repli net sur le mois combiné à un momentum analystes positif confirmé sur une valeur toujours en tendance haussière de fond."
+      "signal": "HOLD",
+      "confidence": "faible",
+      "rationale": "Repli qui justifiait un renforcement précédent semble résorbé ; plus de signal de repli net à exploiter aujourd'hui."
     },
     {
       "ticker": "SIE.DE",
@@ -48,15 +48,15 @@
       "pnl_pct": 0.0,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Catalyseur négatif réel (annonce de scission d'une filiale) mais cours web trop divergents entre sources pour être exploitables avec confiance."
+      "rationale": "Repli signalé par une seule source sans actualité nouvelle le justifiant ; doute sérieux sur le cours du jour."
     },
     {
       "ticker": "QBTS",
       "name": "D-Wave Quantum",
       "pnl_pct": 27.76,
       "signal": "ALLÉGER",
-      "confidence": "moyen-élevé",
-      "rationale": "Résultats trimestriels confirmés inférieurs aux attentes ; gain toujours très au-dessus du seuil de prise de profits."
+      "confidence": "moyen",
+      "rationale": "Volatilité extrême persistante après résultats trimestriels manqués ; gain toujours très au-dessus du seuil de prise de profits."
     },
     {
       "ticker": "EWLD",
@@ -94,7 +94,7 @@
       "action": "ALLÉGER",
       "instrument": "D-Wave Quantum (QBTS)",
       "details": "vendre environ 1/4 à 1/3 de la ligne",
-      "rationale": "sécuriser une plus-value importante, résultats trimestriels confirmés inférieurs aux attentes"
+      "rationale": "sécuriser une plus-value importante face à une volatilité extrême persistante"
     },
     {
       "action": "ALLÉGER",
@@ -107,12 +107,6 @@
       "instrument": "iShares EURO STOXX Banks 30-15 ETF (EXA1)",
       "details": "vendre environ 15 à 20 % de la ligne",
       "rationale": "réduire une concentration structurelle extrême, indépendamment de l'actualité du jour"
-    },
-    {
-      "action": "RENFORCER",
-      "instrument": "ASML Holding (ASML)",
-      "details": "renforcer légèrement, environ 10 à 15 % de la taille actuelle de la ligne",
-      "rationale": "repli mensuel net sur une valeur en tendance haussière de fond, avec soutien analystes confirmé"
     }
   ],
   "risk_flags": [
@@ -120,9 +114,8 @@
     "Concentration élevée sur une ligne d'ETF monde (~33 % des actions du portefeuille), au-dessus du seuil de 25 %.",
     "Deux lignes ETF concentrent à elles seules environ 77 % des actions du portefeuille.",
     "Ottobock et Hermès au seuil ou au-delà du seuil de réévaluation forcée à -15 % vs PRU.",
-    "Recommandations ALLÉGER Hermès et D-Wave reconduites depuis plusieurs runs sans avoir été exécutées.",
-    "Cours web très contradictoires aujourd'hui sur une ligne récemment ouverte, sur fond d'annonce de restructuration d'une filiale : à vérifier auprès du courtier.",
-    "Incohérence persistante entre la place de cotation indiquée dans les données de référence et celle observée sur le marché pour une ligne ETF sectorielle bancaire.",
-    "Plusieurs cours n'ont pas pu être confirmés avec certitude via recherche web (Ottobock, IperionX)."
+    "Recommandations ALLÉGER Hermès, D-Wave, EWLD et EXA1 reconduites depuis plusieurs runs sans avoir été exécutées.",
+    "Écarts de cours entre sources particulièrement marqués aujourd'hui sur plusieurs lignes, en augmentation par rapport aux runs précédents.",
+    "Une ligne récemment ouverte affiche un repli marqué selon une seule source, sans actualité nouvelle le justifiant sur 24 h : à vérifier auprès du courtier."
   ]
 }

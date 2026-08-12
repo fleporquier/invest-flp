@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T09:22:00+02:00",
+  "generated_at": "2026-08-12T09:23:00+02:00",
   "broker_count": 2,
   "positions": [
     {
@@ -8,7 +8,7 @@
       "pnl_pct": -15.71,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Cession de division déjà connue et intégrée, pas d'actualité nouvelle ; cours toujours difficile à corroborer entre sources."
+      "rationale": "Déjà au seuil de réévaluation forcée, mais résultats semestriels attendus dès demain : attente du catalyseur avant tout arbitrage plutôt qu'une décision sur un cours douteux."
     },
     {
       "ticker": "RMS.PA",
@@ -16,7 +16,7 @@
       "pnl_pct": -14.45,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Recommandation reconduite : repli post-résultats qui ne se résorbe pas malgré des résultats solides déjà digérés, ligne à l'approche du seuil de réévaluation forcée."
+      "rationale": "Recommandation reconduite : ligne au voisinage du seuil de réévaluation forcée, repli post-résultats pas clairement résorbé ; cours du jour incertain, à confirmer avant exécution."
     },
     {
       "ticker": "IPX",
@@ -24,7 +24,7 @@
       "pnl_pct": 7.3,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Cotations toujours dispersées entre sources ; actualité (redomiciliation, levée de fonds) déjà connue et sans second facteur concordant fiable."
+      "rationale": "Actualité de redomiciliation déjà connue et intégrée, aucune nouvelle actualité sur 24 h."
     },
     {
       "ticker": "3750.HK",
@@ -32,7 +32,7 @@
       "pnl_pct": -0.58,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Résultats déjà intégrés par le marché, pas d'actualité nouvelle marquante ; pas de signal net."
+      "rationale": "Résultats et plan de rachat déjà intégrés par le marché, pas d'actualité nouvelle marquante."
     },
     {
       "ticker": "ASML.AS",
@@ -40,15 +40,15 @@
       "pnl_pct": 11.43,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Poursuite de la hausse, pas de repli disponible pour justifier un renforcement ; pas de second facteur concordant."
+      "rationale": "Poursuite de la tendance haussière, pas de repli disponible pour justifier un renforcement, pas de second facteur concordant."
     },
     {
       "ticker": "SIE.DE",
       "name": "Siemens AG",
       "pnl_pct": 0.0,
       "signal": "HOLD",
-      "confidence": "faible",
-      "rationale": "Cours du jour suspect (identique au run précédent, probable donnée non rafraîchie) ; aucune actualité nouvelle ne justifierait un mouvement, vérification broker recommandée."
+      "confidence": "moyen",
+      "rationale": "Cours stable et cohérent, hausse structurelle depuis l'achat non reflétée au fichier, mais sans repli ni actualité nouvelle justifiant un mouvement."
     },
     {
       "ticker": "QBTS",
@@ -56,7 +56,7 @@
       "pnl_pct": 27.76,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Volatilité extrême persistante après résultats trimestriels manqués ; gain toujours très au-dessus du seuil de prise de profits."
+      "rationale": "Gain toujours très au-dessus du seuil de prise de profits ; volatilité structurelle persistante malgré des réservations en forte hausse."
     },
     {
       "ticker": "EWLD",
@@ -80,7 +80,7 @@
       "pnl_pct": 6.91,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Concentration structurelle extrême sur cette ligne, très au-delà du plafond recommandé, indépendamment de l'actualité du jour."
+      "rationale": "Concentration structurelle extrême sur cette ligne, très au-delà du plafond recommandé, secteur bancaire toujours porteur."
     }
   ],
   "orders_to_consider": [
@@ -88,13 +88,13 @@
       "action": "ALLÉGER",
       "instrument": "Hermès International (RMS)",
       "details": "vendre environ 1/5 à 1/4 de la ligne",
-      "rationale": "sécuriser après un repli post-résultats qui ne se résorbe pas, recommandation reconduite depuis plusieurs runs"
+      "rationale": "sécuriser près du seuil de réévaluation forcée, recommandation reconduite depuis plusieurs runs"
     },
     {
       "action": "ALLÉGER",
       "instrument": "D-Wave Quantum (QBTS)",
       "details": "vendre environ 1/4 à 1/3 de la ligne",
-      "rationale": "sécuriser une plus-value importante face à une volatilité extrême persistante"
+      "rationale": "sécuriser une plus-value importante face à une volatilité persistante"
     },
     {
       "action": "ALLÉGER",
@@ -110,12 +110,12 @@
     }
   ],
   "risk_flags": [
+    "Catalyseur imminent : résultats semestriels attendus demain sur une ligne déjà au seuil de réévaluation forcée.",
     "Concentration extrême sur une ligne d'ETF sectoriel bancaire (~44 % des actions du portefeuille), très au-delà du seuil de 25 %.",
     "Concentration élevée sur une ligne d'ETF monde (~33 % des actions du portefeuille), au-dessus du seuil de 25 %.",
     "Deux lignes ETF concentrent à elles seules environ 77 % des actions du portefeuille.",
-    "Ottobock et Hermès au seuil ou au-delà du seuil de réévaluation forcée à -15 % vs PRU.",
+    "Une ligne au voisinage immédiat du seuil de réévaluation forcée à -15 % vs PRU.",
     "Recommandations ALLÉGER Hermès, D-Wave, EWLD et EXA1 reconduites depuis plusieurs runs sans avoir été exécutées.",
-    "Qualité des données dégradée aujourd'hui sur plusieurs lignes (cotations suspectes ou inexploitables) ; aucune n'a servi de base à un signal.",
-    "Ottobock et IperionX : écarts de cours entre sources toujours significatifs."
+    "Qualité des données dégradée aujourd'hui sur plusieurs lignes (cotations incohérentes, divergentes ou non rafraîchies)."
   ]
 }

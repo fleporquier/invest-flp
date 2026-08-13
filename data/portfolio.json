@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T09:23:00+02:00",
+  "generated_at": "2026-08-13T09:24:00+02:00",
   "broker_count": 2,
   "positions": [
     {
@@ -7,8 +7,8 @@
       "name": "Ottobock SE",
       "pnl_pct": -15.71,
       "signal": "HOLD",
-      "confidence": "faible",
-      "rationale": "Déjà au seuil de réévaluation forcée, mais résultats semestriels attendus dès demain : attente du catalyseur avant tout arbitrage plutôt qu'une décision sur un cours douteux."
+      "confidence": "moyen",
+      "rationale": "Résultats semestriels publiés ce jour, solides, avec guidance annuelle relevée ; réaction du marché non mesurable faute de cours fiable, réévaluation forcée traitée par un HOLD argumenté."
     },
     {
       "ticker": "RMS.PA",
@@ -16,7 +16,7 @@
       "pnl_pct": -14.45,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Recommandation reconduite : ligne au voisinage du seuil de réévaluation forcée, repli post-résultats pas clairement résorbé ; cours du jour incertain, à confirmer avant exécution."
+      "rationale": "Recommandation reconduite : ligne au voisinage du seuil de réévaluation forcée, repli post-résultats toujours pas résorbé."
     },
     {
       "ticker": "IPX",
@@ -24,7 +24,7 @@
       "pnl_pct": 7.3,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Actualité de redomiciliation déjà connue et intégrée, aucune nouvelle actualité sur 24 h."
+      "rationale": "Actualité mineure sans caractère matériel fort, aucune actualité nouvelle marquante sur 24 h."
     },
     {
       "ticker": "3750.HK",
@@ -40,7 +40,7 @@
       "pnl_pct": 11.43,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Poursuite de la tendance haussière, pas de repli disponible pour justifier un renforcement, pas de second facteur concordant."
+      "rationale": "Aucune actualité nouvelle sur 24 h, pas de repli disponible pour justifier un renforcement, pas de second facteur concordant."
     },
     {
       "ticker": "SIE.DE",
@@ -48,7 +48,7 @@
       "pnl_pct": 0.0,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Cours stable et cohérent, hausse structurelle depuis l'achat non reflétée au fichier, mais sans repli ni actualité nouvelle justifiant un mouvement."
+      "rationale": "Légère hausse sur 24 h non reflétée au fichier, mais sans repli ni actualité nouvelle justifiant un mouvement."
     },
     {
       "ticker": "QBTS",
@@ -56,7 +56,7 @@
       "pnl_pct": 27.76,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Gain toujours très au-dessus du seuil de prise de profits ; volatilité structurelle persistante malgré des réservations en forte hausse."
+      "rationale": "Gain toujours très au-dessus du seuil de prise de profits ; titre en phase de stabilisation technique après un trimestre mitigé."
     },
     {
       "ticker": "EWLD",
@@ -72,7 +72,7 @@
       "pnl_pct": 7.19,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Aucune donnée de cours fiable récupérée aujourd'hui ; gain sous le seuil de prise de profits et pas de signal négatif connu."
+      "rationale": "Aucune donnée de cours fiable récupérée à nouveau ; gain sous le seuil de prise de profits et pas de signal négatif connu."
     },
     {
       "ticker": "EXA1",
@@ -110,9 +110,9 @@
     }
   ],
   "risk_flags": [
-    "Catalyseur imminent : résultats semestriels attendus demain sur une ligne déjà au seuil de réévaluation forcée.",
-    "Concentration extrême sur une ligne d'ETF sectoriel bancaire (~44 % des actions du portefeuille), très au-delà du seuil de 25 %.",
-    "Concentration élevée sur une ligne d'ETF monde (~33 % des actions du portefeuille), au-dessus du seuil de 25 %.",
+    "Catalyseur livré aujourd'hui sur une ligne déjà au seuil de réévaluation forcée : résultats solides et guidance relevée, mais réaction de marché non mesurable faute de cours fiable.",
+    "Concentration extrême sur une ligne d'ETF sectoriel bancaire (~45 % des actions du portefeuille), très au-delà du seuil de 25 %.",
+    "Concentration élevée sur une ligne d'ETF monde (~32 % des actions du portefeuille), au-dessus du seuil de 25 %.",
     "Deux lignes ETF concentrent à elles seules environ 77 % des actions du portefeuille.",
     "Une ligne au voisinage immédiat du seuil de réévaluation forcée à -15 % vs PRU.",
     "Recommandations ALLÉGER Hermès, D-Wave, EWLD et EXA1 reconduites depuis plusieurs runs sans avoir été exécutées.",

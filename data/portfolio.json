@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T09:30:00+02:00",
+  "generated_at": "2026-08-19T09:19:00+02:00",
   "broker_count": 2,
   "positions": [
     {
@@ -8,15 +8,15 @@
       "pnl_pct": -15.71,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Résultats semestriels solides et guidance relevée contredisent le narratif de rejet par le marché des runs précédents ; réévaluation forcée toujours ouverte, à confirmer avec un cours fiable."
+      "rationale": "Cours incohérent entre sources ce run ; cession de l'activité fauteuils roulants confirmée finalisée sans impact négatif, guidance 2026 relevée toujours valable."
     },
     {
       "ticker": "RMS.PA",
       "name": "Hermès International",
       "pnl_pct": -14.45,
       "signal": "ALLÉGER",
-      "confidence": "moyen",
-      "rationale": "Tendance hebdomadaire encore dégradée dans un contexte de rotation défavorable au luxe ; perte au-delà du seuil de -10 %."
+      "confidence": "faible",
+      "rationale": "Perte persistante au-delà de -10 % et tendance récente dégradée, malgré des cours contradictoires selon les sources ce run."
     },
     {
       "ticker": "IPX",
@@ -24,7 +24,7 @@
       "pnl_pct": 7.3,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Annonce stratégique isolée (redomiciliation américaine), sans second facteur concordant."
+      "rationale": "Pas de nouvelle actualité matérielle depuis l'annonce de redomiciliation, un seul facteur sans second signal concordant."
     },
     {
       "ticker": "3750.HK",
@@ -32,7 +32,7 @@
       "pnl_pct": -0.58,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Forte croissance du chiffre d'affaires contrebalancée par une incertitude persistante sur une mine de lithium."
+      "rationale": "Marges T2 sous les attentes contrebalancées par une croissance du chiffre d'affaires et du résultat toujours forte."
     },
     {
       "ticker": "ASML.AS",
@@ -40,7 +40,7 @@
       "pnl_pct": 11.43,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Dynamique haussière confirmée et upgrades analystes, mais pas de repli disponible pour un renforcement ni gain suffisant pour une prise de profits."
+      "rationale": "Nouveau catalyseur négatif (concurrence chinoise en lithographie) et tendance dégradée, mais gain encore sous le seuil de prise de profits."
     },
     {
       "ticker": "SIE.DE",
@@ -48,7 +48,7 @@
       "pnl_pct": 0.0,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Résultats trimestriels nettement supérieurs aux attentes et guidance relevée, mais pas de repli disponible pour un renforcement."
+      "rationale": "Repli conforme au climat de marché général, sans catalyseur négatif propre au titre, fondamentaux toujours solides."
     },
     {
       "ticker": "QBTS",
@@ -56,64 +56,65 @@
       "pnl_pct": 27.76,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Gain toujours très au-dessus du seuil de prise de profits, sans nouveau moteur justifiant de laisser courir l'intégralité de la ligne."
+      "rationale": "Gain toujours très au-dessus du seuil de prise de profits, aggravé par une chute nette et soudaine du cours."
     },
     {
       "ticker": "EWLD",
-      "name": "Amundi MSCI World SWAP ETF Dist",
+      "name": "Amundi MSCI World SWAP ETF EUR Dist",
       "pnl_pct": 29.84,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Gain très au-dessus du seuil de prise de profits et ligne en large dépassement du plafond de concentration recommandé."
+      "rationale": "Gain très au-dessus du seuil de prise de profits et concentration largement au-delà du plafond de diversification."
     },
     {
       "ticker": "EUE.PA",
-      "name": "iShares Core EURO STOXX 50 ETF",
+      "name": "iShares Core EURO STOXX 50 ETF EUR Dist",
       "pnl_pct": 7.19,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Légère hausse conforme à la stabilité de l'indice ; gain sous le seuil de prise de profits."
+      "rationale": "Pas de cotation fraîche exploitable ce run ; gain sous le seuil de prise de profits, pas de signal négatif identifié."
     },
     {
-      "ticker": "EXA1",
-      "name": "iShares EURO STOXX Banks 30-15 ETF",
+      "ticker": "EXA1.DE",
+      "name": "iShares EURO STOXX Banks 30-15 ETF (DE) Acc",
       "pnl_pct": 6.91,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Concentration structurelle extrême sur cette ligne, très au-delà du plafond recommandé, secteur bancaire toujours porteur."
+      "rationale": "Concentration structurelle extrême très au-delà du plafond de diversification, indépendamment de l'actualité sectorielle."
     }
   ],
   "orders_to_consider": [
     {
       "action": "ALLÉGER",
-      "instrument": "Hermès International (RMS)",
+      "instrument": "Hermès International (RMS.PA)",
       "details": "vendre environ 10 à 20 % de la ligne",
-      "rationale": "perte au-delà du seuil de -10 % et tendance hebdomadaire encore dégradée"
+      "rationale": "Perte persistante au-delà de -10 % vs prix de revient et tendance récente dégradée."
     },
     {
       "action": "ALLÉGER",
       "instrument": "D-Wave Quantum (QBTS)",
       "details": "vendre environ 1/4 à 1/3 de la ligne",
-      "rationale": "sécuriser une plus-value importante toujours au-dessus du seuil de prise de profits"
+      "rationale": "Gain très au-dessus du seuil de prise de profits, aggravé par une chute soudaine et nette du cours."
     },
     {
       "action": "ALLÉGER",
-      "instrument": "Amundi MSCI World SWAP ETF (EWLD)",
+      "instrument": "Amundi MSCI World SWAP ETF EUR Dist (EWLD)",
       "details": "vendre environ 10 à 15 % de la ligne",
-      "rationale": "prise de profit partielle et réduction d'une concentration élevée"
+      "rationale": "Gain très au-dessus du seuil de prise de profits et concentration excessive."
     },
     {
       "action": "ALLÉGER",
-      "instrument": "iShares EURO STOXX Banks 30-15 ETF (EXA1)",
+      "instrument": "iShares EURO STOXX Banks 30-15 ETF (DE) (EXA1)",
       "details": "vendre environ 15 à 20 % de la ligne",
-      "rationale": "réduction d'une concentration structurelle très élevée sur cette ligne"
+      "rationale": "Concentration structurelle largement au-delà du plafond de diversification."
     }
   ],
   "risk_flags": [
-    "Concentration sectorielle bancaire extrême sur une ligne, très au-delà du seuil recommandé.",
-    "Concentration élevée sur un ETF monde, au-dessus du seuil recommandé.",
-    "Deux lignes ETF concentrent à elles seules la grande majorité des actions du portefeuille.",
-    "Ligne Hermès toujours proche du seuil de réévaluation forcée à -15 %.",
-    "Signal Ottobock changé d'ALLÉGER à HOLD ce run suite à des résultats contredisant le narratif précédent, à reconfirmer."
+    "Qualité des données dégradée ce run (cours Ottobock et Hermès contradictoires selon les sources).",
+    "ASML : nouveau catalyseur négatif à surveiller (concurrence chinoise), pas encore d'action déclenchée.",
+    "Concentration sectorielle bancaire extrême sur EXA1 (~45,5 % des actions).",
+    "Concentration élevée sur EWLD (~32,4 % des actions).",
+    "Deux lignes ETF concentrent à elles seules ~78 % des actions du portefeuille.",
+    "Plusieurs ordres ALLÉGER reconduits depuis plusieurs runs sans avoir été exécutés."
   ]
 }

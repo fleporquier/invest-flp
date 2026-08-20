@@ -237,7 +237,13 @@ def fetch_history(
         raise ValueError(f"Unknown source: {source!r}")
 
     histories = YFinanceProvider().fetch(tickers, period, interval)
-    if histories:
-        return histories
-    logger.warning("yfinance returned no data; falling back to CSV cache (%s)", cache_dir)
-    return CSVCacheProvider(cache_dir).fetch(tickers, period, interval)
+    missing = [t for t in tickers if t not in histories]
+    if missing:
+        logger.warning(
+            "yfinance missing %d/%d tickers; falling back to CSV cache (%s) for those",
+            len(missing),
+            len(tickers),
+            cache_dir,
+        )
+        histories.update(CSVCacheProvider(cache_dir).fetch(missing, period, interval))
+    return histories

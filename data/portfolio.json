@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T09:19:00+02:00",
+  "generated_at": "2026-08-20T09:20:00+02:00",
   "broker_count": 2,
   "positions": [
     {
@@ -8,15 +8,15 @@
       "pnl_pct": -15.71,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Cours incohérent entre sources ce run ; cession de l'activité fauteuils roulants confirmée finalisée sans impact négatif, guidance 2026 relevée toujours valable."
+      "rationale": "Cours toujours incohérent entre sources (écart >7 %), incohérence récurrente depuis plusieurs runs, pas de nouvelle actualité négative."
     },
     {
       "ticker": "RMS.PA",
       "name": "Hermès International",
       "pnl_pct": -14.45,
       "signal": "ALLÉGER",
-      "confidence": "faible",
-      "rationale": "Perte persistante au-delà de -10 % et tendance récente dégradée, malgré des cours contradictoires selon les sources ce run."
+      "confidence": "moyen",
+      "rationale": "Perte persistante au-delà de -10 % et tendance hebdomadaire toujours dégradée."
     },
     {
       "ticker": "IPX",
@@ -24,7 +24,7 @@
       "pnl_pct": 7.3,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Pas de nouvelle actualité matérielle depuis l'annonce de redomiciliation, un seul facteur sans second signal concordant."
+      "rationale": "Cours probablement non rafraîchi ce run (identique au run précédent), aucune actualité matérielle nouvelle."
     },
     {
       "ticker": "3750.HK",
@@ -32,7 +32,7 @@
       "pnl_pct": -0.58,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Marges T2 sous les attentes contrebalancées par une croissance du chiffre d'affaires et du résultat toujours forte."
+      "rationale": "Pas de signal net nouveau ; marges T2 sous les attentes déjà connues, compensées par une croissance CA/résultat toujours forte."
     },
     {
       "ticker": "ASML.AS",
@@ -40,7 +40,7 @@
       "pnl_pct": 11.43,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Nouveau catalyseur négatif (concurrence chinoise en lithographie) et tendance dégradée, mais gain encore sous le seuil de prise de profits."
+      "rationale": "Glissade qui se poursuit sur fond de concurrence chinoise en lithographie, catalyseur connu et non sérieux à court terme ; gain encore sous le seuil de prise de profits."
     },
     {
       "ticker": "SIE.DE",
@@ -48,7 +48,7 @@
       "pnl_pct": 0.0,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Repli conforme au climat de marché général, sans catalyseur négatif propre au titre, fondamentaux toujours solides."
+      "rationale": "Forte variation annoncée non corroborée par le contexte indiciel du jour, probable artefact de données."
     },
     {
       "ticker": "QBTS",
@@ -56,7 +56,7 @@
       "pnl_pct": 27.76,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Gain toujours très au-dessus du seuil de prise de profits, aggravé par une chute nette et soudaine du cours."
+      "rationale": "Gain toujours très au-dessus du seuil de prise de profits sur une ligne spéculative très volatile."
     },
     {
       "ticker": "EWLD",
@@ -64,7 +64,7 @@
       "pnl_pct": 29.84,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Gain très au-dessus du seuil de prise de profits et concentration largement au-delà du plafond de diversification."
+      "rationale": "Gain très au-dessus du seuil de prise de profits et concentration largement au-delà du plafond de diversification, indépendamment du cours du jour."
     },
     {
       "ticker": "EUE.PA",
@@ -88,13 +88,13 @@
       "action": "ALLÉGER",
       "instrument": "Hermès International (RMS.PA)",
       "details": "vendre environ 10 à 20 % de la ligne",
-      "rationale": "Perte persistante au-delà de -10 % vs prix de revient et tendance récente dégradée."
+      "rationale": "Perte persistante au-delà de -10 % vs prix de revient et tendance hebdomadaire toujours dégradée."
     },
     {
       "action": "ALLÉGER",
       "instrument": "D-Wave Quantum (QBTS)",
       "details": "vendre environ 1/4 à 1/3 de la ligne",
-      "rationale": "Gain très au-dessus du seuil de prise de profits, aggravé par une chute soudaine et nette du cours."
+      "rationale": "Gain très au-dessus du seuil de prise de profits sur une ligne spéculative volatile."
     },
     {
       "action": "ALLÉGER",
@@ -110,8 +110,8 @@
     }
   ],
   "risk_flags": [
-    "Qualité des données dégradée ce run (cours Ottobock et Hermès contradictoires selon les sources).",
-    "ASML : nouveau catalyseur négatif à surveiller (concurrence chinoise), pas encore d'action déclenchée.",
+    "Qualité des données à nouveau dégradée ce run (Ottobock, Siemens, IperionX, EWLD).",
+    "ASML : glissade qui se poursuit (~-7 % cumulés) sur fond de concurrence chinoise, catalyseur connu et jugé non sérieux à court terme.",
     "Concentration sectorielle bancaire extrême sur EXA1 (~45,5 % des actions).",
     "Concentration élevée sur EWLD (~32,4 % des actions).",
     "Deux lignes ETF concentrent à elles seules ~78 % des actions du portefeuille.",

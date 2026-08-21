@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T09:20:00+02:00",
+  "generated_at": "2026-08-21T09:17:00+02:00",
   "broker_count": 2,
   "positions": [
     {
@@ -8,7 +8,7 @@
       "pnl_pct": -15.71,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Cours toujours incohérent entre sources (écart >7 %), incohérence récurrente depuis plusieurs runs, pas de nouvelle actualité négative."
+      "rationale": "Cours toujours incohérent entre sources malgré des fondamentaux positifs, impossible de trancher sur un prix fiable."
     },
     {
       "ticker": "RMS.PA",
@@ -16,7 +16,7 @@
       "pnl_pct": -14.45,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Perte persistante au-delà de -10 % et tendance hebdomadaire toujours dégradée."
+      "rationale": "Perte persistante au-delà de -10 %, tendance hebdomadaire dégradée et nouvelle dégradation d'analyste."
     },
     {
       "ticker": "IPX",
@@ -24,7 +24,7 @@
       "pnl_pct": 7.3,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Cours probablement non rafraîchi ce run (identique au run précédent), aucune actualité matérielle nouvelle."
+      "rationale": "Cours toujours non fiable (sources incohérentes) malgré une actualité de fond positive."
     },
     {
       "ticker": "3750.HK",
@@ -32,7 +32,7 @@
       "pnl_pct": -0.58,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Pas de signal net nouveau ; marges T2 sous les attentes déjà connues, compensées par une croissance CA/résultat toujours forte."
+      "rationale": "Variation dans la marge de bruit ; actualités positives du mois déjà connues, rien de matériel sur 24 h."
     },
     {
       "ticker": "ASML.AS",
@@ -40,7 +40,7 @@
       "pnl_pct": 11.43,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Glissade qui se poursuit sur fond de concurrence chinoise en lithographie, catalyseur connu et non sérieux à court terme ; gain encore sous le seuil de prise de profits."
+      "rationale": "Cours stabilisé, catalyseur concurrence chinoise connu et déjà intégré, gain encore sous le seuil de prise de profits."
     },
     {
       "ticker": "SIE.DE",
@@ -48,7 +48,7 @@
       "pnl_pct": 0.0,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Forte variation annoncée non corroborée par le contexte indiciel du jour, probable artefact de données."
+      "rationale": "Cours suspect de ne pas être rafraîchi depuis plusieurs jours, incohérence avec l'actualité récente non résolue."
     },
     {
       "ticker": "QBTS",
@@ -72,7 +72,7 @@
       "pnl_pct": 7.19,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Pas de cotation fraîche exploitable ce run ; gain sous le seuil de prise de profits, pas de signal négatif identifié."
+      "rationale": "Pas de cotation ETF fraîche exploitable ce run ; gain sous le seuil de prise de profits, pas de signal négatif identifié."
     },
     {
       "ticker": "EXA1.DE",
@@ -88,7 +88,7 @@
       "action": "ALLÉGER",
       "instrument": "Hermès International (RMS.PA)",
       "details": "vendre environ 10 à 20 % de la ligne",
-      "rationale": "Perte persistante au-delà de -10 % vs prix de revient et tendance hebdomadaire toujours dégradée."
+      "rationale": "Perte persistante au-delà de -10 % vs prix de revient, tendance dégradée et nouvelle dégradation d'analyste."
     },
     {
       "action": "ALLÉGER",
@@ -110,8 +110,7 @@
     }
   ],
   "risk_flags": [
-    "Qualité des données à nouveau dégradée ce run (Ottobock, Siemens, IperionX, EWLD).",
-    "ASML : glissade qui se poursuit (~-7 % cumulés) sur fond de concurrence chinoise, catalyseur connu et jugé non sérieux à court terme.",
+    "Qualité des données à nouveau dégradée sur plusieurs lignes (Ottobock, Siemens, IperionX, EWLD).",
     "Concentration sectorielle bancaire extrême sur EXA1 (~45,5 % des actions).",
     "Concentration élevée sur EWLD (~32,4 % des actions).",
     "Deux lignes ETF concentrent à elles seules ~78 % des actions du portefeuille.",

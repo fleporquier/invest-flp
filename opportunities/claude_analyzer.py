@@ -189,8 +189,8 @@ def analyze_candidate(
         response = client.messages.create(
             model=model,
             max_tokens=max_tokens,
-            temperature=temperature,
             messages=[{"role": "user", "content": prompt}],
+            extra_body={"temperature": temperature},
         )
         text = response.content[0].text
     except Exception as exc:  # noqa: BLE001 - SDK raises broad API errors

@@ -3,7 +3,7 @@
 # (references the removed numpy.NaN). Indicators are implemented in-house in
 # opportunities/technical.py.
 yfinance>=0.2.40
-anthropic>=0.40.0
+anthropic>=0.40.0,<1.0.0  # 1.0.0 dropped the `temperature` kwarg used in claude_analyzer.py
 pandas>=2.0
 numpy>=1.26
 pyyaml>=6.0

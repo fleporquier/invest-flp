@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T09:20:00+02:00",
+  "generated_at": "2026-08-25T09:21:00+02:00",
   "broker_count": 2,
   "positions": [
     {
@@ -8,15 +8,15 @@
       "pnl_pct": -15.71,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Cours redevenu cohérent avec la fourchette historique, mais pas de second signal pour agir."
+      "rationale": "Sources de cours incohérentes entre elles ce run ; pas de second signal fiable pour agir."
     },
     {
       "ticker": "RMS.PA",
       "name": "Hermès International",
       "pnl_pct": -14.45,
       "signal": "ALLÉGER",
-      "confidence": "faible",
-      "rationale": "Rebond de cours qui atténue le signal, mais perte persistante et nouveau vent contraire sectoriel."
+      "confidence": "moyen",
+      "rationale": "Dégradation d'analyste confirmée et vent contraire sectoriel, en plus d'une perte persistante vs prix de revient."
     },
     {
       "ticker": "IPX",
@@ -24,7 +24,7 @@
       "pnl_pct": 7.3,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Cours sans mise à jour récente ; actualité de fond positive mais rien de matériel sur 24 h."
+      "rationale": "Pas d'actualité matérielle sur 24 h ni de second signal."
     },
     {
       "ticker": "3750.HK",
@@ -40,7 +40,7 @@
       "pnl_pct": 11.43,
       "signal": "HOLD",
       "confidence": "élevé",
-      "rationale": "Cours quasi inchangé, pas de catalyseur nouveau, gain sous le seuil de prise de profits."
+      "rationale": "Cours quasi stable, pas de catalyseur nouveau, gain sous le seuil de prise de profits."
     },
     {
       "ticker": "SIE.DE",
@@ -48,7 +48,7 @@
       "pnl_pct": 0.0,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Cours toujours suspect de ne pas être rafraîchi depuis plusieurs jours."
+      "rationale": "Sources de cours contradictoires ce run, en plus du problème de cours figé des runs précédents."
     },
     {
       "ticker": "QBTS",
@@ -72,7 +72,7 @@
       "pnl_pct": 7.19,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Pas de cotation par part exploitable ce run ; gain sous le seuil de prise de profits."
+      "rationale": "Aucune cotation par part fiable identifiée ce run ; gain sous le seuil de prise de profits."
     },
     {
       "ticker": "EXA1.DE",
@@ -88,7 +88,7 @@
       "action": "ALLÉGER",
       "instrument": "Hermès International (RMS.PA)",
       "details": "vendre environ 10 à 15 % de la ligne",
-      "rationale": "Perte persistante vs prix de revient et nouveau vent contraire sectoriel, malgré un rebond récent du cours."
+      "rationale": "Dégradation d'analyste confirmée et vent contraire sectoriel, en plus d'une perte persistante vs prix de revient."
     },
     {
       "action": "ALLÉGER",
@@ -110,11 +110,11 @@
     }
   ],
   "risk_flags": [
-    "Qualité des données toujours hétérogène (Siemens figé, IperionX daté, EXA1 et EUE.PA sans cours fiable ce run) ; amélioration notable sur Ottobock et EWLD.",
+    "Qualité des données dégradée ce run : Ottobock, Siemens et EXA1 avec des sources incohérentes entre elles ; EUE.PA sans cours par part fiable.",
     "Concentration sectorielle bancaire extrême sur EXA1 (~45,5 % des actions).",
     "Concentration élevée sur EWLD (~32,4 % des actions).",
     "Deux lignes ETF concentrent à elles seules ~78 % des actions du portefeuille.",
     "Plusieurs ordres ALLÉGER reconduits depuis plusieurs runs sans avoir été exécutés.",
-    "Nouveau facteur macro à surveiller : durcissement fiscal chinois sur les hauts patrimoines, vent contraire potentiel pour le secteur luxe."
+    "Semaine à catalyseurs majeurs (résultats Nvidia, PCE, Jackson Hole) pouvant accroître la volatilité."
   ]
 }

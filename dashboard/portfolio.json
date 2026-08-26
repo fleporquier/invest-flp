@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T09:21:00+02:00",
+  "generated_at": "2026-08-26T09:22:00+02:00",
   "broker_count": 2,
   "positions": [
     {
@@ -8,7 +8,7 @@
       "pnl_pct": -15.71,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Sources de cours incohérentes entre elles ce run ; pas de second signal fiable pour agir."
+      "rationale": "Nouvelle valeur de cours incohérente avec les sources précédentes ; ligne proche du seuil de réévaluation forcée sans second signal net."
     },
     {
       "ticker": "RMS.PA",
@@ -16,7 +16,7 @@
       "pnl_pct": -14.45,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Dégradation d'analyste confirmée et vent contraire sectoriel, en plus d'une perte persistante vs prix de revient."
+      "rationale": "Dégradation d'analyste confirmée et nouveau signe de faiblesse de la demande chinoise, en plus d'une perte persistante vs prix de revient."
     },
     {
       "ticker": "IPX",
@@ -24,23 +24,23 @@
       "pnl_pct": 7.30,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Pas d'actualité matérielle sur 24 h ni de second signal."
+      "rationale": "Baisse modeste isolée sans actualité nouvelle matérielle ni second signal."
     },
     {
       "ticker": "3750.HK",
       "name": "CATL",
       "pnl_pct": -0.58,
       "signal": "HOLD",
-      "confidence": "moyen",
-      "rationale": "Variation dans la marge de bruit ; rien de nouveau et matériel sur 24 h."
+      "confidence": "faible",
+      "rationale": "Signaux mixtes (craintes marge vs perspective de notation relevée) qui se neutralisent."
     },
     {
       "ticker": "ASML.AS",
       "name": "ASML Holding",
       "pnl_pct": 11.43,
       "signal": "HOLD",
-      "confidence": "élevé",
-      "rationale": "Cours quasi stable, pas de catalyseur nouveau, gain sous le seuil de prise de profits."
+      "confidence": "faible",
+      "rationale": "Écart de cours important et non daté avec certitude vs le run précédent ; catalyseur Nvidia attendu ce soir après clôture US."
     },
     {
       "ticker": "SIE.DE",
@@ -48,7 +48,7 @@
       "pnl_pct": 0.0,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Sources de cours contradictoires ce run, en plus du problème de cours figé des runs précédents."
+      "rationale": "Cours toujours figé sur une donnée de 2 jours, problème de fraîcheur persistant."
     },
     {
       "ticker": "QBTS",
@@ -72,7 +72,7 @@
       "pnl_pct": 7.19,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Aucune cotation par part fiable identifiée ce run ; gain sous le seuil de prise de profits."
+      "rationale": "Aucune cotation par part récente et fiable identifiée ce run ; gain sous le seuil de prise de profits."
     },
     {
       "ticker": "EXA1.DE",
@@ -88,7 +88,7 @@
       "action": "ALLÉGER",
       "instrument": "Hermès International (RMS.PA)",
       "details": "vendre environ 10 à 15 % de la ligne",
-      "rationale": "Dégradation d'analyste confirmée et vent contraire sectoriel, en plus d'une perte persistante vs prix de revient."
+      "rationale": "Dégradation d'analyste confirmée et nouveau signe de faiblesse de la demande chinoise, en plus d'une perte persistante vs prix de revient."
     },
     {
       "action": "ALLÉGER",
@@ -110,11 +110,12 @@
     }
   ],
   "risk_flags": [
-    "Qualité des données dégradée ce run : Ottobock, Siemens et EXA1 avec des sources incohérentes entre elles ; EUE.PA sans cours par part fiable.",
+    "Qualité des données toujours dégradée : Ottobock, ASML et Siemens avec des cours incohérents ou figés ; EXA1 et EUE.PA sans cours du jour fiable.",
+    "Ottobock proche du seuil de réévaluation forcée (-15 %) depuis plusieurs runs, sans second signal net pour agir.",
     "Concentration sectorielle bancaire extrême sur EXA1 (~45,5 % des actions).",
     "Concentration élevée sur EWLD (~32,4 % des actions).",
     "Deux lignes ETF concentrent à elles seules ~78 % des actions du portefeuille.",
     "Plusieurs ordres ALLÉGER reconduits depuis plusieurs runs sans avoir été exécutés.",
-    "Semaine à catalyseurs majeurs (résultats Nvidia, PCE, Jackson Hole) pouvant accroître la volatilité."
+    "Catalyseur majeur ce soir : résultats Nvidia après clôture US, impact probable sur ASML et le secteur semi-conducteurs dès demain."
   ]
 }

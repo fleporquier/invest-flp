@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T09:22:00+02:00",
+  "generated_at": "2026-08-27T09:23:00+02:00",
   "broker_count": 2,
   "positions": [
     {
@@ -8,7 +8,7 @@
       "pnl_pct": -15.71,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Nouvelle valeur de cours incohérente avec les sources précédentes ; ligne proche du seuil de réévaluation forcée sans second signal net."
+      "rationale": "Nouveau cours encore très divergent du run précédent ; ligne toujours au seuil de réévaluation forcée sans second signal net."
     },
     {
       "ticker": "RMS.PA",
@@ -16,7 +16,7 @@
       "pnl_pct": -14.45,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Dégradation d'analyste confirmée et nouveau signe de faiblesse de la demande chinoise, en plus d'une perte persistante vs prix de revient."
+      "rationale": "Dégradation d'analyste désormais détaillée (objectif de cours abaissé) en plus d'une perte persistante vs prix de revient."
     },
     {
       "ticker": "IPX",
@@ -24,7 +24,7 @@
       "pnl_pct": 7.3,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Baisse modeste isolée sans actualité nouvelle matérielle ni second signal."
+      "rationale": "Aucune actualité nouvelle matérielle ni second signal, cours identique au run précédent."
     },
     {
       "ticker": "3750.HK",
@@ -32,7 +32,7 @@
       "pnl_pct": -0.58,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Signaux mixtes (craintes marge vs perspective de notation relevée) qui se neutralisent."
+      "rationale": "Reprise en clôture après ouverture faible, résultats solides mais pas de rupture de tendance nette."
     },
     {
       "ticker": "ASML.AS",
@@ -40,7 +40,7 @@
       "pnl_pct": 11.43,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Écart de cours important et non daté avec certitude vs le run précédent ; catalyseur Nvidia attendu ce soir après clôture US."
+      "rationale": "Cours plus cohérent qu'hier mais toujours non confirmé du jour ; lecture positive des résultats Nvidia sans second facteur pour agir."
     },
     {
       "ticker": "SIE.DE",
@@ -48,7 +48,7 @@
       "pnl_pct": 0.0,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Cours toujours figé sur une donnée de 2 jours, problème de fraîcheur persistant."
+      "rationale": "Fondamentaux solides et tendance haussière, mais pas de repli permettant un renforcement selon les règles."
     },
     {
       "ticker": "QBTS",
@@ -56,7 +56,7 @@
       "pnl_pct": 27.76,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Gain toujours très au-dessus du seuil de prise de profits sur une ligne spéculative très volatile."
+      "rationale": "Gain toujours très au-dessus du seuil de prise de profits, combiné à une baisse de revenu et un changement de CFO."
     },
     {
       "ticker": "EWLD",
@@ -88,13 +88,13 @@
       "action": "ALLÉGER",
       "instrument": "Hermès International (RMS.PA)",
       "details": "vendre environ 10 à 15 % de la ligne",
-      "rationale": "Dégradation d'analyste confirmée et nouveau signe de faiblesse de la demande chinoise, en plus d'une perte persistante vs prix de revient."
+      "rationale": "Dégradation d'analyste confirmée (objectif de cours abaissé) et perte persistante vs prix de revient."
     },
     {
       "action": "ALLÉGER",
       "instrument": "D-Wave Quantum (QBTS)",
       "details": "vendre environ 1/4 à 1/3 de la ligne",
-      "rationale": "Gain très au-dessus du seuil de prise de profits sur une ligne spéculative volatile."
+      "rationale": "Gain très au-dessus du seuil de prise de profits, ligne spéculative volatile, fondamentaux et gouvernance qui s'affaiblissent."
     },
     {
       "action": "ALLÉGER",
@@ -110,12 +110,11 @@
     }
   ],
   "risk_flags": [
-    "Qualité des données toujours dégradée : Ottobock, ASML et Siemens avec des cours incohérents ou figés ; EXA1 et EUE.PA sans cours du jour fiable.",
+    "Qualité des données toujours dégradée : Ottobock, EWLD et EXA1 avec des cours incohérents ou non confirmés ; EUE.PA toujours sans cours du jour fiable.",
     "Ottobock proche du seuil de réévaluation forcée (-15 %) depuis plusieurs runs, sans second signal net pour agir.",
     "Concentration sectorielle bancaire extrême sur EXA1 (~45,5 % des actions).",
     "Concentration élevée sur EWLD (~32,4 % des actions).",
     "Deux lignes ETF concentrent à elles seules ~78 % des actions du portefeuille.",
-    "Plusieurs ordres ALLÉGER reconduits depuis plusieurs runs sans avoir été exécutés.",
-    "Catalyseur majeur ce soir : résultats Nvidia après clôture US, impact probable sur ASML et le secteur semi-conducteurs dès demain."
+    "Plusieurs ordres ALLÉGER reconduits depuis plusieurs runs sans avoir été exécutés."
   ]
 }

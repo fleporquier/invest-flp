@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T09:23:00+02:00",
+  "generated_at": "2026-08-28T09:21:00+02:00",
   "broker_count": 2,
   "positions": [
     {
@@ -8,7 +8,7 @@
       "pnl_pct": -15.71,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Nouveau cours encore très divergent du run précédent ; ligne toujours au seuil de réévaluation forcée sans second signal net."
+      "rationale": "Cours et actualité identiques au run précédent, suspicion de donnée non rafraîchie ; ligne toujours au seuil de réévaluation forcée."
     },
     {
       "ticker": "RMS.PA",
@@ -16,7 +16,7 @@
       "pnl_pct": -14.45,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Dégradation d'analyste désormais détaillée (objectif de cours abaissé) en plus d'une perte persistante vs prix de revient."
+      "rationale": "Perte persistante vs prix de revient et dégradation d'analyste déjà confirmée ; risque macro additionnel lié à la nervosité budgétaire française du jour."
     },
     {
       "ticker": "IPX",
@@ -24,7 +24,7 @@
       "pnl_pct": 7.3,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Aucune actualité nouvelle matérielle ni second signal, cours identique au run précédent."
+      "rationale": "Cours et actualité identiques au run précédent, aucun signal nouveau daté du jour."
     },
     {
       "ticker": "3750.HK",
@@ -32,7 +32,7 @@
       "pnl_pct": -0.58,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Reprise en clôture après ouverture faible, résultats solides mais pas de rupture de tendance nette."
+      "rationale": "Cours identiques au run précédent, forte suspicion de donnée non actualisée."
     },
     {
       "ticker": "ASML.AS",
@@ -40,7 +40,7 @@
       "pnl_pct": 11.43,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Cours plus cohérent qu'hier mais toujours non confirmé du jour ; lecture positive des résultats Nvidia sans second facteur pour agir."
+      "rationale": "Catalyseur sectoriel positif (rally semi-conducteurs) mais léger repli du jour dans le bruit, pas de second facteur pour agir."
     },
     {
       "ticker": "SIE.DE",
@@ -48,7 +48,7 @@
       "pnl_pct": 0.0,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Fondamentaux solides et tendance haussière, mais pas de repli permettant un renforcement selon les règles."
+      "rationale": "Cours trop dispersés entre sources et pas de repli net identifiable pour un renforcement."
     },
     {
       "ticker": "QBTS",
@@ -56,7 +56,7 @@
       "pnl_pct": 27.76,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Gain toujours très au-dessus du seuil de prise de profits, combiné à une baisse de revenu et un changement de CFO."
+      "rationale": "Gain toujours très au-dessus du seuil de prise de profits, départ du CFO désormais confirmé."
     },
     {
       "ticker": "EWLD",
@@ -72,7 +72,7 @@
       "pnl_pct": 7.19,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Aucune cotation par part récente et fiable identifiée ce run ; gain sous le seuil de prise de profits."
+      "rationale": "Aucune cotation Paris fiable identifiée ce run, écarts importants entre places alternatives ; gain sous le seuil de prise de profits."
     },
     {
       "ticker": "EXA1.DE",
@@ -80,7 +80,7 @@
       "pnl_pct": 6.91,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Concentration structurelle extrême très au-delà du plafond de diversification, indépendamment du cours du jour."
+      "rationale": "Concentration structurelle extrême très au-delà du plafond de diversification, exposition additionnelle au risque souverain français du jour."
     }
   ],
   "orders_to_consider": [
@@ -88,13 +88,13 @@
       "action": "ALLÉGER",
       "instrument": "Hermès International (RMS.PA)",
       "details": "vendre environ 10 à 15 % de la ligne",
-      "rationale": "Dégradation d'analyste confirmée (objectif de cours abaissé) et perte persistante vs prix de revient."
+      "rationale": "Perte persistante vs prix de revient et dégradation d'analyste confirmée, dans un contexte de nervosité budgétaire française."
     },
     {
       "action": "ALLÉGER",
       "instrument": "D-Wave Quantum (QBTS)",
       "details": "vendre environ 1/4 à 1/3 de la ligne",
-      "rationale": "Gain très au-dessus du seuil de prise de profits, ligne spéculative volatile, fondamentaux et gouvernance qui s'affaiblissent."
+      "rationale": "Gain très au-dessus du seuil de prise de profits, ligne spéculative volatile, départ du CFO confirmé."
     },
     {
       "action": "ALLÉGER",
@@ -106,11 +106,12 @@
       "action": "ALLÉGER",
       "instrument": "iShares EURO STOXX Banks 30-15 ETF (DE) (EXA1)",
       "details": "vendre environ 15 à 20 % de la ligne",
-      "rationale": "Concentration structurelle largement au-delà du plafond de diversification."
+      "rationale": "Concentration structurelle largement au-delà du plafond de diversification, exposition au risque souverain français."
     }
   ],
   "risk_flags": [
-    "Qualité des données toujours dégradée : Ottobock, EWLD et EXA1 avec des cours incohérents ou non confirmés ; EUE.PA toujours sans cours du jour fiable.",
+    "Risque macro spécifique du jour : revue de la notation souveraine française par Fitch attendue ce vendredi, après une forte baisse du CAC 40 la veille.",
+    "Qualité des données très dégradée : trois lignes (Ottobock, IperionX, CATL) avec des cours strictement identiques au run précédent, suspicion de données non rafraîchies.",
     "Ottobock proche du seuil de réévaluation forcée (-15 %) depuis plusieurs runs, sans second signal net pour agir.",
     "Concentration sectorielle bancaire extrême sur EXA1 (~45,5 % des actions).",
     "Concentration élevée sur EWLD (~32,4 % des actions).",

@@ -186,12 +186,21 @@ def analyze_candidate(
             return dict(_FALLBACK_VERDICT)
 
     try:
-        response = client.messages.create(
-            model=model,
-            max_tokens=max_tokens,
-            temperature=temperature,
-            messages=[{"role": "user", "content": prompt}],
-        )
+        try:
+            response = client.messages.create(
+                model=model,
+                max_tokens=max_tokens,
+                temperature=temperature,
+                messages=[{"role": "user", "content": prompt}],
+            )
+        except TypeError:
+            # Newer anthropic SDK releases have dropped the `temperature`
+            # parameter from Messages.create(); retry without it.
+            response = client.messages.create(
+                model=model,
+                max_tokens=max_tokens,
+                messages=[{"role": "user", "content": prompt}],
+            )
         text = response.content[0].text
     except Exception as exc:  # noqa: BLE001 - SDK raises broad API errors
         logger.warning("Claude call failed for %s: %s", candidate.get("ticker"), exc)

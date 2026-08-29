@@ -8,6 +8,7 @@ client for the same reason.
 
 from __future__ import annotations
 
+import inspect
 import json
 import logging
 import re
@@ -185,13 +186,20 @@ def analyze_candidate(
             logger.error("Could not create Anthropic client: %s", exc)
             return dict(_FALLBACK_VERDICT)
 
+    create_kwargs: dict[str, object] = {
+        "model": model,
+        "max_tokens": max_tokens,
+        "messages": [{"role": "user", "content": prompt}],
+    }
     try:
-        response = client.messages.create(
-            model=model,
-            max_tokens=max_tokens,
-            temperature=temperature,
-            messages=[{"role": "user", "content": prompt}],
-        )
+        create_params = inspect.signature(client.messages.create).parameters
+    except (TypeError, ValueError):
+        create_params = {}
+    if "temperature" in create_params:
+        create_kwargs["temperature"] = temperature
+
+    try:
+        response = client.messages.create(**create_kwargs)
         text = response.content[0].text
     except Exception as exc:  # noqa: BLE001 - SDK raises broad API errors
         logger.warning("Claude call failed for %s: %s", candidate.get("ticker"), exc)

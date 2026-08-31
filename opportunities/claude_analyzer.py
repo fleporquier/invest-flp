@@ -186,10 +186,11 @@ def analyze_candidate(
             return dict(_FALLBACK_VERDICT)
 
     try:
+        # `temperature` was dropped from Messages.create() in anthropic>=1.0;
+        # the argument is accepted here only for call-site/config compatibility.
         response = client.messages.create(
             model=model,
             max_tokens=max_tokens,
-            temperature=temperature,
             messages=[{"role": "user", "content": prompt}],
         )
         text = response.content[0].text

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T09:20:00+02:00",
+  "generated_at": "2026-09-04T09:19:00+02:00",
   "broker_count": 2,
   "positions": [
     {
@@ -8,7 +8,7 @@
       "pnl_pct": -15.71,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Cours identique au run précédent (probable non-rafraîchissement), aucun catalyseur nouveau ; ligne toujours au seuil de réévaluation forcée."
+      "rationale": "Écart de cours important entre sources ce run, hors marge de bruit ; classée HOLD par prudence, toujours proche du seuil de réévaluation forcée."
     },
     {
       "ticker": "RMS.PA",
@@ -24,7 +24,7 @@
       "pnl_pct": 7.3,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Catalyseur positif déjà connu, objectif de cours abaissé par un analyste ; porte de conviction non remplie."
+      "rationale": "Aucune actualité nouvelle datée ce run ; porte de conviction non remplie."
     },
     {
       "ticker": "3750.HK",
@@ -32,7 +32,7 @@
       "pnl_pct": -0.58,
       "signal": "ALLÉGER",
       "confidence": "faible",
-      "rationale": "Catalyseur réglementaire négatif daté (arrêt d'usine) combiné à une dégradation de marge sur l'activité batteries."
+      "rationale": "Arrêt réglementaire de l'usine hongroise toujours non résolu, combiné à une pression sur les marges."
     },
     {
       "ticker": "ASML.AS",
@@ -40,7 +40,7 @@
       "pnl_pct": 11.43,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Titre en consolidation après un fort rally, guidance relevée, mais rien de nouveau daté du jour."
+      "rationale": "Consensus analystes positif maintenu, mais rien de nouveau daté qui change la donne."
     },
     {
       "ticker": "SIE.DE",
@@ -48,7 +48,7 @@
       "pnl_pct": 0.0,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Confusion probable de source avec une autre entité cotée ; la ligne détenue se porte vraisemblablement mieux que ne le montre le fichier."
+      "rationale": "Conflit de données non résolu entre deux runs consécutifs sur l'origine réelle d'une baisse récente ; prudence."
     },
     {
       "ticker": "QBTS",
@@ -56,7 +56,7 @@
       "pnl_pct": 27.76,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Gain très au-dessus du seuil de prise de profits sur ligne spéculative volatile, quel que soit le niveau de cours exact retenu."
+      "rationale": "Repli désormais confirmé par plusieurs sources indépendantes après des résultats trimestriels sous les attentes ; gain réel probablement très inférieur à celui du fichier."
     },
     {
       "ticker": "EWLD",
@@ -72,7 +72,7 @@
       "pnl_pct": 7.19,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Aucune cotation Paris récente et fiable identifiée depuis plusieurs runs ; gain sous le seuil de prise de profits."
+      "rationale": "Aucune cotation récente et fiable identifiée depuis plusieurs runs ; gain sous le seuil de prise de profits."
     },
     {
       "ticker": "EXA1.DE",
@@ -80,7 +80,7 @@
       "pnl_pct": 6.91,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Concentration structurelle extrême ; réunion de politique monétaire de la BCE dans la semaine à venir."
+      "rationale": "Concentration structurelle extrême ; réunion de politique monétaire de la BCE avec hausse de taux anticipée dans la semaine à venir."
     }
   ],
   "orders_to_consider": [
@@ -94,37 +94,34 @@
       "action": "ALLÉGER",
       "instrument": "CATL (3750.HK)",
       "details": "vendre environ 15 à 20 % de la ligne",
-      "rationale": "Catalyseur réglementaire négatif daté et dégradation de marge sur l'activité batteries."
+      "rationale": "Arrêt réglementaire de l'usine hongroise toujours non résolu et pression sur les marges."
     },
     {
       "action": "ALLÉGER",
       "instrument": "D-Wave Quantum (QBTS)",
-      "details": "vendre environ 1/4 à 1/3 de la ligne",
-      "rationale": "Gain très au-dessus du seuil de prise de profits, ligne spéculative très volatile."
+      "details": "vendre environ 1/4 à 1/3 de la ligne, vérifier le cours réel avant ordre",
+      "rationale": "Repli confirmé par plusieurs sources après des résultats trimestriels décevants ; gain réel probablement inférieur à celui affiché."
     },
     {
       "action": "ALLÉGER",
       "instrument": "Amundi MSCI World SWAP ETF EUR Dist (EWLD)",
-      "details": "vendre environ 10 à 15 % de la ligne",
-      "rationale": "Gain au-delà du seuil de prise de profits et concentration excessive."
+      "details": "vendre environ 10 à 15 % de la ligne, vérifier l'ISIN exact avant ordre",
+      "rationale": "Gain au-delà du seuil de prise de profits et concentration au-delà du plafond de diversification."
     },
     {
       "action": "ALLÉGER",
       "instrument": "iShares EURO STOXX Banks 30-15 ETF (DE) (EXA1)",
-      "details": "vendre environ 15 à 20 % de la ligne",
-      "rationale": "Concentration structurelle largement au-delà du plafond de diversification."
+      "details": "vendre environ 15 à 20 % de la ligne, envisager après la décision BCE du 10/09",
+      "rationale": "Concentration sectorielle bancaire structurelle très au-delà du plafond de diversification."
     }
   ],
   "risk_flags": [
-    "Concentration sectorielle bancaire extrême sur EXA1 (~45,5 % des actions).",
+    "Concentration extrême sur EXA1 (~45,5 % des actions).",
     "Concentration élevée sur EWLD (~32,4 % des actions).",
-    "Qualité des données dégradée : plusieurs cours identiques au run précédent, probable cache non rafraîchi.",
-    "Écart de cours majeur non résolu sur D-Wave Quantum, à vérifier manuellement avant tout ordre.",
-    "Ticker de la ligne EWLD toujours non confirmé dans le fichier de positions, risque de confusion entre versions d'ETF proches.",
-    "Confusion probable de source entre Siemens AG et une autre entité cotée du même groupe.",
-    "Nouveau catalyseur négatif daté sur CATL (arrêt réglementaire d'usine), non reflété dans le P&L du fichier.",
-    "Ottobock proche du seuil de réévaluation forcée (-15 %) depuis plusieurs runs, sans catalyseur nouveau pour trancher.",
-    "Plusieurs ordres ALLÉGER reconduits depuis plusieurs runs sans avoir été exécutés.",
-    "Réunion de politique monétaire BCE le 9-10/09/2026 à surveiller pour son impact sur le secteur bancaire."
+    "Repli confirmé et significatif sur D-Wave Quantum (QBTS), P&L fichier probablement obsolète.",
+    "Écart de cours important sur Ottobock (OBCK.DE), hors marge de bruit.",
+    "Conflit de données non résolu sur Siemens AG vs Siemens Energy.",
+    "Arrêt réglementaire persistant sur l'usine hongroise de CATL.",
+    "Réunion de politique monétaire de la BCE le 9-10/09/2026, hausse de taux anticipée, pertinente pour le secteur bancaire."
   ]
 }

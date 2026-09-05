@@ -186,10 +186,12 @@ def analyze_candidate(
             return dict(_FALLBACK_VERDICT)
 
     try:
+        # `temperature` is no longer accepted by messages.create() in
+        # anthropic>=1.0 (the API dropped it); kept as a function parameter
+        # only for backward-compatible call sites and config files.
         response = client.messages.create(
             model=model,
             max_tokens=max_tokens,
-            temperature=temperature,
             messages=[{"role": "user", "content": prompt}],
         )
         text = response.content[0].text

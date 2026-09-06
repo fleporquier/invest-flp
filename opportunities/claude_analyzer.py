@@ -186,10 +186,12 @@ def analyze_candidate(
             return dict(_FALLBACK_VERDICT)
 
     try:
+        # The installed anthropic SDK (1.x) dropped the `temperature` sampling
+        # parameter from Messages.create; `temperature` is kept as a function
+        # argument for config/API compatibility but is no longer forwarded.
         response = client.messages.create(
             model=model,
             max_tokens=max_tokens,
-            temperature=temperature,
             messages=[{"role": "user", "content": prompt}],
         )
         text = response.content[0].text

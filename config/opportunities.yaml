@@ -15,7 +15,7 @@ data:
   # committés dans cache_dir), ou "auto" (essaie yfinance puis bascule sur le cache).
   # Dans l'environnement routine en liste blanche, Yahoo est bloqué -> utiliser
   # "cache" (alimenté par le workflow GitHub Actions refresh-prices.yml).
-  source: "auto"
+  source: "cache"
   cache_dir: "data/prices"
 
 claude:

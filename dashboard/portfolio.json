@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T09:19:00+02:00",
+  "generated_at": "2026-09-09T09:19:00+02:00",
   "broker_count": 2,
   "positions": [
     {
@@ -8,15 +8,15 @@
       "pnl_pct": -15.71,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Cours incohérents entre eux ce run, hors marge de bruit ; classée HOLD par prudence, toujours proche du seuil de réévaluation forcée."
+      "rationale": "Cours à nouveau incohérents entre sources ce run malgré des résultats et des prévisions relevées ; classée HOLD par prudence, toujours proche du seuil de réévaluation forcée."
     },
     {
       "ticker": "RMS.PA",
       "name": "Hermès International",
       "pnl_pct": -14.45,
-      "signal": "ALLÉGER",
-      "confidence": "moyen",
-      "rationale": "Perte persistante vs prix de revient confirmée par un signal technique de vente et un cours proche du plus bas annuel."
+      "signal": "HOLD",
+      "confidence": "faible",
+      "rationale": "Cours incohérents entre sources ce run ; le second facteur qui justifiait un allègement n'est plus confirmé, recommandation suspendue par prudence."
     },
     {
       "ticker": "IPX",
@@ -24,7 +24,7 @@
       "pnl_pct": 7.30,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Signaux analystes contradictoires sans catalyseur nouveau daté ; porte de conviction non remplie."
+      "rationale": "Aucun catalyseur nouveau daté et aucune cotation fraîche trouvée ; porte de conviction non remplie."
     },
     {
       "ticker": "3750.HK",
@@ -32,7 +32,7 @@
       "pnl_pct": -0.58,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Dossier de suspension de production hongroise aggravé, impact client identifié, titre à un plus bas de plusieurs mois."
+      "rationale": "Suspension de production hongroise toujours active et durcissement réglementaire confirmé, titre proche de ses plus bas récents."
     },
     {
       "ticker": "ASML.AS",
@@ -40,7 +40,7 @@
       "pnl_pct": 11.43,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Hausse régulière mais gain toujours sous le seuil de prise de profits, pas de second facteur concordant."
+      "rationale": "Fondamentaux toujours excellents mais gain sous le seuil de prise de profits ; écart de cours important entre sources ce run sans impact sur la décision."
     },
     {
       "ticker": "SIE.DE",
@@ -48,7 +48,7 @@
       "pnl_pct": 0.0,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Fondamentaux solides et consolidation près des plus hauts, mais gain réel encore modeste, sous le seuil de prise de profits."
+      "rationale": "Commandes et prévisions annuelles relevées, fondamentaux très solides, mais gain réel encore modeste, sous le seuil de prise de profits."
     },
     {
       "ticker": "QBTS",
@@ -56,7 +56,7 @@
       "pnl_pct": 27.76,
       "signal": "ALLÉGER",
       "confidence": "faible",
-      "rationale": "Changement de position ce run : départ du directeur financier et réaction négative post-résultats renforcent la thèse d'essoufflement ; P&L réel incertain, à vérifier avant toute décision."
+      "rationale": "Prise de profit partielle toujours justifiée par le gain au-delà du seuil, mais conviction réduite par un nouveau financement fédéral positif ; P&L réel incertain, à vérifier avant toute décision."
     },
     {
       "ticker": "EWLD",
@@ -80,32 +80,26 @@
       "pnl_pct": 6.91,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Concentration structurelle extrême ; décision de politique monétaire de la BCE attendue dans les prochaines 24 à 48 heures."
+      "rationale": "Concentration structurelle extrême ; secteur bancaire déjà proche de ses plus hauts annuels et décision de politique monétaire de la BCE attendue sous 24 heures."
     }
   ],
   "orders_to_consider": [
     {
       "action": "ALLÉGER",
-      "instrument": "Hermès International (RMS.PA)",
-      "details": "vendre environ 10 à 15 % de la ligne",
-      "rationale": "Perte persistante vs prix de revient, confirmée par un signal technique de vente et un cours proche du plus bas annuel."
-    },
-    {
-      "action": "ALLÉGER",
       "instrument": "CATL (3750.HK)",
       "details": "vendre environ 15 à 20 % de la ligne",
-      "rationale": "Suspension de production hongroise aggravée, avec impact client désormais identifié."
+      "rationale": "Suspension de production hongroise toujours active, durcissement réglementaire confirmé."
     },
     {
       "action": "ALLÉGER",
       "instrument": "D-Wave Quantum (QBTS)",
-      "details": "vendre environ 15 à 20 % de la ligne, vérifier le P&L réel avant ordre",
-      "rationale": "Départ du directeur financier et réaction négative post-résultats renforçant la thèse d'essoufflement."
+      "details": "vendre environ 10 % de la ligne (taille réduite), vérifier le P&L réel avant ordre",
+      "rationale": "Prise de profit partielle justifiée par le seuil dépassé, mais conviction réduite par un nouveau financement fédéral positif."
     },
     {
       "action": "ALLÉGER",
       "instrument": "Amundi MSCI World SWAP ETF EUR Dist (EWLD)",
-      "details": "vendre environ 10 à 15 % de la ligne, vérifier l'ISIN exact avant ordre",
+      "details": "vendre environ 10 à 15 % de la ligne",
       "rationale": "Gain au-delà du seuil de prise de profits et concentration au-delà du plafond de diversification."
     },
     {
@@ -118,11 +112,11 @@
   "risk_flags": [
     "Concentration extrême sur EXA1 (~45,5 % des actions).",
     "Concentration élevée sur EWLD (~32,4 % des actions).",
-    "Suspension de production sur l'usine hongroise de CATL aggravée, impact client identifié.",
-    "D-Wave Quantum (QBTS) : changement de position ce run vers ALLÉGER, P&L réel vs prix de revient incertain, à vérifier avant toute décision.",
-    "Cours incohérents entre eux ce run sur Ottobock (OBCK.DE).",
-    "Signal technique de vente et cours proche du plus bas annuel sur Hermès.",
-    "Réunion de politique monétaire de la BCE le 9-10/09/2026, décision et hausse de taux attendues sous 24 à 48h, pertinente pour le secteur bancaire.",
-    "Probabilité de hausse de taux Fed mi-septembre relevée après un rapport emploi américain solide, facteur de volatilité pour les valeurs technologiques."
+    "Suspension de production toujours active sur l'usine hongroise de CATL, durcissement réglementaire confirmé.",
+    "D-Wave Quantum (QBTS) : signaux mixtes ce run (financement fédéral positif vs facteurs négatifs antérieurs), P&L réel incertain, à vérifier avant toute décision.",
+    "Cours incohérents entre sources ce run sur Hermès et sur Ottobock.",
+    "Écart de cours important entre sources ce run sur ASML, sans impact sur la décision.",
+    "Réunion de politique monétaire de la BCE le 9-10/09/2026, décision attendue sous 24 heures, secteur bancaire déjà proche de ses plus hauts annuels.",
+    "Escalade commerciale États-Unis/Canada relevée ce run, facteur de volatilité supplémentaire à surveiller."
   ]
 }

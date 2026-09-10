@@ -186,10 +186,11 @@ def analyze_candidate(
             return dict(_FALLBACK_VERDICT)
 
     try:
+        # anthropic>=1.x dropped `temperature` from messages.create(); the
+        # config value is accepted for backward compat but no longer sent.
         response = client.messages.create(
             model=model,
             max_tokens=max_tokens,
-            temperature=temperature,
             messages=[{"role": "user", "content": prompt}],
         )
         text = response.content[0].text

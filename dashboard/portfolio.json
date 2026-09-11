@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T09:21:00+02:00",
+  "generated_at": "2026-09-11T09:18:00+02:00",
   "broker_count": 2,
   "positions": [
     {
@@ -16,7 +16,7 @@
       "pnl_pct": -14.45,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Repli du jour réel mais aucun catalyseur nouveau confirmé ; un seul facteur ne suffit pas pour un ordre actionnable."
+      "rationale": "Aucune donnée fraîche trouvée ce run ; secteur luxe sous pression mais sans catalyseur nouveau confirmé."
     },
     {
       "ticker": "IPX",
@@ -24,15 +24,15 @@
       "pnl_pct": 7.30,
       "signal": "RENFORCER",
       "confidence": "moyen",
-      "rationale": "Repli du jour sur tendance haussière de fond, avec un nouveau contrat gouvernemental américain sur le titane domestique."
+      "rationale": "Tendance haussière de fond renforcée par une nouvelle initiation « Buy » d'un analyste, sur repli."
     },
     {
       "ticker": "3750.HK",
       "name": "CATL",
       "pnl_pct": -0.58,
       "signal": "ALLÉGER",
-      "confidence": "élevé",
-      "rationale": "Escalade judiciaire : annulation de l'autorisation de sécurité de l'usine hongroise par la Cour suprême, en plus de la suspension de production déjà en cours."
+      "confidence": "moyen",
+      "rationale": "Problèmes réglementaires et environnementaux en cours en Hongrie, conviction maintenue sans élément nouveau ce run."
     },
     {
       "ticker": "ASML.AS",
@@ -40,23 +40,23 @@
       "pnl_pct": 11.43,
       "signal": "HOLD",
       "confidence": "élevé",
-      "rationale": "Cours redevenu cohérent entre sources ; fondamentaux excellents mais gain encore sous le seuil de prise de profits."
+      "rationale": "Léger repli à la limite du seuil de bruit, fondamentaux excellents, gain encore sous le seuil de prise de profits."
     },
     {
       "ticker": "SIE.DE",
       "name": "Siemens AG",
       "pnl_pct": 0.0,
       "signal": "RENFORCER",
-      "confidence": "moyen",
-      "rationale": "Repli de prise de bénéfices après un plus-haut historique, malgré des commandes record et une guidance annuelle relevée."
+      "confidence": "faible",
+      "rationale": "Signal reconduit depuis le run précédent, mais aucune donnée de marché plus récente confirmée ce run."
     },
     {
       "ticker": "QBTS",
       "name": "D-Wave Quantum",
       "pnl_pct": 27.76,
       "signal": "ALLÉGER",
-      "confidence": "faible",
-      "rationale": "Prise de profit partielle toujours justifiée par le gain au-delà du seuil, mais données de cours incohérentes ce run ; P&L réel à vérifier avant toute décision."
+      "confidence": "moyen",
+      "rationale": "Prise de profit partielle toujours justifiée par le gain au-delà du seuil ; données de cours plus cohérentes ce run."
     },
     {
       "ticker": "EWLD",
@@ -80,7 +80,7 @@
       "pnl_pct": 6.91,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Concentration structurelle extrême ; secteur bancaire proche de ses plus hauts annuels avec décision de politique monétaire attendue l'après-midi même."
+      "rationale": "Concentration structurelle extrême ; secteur bancaire proche de ses plus hauts après avoir bien digéré la hausse de taux de la BCE."
     }
   ],
   "orders_to_consider": [
@@ -88,25 +88,25 @@
       "action": "RENFORCER",
       "instrument": "IperionX (IPX)",
       "details": "augmenter la ligne d'environ 10 à 15 %",
-      "rationale": "Repli du jour sur tendance haussière de fond, avec un nouveau contrat gouvernemental américain positif."
+      "rationale": "Tendance haussière renforcée par une nouvelle initiation de couverture positive d'un analyste, sur repli."
     },
     {
       "action": "RENFORCER",
       "instrument": "Siemens AG (SIE.DE)",
-      "details": "augmenter la ligne d'environ 10 à 15 %",
-      "rationale": "Repli de prise de bénéfices après un plus-haut historique, fondamentaux en amélioration."
+      "details": "augmenter la ligne d'environ 10 à 15 %, vérifier le cours avant d'agir (donnée non rafraîchie ce run)",
+      "rationale": "Signal reconduit du run précédent, fondamentaux en amélioration."
     },
     {
       "action": "ALLÉGER",
       "instrument": "CATL (3750.HK)",
       "details": "vendre environ 15 à 20 % de la ligne",
-      "rationale": "Escalade judiciaire sur l'usine hongroise, conviction renforcée."
+      "rationale": "Problèmes réglementaires et environnementaux persistants en Hongrie."
     },
     {
       "action": "ALLÉGER",
       "instrument": "D-Wave Quantum (QBTS)",
       "details": "vendre environ 10 % de la ligne, vérifier le P&L réel avant ordre",
-      "rationale": "Prise de profit partielle justifiée par le seuil dépassé, données de cours à confirmer."
+      "rationale": "Prise de profit partielle justifiée par le seuil dépassé, données de cours plus cohérentes ce run."
     },
     {
       "action": "ALLÉGER",
@@ -117,18 +117,17 @@
     {
       "action": "ALLÉGER",
       "instrument": "iShares EURO STOXX Banks 30-15 ETF (DE) (EXA1)",
-      "details": "vendre environ 15 à 20 % de la ligne, envisager après la décision de la BCE cet après-midi",
-      "rationale": "Concentration sectorielle bancaire structurelle très au-delà du plafond de diversification."
+      "details": "vendre environ 15 à 20 % de la ligne",
+      "rationale": "Concentration sectorielle bancaire structurelle très au-delà du plafond ; décision BCE désormais connue et bien digérée par le secteur."
     }
   ],
   "risk_flags": [
     "Concentration extrême sur EXA1 (~45,5 % des actions).",
     "Concentration élevée sur EWLD (~32,4 % des actions).",
-    "Escalade judiciaire sur l'usine hongroise de CATL (annulation d'autorisation de sécurité par la Cour suprême).",
-    "D-Wave Quantum (QBTS) : données de cours incohérentes ce run, P&L réel incertain, à vérifier avant toute décision.",
+    "Problèmes réglementaires et environnementaux en cours pour CATL en Hongrie.",
+    "Fraîcheur des données limitée sur plusieurs lignes ce run (Siemens, Hermès, CATL, EUE.PA).",
     "Problèmes de qualité de données chroniques sur Ottobock et sur l'ETF EURO STOXX 50 (EUE.PA).",
     "Écart probable entre le cours fichier et la valeur actuelle sur EXA1, cohérent avec la performance du secteur bancaire depuis mai.",
-    "Décision de politique monétaire de la BCE aujourd'hui à 14h15 (conférence 14h45), secteur bancaire déjà proche de ses plus hauts annuels.",
-    "Flambée du pétrole (WTI +5,1 %, Brent > 100 $), facteur de tension macro pesant sur les indices actions."
+    "Hausse des taux de la BCE confirmée (2,25 % → 2,50 %), effective le 16/09, sur fond d'inflation persistante."
   ]
 }

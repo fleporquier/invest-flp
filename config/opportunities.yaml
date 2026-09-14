@@ -13,15 +13,21 @@ universe:
 data:
   # Source des cours : "yfinance" (réseau ouvert requis), "cache" (lit les CSV
   # committés dans cache_dir), ou "auto" (essaie yfinance puis bascule sur le cache).
-  # Dans l'environnement routine en liste blanche, Yahoo est bloqué -> utiliser
-  # "cache" (alimenté par le workflow GitHub Actions refresh-prices.yml).
-  source: "auto"
+  # Dans l'environnement routine en liste blanche, Yahoo est bloqué -> "cache"
+  # (alimenté par le workflow GitHub Actions refresh-prices.yml) : "auto" y
+  # perd ~13s par ticker de l'univers (~127 tickers) en tentatives réseau
+  # avant de retomber sur le cache, soit ~25-30 min gâchées pour rien.
+  source: "cache"
   cache_dir: "data/prices"
 
 claude:
-  model: "claude-opus-4-7"
+  model: "claude-opus-5"
   max_tokens: 1000
-  temperature: 0.2
+  temperature: 0.2  # unused: the installed Anthropic SDK (>=1.x) dropped this param
+  # Nécessite ANTHROPIC_API_KEY dans l'environnement. Absente dans l'environnement
+  # routine actuel -> chaque candidat retombe sur le verdict fallback (ATTENDRE,
+  # conviction 0) : le scan reste utile pour le screening technique/quantitatif
+  # (baisse, RSI/MACD, éligibilité PEA) mais pas pour l'avis qualitatif Claude.
 
 output:
   top_n: 15

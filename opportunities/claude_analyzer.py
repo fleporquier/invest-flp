@@ -152,7 +152,7 @@ def _normalise_verdict(parsed: dict[str, object]) -> dict[str, object]:
 
 def analyze_candidate(
     candidate: dict[str, object],
-    model: str = "claude-opus-4-7",
+    model: str = "claude-opus-5",
     max_tokens: int = 1000,
     temperature: float = 0.2,
     client: object | None = None,
@@ -163,7 +163,9 @@ def analyze_candidate(
         candidate: Candidate fields (see :func:`build_prompt`).
         model: Claude model identifier.
         max_tokens: Maximum response tokens.
-        temperature: Sampling temperature.
+        temperature: Unused — the installed Anthropic SDK (>=1.x) no longer
+            accepts a ``temperature`` parameter on ``messages.create``. Kept
+            for call-site compatibility.
         client: Optional pre-built Anthropic client (used for testing). When
             ``None``, a client is created from ``ANTHROPIC_API_KEY``.
 
@@ -189,7 +191,6 @@ def analyze_candidate(
         response = client.messages.create(
             model=model,
             max_tokens=max_tokens,
-            temperature=temperature,
             messages=[{"role": "user", "content": prompt}],
         )
         text = response.content[0].text

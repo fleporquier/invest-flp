@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T09:17:00+02:00",
+  "generated_at": "2026-09-15T09:18:00+02:00",
   "broker_count": 2,
   "positions": [
     {
@@ -8,7 +8,7 @@
       "pnl_pct": -15.71,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Aucune donnée fraîche trouvée ce run, aucun nouveau catalyseur ; classée HOLD par prudence, toujours proche du seuil de réévaluation forcée."
+      "rationale": "Doute sérieux sur la place de cotation du cours trouvé ce run ; ligne toujours en zone de réévaluation forcée."
     },
     {
       "ticker": "RMS.PA",
@@ -16,7 +16,7 @@
       "pnl_pct": -14.45,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Objectif de cours abaissé par un analyste, sentiment luxe toujours prudent, mais un seul facteur ne suffit pas pour un ordre actionnable."
+      "rationale": "Cours trop divergents entre sources pour trancher ce run ; aucun catalyseur matériel nouveau identifié."
     },
     {
       "ticker": "IPX",
@@ -24,7 +24,7 @@
       "pnl_pct": 7.30,
       "signal": "RENFORCER",
       "confidence": "moyen",
-      "rationale": "Tendance haussière de fond renforcée par un nouveau contrat gouvernemental américain, sur repli."
+      "rationale": "Tendance haussière de fond soutenue par une initiation en couverture à l'achat d'un analyste."
     },
     {
       "ticker": "3750.HK",
@@ -32,15 +32,15 @@
       "pnl_pct": -0.58,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Problèmes réglementaires et environnementaux en cours en Hongrie, conviction maintenue sans élément nouveau ce run."
+      "rationale": "Problèmes réglementaires et environnementaux persistants en Hongrie, conviction maintenue sans élément nouveau."
     },
     {
       "ticker": "ASML.AS",
       "name": "ASML Holding",
       "pnl_pct": 11.43,
       "signal": "HOLD",
-      "confidence": "élevé",
-      "rationale": "Fondamentaux et partenariats stratégiques solides, avis analystes mixtes, gain encore sous le seuil de prise de profits."
+      "confidence": "moyen",
+      "rationale": "Baisse marquée après un choc sectoriel tech/IA, mais aucun seuil actionnable des règles atteint ; ligne à surveiller de près."
     },
     {
       "ticker": "SIE.DE",
@@ -48,7 +48,7 @@
       "pnl_pct": 0.0,
       "signal": "RENFORCER",
       "confidence": "moyen",
-      "rationale": "Donnée de marché enfin rafraîchie ce run, confirmant la tendance haussière et la guidance relevée."
+      "rationale": "Repli du jour lié à la faiblesse générale du marché, sans catalyseur négatif spécifique, tendance de fond intacte."
     },
     {
       "ticker": "QBTS",
@@ -56,7 +56,7 @@
       "pnl_pct": 27.76,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Prise de profit partielle justifiée par le gain au-delà du seuil ; catalyseur de financement fédéral désormais finalisé et probablement digéré."
+      "rationale": "Prise de profit partielle justifiée par le seuil dépassé, nouveau facteur de risque de dilution identifié."
     },
     {
       "ticker": "EWLD",
@@ -64,15 +64,15 @@
       "pnl_pct": 29.84,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Gain au-delà du seuil de prise de profits et concentration largement au-delà du plafond de diversification."
+      "rationale": "Gain toujours largement au-delà du seuil de prise de profits et concentration au-delà du plafond de diversification."
     },
     {
       "ticker": "EUE.PA",
       "name": "iShares Core EURO STOXX 50 ETF EUR Dist",
       "pnl_pct": 7.19,
       "signal": "HOLD",
-      "confidence": "faible",
-      "rationale": "Absence chronique de cotation récente et fiable sur de nombreux runs ; gain sous le seuil de prise de profits."
+      "confidence": "moyen",
+      "rationale": "Cotation enfin cohérente avec la référence ce run ; gain sous le seuil de prise de profits."
     },
     {
       "ticker": "EXA1.DE",
@@ -80,7 +80,7 @@
       "pnl_pct": 6.91,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Concentration structurelle extrême ; recommandation fondée sur la diversification, cours web trop incohérent d'un run à l'autre pour être fiable."
+      "rationale": "Concentration structurelle extrême ; recommandation fondée sur la diversification, cours web toujours incohérent d'un run à l'autre."
     }
   ],
   "orders_to_consider": [
@@ -88,25 +88,25 @@
       "action": "RENFORCER",
       "instrument": "IperionX (IPX)",
       "details": "augmenter la ligne d'environ 10 à 15 %",
-      "rationale": "Tendance haussière renforcée par un nouveau contrat gouvernemental américain, sur repli."
+      "rationale": "Tendance haussière soutenue par une initiation en couverture à l'achat d'un analyste."
     },
     {
       "action": "RENFORCER",
       "instrument": "Siemens AG (SIE.DE)",
       "details": "augmenter la ligne d'environ 10 à 15 %",
-      "rationale": "Donnée de marché enfin rafraîchie, confirmant la tendance haussière et la guidance relevée."
+      "rationale": "Repli de marché sans catalyseur négatif spécifique, tendance de fond intacte."
     },
     {
       "action": "ALLÉGER",
       "instrument": "CATL (3750.HK)",
-      "details": "vendre environ 15 à 20 % de la ligne, vérifier le cours avant d'agir (écart important vs run précédent)",
+      "details": "vendre environ 15 à 20 % de la ligne, cours désormais confirmé stable",
       "rationale": "Problèmes réglementaires et environnementaux persistants en Hongrie."
     },
     {
       "action": "ALLÉGER",
       "instrument": "D-Wave Quantum (QBTS)",
       "details": "vendre environ 10 % de la ligne, vérifier le P&L réel avant ordre",
-      "rationale": "Prise de profit partielle justifiée par le seuil dépassé, catalyseur de financement désormais finalisé."
+      "rationale": "Prise de profit partielle justifiée par le seuil dépassé, nouveau risque de dilution identifié."
     },
     {
       "action": "ALLÉGER",
@@ -118,17 +118,17 @@
       "action": "ALLÉGER",
       "instrument": "iShares EURO STOXX Banks 30-15 ETF (DE) (EXA1)",
       "details": "vendre environ 15 à 20 % de la ligne, vérifier impérativement le prix chez le courtier avant exécution",
-      "rationale": "Concentration sectorielle bancaire structurelle très au-delà du plafond ; cours web trop incohérent d'un run à l'autre pour servir de référence."
+      "rationale": "Concentration sectorielle bancaire structurelle très au-delà du plafond ; cours web toujours incohérent d'un run à l'autre."
     }
   ],
   "risk_flags": [
     "Concentration extrême sur EXA1 (~45,5 % des actions).",
     "Concentration élevée sur EWLD (~32,4 % des actions).",
-    "EXA1 : incohérence sévère de cours d'un run à l'autre, à vérifier avant toute exécution.",
-    "CATL : écart de cours notable vs run précédent, probablement lié à la fraîcheur des données.",
+    "EXA1 : incohérence de cours persistante d'un run à l'autre, à vérifier avant toute exécution.",
+    "ASML : choc sectoriel tech/IA après un appel de dirigeants à ralentir le développement des modèles, ligne à surveiller de près.",
+    "D-Wave : nouveau risque de dilution lié aux actions enregistrées par l'État américain.",
     "Problèmes réglementaires et environnementaux en cours pour CATL en Hongrie.",
-    "Fraîcheur des données limitée sur plusieurs lignes ce run (Ottobock, EWLD, EUE.PA).",
-    "Problèmes de qualité de données chroniques sur Ottobock et sur l'ETF EURO STOXX 50 (EUE.PA).",
-    "Contexte macro : tensions pétrolières après la fermeture d'un oléoduc saoudien, ouverture européenne contrastée, hausse des taux BCE effective le 16/09."
+    "Ottobock et Hermès : qualité de cotation toujours insuffisante ce run, décision explicite recommandée à l'utilisateur.",
+    "Contexte macro : choc sectoriel tech/IA et remontée du pétrole pesant sur les indices européens ce matin."
   ]
 }

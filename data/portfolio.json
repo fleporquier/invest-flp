@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T09:18:00+02:00",
+  "generated_at": "2026-09-16T09:19:00+02:00",
   "broker_count": 2,
   "positions": [
     {
@@ -8,31 +8,31 @@
       "pnl_pct": -15.71,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Doute sérieux sur la place de cotation du cours trouvé ce run ; ligne toujours en zone de réévaluation forcée."
+      "rationale": "Incohérence interne du cours trouvé ce run ; ligne toujours en zone de réévaluation forcée."
     },
     {
       "ticker": "RMS.PA",
       "name": "Hermès International",
       "pnl_pct": -14.45,
       "signal": "HOLD",
-      "confidence": "faible",
-      "rationale": "Cours trop divergents entre sources pour trancher ce run ; aucun catalyseur matériel nouveau identifié."
+      "confidence": "moyen",
+      "rationale": "Cotation redevenue cohérente mais aucun catalyseur matériel fort des dernières 24h."
     },
     {
       "ticker": "IPX",
       "name": "IperionX Limited",
       "pnl_pct": 7.3,
-      "signal": "RENFORCER",
-      "confidence": "moyen",
-      "rationale": "Tendance haussière de fond soutenue par une initiation en couverture à l'achat d'un analyste."
+      "signal": "HOLD",
+      "confidence": "faible",
+      "rationale": "Chute marquée proche du plus bas 52 semaines ; la thèse de renforcement sur repli haussier n'est plus valide en l'état."
     },
     {
       "ticker": "3750.HK",
       "name": "CATL",
       "pnl_pct": -0.58,
-      "signal": "ALLÉGER",
-      "confidence": "moyen",
-      "rationale": "Problèmes réglementaires et environnementaux persistants en Hongrie, conviction maintenue sans élément nouveau."
+      "signal": "HOLD",
+      "confidence": "faible",
+      "rationale": "Nouvelle couverture analyste positive contrebalance le risque réglementaire hongrois ; conviction insuffisante."
     },
     {
       "ticker": "ASML.AS",
@@ -40,7 +40,7 @@
       "pnl_pct": 11.43,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Baisse marquée après un choc sectoriel tech/IA, mais aucun seuil actionnable des règles atteint ; ligne à surveiller de près."
+      "rationale": "Rebond de cours et actualité positive sur la demande IA de semi-conducteurs ; aucun seuil actionnable atteint."
     },
     {
       "ticker": "SIE.DE",
@@ -48,7 +48,7 @@
       "pnl_pct": 0.0,
       "signal": "RENFORCER",
       "confidence": "moyen",
-      "rationale": "Repli du jour lié à la faiblesse générale du marché, sans catalyseur négatif spécifique, tendance de fond intacte."
+      "rationale": "Consensus analystes très favorable, absence de catalyseur négatif, tendance de fond intacte."
     },
     {
       "ticker": "QBTS",
@@ -56,7 +56,7 @@
       "pnl_pct": 27.76,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Prise de profit partielle justifiée par le seuil dépassé, nouveau facteur de risque de dilution identifié."
+      "rationale": "Prise de profit partielle justifiée par le seuil dépassé, risque de dilution toujours actif."
     },
     {
       "ticker": "EWLD",
@@ -71,8 +71,8 @@
       "name": "iShares Core EURO STOXX 50 ETF EUR Dist",
       "pnl_pct": 7.19,
       "signal": "HOLD",
-      "confidence": "moyen",
-      "rationale": "Cotation enfin cohérente avec la référence ce run ; gain sous le seuil de prise de profits."
+      "confidence": "faible",
+      "rationale": "Donnée de cours trouvée incohérente avec la référence ce run ; qualité insuffisante pour trancher."
     },
     {
       "ticker": "EXA1.DE",
@@ -80,33 +80,21 @@
       "pnl_pct": 6.91,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Concentration structurelle extrême ; recommandation fondée sur la diversification, cours web toujours incohérent d'un run à l'autre."
+      "rationale": "Concentration structurelle extrême ; recommandation fondée sur la diversification, cours web probablement issu d'une autre place de cotation."
     }
   ],
   "orders_to_consider": [
     {
       "action": "RENFORCER",
-      "instrument": "IperionX (IPX)",
-      "details": "augmenter la ligne d'environ 10 à 15 %",
-      "rationale": "Tendance haussière soutenue par une initiation en couverture à l'achat d'un analyste."
-    },
-    {
-      "action": "RENFORCER",
       "instrument": "Siemens AG (SIE.DE)",
       "details": "augmenter la ligne d'environ 10 à 15 %",
-      "rationale": "Repli de marché sans catalyseur négatif spécifique, tendance de fond intacte."
-    },
-    {
-      "action": "ALLÉGER",
-      "instrument": "CATL (3750.HK)",
-      "details": "vendre environ 15 à 20 % de la ligne, cours désormais confirmé stable",
-      "rationale": "Problèmes réglementaires et environnementaux persistants en Hongrie."
+      "rationale": "Consensus analystes très favorable, absence de catalyseur négatif spécifique."
     },
     {
       "action": "ALLÉGER",
       "instrument": "D-Wave Quantum (QBTS)",
       "details": "vendre environ 10 % de la ligne, vérifier le P&L réel avant ordre",
-      "rationale": "Prise de profit partielle justifiée par le seuil dépassé, nouveau risque de dilution identifié."
+      "rationale": "Prise de profit partielle justifiée par le seuil dépassé, risque de dilution toujours actif."
     },
     {
       "action": "ALLÉGER",
@@ -118,17 +106,17 @@
       "action": "ALLÉGER",
       "instrument": "iShares EURO STOXX Banks 30-15 ETF (DE) (EXA1)",
       "details": "vendre environ 15 à 20 % de la ligne, vérifier impérativement le prix chez le courtier avant exécution",
-      "rationale": "Concentration sectorielle bancaire structurelle très au-delà du plafond ; cours web toujours incohérent d'un run à l'autre."
+      "rationale": "Concentration sectorielle bancaire structurelle très au-delà du plafond, indépendamment du niveau de cours précis."
     }
   ],
   "risk_flags": [
     "Concentration extrême sur EXA1 (~45,5 % des actions).",
     "Concentration élevée sur EWLD (~32,4 % des actions).",
-    "EXA1 : incohérence de cours persistante d'un run à l'autre, à vérifier avant toute exécution.",
-    "ASML : choc sectoriel tech/IA après un appel de dirigeants à ralentir le développement des modèles, ligne à surveiller de près.",
-    "D-Wave : nouveau risque de dilution lié aux actions enregistrées par l'État américain.",
-    "Problèmes réglementaires et environnementaux en cours pour CATL en Hongrie.",
-    "Ottobock et Hermès : qualité de cotation toujours insuffisante ce run, décision explicite recommandée à l'utilisateur.",
-    "Contexte macro : choc sectoriel tech/IA et remontée du pétrole pesant sur les indices européens ce matin."
+    "EXA1 : l'oscillation de cours répétée d'un run à l'autre correspond probablement à une confusion entre les places Amsterdam et XETRA.",
+    "IperionX : chute marquée du cours, proche du plus bas 52 semaines, thèse de renforcement à réévaluer.",
+    "CATL : signaux contradictoires (couverture analyste positive vs risque réglementaire hongrois inchangé), conviction affaiblie.",
+    "ASML : signe de stabilisation après le choc sectoriel tech/IA du 14/09, niveau de risque en réduction.",
+    "Ottobock : qualité de cotation toujours insuffisante ce run, décision explicite recommandée à l'utilisateur.",
+    "Données macro (futures CAC 40, niveau Nasdaq) jugées incohérentes ce run et non utilisées pour la décision."
   ]
 }

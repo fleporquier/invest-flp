@@ -160,7 +160,6 @@ def build_result(
             },
             model=claude_cfg.get("model", "claude-opus-4-7"),
             max_tokens=claude_cfg.get("max_tokens", 1000),
-            temperature=claude_cfg.get("temperature", 0.2),
         )
         result.update(verdict)
     else:

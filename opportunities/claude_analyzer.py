@@ -154,7 +154,6 @@ def analyze_candidate(
     candidate: dict[str, object],
     model: str = "claude-opus-4-7",
     max_tokens: int = 1000,
-    temperature: float = 0.2,
     client: object | None = None,
 ) -> dict[str, object]:
     """Run the Claude analysis for one candidate.
@@ -163,7 +162,6 @@ def analyze_candidate(
         candidate: Candidate fields (see :func:`build_prompt`).
         model: Claude model identifier.
         max_tokens: Maximum response tokens.
-        temperature: Sampling temperature.
         client: Optional pre-built Anthropic client (used for testing). When
             ``None``, a client is created from ``ANTHROPIC_API_KEY``.
 
@@ -189,7 +187,6 @@ def analyze_candidate(
         response = client.messages.create(
             model=model,
             max_tokens=max_tokens,
-            temperature=temperature,
             messages=[{"role": "user", "content": prompt}],
         )
         text = response.content[0].text

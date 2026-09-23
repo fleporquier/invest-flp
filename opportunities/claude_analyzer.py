@@ -189,7 +189,6 @@ def analyze_candidate(
         response = client.messages.create(
             model=model,
             max_tokens=max_tokens,
-            temperature=temperature,
             messages=[{"role": "user", "content": prompt}],
         )
         text = response.content[0].text

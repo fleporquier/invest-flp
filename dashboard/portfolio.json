@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T09:17:00+02:00",
+  "generated_at": "2026-09-23T09:18:00+02:00",
   "broker_count": 2,
   "positions": [
     {
@@ -7,8 +7,8 @@
       "name": "Ottobock SE",
       "pnl_pct": -15.71,
       "signal": "HOLD",
-      "confidence": "moyen",
-      "rationale": "Fondamentaux trimestriels solides et cours enfin cohérent, mais ligne au-delà du seuil de réévaluation forcée : décision explicite recommandée à l'utilisateur."
+      "confidence": "faible",
+      "rationale": "Cours de nouveau dispersés entre sources ce run, pas de catalyseur nouveau confirmé ; ligne au-delà du seuil de réévaluation forcée : décision explicite recommandée à l'utilisateur."
     },
     {
       "ticker": "RMS.PA",
@@ -16,7 +16,7 @@
       "pnl_pct": -14.45,
       "signal": "POSER UN STOP",
       "confidence": "moyen",
-      "rationale": "Nouveau plus bas en quatre ans et nouvelles baisses de prévisions des analystes : deux facteurs négatifs concordants, ligne au seuil de réévaluation forcée."
+      "rationale": "Signal reconduit sans nouveau catalyseur ce run : titre toujours proche de son plus bas en quatre ans, ligne au seuil de réévaluation forcée."
     },
     {
       "ticker": "IPX",
@@ -24,7 +24,7 @@
       "pnl_pct": 7.30,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Momentum analystes positif maintenu, mais résultats attendus demain : mieux vaut attendre cette publication."
+      "rationale": "Résultats attendus le jour même, non encore publiés au moment du rapport : mieux vaut attendre cette publication."
     },
     {
       "ticker": "3750.HK",
@@ -32,7 +32,7 @@
       "pnl_pct": -0.58,
       "signal": "ALLÉGER",
       "confidence": "faible",
-      "rationale": "Risque réglementaire et opérationnel toujours présent en Hongrie, mais fondamentaux trimestriels solides et cours proche des niveaux hauts : conviction baissière revue à la baisse."
+      "rationale": "Risque réglementaire et opérationnel toujours présent en Hongrie ; thèse inchangée mais qualité de cours dégradée ce run, écart de plus de 20 % entre sources."
     },
     {
       "ticker": "ASML.AS",
@@ -40,7 +40,7 @@
       "pnl_pct": 11.43,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Fondamentaux toujours solides mais aucune donnée de cours fiable sur la bonne place ce run."
+      "rationale": "Cours enfin recoupé de façon fiable et catalyseur sectoriel positif frais, mais hausse à chaud plutôt qu'un repli : pas encore un point d'entrée pour renforcer."
     },
     {
       "ticker": "SIE.DE",
@@ -48,7 +48,7 @@
       "pnl_pct": 0.0,
       "signal": "RENFORCER",
       "confidence": "élevé",
-      "rationale": "Thèse inchangée depuis le run précédent : résultats solides, guidance relevée, consensus analystes très favorable."
+      "rationale": "Thèse renforcée par des données trimestrielles plus détaillées : carnet de commandes record, guidance de bénéfice relevée."
     },
     {
       "ticker": "QBTS",
@@ -56,7 +56,7 @@
       "pnl_pct": 27.76,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Gain toujours largement au-delà du seuil de prise de profits, newsflow devenu encore plus positif : bon moment pour sécuriser une partie des gains."
+      "rationale": "Gain toujours largement au-delà du seuil de prise de profits, pas d'élément négatif nouveau : bon moment pour sécuriser une partie des gains."
     },
     {
       "ticker": "EWLD",
@@ -64,7 +64,7 @@
       "pnl_pct": 29.84,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Gain et concentration toujours au-delà des seuils, malgré un contexte de marché plus détendu ce run."
+      "rationale": "Gain et concentration toujours au-delà des seuils, contexte de marché porteur ce run."
     },
     {
       "ticker": "EUE.PA",
@@ -80,7 +80,7 @@
       "pnl_pct": 6.91,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Concentration structurelle extrême ; cours trouvé ce run nettement plus cohérent, mais place de cotation à revérifier avant exécution."
+      "rationale": "Concentration structurelle extrême, indépendante du cours ; écart de source sur le cours plus marqué que d'habitude ce run, à vérifier avant exécution."
     }
   ],
   "orders_to_consider": [
@@ -88,25 +88,25 @@
       "action": "POSER UN STOP",
       "instrument": "Hermès International (RMS.PA)",
       "details": "vendre environ 15 à 20 % de la ligne, ou a minima poser un stop mental strict",
-      "rationale": "Nouveau signal : titre au plus bas depuis quatre ans, analystes qui abaissent encore leurs prévisions, ligne proche du seuil de réévaluation forcée."
+      "rationale": "Signal reconduit : titre toujours proche de son plus bas depuis quatre ans, ligne proche du seuil de réévaluation forcée."
     },
     {
       "action": "ALLÉGER",
       "instrument": "CATL (3750.HK)",
-      "details": "vendre environ un dixième à un cinquième de la ligne, ou a minima poser un stop mental ; vérifier le P&L réel avant toute décision",
-      "rationale": "Risque réglementaire/opérationnel hongrois toujours présent, mais conviction baissière revue à la baisse vu des fondamentaux trimestriels solides."
+      "details": "vendre environ un dixième à un cinquième de la ligne, ou a minima poser un stop mental ; vérifier le cours et le P&L réel avant toute décision",
+      "rationale": "Risque réglementaire/opérationnel hongrois toujours présent, thèse inchangée."
     },
     {
       "action": "RENFORCER",
       "instrument": "Siemens AG (SIE.DE)",
       "details": "augmenter la ligne d'environ 10 à 15 %",
-      "rationale": "Résultats trimestriels solides, guidance relevée, consensus analystes très favorable."
+      "rationale": "Résultats trimestriels solides confirmés avec davantage de détails, guidance relevée."
     },
     {
       "action": "ALLÉGER",
       "instrument": "D-Wave Quantum (QBTS)",
       "details": "vendre environ 10 à 15 % de la ligne, vérifier le P&L réel avant ordre",
-      "rationale": "Prise de profit partielle justifiée par le seuil dépassé, dans un contexte de newsflow analystes désormais plus positif."
+      "rationale": "Prise de profit partielle justifiée par le seuil dépassé."
     },
     {
       "action": "ALLÉGER",
@@ -122,12 +122,13 @@
     }
   ],
   "risk_flags": [
-    "Hermès : seuil de réévaluation forcée quasi atteint, nouveau signal actionnable ce run (plus bas en quatre ans, baisses de prévisions analystes).",
+    "Hermès : ordre reconduit, seuil de réévaluation forcée quasi atteint (plus bas en quatre ans).",
     "Concentration extrême sur EXA1 (environ la moitié des actions).",
     "Concentration élevée sur EWLD (environ un tiers des actions).",
-    "CATL : lecture revue par rapport aux runs précédents, le titre n'est pas à un plus bas annuel et les fondamentaux trimestriels sont solides ; seul le risque réglementaire hongrois justifie encore la prudence.",
-    "Ottobock : cours enfin cohérent ce run, mais ligne toujours au-delà du seuil de réévaluation forcée, décision explicite recommandée.",
-    "ASML : aucune donnée de cours fiable sur la bonne place ce run.",
-    "Ordres en attente non exécutés depuis plusieurs runs consécutifs (Siemens, D-Wave, EWLD, EXA1, CATL) ; Hermès rejoint la liste ce run."
+    "CATL : qualité de cours dégradée ce run, écart de plus de 20 % entre sources, vérification indispensable avant toute décision.",
+    "Ottobock : cours de nouveau dispersés ce run, ligne toujours au-delà du seuil de réévaluation forcée, décision explicite recommandée.",
+    "ASML : hausse sectorielle à chaud, pas encore un point d'entrée idéal pour renforcer selon les règles.",
+    "EXA1 : écart cours/fichier plus marqué ce run, à vérifier avant exécution.",
+    "Ordres en attente non exécutés depuis plusieurs runs consécutifs (Hermès, Siemens, D-Wave, EWLD, EXA1, CATL)."
   ]
 }

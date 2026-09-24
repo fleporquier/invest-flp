@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T09:18:00+02:00",
+  "generated_at": "2026-09-24T09:18:00+02:00",
   "broker_count": 2,
   "positions": [
     {
@@ -8,7 +8,7 @@
       "pnl_pct": -15.71,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Cours de nouveau dispersés entre sources ce run, pas de catalyseur nouveau confirmé ; ligne au-delà du seuil de réévaluation forcée : décision explicite recommandée à l'utilisateur."
+      "rationale": "Cours toujours dispersés entre sources ; accord de cession de la division mobilité déjà signé mais clôture encore à venir, sans nouvelle échéance ce run."
     },
     {
       "ticker": "RMS.PA",
@@ -22,17 +22,17 @@
       "ticker": "IPX",
       "name": "IperionX Limited",
       "pnl_pct": 7.3,
-      "signal": "HOLD",
-      "confidence": "faible",
-      "rationale": "Résultats attendus le jour même, non encore publiés au moment du rapport : mieux vaut attendre cette publication."
+      "signal": "ALLÉGER",
+      "confidence": "moyen",
+      "rationale": "Résultats trimestriels nettement en dessous des attentes, chute nette du cours le jour de la publication : deux facteurs négatifs concordants."
     },
     {
       "ticker": "3750.HK",
       "name": "CATL",
       "pnl_pct": -0.58,
-      "signal": "ALLÉGER",
-      "confidence": "faible",
-      "rationale": "Risque réglementaire et opérationnel toujours présent en Hongrie ; thèse inchangée mais qualité de cours dégradée ce run, écart de plus de 20 % entre sources."
+      "signal": "HOLD",
+      "confidence": "moyen",
+      "rationale": "Le risque réglementaire qui justifiait l'allègement s'est nettement désamorcé ce run (site remis en production d'essai, impact de la nouvelle taxe jugé limité par la direction)."
     },
     {
       "ticker": "ASML.AS",
@@ -40,7 +40,7 @@
       "pnl_pct": 11.43,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Cours enfin recoupé de façon fiable et catalyseur sectoriel positif frais, mais hausse à chaud plutôt qu'un repli : pas encore un point d'entrée pour renforcer."
+      "rationale": "Pas d'élément nouveau ce run ; reste une hausse à chaud plutôt qu'un repli, pas encore un point d'entrée pour renforcer."
     },
     {
       "ticker": "SIE.DE",
@@ -48,7 +48,7 @@
       "pnl_pct": 0.0,
       "signal": "RENFORCER",
       "confidence": "élevé",
-      "rationale": "Thèse renforcée par des données trimestrielles plus détaillées : carnet de commandes record, guidance de bénéfice relevée."
+      "rationale": "Thèse trimestrielle toujours valide, cours proche de ses plus hauts annuels, aucun élément dégradant."
     },
     {
       "ticker": "QBTS",
@@ -56,7 +56,7 @@
       "pnl_pct": 27.76,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Gain toujours largement au-delà du seuil de prise de profits, pas d'élément négatif nouveau : bon moment pour sécuriser une partie des gains."
+      "rationale": "Spike sectoriel ponctuel lié à un concurrent plutôt qu'à un fondamental propre à la société : bon moment pour sécuriser une partie des gains."
     },
     {
       "ticker": "EWLD",
@@ -64,7 +64,7 @@
       "pnl_pct": 29.84,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Gain et concentration toujours au-delà des seuils, contexte de marché porteur ce run."
+      "rationale": "Gain et concentration toujours au-delà des seuils, indépendamment du cours précis du jour."
     },
     {
       "ticker": "EUE.PA",
@@ -80,7 +80,7 @@
       "pnl_pct": 6.91,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Concentration structurelle extrême, indépendante du cours ; écart de source sur le cours plus marqué que d'habitude ce run, à vérifier avant exécution."
+      "rationale": "Concentration structurelle extrême, indépendante du cours ; qualité de cours améliorée ce run mais vérification avant exécution toujours recommandée."
     }
   ],
   "orders_to_consider": [
@@ -92,21 +92,21 @@
     },
     {
       "action": "ALLÉGER",
-      "instrument": "CATL (3750.HK)",
-      "details": "vendre environ un dixième à un cinquième de la ligne, ou a minima poser un stop mental ; vérifier le cours et le P&L réel avant toute décision",
-      "rationale": "Risque réglementaire/opérationnel hongrois toujours présent, thèse inchangée."
+      "instrument": "IperionX (IPX)",
+      "details": "vendre environ 15 à 20 % de la ligne, ou a minima poser un stop mental strict ; vérifier le P&L réel avant toute décision",
+      "rationale": "Résultats trimestriels nettement décevants et chute nette du cours le jour de la publication."
     },
     {
       "action": "RENFORCER",
       "instrument": "Siemens AG (SIE.DE)",
       "details": "augmenter la ligne d'environ 10 à 15 %",
-      "rationale": "Résultats trimestriels solides confirmés avec davantage de détails, guidance relevée."
+      "rationale": "Thèse trimestrielle toujours solide, cours proche des plus hauts annuels."
     },
     {
       "action": "ALLÉGER",
       "instrument": "D-Wave Quantum (QBTS)",
-      "details": "vendre environ 10 à 15 % de la ligne, vérifier le P&L réel avant ordre",
-      "rationale": "Prise de profit partielle justifiée par le seuil dépassé."
+      "details": "vendre environ 15 à 20 % de la ligne, vérifier le P&L réel avant ordre",
+      "rationale": "Spike sectoriel ponctuel sans fondamentaux propres durables ; prise de profit partielle justifiée."
     },
     {
       "action": "ALLÉGER",
@@ -117,7 +117,7 @@
     {
       "action": "ALLÉGER",
       "instrument": "iShares EURO STOXX Banks 30-15 ETF (DE) (EXA1)",
-      "details": "vendre environ 15 à 20 % de la ligne, vérifier impérativement la place de cotation exacte avant exécution",
+      "details": "vendre environ 15 à 20 % de la ligne, vérifier la cotation exacte avant exécution",
       "rationale": "Concentration sectorielle bancaire structurelle très au-delà du plafond, indépendamment du niveau de cours précis."
     }
   ],
@@ -125,10 +125,10 @@
     "Hermès : ordre reconduit, seuil de réévaluation forcée quasi atteint (plus bas en quatre ans).",
     "Concentration extrême sur EXA1 (environ la moitié des actions).",
     "Concentration élevée sur EWLD (environ un tiers des actions).",
-    "CATL : qualité de cours dégradée ce run, écart de plus de 20 % entre sources, vérification indispensable avant toute décision.",
-    "Ottobock : cours de nouveau dispersés ce run, ligne toujours au-delà du seuil de réévaluation forcée, décision explicite recommandée.",
-    "ASML : hausse sectorielle à chaud, pas encore un point d'entrée idéal pour renforcer selon les règles.",
-    "EXA1 : écart cours/fichier plus marqué ce run, à vérifier avant exécution.",
-    "Ordres en attente non exécutés depuis plusieurs runs consécutifs (Hermès, Siemens, D-Wave, EWLD, EXA1, CATL)."
+    "IperionX : résultats trimestriels nettement décevants, chute nette du cours le jour de la publication, nouveau signal d'allègement.",
+    "Ottobock : cours toujours dispersés entre sources, ligne toujours au-delà du seuil de réévaluation forcée, décision explicite recommandée.",
+    "ASML : reste une hausse à chaud, pas encore un point d'entrée idéal pour renforcer selon les règles.",
+    "CATL : signal d'allègement levé ce run, risque réglementaire nettement désamorcé.",
+    "Ordres en attente non exécutés depuis plusieurs runs consécutifs (Hermès, Siemens, D-Wave, EWLD, EXA1)."
   ]
 }

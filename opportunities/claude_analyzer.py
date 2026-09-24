@@ -185,13 +185,21 @@ def analyze_candidate(
             logger.error("Could not create Anthropic client: %s", exc)
             return dict(_FALLBACK_VERDICT)
 
+    create_kwargs = {
+        "model": model,
+        "max_tokens": max_tokens,
+        "temperature": temperature,
+        "messages": [{"role": "user", "content": prompt}],
+    }
     try:
-        response = client.messages.create(
-            model=model,
-            max_tokens=max_tokens,
-            temperature=temperature,
-            messages=[{"role": "user", "content": prompt}],
-        )
+        try:
+            response = client.messages.create(**create_kwargs)
+        except TypeError as exc:
+            # Some SDK versions dropped the `temperature` kwarg; retry without it.
+            if "temperature" not in str(exc):
+                raise
+            create_kwargs.pop("temperature")
+            response = client.messages.create(**create_kwargs)
         text = response.content[0].text
     except Exception as exc:  # noqa: BLE001 - SDK raises broad API errors
         logger.warning("Claude call failed for %s: %s", candidate.get("ticker"), exc)

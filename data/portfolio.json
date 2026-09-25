@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T09:18:00+02:00",
+  "generated_at": "2026-09-25T09:18:00+02:00",
   "broker_count": 2,
   "positions": [
     {
@@ -8,7 +8,7 @@
       "pnl_pct": -15.71,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Cours toujours dispersés entre sources ; accord de cession de la division mobilité déjà signé mais clôture encore à venir, sans nouvelle échéance ce run."
+      "rationale": "Cours plus resserré entre sources ce run mais aucune actualité nouvelle ; réévaluation à faire par l'utilisateur."
     },
     {
       "ticker": "RMS.PA",
@@ -16,7 +16,7 @@
       "pnl_pct": -14.45,
       "signal": "POSER UN STOP",
       "confidence": "moyen",
-      "rationale": "Signal reconduit sans nouveau catalyseur ce run : titre toujours proche de son plus bas en quatre ans, ligne au seuil de réévaluation forcée."
+      "rationale": "Cours toujours très déprimé après la pire correction boursière de son histoire ; le vrai P&L est probablement bien au-delà du seuil affiché par le fichier de référence."
     },
     {
       "ticker": "IPX",
@@ -24,7 +24,7 @@
       "pnl_pct": 7.3,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Résultats trimestriels nettement en dessous des attentes, chute nette du cours le jour de la publication : deux facteurs négatifs concordants."
+      "rationale": "Cours inexploitable ce run, mais le catalyseur du run précédent (résultats nettement décevants) reste valide."
     },
     {
       "ticker": "3750.HK",
@@ -32,7 +32,7 @@
       "pnl_pct": -0.58,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Le risque réglementaire qui justifiait l'allègement s'est nettement désamorcé ce run (site remis en production d'essai, impact de la nouvelle taxe jugé limité par la direction)."
+      "rationale": "Aucun nouvel élément ce run ; thèse d'allègement déjà invalidée au run précédent."
     },
     {
       "ticker": "ASML.AS",
@@ -40,7 +40,7 @@
       "pnl_pct": 11.43,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Pas d'élément nouveau ce run ; reste une hausse à chaud plutôt qu'un repli, pas encore un point d'entrée pour renforcer."
+      "rationale": "Pas d'élément nouveau ce run ; léger repli dans la marge de bruit, pas un point d'entrée pour renforcer."
     },
     {
       "ticker": "SIE.DE",
@@ -48,7 +48,7 @@
       "pnl_pct": 0.0,
       "signal": "RENFORCER",
       "confidence": "élevé",
-      "rationale": "Thèse trimestrielle toujours valide, cours proche de ses plus hauts annuels, aucun élément dégradant."
+      "rationale": "Thèse toujours valide, aucun élément dégradant, ligne loin du plafond de concentration."
     },
     {
       "ticker": "QBTS",
@@ -56,7 +56,7 @@
       "pnl_pct": 27.76,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Spike sectoriel ponctuel lié à un concurrent plutôt qu'à un fondamental propre à la société : bon moment pour sécuriser une partie des gains."
+      "rationale": "Nouvelle propre à la société mais le titre ne reprend pas ses plus hauts récents : signe d'essoufflement, bon moment pour sécuriser une partie du gain."
     },
     {
       "ticker": "EWLD",
@@ -80,33 +80,33 @@
       "pnl_pct": 6.91,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Concentration structurelle extrême, indépendante du cours ; qualité de cours améliorée ce run mais vérification avant exécution toujours recommandée."
+      "rationale": "Concentration structurelle extrême, indépendante du cours ; cours cohérent avec le run précédent."
     }
   ],
   "orders_to_consider": [
     {
       "action": "POSER UN STOP",
       "instrument": "Hermès International (RMS.PA)",
-      "details": "vendre environ 15 à 20 % de la ligne, ou a minima poser un stop mental strict",
-      "rationale": "Signal reconduit : titre toujours proche de son plus bas depuis quatre ans, ligne proche du seuil de réévaluation forcée."
+      "details": "vendre environ 15 à 20 % de la ligne, ou a minima poser un stop mental strict ; vérifier le P&L réel avant toute décision",
+      "rationale": "Cours toujours très déprimé après la pire correction boursière de son histoire ; le seuil de réévaluation forcée est probablement déjà franchi en réalité."
     },
     {
       "action": "ALLÉGER",
       "instrument": "IperionX (IPX)",
       "details": "vendre environ 15 à 20 % de la ligne, ou a minima poser un stop mental strict ; vérifier le P&L réel avant toute décision",
-      "rationale": "Résultats trimestriels nettement décevants et chute nette du cours le jour de la publication."
+      "rationale": "Résultats trimestriels nettement décevants au run précédent, cours inexploitable ce run mais thèse inchangée."
     },
     {
       "action": "RENFORCER",
       "instrument": "Siemens AG (SIE.DE)",
       "details": "augmenter la ligne d'environ 10 à 15 %",
-      "rationale": "Thèse trimestrielle toujours solide, cours proche des plus hauts annuels."
+      "rationale": "Thèse toujours solide, aucun élément dégradant."
     },
     {
       "action": "ALLÉGER",
       "instrument": "D-Wave Quantum (QBTS)",
       "details": "vendre environ 15 à 20 % de la ligne, vérifier le P&L réel avant ordre",
-      "rationale": "Spike sectoriel ponctuel sans fondamentaux propres durables ; prise de profit partielle justifiée."
+      "rationale": "Bonne nouvelle propre à la société mais titre qui ne reprend pas ses plus hauts récents ; prise de profit partielle justifiée."
     },
     {
       "action": "ALLÉGER",
@@ -117,18 +117,17 @@
     {
       "action": "ALLÉGER",
       "instrument": "iShares EURO STOXX Banks 30-15 ETF (DE) (EXA1)",
-      "details": "vendre environ 15 à 20 % de la ligne, vérifier la cotation exacte avant exécution",
+      "details": "vendre environ 15 à 20 % de la ligne",
       "rationale": "Concentration sectorielle bancaire structurelle très au-delà du plafond, indépendamment du niveau de cours précis."
     }
   ],
   "risk_flags": [
-    "Hermès : ordre reconduit, seuil de réévaluation forcée quasi atteint (plus bas en quatre ans).",
+    "Hermès : le seuil de réévaluation forcée -15 % est probablement déjà franchi en réalité, le fichier de référence n'ayant pas été mis à jour depuis la pire correction boursière de l'histoire du titre.",
     "Concentration extrême sur EXA1 (environ la moitié des actions).",
     "Concentration élevée sur EWLD (environ un tiers des actions).",
-    "IperionX : résultats trimestriels nettement décevants, chute nette du cours le jour de la publication, nouveau signal d'allègement.",
-    "Ottobock : cours toujours dispersés entre sources, ligne toujours au-delà du seuil de réévaluation forcée, décision explicite recommandée.",
-    "ASML : reste une hausse à chaud, pas encore un point d'entrée idéal pour renforcer selon les règles.",
-    "CATL : signal d'allègement levé ce run, risque réglementaire nettement désamorcé.",
-    "Ordres en attente non exécutés depuis plusieurs runs consécutifs (Hermès, Siemens, D-Wave, EWLD, EXA1)."
+    "IperionX : qualité de cours très dégradée ce run, écarts massifs entre sources.",
+    "Ottobock : ligne toujours au-delà du seuil de réévaluation forcée, décision explicite recommandée.",
+    "Le fichier de positions de référence est daté du 16/06 et potentiellement très obsolète sur plusieurs lignes.",
+    "Ordres en attente non exécutés depuis plusieurs runs consécutifs (Hermès, IperionX, Siemens, D-Wave, EWLD, EXA1)."
   ]
 }

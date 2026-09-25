@@ -186,12 +186,16 @@ def analyze_candidate(
             return dict(_FALLBACK_VERDICT)
 
     try:
-        response = client.messages.create(
-            model=model,
-            max_tokens=max_tokens,
-            temperature=temperature,
-            messages=[{"role": "user", "content": prompt}],
-        )
+        create_kwargs: dict[str, object] = {
+            "model": model,
+            "max_tokens": max_tokens,
+            "messages": [{"role": "user", "content": prompt}],
+        }
+        try:
+            response = client.messages.create(temperature=temperature, **create_kwargs)
+        except TypeError:
+            # Newer SDK releases dropped the `temperature` sampling parameter.
+            response = client.messages.create(**create_kwargs)
         text = response.content[0].text
     except Exception as exc:  # noqa: BLE001 - SDK raises broad API errors
         logger.warning("Claude call failed for %s: %s", candidate.get("ticker"), exc)

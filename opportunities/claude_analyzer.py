@@ -152,7 +152,7 @@ def _normalise_verdict(parsed: dict[str, object]) -> dict[str, object]:
 
 def analyze_candidate(
     candidate: dict[str, object],
-    model: str = "claude-opus-4-7",
+    model: str = "claude-opus-5-5",
     max_tokens: int = 1000,
     temperature: float = 0.2,
     client: object | None = None,
@@ -186,10 +186,11 @@ def analyze_candidate(
             return dict(_FALLBACK_VERDICT)
 
     try:
+        # The installed anthropic SDK no longer accepts `temperature` on
+        # messages.create (TypeError); drop it rather than fail every call.
         response = client.messages.create(
             model=model,
             max_tokens=max_tokens,
-            temperature=temperature,
             messages=[{"role": "user", "content": prompt}],
         )
         text = response.content[0].text

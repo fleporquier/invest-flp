@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T09:18:00+02:00",
+  "generated_at": "2026-09-28T09:22:00+02:00",
   "broker_count": 2,
   "positions": [
     {
@@ -8,7 +8,7 @@
       "pnl_pct": -15.71,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Cours plus resserré entre sources ce run mais aucune actualité nouvelle ; réévaluation à faire par l'utilisateur."
+      "rationale": "Aucune actualité nouvelle ce run ; réévaluation explicite à faire par l'utilisateur (seuil -15 % franchi)."
     },
     {
       "ticker": "RMS.PA",
@@ -16,15 +16,15 @@
       "pnl_pct": -14.45,
       "signal": "POSER UN STOP",
       "confidence": "moyen",
-      "rationale": "Cours toujours très déprimé après la pire correction boursière de son histoire ; le vrai P&L est probablement bien au-delà du seuil affiché par le fichier de référence."
+      "rationale": "Cours toujours très déprimé depuis la pire correction boursière de son histoire ; le vrai P&L est probablement bien au-delà du seuil affiché par le fichier de référence."
     },
     {
       "ticker": "IPX",
       "name": "IperionX Limited",
       "pnl_pct": 7.3,
-      "signal": "ALLÉGER",
-      "confidence": "moyen",
-      "rationale": "Cours inexploitable ce run, mais le catalyseur du run précédent (résultats nettement décevants) reste valide."
+      "signal": "HOLD",
+      "confidence": "faible",
+      "rationale": "Cours de nouveau inexploitable ; de nouveaux catalyseurs positifs propres à la société contrebalancent la thèse d'allègement précédente, signal repassé en HOLD."
     },
     {
       "ticker": "3750.HK",
@@ -32,7 +32,7 @@
       "pnl_pct": -0.58,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Aucun nouvel élément ce run ; thèse d'allègement déjà invalidée au run précédent."
+      "rationale": "Amorce de reprise après la correction de mai, mais pas de second facteur suffisant pour un signal actionnable."
     },
     {
       "ticker": "ASML.AS",
@@ -40,7 +40,7 @@
       "pnl_pct": 11.43,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Pas d'élément nouveau ce run ; léger repli dans la marge de bruit, pas un point d'entrée pour renforcer."
+      "rationale": "Variation du jour dans la marge de bruit ; partenariats positifs mais sans catalyseur de court terme."
     },
     {
       "ticker": "SIE.DE",
@@ -48,7 +48,7 @@
       "pnl_pct": 0.0,
       "signal": "RENFORCER",
       "confidence": "élevé",
-      "rationale": "Thèse toujours valide, aucun élément dégradant, ligne loin du plafond de concentration."
+      "rationale": "Réorganisation stratégique autour de l'IA et poursuite du rachat d'actions confortent la thèse ; ligne loin du plafond de concentration."
     },
     {
       "ticker": "QBTS",
@@ -56,15 +56,15 @@
       "pnl_pct": 27.76,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Nouvelle propre à la société mais le titre ne reprend pas ses plus hauts récents : signe d'essoufflement, bon moment pour sécuriser une partie du gain."
+      "rationale": "Titre stagnant depuis plusieurs jours après son spike sectoriel ; prise de profit partielle toujours justifiée."
     },
     {
       "ticker": "EWLD",
       "name": "Amundi MSCI World SWAP ETF EUR Dist",
       "pnl_pct": 29.84,
       "signal": "ALLÉGER",
-      "confidence": "moyen",
-      "rationale": "Gain et concentration toujours au-delà des seuils, indépendamment du cours précis du jour."
+      "confidence": "élevé",
+      "rationale": "Gain très supérieur au seuil de prise de profits et cours qui cale tout près d'un plus-haut 52 semaines : deux facteurs désormais concordants."
     },
     {
       "ticker": "EUE.PA",
@@ -72,7 +72,7 @@
       "pnl_pct": 7.19,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Aucun cours frais fiable recoupé ce run pour la ligne de référence, qualité de donnée toujours insuffisante."
+      "rationale": "Donnée de cours possiblement plus fraîche mais fiabilité encore incertaine ; aucun signal négatif identifié."
     },
     {
       "ticker": "EXA1.DE",
@@ -80,7 +80,7 @@
       "pnl_pct": 6.91,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Concentration structurelle extrême, indépendante du cours ; cours cohérent avec le run précédent."
+      "rationale": "Concentration sectorielle bancaire structurelle très au-delà du plafond, indépendante du cours exact."
     }
   ],
   "orders_to_consider": [
@@ -91,28 +91,22 @@
       "rationale": "Cours toujours très déprimé après la pire correction boursière de son histoire ; le seuil de réévaluation forcée est probablement déjà franchi en réalité."
     },
     {
-      "action": "ALLÉGER",
-      "instrument": "IperionX (IPX)",
-      "details": "vendre environ 15 à 20 % de la ligne, ou a minima poser un stop mental strict ; vérifier le P&L réel avant toute décision",
-      "rationale": "Résultats trimestriels nettement décevants au run précédent, cours inexploitable ce run mais thèse inchangée."
-    },
-    {
       "action": "RENFORCER",
       "instrument": "Siemens AG (SIE.DE)",
       "details": "augmenter la ligne d'environ 10 à 15 %",
-      "rationale": "Thèse toujours solide, aucun élément dégradant."
+      "rationale": "Réorganisation stratégique IA et rachat d'actions en cours confortent une thèse déjà solide."
     },
     {
       "action": "ALLÉGER",
       "instrument": "D-Wave Quantum (QBTS)",
       "details": "vendre environ 15 à 20 % de la ligne, vérifier le P&L réel avant ordre",
-      "rationale": "Bonne nouvelle propre à la société mais titre qui ne reprend pas ses plus hauts récents ; prise de profit partielle justifiée."
+      "rationale": "Titre stagnant après son spike sectoriel ; prise de profit partielle justifiée."
     },
     {
       "action": "ALLÉGER",
       "instrument": "Amundi MSCI World SWAP ETF EUR Dist (EWLD)",
       "details": "vendre environ 10 à 15 % de la ligne",
-      "rationale": "Gain au-delà du seuil de prise de profits et concentration au-delà du plafond de diversification."
+      "rationale": "Gain au-delà du seuil de prise de profits et cours proche d'un plus-haut 52 semaines ; concentration au-delà du plafond de diversification."
     },
     {
       "action": "ALLÉGER",
@@ -124,10 +118,10 @@
   "risk_flags": [
     "Hermès : le seuil de réévaluation forcée -15 % est probablement déjà franchi en réalité, le fichier de référence n'ayant pas été mis à jour depuis la pire correction boursière de l'histoire du titre.",
     "Concentration extrême sur EXA1 (environ la moitié des actions).",
-    "Concentration élevée sur EWLD (environ un tiers des actions).",
-    "IperionX : qualité de cours très dégradée ce run, écarts massifs entre sources.",
+    "Concentration élevée sur EWLD (environ un tiers des actions), renforcée par un cours proche d'un plus-haut 52 semaines.",
+    "IperionX : qualité de cours à nouveau très dégradée ce run, signal repassé en HOLD malgré des catalyseurs positifs récents.",
     "Ottobock : ligne toujours au-delà du seuil de réévaluation forcée, décision explicite recommandée.",
-    "Le fichier de positions de référence est daté du 16/06 et potentiellement très obsolète sur plusieurs lignes.",
-    "Ordres en attente non exécutés depuis plusieurs runs consécutifs (Hermès, IperionX, Siemens, D-Wave, EWLD, EXA1)."
+    "Le fichier de positions de référence est daté du 16/06 et potentiellement obsolète sur plusieurs lignes.",
+    "Ordres en attente non exécutés depuis plusieurs runs consécutifs (Hermès, Siemens, D-Wave, EWLD, EXA1)."
   ]
 }

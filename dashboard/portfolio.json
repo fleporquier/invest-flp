@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T09:22:00+02:00",
+  "generated_at": "2026-09-29T09:17:33+02:00",
   "broker_count": 2,
   "positions": [
     {
@@ -15,16 +15,16 @@
       "name": "Hermès International",
       "pnl_pct": -14.45,
       "signal": "POSER UN STOP",
-      "confidence": "moyen",
-      "rationale": "Cours toujours très déprimé depuis la pire correction boursière de son histoire ; le vrai P&L est probablement bien au-delà du seuil affiché par le fichier de référence."
+      "confidence": "faible",
+      "rationale": "Rebond de +2,5 % la veille mais cours encore très déprimé depuis la correction du 16/09 ; stop strict conservé, vrai P&L probablement au-delà du seuil de réévaluation."
     },
     {
       "ticker": "IPX",
       "name": "IperionX Limited",
-      "pnl_pct": 7.30,
+      "pnl_pct": 7.3,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Cours de nouveau inexploitable ; de nouveaux catalyseurs positifs propres à la société contrebalancent la thèse d'allègement précédente, signal repassé en HOLD."
+      "rationale": "Cours ~19,6 $ (26/09) cohérent mais P&L réel inconnu ; catalyseurs contrastés (contrat armée, validation GenX vs. objectifs abaissés), pas de conviction nette."
     },
     {
       "ticker": "3750.HK",
@@ -56,7 +56,7 @@
       "pnl_pct": 27.76,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Titre stagnant depuis plusieurs jours après son spike sectoriel ; prise de profit partielle toujours justifiée."
+      "rationale": "Titre en repli (-4,3 %) sans catalyseur commercial nouveau après son spike sectoriel ; prise de profit partielle toujours justifiée."
     },
     {
       "ticker": "EWLD",
@@ -88,7 +88,7 @@
       "action": "POSER UN STOP",
       "instrument": "Hermès International (RMS.PA)",
       "details": "vendre environ 15 à 20 % de la ligne, ou a minima poser un stop mental strict ; vérifier le P&L réel avant toute décision",
-      "rationale": "Cours toujours très déprimé après la pire correction boursière de son histoire ; le seuil de réévaluation forcée est probablement déjà franchi en réalité."
+      "rationale": "Cours encore très déprimé malgré un rebond ponctuel de +2,5 % (dans un contexte de correction sévère) ; le seuil de réévaluation forcée est probablement déjà franchi en réalité."
     },
     {
       "action": "RENFORCER",
@@ -100,7 +100,7 @@
       "action": "ALLÉGER",
       "instrument": "D-Wave Quantum (QBTS)",
       "details": "vendre environ 15 à 20 % de la ligne, vérifier le P&L réel avant ordre",
-      "rationale": "Titre stagnant après son spike sectoriel ; prise de profit partielle justifiée."
+      "rationale": "Titre en repli sans nouveau catalyseur après son spike sectoriel ; prise de profit partielle justifiée."
     },
     {
       "action": "ALLÉGER",
@@ -119,9 +119,10 @@
     "Hermès : le seuil de réévaluation forcée -15 % est probablement déjà franchi en réalité, le fichier de référence n'ayant pas été mis à jour depuis la pire correction boursière de l'histoire du titre.",
     "Concentration extrême sur EXA1 (environ la moitié des actions).",
     "Concentration élevée sur EWLD (environ un tiers des actions), renforcée par un cours proche d'un plus-haut 52 semaines.",
-    "IperionX : qualité de cours à nouveau très dégradée ce run, signal repassé en HOLD malgré des catalyseurs positifs récents.",
+    "IperionX : cours de ~19,6 $ recoupé mais P&L réel inconnu ; catalyseurs contrastés, signal HOLD maintenu.",
     "Ottobock : ligne toujours au-delà du seuil de réévaluation forcée, décision explicite recommandée.",
     "Le fichier de positions de référence est daté du 16/06 et potentiellement obsolète sur plusieurs lignes.",
-    "Ordres en attente non exécutés depuis plusieurs runs consécutifs (Hermès, Siemens, D-Wave, EWLD, EXA1)."
+    "Ordres en attente non exécutés depuis plusieurs runs consécutifs (Hermès, Siemens, D-Wave, EWLD, EXA1).",
+    "CATL : plus forte baisse sur deux jours depuis plus d'un an mi-septembre (craintes sur les perspectives T3) ; ligne suivie en HOLD."
   ]
 }

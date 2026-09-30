@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T09:17:33+02:00",
+  "generated_at": "2026-09-30T09:20:00+02:00",
   "broker_count": 2,
   "positions": [
     {
@@ -8,7 +8,7 @@
       "pnl_pct": -15.71,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Aucune actualité nouvelle ce run ; réévaluation explicite à faire par l'utilisateur (seuil -15 % franchi)."
+      "rationale": "Léger repli (~-2 %) sans actualité nouvelle ; ligne au-delà du seuil -15 %, décision explicite à prendre par l'utilisateur."
     },
     {
       "ticker": "RMS.PA",
@@ -16,7 +16,7 @@
       "pnl_pct": -14.45,
       "signal": "POSER UN STOP",
       "confidence": "faible",
-      "rationale": "Rebond de +2,5 % la veille mais cours encore très déprimé depuis la correction du 16/09 ; stop strict conservé, vrai P&L probablement au-delà du seuil de réévaluation."
+      "rationale": "Nouveau repli (~-1,7 %) vers des plus-bas de 4 ans, objectifs analystes abaissés (RBC) ; stop strict conservé, seuil -15 % probablement franchi."
     },
     {
       "ticker": "IPX",
@@ -24,15 +24,15 @@
       "pnl_pct": 7.3,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Cours ~19,6 $ (26/09) cohérent mais P&L réel inconnu ; catalyseurs contrastés (contrat armée, validation GenX vs. objectifs abaissés), pas de conviction nette."
+      "rationale": "Nouveau plus-bas 52 sem. le 10/09 puis rebond ; résultats en cours, catalyseurs contrastés, pas de conviction nette."
     },
     {
       "ticker": "3750.HK",
       "name": "CATL",
       "pnl_pct": -0.58,
       "signal": "HOLD",
-      "confidence": "moyen",
-      "rationale": "Amorce de reprise après la correction de mai, mais pas de second facteur suffisant pour un signal actionnable."
+      "confidence": "faible",
+      "rationale": "Plus-bas sur un an (diversification des fournisseurs par Li Auto/Xiaomi) mais résultats S1 solides ; pas de second facteur net."
     },
     {
       "ticker": "ASML.AS",
@@ -40,15 +40,15 @@
       "pnl_pct": 11.43,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Variation du jour dans la marge de bruit ; partenariats positifs mais sans catalyseur de court terme."
+      "rationale": "Forte hausse (~+4 %) et ~+5 % sur la semaine avant les résultats du 14/10 ; pas de repli pour renforcer, pas d'essoufflement net."
     },
     {
       "ticker": "SIE.DE",
       "name": "Siemens AG",
       "pnl_pct": 0.0,
-      "signal": "RENFORCER",
-      "confidence": "élevé",
-      "rationale": "Réorganisation stratégique autour de l'IA et poursuite du rachat d'actions confortent la thèse ; ligne loin du plafond de concentration."
+      "signal": "HOLD",
+      "confidence": "faible",
+      "rationale": "Cours ~284 € en hausse : le renforcement n'est plus sur repli (§4) et les sources divergent ; signal précédent retiré."
     },
     {
       "ticker": "QBTS",
@@ -88,13 +88,7 @@
       "action": "POSER UN STOP",
       "instrument": "Hermès International (RMS.PA)",
       "details": "vendre environ 15 à 20 % de la ligne, ou a minima poser un stop mental strict ; vérifier le P&L réel avant toute décision",
-      "rationale": "Cours encore très déprimé malgré un rebond ponctuel de +2,5 % (dans un contexte de correction sévère) ; le seuil de réévaluation forcée est probablement déjà franchi en réalité."
-    },
-    {
-      "action": "RENFORCER",
-      "instrument": "Siemens AG (SIE.DE)",
-      "details": "augmenter la ligne d'environ 10 à 15 %",
-      "rationale": "Réorganisation stratégique IA et rachat d'actions en cours confortent une thèse déjà solide."
+      "rationale": "Cours à ~1 358 € en nouveau repli, plus-bas de 4 ans et objectifs abaissés ; le seuil de réévaluation forcée est probablement déjà franchi."
     },
     {
       "action": "ALLÉGER",
@@ -122,7 +116,7 @@
     "IperionX : cours de ~19,6 $ recoupé mais P&L réel inconnu ; catalyseurs contrastés, signal HOLD maintenu.",
     "Ottobock : ligne toujours au-delà du seuil de réévaluation forcée, décision explicite recommandée.",
     "Le fichier de positions de référence est daté du 16/06 et potentiellement obsolète sur plusieurs lignes.",
-    "Ordres en attente non exécutés depuis plusieurs runs consécutifs (Hermès, Siemens, D-Wave, EWLD, EXA1).",
+    "Ordres en attente non exécutés depuis plusieurs runs consécutifs (Hermès, D-Wave, EWLD, EXA1).",
     "CATL : plus forte baisse sur deux jours depuis plus d'un an mi-septembre (craintes sur les perspectives T3) ; ligne suivie en HOLD."
   ]
 }

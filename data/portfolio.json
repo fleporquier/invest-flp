@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T09:20:00+02:00",
+  "generated_at": "2026-10-01T09:20:00+02:00",
   "broker_count": 2,
   "positions": [
     {
@@ -8,7 +8,7 @@
       "pnl_pct": -15.71,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Léger repli (~-2 %) sans actualité nouvelle ; ligne au-delà du seuil -15 %, décision explicite à prendre par l'utilisateur."
+      "rationale": "Cours stable ~54 € (-2 %), objectif analystes bien supérieur mais ligne au-delà de -15 % : décision explicite à prendre."
     },
     {
       "ticker": "RMS.PA",
@@ -16,7 +16,7 @@
       "pnl_pct": -14.45,
       "signal": "POSER UN STOP",
       "confidence": "faible",
-      "rationale": "Nouveau repli (~-1,7 %) vers des plus-bas de 4 ans, objectifs analystes abaissés (RBC) ; stop strict conservé, seuil -15 % probablement franchi."
+      "rationale": "Cours ~1 340-1 360 €, plus-bas de 4 ans, objectifs abaissés ; stop strict conservé, seuil -15 % probablement franchi."
     },
     {
       "ticker": "IPX",
@@ -24,7 +24,7 @@
       "pnl_pct": 7.3,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Nouveau plus-bas 52 sem. le 10/09 puis rebond ; résultats en cours, catalyseurs contrastés, pas de conviction nette."
+      "rationale": "Cours ~19,6 $ près du bas de la fourchette 52 sem., perte nette annuelle élevée ; catalyseurs contrastés, pas de conviction nette."
     },
     {
       "ticker": "3750.HK",
@@ -32,7 +32,7 @@
       "pnl_pct": -0.58,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Plus-bas sur un an (diversification des fournisseurs par Li Auto/Xiaomi) mais résultats S1 solides ; pas de second facteur net."
+      "rationale": "Cours ~504 HKD (-0,6 %), ~-39 % sous le plus-haut 52 sem. mais fondamentaux T2 solides ; résultats ~22/10, pas de second facteur net."
     },
     {
       "ticker": "ASML.AS",
@@ -40,7 +40,7 @@
       "pnl_pct": 11.43,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Forte hausse (~+4 %) et ~+5 % sur la semaine avant les résultats du 14/10 ; pas de repli pour renforcer, pas d'essoufflement net."
+      "rationale": "Cours ~1 535-1 600 € (-1,2 % le 01/10 après fort rebond) ; résultats le 14/10, pas de repli net pour renforcer."
     },
     {
       "ticker": "SIE.DE",
@@ -48,7 +48,7 @@
       "pnl_pct": 0.0,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Cours ~284 € en hausse : le renforcement n'est plus sur repli (§4) et les sources divergent ; signal précédent retiré."
+      "rationale": "Cours ~280 € (-1 % sur la semaine, dans le bruit), objectif moyen analystes ~+7 % ; aucun signal net."
     },
     {
       "ticker": "QBTS",
@@ -56,7 +56,7 @@
       "pnl_pct": 27.76,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Titre en repli (-4,3 %) sans catalyseur commercial nouveau après son spike sectoriel ; prise de profit partielle toujours justifiée."
+      "rationale": "Titre ~17,4 $, ~-40 % YTD, revenus T2 faibles et cash burn élevé malgré CGI ; sécuriser une partie du gain."
     },
     {
       "ticker": "EWLD",
@@ -94,7 +94,7 @@
       "action": "ALLÉGER",
       "instrument": "D-Wave Quantum (QBTS)",
       "details": "vendre environ 15 à 20 % de la ligne, vérifier le P&L réel avant ordre",
-      "rationale": "Titre en repli sans nouveau catalyseur après son spike sectoriel ; prise de profit partielle justifiée."
+      "rationale": "Titre ~-40 % YTD, revenus T2 faibles et cash burn élevé ; prise de profit partielle justifiée."
     },
     {
       "action": "ALLÉGER",
@@ -117,6 +117,7 @@
     "Ottobock : ligne toujours au-delà du seuil de réévaluation forcée, décision explicite recommandée.",
     "Le fichier de positions de référence est daté du 16/06 et potentiellement obsolète sur plusieurs lignes.",
     "Ordres en attente non exécutés depuis plusieurs runs consécutifs (Hermès, D-Wave, EWLD, EXA1).",
-    "CATL : plus forte baisse sur deux jours depuis plus d'un an mi-septembre (craintes sur les perspectives T3) ; ligne suivie en HOLD."
+    "CATL : plus forte baisse sur deux jours depuis plus d'un an mi-septembre (craintes sur les perspectives T3) ; ligne suivie en HOLD.",
+    "Cours du 01/10 issus de recherche web, partiellement non recoupés (CAC 40 contradictoire entre sources)."
   ]
 }

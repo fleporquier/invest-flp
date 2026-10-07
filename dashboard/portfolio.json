@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T09:20:00+02:00",
+  "generated_at": "2026-10-07T09:20:00+02:00",
   "broker_count": 2,
   "positions": [
     {
@@ -14,9 +14,9 @@
       "ticker": "RMS",
       "name": "Hermès",
       "pnl_pct": -14.45,
-      "signal": "POSER UN STOP",
-      "confidence": "moyen",
-      "rationale": "Nouveau plus-bas 4 ans (5e séance de baisse) et dégradations d'analystes ; résultats le 22/10."
+      "signal": "HOLD",
+      "confidence": "faible",
+      "rationale": "Cours web contradictoire (écart ~25 % entre sources) : HOLD par prudence, stop mental conservé ; résultats le 22/10."
     },
     {
       "ticker": "IPX",
@@ -24,7 +24,7 @@
       "pnl_pct": 7.3,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Rebond vendredi après une forte baisse ; analystes à l'achat, pas de signal concordant de sortie."
+      "rationale": "Contrat US Army en août, analystes à l'achat ; pas de signal concordant de sortie."
     },
     {
       "ticker": "3750",
@@ -40,7 +40,7 @@
       "pnl_pct": 11.43,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Rebond d'environ +3 % vendredi ; résultats le 14/10 à attendre, pas de signal concordant."
+      "rationale": "Prévisions annuelles relevées ; résultats le 14/10 à attendre, pas de signal concordant."
     },
     {
       "ticker": "SIE",
@@ -85,12 +85,6 @@
   ],
   "orders_to_consider": [
     {
-      "action": "POSER UN STOP",
-      "instrument": "Hermès (RMS.PA)",
-      "details": "stop mental strict, ou vendre ~15-20 % de la ligne",
-      "rationale": "Plus-bas 4 ans et objectifs abaissés."
-    },
-    {
       "action": "ALLÉGER",
       "instrument": "D-Wave Quantum (QBTS)",
       "details": "vendre ~15-20 % de la ligne",
@@ -111,8 +105,8 @@
   ],
   "risk_flags": [
     "Concentration extrême sur un ETF banques et élevée sur l'ETF monde.",
-    "Hermès au plus bas depuis 4 ans, seuil de perte probablement franchi.",
+    "Hermès : seuil de perte probablement franchi, cours incertain à vérifier.",
     "Données de positions anciennes : certains P&L sont périmés.",
-    "Marché européen fragile : séance de lundi en repli (CAC 40 ~7 800, sous 8 000), poids de Schneider et finances publiques françaises."
+    "Données de marché fraîches limitées aujourd'hui : cours web contradictoires, aucune clôture d'indice."
   ]
 }

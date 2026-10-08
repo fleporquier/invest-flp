@@ -1,0 +1,67 @@
+{
+  "generated_at": "2026-10-08T07:19:46+00:00",
+  "results": [
+    {
+      "ticker": "CPRT",
+      "name": "Copart, Inc.",
+      "category": "us_tech_ai",
+      "sector": "Industrials",
+      "country": "United States",
+      "drop_1d": -0.75,
+      "drop_5d": -2.42,
+      "drop_1m": -18.34,
+      "score": 10.05,
+      "rsi_14": 30.09,
+      "macd_signal": "NEUTRAL",
+      "dist_ma50_pct": -12.28,
+      "dist_ma200_pct": null,
+      "range_52w_position": 0.0,
+      "technical_score": 20,
+      "low_news_coverage": true,
+      "verdict": "ATTENDRE",
+      "type_baisse": "MIXTE",
+      "raison_baisse": "Analyse Claude indisponible.",
+      "catalyseur_rebond": null,
+      "niveau_entree_suggere": null,
+      "horizon": "MOYEN",
+      "conviction": 0,
+      "risques_majeurs": [
+        "Verdict non disponible"
+      ],
+      "pea": false,
+      "tr": true,
+      "etf_pea_alt": "PUST.PA"
+    },
+    {
+      "ticker": "INTC",
+      "name": "Intel Corporation",
+      "category": "us_tech_ai",
+      "sector": "Technology",
+      "country": "United States",
+      "drop_1d": 0.55,
+      "drop_5d": -5.91,
+      "drop_1m": 8.28,
+      "score": 2.48,
+      "rsi_14": 53.13,
+      "macd_signal": "BEARISH_CROSS",
+      "dist_ma50_pct": 10.57,
+      "dist_ma200_pct": null,
+      "range_52w_position": 0.686,
+      "technical_score": 0,
+      "low_news_coverage": true,
+      "verdict": "ATTENDRE",
+      "type_baisse": "MIXTE",
+      "raison_baisse": "Analyse Claude indisponible.",
+      "catalyseur_rebond": null,
+      "niveau_entree_suggere": null,
+      "horizon": "MOYEN",
+      "conviction": 0,
+      "risques_majeurs": [
+        "Verdict non disponible"
+      ],
+      "pea": false,
+      "tr": true,
+      "etf_pea_alt": "PUST.PA"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T09:20:00+02:00",
+  "generated_at": "2026-10-09T09:20:00+02:00",
   "broker_count": 2,
   "positions": [
     {
@@ -107,7 +107,7 @@
     "Concentration extrême sur un ETF banques et élevée sur l'ETF monde.",
     "Hermès : seuil de perte probablement franchi, cours incertain à vérifier.",
     "Données de positions anciennes : certains P&L sont périmés.",
-    "Données de marché fraîches limitées aujourd'hui : aucun cours ni clôture d'indice du 08/10 trouvés, cours web datés et contradictoires.",
+    "Données de marché fraîches limitées : aucun cours ni clôture d'indice du 09/10 trouvés, cours web datés et contradictoires.",
     "Ordres ALLÉGER reconduits depuis plusieurs runs, toujours non exécutés."
   ]
 }

@@ -1,0 +1,67 @@
+{
+  "generated_at": "2026-10-09T07:25:05+00:00",
+  "results": [
+    {
+      "ticker": "INTC",
+      "name": "INTC",
+      "category": "us_tech_ai",
+      "sector": null,
+      "country": "United States",
+      "drop_1d": -5.34,
+      "drop_5d": -10.77,
+      "drop_1m": 0.79,
+      "score": 3.9,
+      "rsi_14": 45.52,
+      "macd_signal": "NEUTRAL",
+      "dist_ma50_pct": 4.15,
+      "dist_ma200_pct": null,
+      "range_52w_position": 0.554,
+      "technical_score": 0,
+      "low_news_coverage": true,
+      "verdict": "ATTENDRE",
+      "type_baisse": "MIXTE",
+      "raison_baisse": "Analyse Claude indisponible.",
+      "catalyseur_rebond": null,
+      "niveau_entree_suggere": null,
+      "horizon": "MOYEN",
+      "conviction": 0,
+      "risques_majeurs": [
+        "Verdict non disponible"
+      ],
+      "pea": false,
+      "tr": true,
+      "etf_pea_alt": "PUST.PA"
+    },
+    {
+      "ticker": "MU",
+      "name": "MU",
+      "category": "us_tech_ai",
+      "sector": null,
+      "country": "United States",
+      "drop_1d": -4.79,
+      "drop_5d": -5.61,
+      "drop_1m": 0.79,
+      "score": 2.25,
+      "rsi_14": 51.02,
+      "macd_signal": "BEARISH_CROSS",
+      "dist_ma50_pct": 6.45,
+      "dist_ma200_pct": null,
+      "range_52w_position": 0.828,
+      "technical_score": 0,
+      "low_news_coverage": true,
+      "verdict": "ATTENDRE",
+      "type_baisse": "MIXTE",
+      "raison_baisse": "Analyse Claude indisponible.",
+      "catalyseur_rebond": null,
+      "niveau_entree_suggere": null,
+      "horizon": "MOYEN",
+      "conviction": 0,
+      "risques_majeurs": [
+        "Verdict non disponible"
+      ],
+      "pea": false,
+      "tr": true,
+      "etf_pea_alt": "PUST.PA"
+    }
+  ]
+}

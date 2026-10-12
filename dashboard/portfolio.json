@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T09:20:00+02:00",
+  "generated_at": "2026-10-12T09:20:00+02:00",
   "broker_count": 2,
   "positions": [
     {
@@ -40,7 +40,7 @@
       "pnl_pct": 11.43,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Prévisions annuelles relevées ; résultats le 14/10 à attendre, pas de signal concordant."
+      "rationale": "Résultats T3 le 14/10 : pas de renfort avant publication ; aucun signal concordant."
     },
     {
       "ticker": "SIE",

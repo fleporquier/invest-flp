@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T09:20:00+02:00",
+  "generated_at": "2026-10-13T09:20:00+02:00",
   "broker_count": 2,
   "positions": [
     {
@@ -40,7 +40,7 @@
       "pnl_pct": 11.43,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Résultats T3 le 14/10 : pas de renfort avant publication ; aucun signal concordant."
+      "rationale": "Résultats T3 à venir (date 14/10 ou 27/10 selon les sources) : pas de renfort avant publication ; aucun signal concordant."
     },
     {
       "ticker": "SIE",
@@ -107,7 +107,7 @@
     "Concentration extrême sur un ETF banques et élevée sur l'ETF monde.",
     "Hermès : seuil de perte probablement franchi, cours incertain à vérifier.",
     "Données de positions anciennes : certains P&L sont périmés.",
-    "Données de marché fraîches limitées : aucun cours ni clôture d'indice du 09/10 trouvés, cours web datés et contradictoires.",
+    "Données de marché fraîches limitées : aucun cours ni clôture d'indice du 12/10 trouvés, cours web datés et contradictoires.",
     "Ordres ALLÉGER reconduits depuis plusieurs runs, toujours non exécutés."
   ]
 }

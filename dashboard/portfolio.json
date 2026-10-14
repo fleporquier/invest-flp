@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T09:20:00+02:00",
+  "generated_at": "2026-10-14T09:20:00+02:00",
   "broker_count": 2,
   "positions": [
     {
@@ -16,7 +16,7 @@
       "pnl_pct": -14.45,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Titre ~-39 % YTD selon l'AFP, objectifs abaissés par plusieurs banques ; cours exact non fiable, HOLD par prudence, stop mental conservé ; résultats le 22/10."
+      "rationale": "Titre ~-25 à -39 % YTD, cours exact non fiable (1 400-1 630 €) ; HOLD par prudence, stop mental conservé ; résultats le 22/10."
     },
     {
       "ticker": "IPX",
@@ -40,15 +40,15 @@
       "pnl_pct": 11.43,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Résultats T3 à venir (date 14/10 ou 27/10 selon les sources) : pas de renfort avant publication ; aucun signal concordant."
+      "rationale": "Résultats T3 publiés aujourd'hui (14/10) selon un agenda : pas de renfort avant lecture de la publication ; aucun signal concordant."
     },
     {
       "ticker": "SIE",
       "name": "Siemens",
-      "pnl_pct": 4.6,
+      "pnl_pct": 3.9,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Aucun signal."
+      "rationale": "Cours web récent cohérent (~+4 % vs achat) ; objectifs analystes contradictoires, résultats le 12/11, aucun signal."
     },
     {
       "ticker": "QBTS",
@@ -107,7 +107,7 @@
     "Concentration extrême sur un ETF banques et élevée sur l'ETF monde.",
     "Hermès : seuil de perte probablement franchi, cours incertain à vérifier.",
     "Données de positions anciennes : certains P&L sont périmés.",
-    "Données de marché fraîches limitées : aucun cours ni clôture d'indice du 12/10 trouvés, cours web datés et contradictoires.",
+    "Données de marché fraîches limitées : aucune clôture d'indice d'octobre trouvée (CAC ~7 965 le 01/10), cours web datés et contradictoires.",
     "Ordres ALLÉGER reconduits depuis plusieurs runs, toujours non exécutés."
   ]
 }

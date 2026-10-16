@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T09:20:00+02:00",
+  "generated_at": "2026-10-16T09:17:00+02:00",
   "broker_count": 2,
   "positions": [
     {
@@ -40,7 +40,7 @@
       "pnl_pct": 11.43,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Résultats T3 publiés : CA au-dessus de la guidance, objectif annuel haut ; pas de repli pour renforcer, un seul facteur → HOLD."
+      "rationale": "Résultats T3 solides et objectif annuel relevé, mais un seul facteur et pas de repli identifié : conserver."
     },
     {
       "ticker": "SIE",

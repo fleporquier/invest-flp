@@ -1,23 +1,94 @@
 {
-  "generated_at": "2026-10-19T09:21:00+02:00",
+  "generated_at": "2026-10-20T09:17:00+02:00",
   "broker_count": 2,
   "positions": [
-    {"ticker": "OBCK", "name": "Ottobock", "pnl_pct": -15.7, "signal": "HOLD", "confidence": "faible", "rationale": "Seuil de réévaluation de -15 % atteint, mais pas de cours frais ni de catalyseur négatif."},
-    {"ticker": "RMS", "name": "Hermès", "pnl_pct": -14.5, "signal": "HOLD", "confidence": "faible", "rationale": "Proche du seuil de réévaluation, sources de cours contradictoires."},
-    {"ticker": "IPX", "name": "IperionX", "pnl_pct": 7.3, "signal": "HOLD", "confidence": "faible", "rationale": "Cours web incohérents (devise/place), aucun signal net."},
-    {"ticker": "3750", "name": "CATL", "pnl_pct": -0.6, "signal": "HOLD", "confidence": "faible", "rationale": "Cours périmé et devise à vérifier, pas de signal."},
-    {"ticker": "ASML", "name": "ASML Holding", "pnl_pct": 11.4, "signal": "HOLD", "confidence": "moyen", "rationale": "Repli récent avant résultats, un seul facteur donc insuffisant pour agir."},
-    {"ticker": "SIE", "name": "Siemens", "pnl_pct": 0.0, "signal": "HOLD", "confidence": "moyen", "rationale": "Proche du prix d'achat, prochains résultats mi-novembre."},
-    {"ticker": "QBTS", "name": "D-Wave Quantum", "pnl_pct": 27.8, "signal": "HOLD", "confidence": "faible", "rationale": "Cours web périmé, essoufflement non démontrable."},
-    {"ticker": "MSCI World", "name": "Amundi MSCI World ETF", "pnl_pct": 29.8, "signal": "HOLD", "confidence": "faible", "rationale": "Aucun cours frais disponible."},
-    {"ticker": "EUE", "name": "iShares EURO STOXX 50", "pnl_pct": 7.2, "signal": "HOLD", "confidence": "faible", "rationale": "Aucune donnée fraîche."},
-    {"ticker": "EXA1", "name": "iShares EURO STOXX Banks", "pnl_pct": 6.9, "signal": "HOLD", "confidence": "faible", "rationale": "Pas de signal du jour, poids de la ligne très élevé."}
+    {
+      "ticker": "OBCK",
+      "name": "Ottobock",
+      "pnl_pct": -15.7,
+      "signal": "HOLD",
+      "confidence": "faible",
+      "rationale": "Seuil de réévaluation de -15 % atteint, mais pas de cours frais ni de catalyseur négatif."
+    },
+    {
+      "ticker": "RMS",
+      "name": "Hermès",
+      "pnl_pct": -14.5,
+      "signal": "HOLD",
+      "confidence": "faible",
+      "rationale": "Proche du seuil de réévaluation, sources de cours contradictoires."
+    },
+    {
+      "ticker": "IPX",
+      "name": "IperionX",
+      "pnl_pct": 7.3,
+      "signal": "HOLD",
+      "confidence": "faible",
+      "rationale": "Cours web incohérents (devise/place), aucun signal net."
+    },
+    {
+      "ticker": "3750",
+      "name": "CATL",
+      "pnl_pct": -0.6,
+      "signal": "HOLD",
+      "confidence": "faible",
+      "rationale": "Cours périmé et devise à vérifier, pas de signal."
+    },
+    {
+      "ticker": "ASML",
+      "name": "ASML Holding",
+      "pnl_pct": 11.4,
+      "signal": "HOLD",
+      "confidence": "moyen",
+      "rationale": "Résultats et guidance positifs déjà digérés, un seul facteur donc insuffisant pour agir."
+    },
+    {
+      "ticker": "SIE",
+      "name": "Siemens",
+      "pnl_pct": 0.0,
+      "signal": "HOLD",
+      "confidence": "moyen",
+      "rationale": "Légèrement au-dessus du prix d'achat, commandes record, prochains résultats mi-novembre."
+    },
+    {
+      "ticker": "QBTS",
+      "name": "D-Wave Quantum",
+      "pnl_pct": 27.8,
+      "signal": "HOLD",
+      "confidence": "faible",
+      "rationale": "Cours web périmé, essoufflement non démontrable."
+    },
+    {
+      "ticker": "MSCI World",
+      "name": "Amundi MSCI World ETF",
+      "pnl_pct": 29.8,
+      "signal": "HOLD",
+      "confidence": "faible",
+      "rationale": "Aucun cours frais disponible."
+    },
+    {
+      "ticker": "EUE",
+      "name": "iShares EURO STOXX 50",
+      "pnl_pct": 7.2,
+      "signal": "HOLD",
+      "confidence": "faible",
+      "rationale": "Aucune donnée fraîche."
+    },
+    {
+      "ticker": "EXA1",
+      "name": "iShares EURO STOXX Banks",
+      "pnl_pct": 6.9,
+      "signal": "HOLD",
+      "confidence": "faible",
+      "rationale": "Pas de signal du jour, poids de la ligne très élevé."
+    }
   ],
   "orders_to_consider": [],
   "risk_flags": [
     "Concentration élevée : ETF Banques supérieur à 25 % du portefeuille.",
     "ETF MSCI World légèrement supérieur à 25 % du portefeuille.",
     "Ottobock et Hermès au seuil de réévaluation de -15 %.",
-    "Données de cours web périmées pour la plupart des lignes."
+    "Données de cours web périmées pour la plupart des lignes.",
+    "Contexte macro (taux BCE, pétrole élevé) : prudence sur banques et luxe."
   ]
 }

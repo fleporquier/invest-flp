@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T09:17:00+02:00",
+  "generated_at": "2026-10-21T09:20:00+02:00",
   "broker_count": 2,
   "positions": [
     {
@@ -80,7 +80,7 @@
       "pnl_pct": 6.9,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Pas de signal du jour, poids de la ligne très élevé."
+      "rationale": "Indice banques en repli mi-octobre (~290 pts vs ~320 début août), pas de signal net ; poids de la ligne très élevé."
     }
   ],
   "orders_to_consider": [],

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T09:20:00+02:00",
+  "generated_at": "2026-10-22T09:17:00+02:00",
   "broker_count": 2,
   "positions": [
     {
@@ -8,7 +8,7 @@
       "pnl_pct": -15.7,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Seuil de réévaluation de -15 % atteint, mais pas de cours frais ni de catalyseur négatif."
+      "rationale": "Seuil de réévaluation de -15 % atteint, analystes positifs et pas de catalyseur négatif."
     },
     {
       "ticker": "RMS",
@@ -40,7 +40,7 @@
       "pnl_pct": 11.4,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Résultats et guidance positifs déjà digérés, un seul facteur donc insuffisant pour agir."
+      "rationale": "Résultats trimestriels possiblement imminents (27/10), un seul facteur donc insuffisant pour agir."
     },
     {
       "ticker": "SIE",

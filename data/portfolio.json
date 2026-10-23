@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T09:17:00+02:00",
+  "generated_at": "2026-10-23T09:20:00+02:00",
   "broker_count": 2,
   "positions": [
     {
@@ -8,7 +8,7 @@
       "pnl_pct": -15.7,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Seuil de réévaluation de -15 % atteint, analystes positifs et pas de catalyseur négatif."
+      "rationale": "Cours web ~49 € après baisse d'objectif Goldman (maintien à l'achat) ; seuil -15 % dépassé, arbitrage à l'utilisateur, pas de 2e facteur net."
     },
     {
       "ticker": "RMS",
@@ -16,7 +16,7 @@
       "pnl_pct": -14.5,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Proche du seuil de réévaluation, sources de cours contradictoires."
+      "rationale": "Cours web très contradictoires (~1 400 € en septembre) ; aucune donnée fraîche fiable, seuil -15 % à arbitrer."
     },
     {
       "ticker": "IPX",
@@ -40,7 +40,7 @@
       "pnl_pct": 11.4,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Résultats trimestriels possiblement imminents (27/10), un seul facteur donc insuffisant pour agir."
+      "rationale": "Résultats T3 publiés le 14/10 solides avec objectifs 2026 relevés ; titre ~1 560 €, un seul facteur positif donc pas de renfort."
     },
     {
       "ticker": "SIE",
@@ -48,7 +48,7 @@
       "pnl_pct": 0.0,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Légèrement au-dessus du prix d'achat, commandes record, prochains résultats mi-novembre."
+      "rationale": "Cours ~274 € mi-octobre, légèrement au-dessus de l'achat ; prochains résultats le 12/11."
     },
     {
       "ticker": "QBTS",
@@ -56,7 +56,7 @@
       "pnl_pct": 27.8,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Cours web périmé, essoufflement non démontrable."
+      "rationale": "Cours web ~11,8 $ (non vérifié) très inférieur aux niveaux du fichier : P&L réel probablement dégradé, action en justice et levée IonQ ; données à vérifier avant toute décision."
     },
     {
       "ticker": "MSCI World",
@@ -80,7 +80,7 @@
       "pnl_pct": 6.9,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Indice banques en repli mi-octobre (~290 pts vs ~320 début août), pas de signal net ; poids de la ligne très élevé."
+      "rationale": "Aucun cours frais ; secteur sous pression mi-octobre, poids de la ligne très élevé."
     }
   ],
   "orders_to_consider": [],
@@ -88,7 +88,7 @@
     "Concentration élevée : ETF Banques supérieur à 25 % du portefeuille.",
     "ETF MSCI World légèrement supérieur à 25 % du portefeuille.",
     "Ottobock et Hermès au seuil de réévaluation de -15 %.",
-    "Données de cours web périmées pour la plupart des lignes.",
-    "Contexte macro (taux BCE, pétrole élevé) : prudence sur banques et luxe."
+    "Contexte macro (taux BCE, pétrole élevé) : prudence sur banques et luxe.",
+    "D-Wave : cours web (~11,8 $) très éloigné du fichier, P&L réel à vérifier (possible perte)."
   ]
 }

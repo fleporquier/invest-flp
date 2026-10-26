@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T09:20:00+02:00",
+  "generated_at": "2026-10-26T09:19:00+02:00",
   "broker_count": 2,
   "positions": [
     {
@@ -8,7 +8,7 @@
       "pnl_pct": -15.7,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Cours web ~49 € après baisse d'objectif Goldman (maintien à l'achat) ; seuil -15 % dépassé, arbitrage à l'utilisateur, pas de 2e facteur net."
+      "rationale": "Cours web ~49 € ; seuil -15 % atteint, arbitrage à l'utilisateur, pas de 2e facteur net."
     },
     {
       "ticker": "RMS",
@@ -16,7 +16,7 @@
       "pnl_pct": -14.5,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Cours web très contradictoires (~1 400 € en septembre) ; aucune donnée fraîche fiable, seuil -15 % à arbitrer."
+      "rationale": "Plus bas de 4 ans en septembre, aucune donnée fraîche fiable ; seuil -15 % à arbitrer."
     },
     {
       "ticker": "IPX",
@@ -24,7 +24,7 @@
       "pnl_pct": 7.3,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Cours web incohérents (devise/place), aucun signal net."
+      "rationale": "Dernier cours en USD (début octobre), devise/place différentes de TR ; aucun signal net."
     },
     {
       "ticker": "3750",
@@ -40,7 +40,7 @@
       "pnl_pct": 11.4,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Résultats T3 publiés le 14/10 solides avec objectifs 2026 relevés ; titre ~1 560 €, un seul facteur positif donc pas de renfort."
+      "rationale": "Repli sectoriel mi-octobre malgré des résultats solides ; un seul facteur, pas de renfort."
     },
     {
       "ticker": "SIE",
@@ -48,7 +48,7 @@
       "pnl_pct": 0.0,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Cours ~274 € mi-octobre, légèrement au-dessus de l'achat ; prochains résultats le 12/11."
+      "rationale": "Cours proche de l'achat, pas de signal ; prochains résultats le 12/11."
     },
     {
       "ticker": "QBTS",
@@ -56,7 +56,7 @@
       "pnl_pct": 27.8,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Cours web ~11,8 $ (non vérifié) très inférieur aux niveaux du fichier : P&L réel probablement dégradé, action en justice et levée IonQ ; données à vérifier avant toute décision."
+      "rationale": "Cours web très inférieur aux niveaux du fichier : P&L réel à vérifier avant toute décision."
     },
     {
       "ticker": "MSCI World",
@@ -64,7 +64,7 @@
       "pnl_pct": 29.8,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Aucun cours frais disponible."
+      "rationale": "Cours daté de fin juillet, aucun signal."
     },
     {
       "ticker": "EUE",
@@ -80,7 +80,7 @@
       "pnl_pct": 6.9,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Aucun cours frais ; secteur sous pression mi-octobre, poids de la ligne très élevé."
+      "rationale": "Aucun cours frais ; poids de la ligne très élevé."
     }
   ],
   "orders_to_consider": [],

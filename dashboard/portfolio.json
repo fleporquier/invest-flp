@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T09:19:00+02:00",
+  "generated_at": "2026-10-27T09:25:00+01:00",
   "broker_count": 2,
   "positions": [
     {
@@ -8,7 +8,7 @@
       "pnl_pct": -15.7,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Cours web ~49 € ; seuil -15 % atteint, arbitrage à l'utilisateur, pas de 2e facteur net."
+      "rationale": "Seuil -15 % atteint, titre ~49 € avant résultats du 12/11 (Goldman abaisse sa cible) ; pas de 2e facteur net, arbitrage à l'utilisateur."
     },
     {
       "ticker": "RMS",
@@ -16,7 +16,7 @@
       "pnl_pct": -14.5,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Plus bas de 4 ans en septembre, aucune donnée fraîche fiable ; seuil -15 % à arbitrer."
+      "rationale": "Sources de cours contradictoires, aucune actu d'octobre fiable ; seuil -15 % à arbitrer."
     },
     {
       "ticker": "IPX",
@@ -40,7 +40,7 @@
       "pnl_pct": 11.4,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Repli sectoriel mi-octobre malgré des résultats solides ; un seul facteur, pas de renfort."
+      "rationale": "Résultats T3 solides et objectifs 2026 relevés, repli de ~9 % avant publication ; un seul facteur, pas de renfort."
     },
     {
       "ticker": "SIE",
@@ -48,7 +48,7 @@
       "pnl_pct": 0.0,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Cours proche de l'achat, pas de signal ; prochains résultats le 12/11."
+      "rationale": "Dernier cours ~272 € (09/10) légèrement au-dessus de l'achat ; pas de signal, résultats le 12/11."
     },
     {
       "ticker": "QBTS",
@@ -89,6 +89,6 @@
     "ETF MSCI World légèrement supérieur à 25 % du portefeuille.",
     "Ottobock et Hermès au seuil de réévaluation de -15 %.",
     "Contexte macro (taux BCE, pétrole élevé) : prudence sur banques et luxe.",
-    "D-Wave : cours web (~11,8 $) très éloigné du fichier, P&L réel à vérifier (possible perte)."
+    "D-Wave : aucun cours frais fiable, P&L réel à vérifier dans l'app TR."
   ]
 }

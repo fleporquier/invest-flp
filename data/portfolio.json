@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T09:25:00+01:00",
+  "generated_at": "2026-10-28T08:20:00+01:00",
   "broker_count": 2,
   "positions": [
     {
@@ -16,7 +16,7 @@
       "pnl_pct": -14.5,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Sources de cours contradictoires, aucune actu d'octobre fiable ; seuil -15 % à arbitrer."
+      "rationale": "Dernier cours daté ~1 310 € (14/10), sous pression ; résultats T3 du 22/10 non confirmés, P&L réel à vérifier, seuil -15 % à arbitrer."
     },
     {
       "ticker": "IPX",
@@ -40,15 +40,15 @@
       "pnl_pct": 11.4,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Résultats T3 solides et objectifs 2026 relevés, repli de ~9 % avant publication ; un seul facteur, pas de renfort."
+      "rationale": "Résultats T3 solides, titre autour de 1 430-1 500 € sans cours daté du jour ; un seul facteur, pas de renfort."
     },
     {
       "ticker": "SIE",
       "name": "Siemens",
-      "pnl_pct": 0.0,
+      "pnl_pct": -3.1,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Dernier cours ~272 € (09/10) légèrement au-dessus de l'achat ; pas de signal, résultats le 12/11."
+      "rationale": "Repli de ~4 % le 22/10 (~256 €), légèrement sous le prix d'achat ; un seul facteur, résultats le 12/11."
     },
     {
       "ticker": "QBTS",
@@ -56,7 +56,7 @@
       "pnl_pct": 27.8,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Cours web très inférieur aux niveaux du fichier : P&L réel à vérifier avant toute décision."
+      "rationale": "Dernier cours ~16 $ (fin septembre), très inférieur aux niveaux du fichier : P&L réel à vérifier avant toute décision."
     },
     {
       "ticker": "MSCI World",
@@ -88,7 +88,7 @@
     "Concentration élevée : ETF Banques supérieur à 25 % du portefeuille.",
     "ETF MSCI World légèrement supérieur à 25 % du portefeuille.",
     "Ottobock et Hermès au seuil de réévaluation de -15 %.",
-    "Contexte macro (taux BCE, pétrole élevé) : prudence sur banques et luxe.",
+    "Contexte macro (taux BCE, pétrole élevé), CAC 40 en repli (~7 840 pts le 20/10) : prudence sur banques et luxe.",
     "D-Wave : aucun cours frais fiable, P&L réel à vérifier dans l'app TR."
   ]
 }

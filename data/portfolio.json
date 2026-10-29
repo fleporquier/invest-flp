@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T08:20:00+01:00",
+  "generated_at": "2026-10-29T08:20:00+01:00",
   "broker_count": 2,
   "positions": [
     {
@@ -8,7 +8,7 @@
       "pnl_pct": -15.7,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Seuil -15 % atteint, titre ~49 € avant résultats du 12/11 (Goldman abaisse sa cible) ; pas de 2e facteur net, arbitrage à l'utilisateur."
+      "rationale": "Seuil de -15 % atteint et cible Goldman abaissée, mais cours web incohérents ; arbitrage à faire par l'utilisateur."
     },
     {
       "ticker": "RMS",
@@ -16,7 +16,7 @@
       "pnl_pct": -14.5,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Dernier cours daté ~1 310 € (14/10), sous pression ; résultats T3 du 22/10 non confirmés, P&L réel à vérifier, seuil -15 % à arbitrer."
+      "rationale": "Cours web contradictoires ; proche du seuil de réévaluation de -15 %."
     },
     {
       "ticker": "IPX",
@@ -24,15 +24,15 @@
       "pnl_pct": 7.3,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Dernier cours en USD (début octobre), devise/place différentes de TR ; aucun signal net."
+      "rationale": "Résultats trimestriels attendus le 29/10 ; pas de donnée fraîche fiable."
     },
     {
-      "ticker": "3750",
+      "ticker": "3750.HK",
       "name": "CATL",
       "pnl_pct": -0.6,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Cours périmé et devise à vérifier, pas de signal."
+      "rationale": "Aucune donnée fraîche."
     },
     {
       "ticker": "ASML",
@@ -40,15 +40,15 @@
       "pnl_pct": 11.4,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Résultats T3 solides, titre autour de 1 430-1 500 € sans cours daté du jour ; un seul facteur, pas de renfort."
+      "rationale": "Résultats T3 solides, un seul facteur favorable."
     },
     {
       "ticker": "SIE",
       "name": "Siemens",
-      "pnl_pct": -3.1,
+      "pnl_pct": -3.0,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Repli de ~4 % le 22/10 (~256 €), légèrement sous le prix d'achat ; un seul facteur, résultats le 12/11."
+      "rationale": "Repli sous le seuil de risque, résultats le 12/11."
     },
     {
       "ticker": "QBTS",
@@ -56,15 +56,15 @@
       "pnl_pct": 27.8,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Dernier cours ~16 $ (fin septembre), très inférieur aux niveaux du fichier : P&L réel à vérifier avant toute décision."
+      "rationale": "Cours web très inférieur au fichier ; P&L à contrôler dans l'application du courtier."
     },
     {
-      "ticker": "MSCI World",
-      "name": "Amundi MSCI World ETF",
+      "ticker": "MWRD",
+      "name": "Amundi MSCI World",
       "pnl_pct": 29.8,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Cours daté de fin juillet, aucun signal."
+      "rationale": "Aucune donnée fraîche."
     },
     {
       "ticker": "EUE",
@@ -76,19 +76,17 @@
     },
     {
       "ticker": "EXA1",
-      "name": "iShares EURO STOXX Banks",
+      "name": "iShares EURO STOXX Banks 30-15",
       "pnl_pct": 6.9,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Aucun cours frais ; poids de la ligne très élevé."
+      "rationale": "Aucun cours fiable du jour."
     }
   ],
   "orders_to_consider": [],
   "risk_flags": [
-    "Concentration élevée : ETF Banques supérieur à 25 % du portefeuille.",
-    "ETF MSCI World légèrement supérieur à 25 % du portefeuille.",
+    "Concentration élevée sur l'ETF Banques et l'ETF MSCI World (>25 % chacun).",
     "Ottobock et Hermès au seuil de réévaluation de -15 %.",
-    "Contexte macro (taux BCE, pétrole élevé), CAC 40 en repli (~7 840 pts le 20/10) : prudence sur banques et luxe.",
-    "D-Wave : aucun cours frais fiable, P&L réel à vérifier dans l'app TR."
+    "Données de positions anciennes : mise à jour recommandée."
   ]
 }

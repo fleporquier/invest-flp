@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T08:20:00+01:00",
+  "generated_at": "2026-10-30T09:18:00+01:00",
   "broker_count": 2,
   "positions": [
     {
@@ -16,7 +16,7 @@
       "pnl_pct": -14.5,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Cours web contradictoires ; proche du seuil de réévaluation de -15 %."
+      "rationale": "Plus bas pluriannuel, cours web partiels ; proche du seuil de réévaluation de -15 %."
     },
     {
       "ticker": "IPX",
@@ -45,10 +45,10 @@
     {
       "ticker": "SIE",
       "name": "Siemens",
-      "pnl_pct": -3.0,
+      "pnl_pct": -9.9,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Repli sous le seuil de risque, résultats le 12/11."
+      "rationale": "Repli proche du seuil de risque de -10 % ; pas de catalyseur négatif net, résultats le 12/11."
     },
     {
       "ticker": "QBTS",
@@ -87,6 +87,7 @@
   "risk_flags": [
     "Concentration élevée sur l'ETF Banques et l'ETF MSCI World (>25 % chacun).",
     "Ottobock et Hermès au seuil de réévaluation de -15 %.",
-    "Données de positions anciennes : mise à jour recommandée."
+    "Données de positions anciennes : mise à jour recommandée.",
+    "Siemens proche du seuil de -10 % avant résultats."
   ]
 }

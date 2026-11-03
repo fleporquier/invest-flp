@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T08:20:00+01:00",
+  "generated_at": "2026-11-03T09:00:00+01:00",
   "broker_count": 2,
   "positions": [
     {
@@ -16,7 +16,7 @@
       "pnl_pct": -14.45,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Proche du seuil de -15 % ; pas de donnée de cours récente pour trancher."
+      "rationale": "Juste au-dessus du seuil de -15 % ; cours web trop ancien pour trancher."
     },
     {
       "ticker": "IPX",
@@ -56,7 +56,7 @@
       "pnl_pct": 27.76,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Gain > 20 % mais pas de confirmation d'essoufflement avec des données récentes."
+      "rationale": "Gain > 20 % mais cours web douteux ; résultats attendus ~05/11."
     },
     {
       "ticker": "MWRD",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T08:15:57+01:00",
+  "generated_at": "2026-11-06T08:17:00+01:00",
   "broker_count": 2,
   "positions": [
     {
@@ -32,7 +32,7 @@
       "pnl_pct": -0.58,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Résultats T3 sous les attentes mais analystes toujours acheteurs."
+      "rationale": "Tendance faible mais P&L dans le bruit, pas de second facteur."
     },
     {
       "ticker": "ASML",
@@ -56,7 +56,7 @@
       "pnl_pct": 27.76,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Résultats T3 attendus aujourd'hui (05/11) ; très spéculatif, aucune donnée de cours fiable : conserver sans renforcer."
+      "rationale": "Résultats T3 publiés le 05/11, réaction non vérifiable ; très spéculatif : conserver sans renforcer."
     },
     {
       "ticker": "MWRD",
@@ -80,13 +80,13 @@
       "pnl_pct": 6.91,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Cours web douteux, ligne très concentrée."
+      "rationale": "Cours du fichier probablement périmé, ligne très concentrée : ne pas renforcer."
     }
   ],
   "orders_to_consider": [],
   "risk_flags": [
     "Deux lignes (ETF banques et ETF monde) dépassent 25 % du portefeuille.",
     "Ottobock sous -15 % et Hermès proche de ce seuil : décision explicite à confirmer.",
-    "Données de cours web périmées ou incohérentes ; positions de référence à rafraîchir."
+    "Aucun cours web frais et fiable ; positions de référence à rafraîchir."
   ]
 }

@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-09T08:25:00+01:00",
+  "generated_at": "2026-11-10T08:25:00+01:00",
   "broker_count": 2,
   "positions": [
     {"ticker":"OBCK","name":"Ottobock","pnl_pct":-15.7,"signal":"HOLD","confidence":"faible","rationale":"Seuil -15 % atteint mais cours frais et catalyseur négatif non confirmés ; réévaluation à faire."},
-    {"ticker":"RMS","name":"Hermès","pnl_pct":-14.5,"signal":"HOLD","confidence":"faible","rationale":"Proche du seuil -15 %, cours web non daté, pas de signal concordant."},
-    {"ticker":"IPX","name":"IperionX","pnl_pct":7.3,"signal":"HOLD","confidence":"faible","rationale":"Contrat DoD positif mais tendance sous moyennes mobiles ; donnée douteuse."},
+    {"ticker":"RMS","name":"Hermès","pnl_pct":-14.5,"signal":"HOLD","confidence":"faible","rationale":"Proche du seuil -15 %, cours web ancien, pas de signal concordant."},
+    {"ticker":"IPX","name":"IperionX","pnl_pct":7.3,"signal":"HOLD","confidence":"faible","rationale":"Contrat DoD positif mais cours web incohérent avec le fichier ; donnée douteuse."},
     {"ticker":"3750.HK","name":"CATL","pnl_pct":-0.6,"signal":"HOLD","confidence":"faible","rationale":"Forte baisse apparente depuis juin ; P&L du fichier probablement périmé."},
-    {"ticker":"ASML","name":"ASML Holding","pnl_pct":11.4,"signal":"HOLD","confidence":"moyen","rationale":"Tendance haussière IA, valorisation élevée, pas de signal net."},
+    {"ticker":"ASML","name":"ASML Holding","pnl_pct":11.4,"signal":"HOLD","confidence":"faible","rationale":"Tendance IA positive, pas de cours frais ni de signal net."},
     {"ticker":"SIE","name":"Siemens AG","pnl_pct":0.0,"signal":"HOLD","confidence":"moyen","rationale":"Cours proche du prix d'achat, variation dans le bruit."},
     {"ticker":"QBTS","name":"D-Wave Quantum","pnl_pct":27.8,"signal":"HOLD","confidence":"faible","rationale":"Aucune donnée récente ; titre spéculatif, à vérifier après résultats."},
-    {"ticker":"MWRD","name":"Amundi MSCI World Swap Dist","pnl_pct":29.8,"signal":"HOLD","confidence":"moyen","rationale":"ETF cœur, cours cohérent, pas de signal."},
+    {"ticker":"MWRD","name":"Amundi MSCI World Swap Dist","pnl_pct":29.8,"signal":"HOLD","confidence":"faible","rationale":"ETF cœur, pas de donnée fraîche ni de signal."},
     {"ticker":"EUE","name":"iShares Core EURO STOXX 50","pnl_pct":7.2,"signal":"HOLD","confidence":"faible","rationale":"Pas de donnée fraîche."},
     {"ticker":"EXA1","name":"iShares EURO STOXX Banks","pnl_pct":6.9,"signal":"HOLD","confidence":"faible","rationale":"Ligne au-delà du plafond de pondération, pas de renforcement."}
   ],

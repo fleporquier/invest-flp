@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T08:25:00+01:00",
+  "generated_at": "2026-11-10T08:25:00+01:00",
   "broker_count": 2,
   "positions": [
     {
@@ -16,7 +16,7 @@
       "pnl_pct": -14.5,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Proche du seuil -15 %, cours web non daté, pas de signal concordant."
+      "rationale": "Proche du seuil -15 %, cours web ancien, pas de signal concordant."
     },
     {
       "ticker": "IPX",
@@ -24,7 +24,7 @@
       "pnl_pct": 7.3,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Contrat DoD positif mais tendance sous moyennes mobiles ; donnée douteuse."
+      "rationale": "Contrat DoD positif mais cours web incohérent avec le fichier ; donnée douteuse."
     },
     {
       "ticker": "3750.HK",
@@ -39,8 +39,8 @@
       "name": "ASML Holding",
       "pnl_pct": 11.4,
       "signal": "HOLD",
-      "confidence": "moyen",
-      "rationale": "Tendance haussière IA, valorisation élevée, pas de signal net."
+      "confidence": "faible",
+      "rationale": "Tendance IA positive, pas de cours frais ni de signal net."
     },
     {
       "ticker": "SIE",
@@ -63,8 +63,8 @@
       "name": "Amundi MSCI World Swap Dist",
       "pnl_pct": 29.8,
       "signal": "HOLD",
-      "confidence": "moyen",
-      "rationale": "ETF cœur, cours cohérent, pas de signal."
+      "confidence": "faible",
+      "rationale": "ETF cœur, pas de donnée fraîche ni de signal."
     },
     {
       "ticker": "EUE",

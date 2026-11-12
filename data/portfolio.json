@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T08:16:00+01:00",
+  "generated_at": "2026-11-12T08:20:00+01:00",
   "broker_count": 2,
   "positions": [
     {
@@ -8,7 +8,7 @@
       "pnl_pct": -15.7,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Seuil -15 % dépassé, mais résultats T3 le 12/11 : conserver jusqu'aux chiffres avec stop mental."
+      "rationale": "Résultats 9 mois en ligne et prévisions confirmées, mais T4 annoncé plus difficile : conserver par choix explicite, stop mental."
     },
     {
       "ticker": "RMS",
@@ -48,7 +48,7 @@
       "pnl_pct": 0.0,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Résultats annuels le 12/11, pas de signal avant."
+      "rationale": "Exercice solide et prévisions au-dessus du consensus ; attendre la réaction du marché avant tout renforcement."
     },
     {
       "ticker": "QBTS",
@@ -101,6 +101,7 @@
     "Deux lignes au-dessus de 25 % du portefeuille (ETF banques zone euro, ETF MSCI World).",
     "Plusieurs lignes au-delà du seuil de perte de -15 % selon les cours estimés.",
     "Volatilité élevée des semi-conducteurs et valeurs tech US après les élections de mi-mandat.",
-    "Fichier de positions ancien : P&L de référence non représentatifs, mise à jour nécessaire."
+    "Fichier de positions ancien : P&L de référence non représentatifs, mise à jour nécessaire.",
+    "Ottobock : exposition Russie notable et quatrième trimestre annoncé plus difficile."
   ]
 }

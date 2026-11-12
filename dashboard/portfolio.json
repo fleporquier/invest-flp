@@ -1,26 +1,107 @@
 {
-  "generated_at": "2026-11-11T08:16:00+01:00",
+  "generated_at": "2026-11-12T08:20:00+01:00",
   "broker_count": 2,
   "positions": [
-    {"ticker":"OBCK","name":"Ottobock","pnl_pct":-15.7,"signal":"HOLD","confidence":"faible","rationale":"Seuil -15 % dépassé, mais résultats T3 le 12/11 : conserver jusqu'aux chiffres avec stop mental."},
-    {"ticker":"RMS","name":"Hermès","pnl_pct":-14.5,"signal":"ALLÉGER","confidence":"moyen","rationale":"Perte estimée ~-27 %, CA T3 sous le consensus et tendance baissière : deux facteurs concordants."},
-    {"ticker":"IPX","name":"IperionX","pnl_pct":7.3,"signal":"HOLD","confidence":"faible","rationale":"Plus-bas annuels mais contrat DoD positif : signaux contradictoires, stop mental."},
-    {"ticker":"3750","name":"CATL","pnl_pct":-0.6,"signal":"HOLD","confidence":"faible","rationale":"Baisse apparente du cours jugée douteuse : vérifier la cotation réelle avant toute décision."},
-    {"ticker":"ASML","name":"ASML Holding","pnl_pct":11.4,"signal":"HOLD","confidence":"moyen","rationale":"Gain quasi effacé par la déroute des semi-conducteurs, mais rebond en cours et demande IA intacte."},
-    {"ticker":"SIE","name":"Siemens","pnl_pct":0.0,"signal":"HOLD","confidence":"moyen","rationale":"Résultats annuels le 12/11, pas de signal avant."},
-    {"ticker":"QBTS","name":"D-Wave Quantum","pnl_pct":27.8,"signal":"ALLÉGER","confidence":"moyen","rationale":"Perte estimée ~-53 %, prises de commandes T3 en baisse et action en chute après résultats."},
-    {"ticker":"MSCIW","name":"Amundi MSCI World Swap Dist","pnl_pct":29.8,"signal":"HOLD","confidence":"faible","rationale":"ETF cœur, aucun signal."},
-    {"ticker":"EUE","name":"iShares Core EURO STOXX 50","pnl_pct":7.2,"signal":"HOLD","confidence":"faible","rationale":"Indice proche des plus-hauts, pas de signal."},
-    {"ticker":"EXA1","name":"iShares EURO STOXX Banks 30-15","pnl_pct":6.9,"signal":"HOLD","confidence":"faible","rationale":"Secteur porté par l'après-élections US ; ligne au-dessus du plafond de pondération, pas de renforcement."}
+    {
+      "ticker": "OBCK",
+      "name": "Ottobock",
+      "pnl_pct": -15.7,
+      "signal": "HOLD",
+      "confidence": "faible",
+      "rationale": "Résultats 9 mois en ligne et prévisions confirmées, mais T4 annoncé plus difficile : conserver par choix explicite, stop mental."
+    },
+    {
+      "ticker": "RMS",
+      "name": "Hermès",
+      "pnl_pct": -14.5,
+      "signal": "ALLÉGER",
+      "confidence": "moyen",
+      "rationale": "Perte estimée ~-27 %, CA T3 sous le consensus et tendance baissière : deux facteurs concordants."
+    },
+    {
+      "ticker": "IPX",
+      "name": "IperionX",
+      "pnl_pct": 7.3,
+      "signal": "HOLD",
+      "confidence": "faible",
+      "rationale": "Plus-bas annuels mais contrat DoD positif : signaux contradictoires, stop mental."
+    },
+    {
+      "ticker": "3750",
+      "name": "CATL",
+      "pnl_pct": -0.6,
+      "signal": "HOLD",
+      "confidence": "faible",
+      "rationale": "Baisse apparente du cours jugée douteuse : vérifier la cotation réelle avant toute décision."
+    },
+    {
+      "ticker": "ASML",
+      "name": "ASML Holding",
+      "pnl_pct": 11.4,
+      "signal": "HOLD",
+      "confidence": "moyen",
+      "rationale": "Gain quasi effacé par la déroute des semi-conducteurs, mais rebond en cours et demande IA intacte."
+    },
+    {
+      "ticker": "SIE",
+      "name": "Siemens",
+      "pnl_pct": 0.0,
+      "signal": "HOLD",
+      "confidence": "moyen",
+      "rationale": "Exercice solide et prévisions au-dessus du consensus ; attendre la réaction du marché avant tout renforcement."
+    },
+    {
+      "ticker": "QBTS",
+      "name": "D-Wave Quantum",
+      "pnl_pct": 27.8,
+      "signal": "ALLÉGER",
+      "confidence": "moyen",
+      "rationale": "Perte estimée ~-53 %, prises de commandes T3 en baisse et action en chute après résultats."
+    },
+    {
+      "ticker": "MSCIW",
+      "name": "Amundi MSCI World Swap Dist",
+      "pnl_pct": 29.8,
+      "signal": "HOLD",
+      "confidence": "faible",
+      "rationale": "ETF cœur, aucun signal."
+    },
+    {
+      "ticker": "EUE",
+      "name": "iShares Core EURO STOXX 50",
+      "pnl_pct": 7.2,
+      "signal": "HOLD",
+      "confidence": "faible",
+      "rationale": "Indice proche des plus-hauts, pas de signal."
+    },
+    {
+      "ticker": "EXA1",
+      "name": "iShares EURO STOXX Banks 30-15",
+      "pnl_pct": 6.9,
+      "signal": "HOLD",
+      "confidence": "faible",
+      "rationale": "Secteur porté par l'après-élections US ; ligne au-dessus du plafond de pondération, pas de renforcement."
+    }
   ],
   "orders_to_consider": [
-    {"action":"ALLÉGER","instrument":"D-Wave Quantum (QBTS)","details":"vendre environ la moitié de la ligne, stop mental sur le reste","rationale":"Perte profonde et catalyseur négatif (prises de commandes T3 en baisse) dans une tendance baissière."},
-    {"action":"ALLÉGER","instrument":"Hermès International (RMS)","details":"vendre environ 1/3 de la ligne, stop mental sur le reste","rationale":"Seuil de perte largement franchi et croissance T3 sous les attentes."}
+    {
+      "action": "ALLÉGER",
+      "instrument": "D-Wave Quantum (QBTS)",
+      "details": "vendre environ la moitié de la ligne, stop mental sur le reste",
+      "rationale": "Perte profonde et catalyseur négatif (prises de commandes T3 en baisse) dans une tendance baissière."
+    },
+    {
+      "action": "ALLÉGER",
+      "instrument": "Hermès International (RMS)",
+      "details": "vendre environ 1/3 de la ligne, stop mental sur le reste",
+      "rationale": "Seuil de perte largement franchi et croissance T3 sous les attentes."
+    }
   ],
   "risk_flags": [
     "Deux lignes au-dessus de 25 % du portefeuille (ETF banques zone euro, ETF MSCI World).",
     "Plusieurs lignes au-delà du seuil de perte de -15 % selon les cours estimés.",
     "Volatilité élevée des semi-conducteurs et valeurs tech US après les élections de mi-mandat.",
-    "Fichier de positions ancien : P&L de référence non représentatifs, mise à jour nécessaire."
+    "Fichier de positions ancien : P&L de référence non représentatifs, mise à jour nécessaire.",
+    "Ottobock : exposition Russie notable et quatrième trimestre annoncé plus difficile."
   ]
 }

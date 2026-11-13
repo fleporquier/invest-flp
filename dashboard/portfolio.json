@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T08:20:00+01:00",
+  "generated_at": "2026-11-13T08:20:00+01:00",
   "broker_count": 2,
   "positions": [
     {
@@ -16,7 +16,7 @@
       "pnl_pct": -14.5,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Perte estimée ~-27 %, CA T3 sous le consensus et tendance baissière : deux facteurs concordants."
+      "rationale": "Perte estimée ~-26 %, CA T3 sous le consensus et cours nettement sous sa moyenne 200 jours : deux facteurs concordants."
     },
     {
       "ticker": "IPX",
@@ -40,7 +40,7 @@
       "pnl_pct": 11.4,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Gain quasi effacé par la déroute des semi-conducteurs, mais rebond en cours et demande IA intacte."
+      "rationale": "Rebond après la purge des semi-conducteurs, demande IA intacte, tendance non confirmée : conserver avec stop mental."
     },
     {
       "ticker": "SIE",
@@ -48,7 +48,7 @@
       "pnl_pct": 0.0,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Exercice solide et prévisions au-dessus du consensus ; attendre la réaction du marché avant tout renforcement."
+      "rationale": "Résultats et guidance au-dessus du consensus, cours au plus-haut : renfort seulement sur repli, pas sur le pic."
     },
     {
       "ticker": "QBTS",

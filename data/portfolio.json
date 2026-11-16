@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T08:20:00+01:00",
+  "generated_at": "2026-11-16T08:20:00+01:00",
   "broker_count": 2,
   "positions": [
     {
@@ -8,7 +8,7 @@
       "pnl_pct": -15.7,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Résultats 9 mois en ligne et prévisions confirmées, mais T4 annoncé plus difficile : conserver par choix explicite, stop mental."
+      "rationale": "Proche des plus-bas annuels avant le T3, prévisions 2026 maintenues : conserver par choix explicite, stop mental sous le plus-bas annuel."
     },
     {
       "ticker": "RMS",
@@ -16,7 +16,7 @@
       "pnl_pct": -14.5,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Perte estimée ~-26 %, CA T3 sous le consensus et cours nettement sous sa moyenne 200 jours : deux facteurs concordants."
+      "rationale": "Perte estimée ~-26 %, CA T3 sous le consensus, cours sous sa moyenne 200 jours et luxe de nouveau sous pression : deux facteurs concordants."
     },
     {
       "ticker": "IPX",
@@ -24,7 +24,7 @@
       "pnl_pct": 7.3,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Plus-bas annuels mais contrat DoD positif : signaux contradictoires, stop mental."
+      "rationale": "Plus-bas annuels mais soutien public américain : signaux contradictoires, stop mental."
     },
     {
       "ticker": "3750",
@@ -40,7 +40,7 @@
       "pnl_pct": 11.4,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Rebond après la purge des semi-conducteurs, demande IA intacte, tendance non confirmée : conserver avec stop mental."
+      "rationale": "Semi-conducteurs de nouveau en repli après le départ du PDG de Nvidia, fondamentaux intacts : conserver avec stop mental."
     },
     {
       "ticker": "SIE",
@@ -56,7 +56,7 @@
       "pnl_pct": 27.8,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Perte estimée ~-53 %, prises de commandes T3 en baisse et action en chute après résultats."
+      "rationale": "Perte estimée ~-53 %, prises de commandes T3 en ralentissement et sentiment tech refroidi."
     },
     {
       "ticker": "MSCIW",
@@ -72,7 +72,7 @@
       "pnl_pct": 7.2,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Indice proche des plus-hauts, pas de signal."
+      "rationale": "Indices européens au record, pas de signal."
     },
     {
       "ticker": "EXA1",
@@ -98,10 +98,10 @@
     }
   ],
   "risk_flags": [
-    "Deux lignes au-dessus de 25 % du portefeuille (ETF banques zone euro, ETF MSCI World).",
-    "Plusieurs lignes au-delà du seuil de perte de -15 % selon les cours estimés.",
-    "Volatilité élevée des semi-conducteurs et valeurs tech US après les élections de mi-mandat.",
-    "Fichier de positions ancien : P&L de référence non représentatifs, mise à jour nécessaire.",
-    "Ottobock : exposition Russie notable et quatrième trimestre annoncé plus difficile."
+    "Concentration : deux lignes ETF dépassent chacune 25 % du portefeuille.",
+    "Seuils de perte franchis (estimations) : Hermès, D-Wave, IperionX, Ottobock, CATL (cours douteux).",
+    "Exposition tech/IA sensible au choc de sentiment après le départ du PDG de Nvidia.",
+    "Ordres proposés non confirmés depuis 4 runs.",
+    "Données de référence anciennes et ISIN manquants ; cours web souvent datés de plusieurs jours."
   ]
 }

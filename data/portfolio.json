@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-16T08:20:00+01:00",
+  "generated_at": "2026-11-17T08:16:00+01:00",
   "broker_count": 2,
   "positions": [
     {
       "ticker": "OBCK",
       "name": "Ottobock",
       "pnl_pct": -15.7,
-      "signal": "HOLD",
-      "confidence": "faible",
-      "rationale": "Proche des plus-bas annuels avant le T3, prévisions 2026 maintenues : conserver par choix explicite, stop mental sous le plus-bas annuel."
+      "signal": "VENDRE",
+      "confidence": "moyen",
+      "rationale": "Plus-bas historique après un T3 sous le consensus et un T4 annoncé plus faible : stop mental cassé, deux facteurs négatifs concordants."
     },
     {
       "ticker": "RMS",
@@ -56,7 +56,7 @@
       "pnl_pct": 27.8,
       "signal": "ALLÉGER",
       "confidence": "moyen",
-      "rationale": "Perte estimée ~-53 %, prises de commandes T3 en ralentissement et sentiment tech refroidi."
+      "rationale": "Perte estimée ~-53 %, perte T3 plus large que prévu et sentiment quantique/IA dégradé."
     },
     {
       "ticker": "MSCIW",
@@ -85,6 +85,12 @@
   ],
   "orders_to_consider": [
     {
+      "action": "VENDRE",
+      "instrument": "Ottobock SE (OBCK)",
+      "details": "vendre la totalité de la ligne restante (déjà réduite de moitié en juin)",
+      "rationale": "Stop mental cassé après une chute d'environ 10 % sur les résultats T3, au plus-bas historique."
+    },
+    {
       "action": "ALLÉGER",
       "instrument": "D-Wave Quantum (QBTS)",
       "details": "vendre environ la moitié de la ligne, stop mental sur le reste",
@@ -99,9 +105,9 @@
   ],
   "risk_flags": [
     "Concentration : deux lignes ETF dépassent chacune 25 % du portefeuille.",
-    "Seuils de perte franchis (estimations) : Hermès, D-Wave, IperionX, Ottobock, CATL (cours douteux).",
-    "Exposition tech/IA sensible au choc de sentiment après le départ du PDG de Nvidia.",
-    "Ordres proposés non confirmés depuis 4 runs.",
-    "Données de référence anciennes et ISIN manquants ; cours web souvent datés de plusieurs jours."
+    "Seuils de perte franchis (estimations) : Ottobock, Hermès, D-Wave, IperionX, CATL (cours douteux).",
+    "Exposition tech/IA sensible au sentiment post-départ du PDG de Nvidia et au risque de hausse de taux Fed.",
+    "Ordres D-Wave et Hermès non confirmés depuis 5 runs.",
+    "Données de référence anciennes et ISIN manquants ; aucune donnée de séance du 16/11 trouvée."
   ]
 }

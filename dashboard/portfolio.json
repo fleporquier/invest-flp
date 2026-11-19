@@ -1,114 +1,29 @@
 {
-  "generated_at": "2026-11-18T08:20:00+01:00",
+  "generated_at": "2026-11-19T08:16:00+01:00",
   "broker_count": 2,
   "positions": [
-    {
-      "ticker": "OBCK",
-      "name": "Ottobock",
-      "pnl_pct": -15.7,
-      "signal": "VENDRE",
-      "confidence": "moyen",
-      "rationale": "Nouveau plus-bas sous 39 €, bien sous le prix d'IPO, T4 annoncé plus faible : la baisse se poursuit après le stop cassé."
-    },
-    {
-      "ticker": "RMS",
-      "name": "Hermès",
-      "pnl_pct": -14.5,
-      "signal": "ALLÉGER",
-      "confidence": "moyen",
-      "rationale": "Plus forte baisse du CAC le 17/11 (−5 %), plus-bas depuis 2022, perte estimée ~−31 % : tendance et seuil de perte concordants."
-    },
-    {
-      "ticker": "IPX",
-      "name": "IperionX",
-      "pnl_pct": 7.3,
-      "signal": "HOLD",
-      "confidence": "faible",
-      "rationale": "Production de titane en forte hausse mais cours au plus-bas annuel : signaux contradictoires, stop mental."
-    },
-    {
-      "ticker": "3750",
-      "name": "CATL",
-      "pnl_pct": -0.6,
-      "signal": "HOLD",
-      "confidence": "faible",
-      "rationale": "Aucune cotation fiable trouvée et risque Chine/US accru : vérifier le cours réel avant toute décision."
-    },
-    {
-      "ticker": "ASML",
-      "name": "ASML Holding",
-      "pnl_pct": 11.4,
-      "signal": "HOLD",
-      "confidence": "moyen",
-      "rationale": "Repli sur les restrictions US visant surtout les puces, pas la lithographie ; Nvidia rassurante : conserver avec stop mental."
-    },
-    {
-      "ticker": "SIE",
-      "name": "Siemens",
-      "pnl_pct": 0.0,
-      "signal": "HOLD",
-      "confidence": "moyen",
-      "rationale": "Fondamentaux solides ; le repli de marché pourrait offrir une zone de renfort, à confirmer sur le cours réel."
-    },
-    {
-      "ticker": "QBTS",
-      "name": "D-Wave Quantum",
-      "pnl_pct": 27.8,
-      "signal": "ALLÉGER",
-      "confidence": "moyen",
-      "rationale": "Perte estimée ~−53 %, perte T3 plus large que prévu et sentiment IA/quantique fragile."
-    },
-    {
-      "ticker": "MSCIW",
-      "name": "Amundi MSCI World Swap Dist",
-      "pnl_pct": 29.8,
-      "signal": "HOLD",
-      "confidence": "faible",
-      "rationale": "ETF cœur, repli de marché sans signal propre."
-    },
-    {
-      "ticker": "EUE",
-      "name": "iShares Core EURO STOXX 50",
-      "pnl_pct": 7.2,
-      "signal": "HOLD",
-      "confidence": "faible",
-      "rationale": "Correction d'une séance depuis les records : bruit de swing."
-    },
-    {
-      "ticker": "EXA1",
-      "name": "iShares EURO STOXX Banks 30-15",
-      "pnl_pct": 6.9,
-      "signal": "HOLD",
-      "confidence": "faible",
-      "rationale": "Banques prises dans le risk-off sans catalyseur propre ; ligne au-dessus du plafond, pas de renforcement."
-    }
+    {"ticker": "OBCK", "name": "Ottobock", "pnl_pct": -15.7, "signal": "VENDRE", "confidence": "moyen", "rationale": "Toujours au plus-bas, bien sous le prix d'IPO, objectifs d'analystes abaissés : aucune stabilisation après le stop cassé."},
+    {"ticker": "RMS", "name": "Hermès", "pnl_pct": -14.5, "signal": "ALLÉGER", "confidence": "moyen", "rationale": "Aucun rebond après la chute de mardi, tendance baissière intacte et seuil de perte franchi ; stop mental proche."},
+    {"ticker": "IPX", "name": "IperionX", "pnl_pct": 7.3, "signal": "HOLD", "confidence": "faible", "rationale": "Proche du plus-bas annuel mais exécution industrielle positive : signaux contradictoires, stop mental."},
+    {"ticker": "3750", "name": "CATL", "pnl_pct": -0.6, "signal": "HOLD", "confidence": "faible", "rationale": "Cotation HKD trouvée mais P&L non estimable et risque Chine/US : vérifier le cours réel."},
+    {"ticker": "ASML", "name": "ASML Holding", "pnl_pct": 11.4, "signal": "HOLD", "confidence": "moyen", "rationale": "Léger rebond des semi-conducteurs après Nvidia, sans signal net : conserver avec stop mental."},
+    {"ticker": "SIE", "name": "Siemens", "pnl_pct": 0.0, "signal": "HOLD", "confidence": "moyen", "rationale": "Repli rapide sous la zone de renfort, tendance plus haussière : renfort reporté jusqu'à stabilisation."},
+    {"ticker": "QBTS", "name": "D-Wave Quantum", "pnl_pct": 27.8, "signal": "VENDRE", "confidence": "moyen", "rationale": "Nouveau plus-bas annuel, stop mental cassé et class action déposée : tendance, seuil et catalyseur concordants."},
+    {"ticker": "MSCIW", "name": "Amundi MSCI World Swap Dist", "pnl_pct": 29.8, "signal": "HOLD", "confidence": "faible", "rationale": "ETF cœur, repli de marché sans signal propre."},
+    {"ticker": "EUE", "name": "iShares Core EURO STOXX 50", "pnl_pct": 7.2, "signal": "HOLD", "confidence": "faible", "rationale": "Correction de swing depuis les records, pas de signal propre."},
+    {"ticker": "EXA1", "name": "iShares EURO STOXX Banks 30-15", "pnl_pct": 6.9, "signal": "HOLD", "confidence": "faible", "rationale": "Banques sous pression deux séances de suite sans catalyseur propre ; ligne au-dessus du plafond, pas de renforcement."}
   ],
   "orders_to_consider": [
-    {
-      "action": "VENDRE",
-      "instrument": "Ottobock SE (OBCK)",
-      "details": "vendre la totalité de la ligne restante",
-      "rationale": "Stop mental cassé et nouveau plus-bas historique après un T3 décevant."
-    },
-    {
-      "action": "ALLÉGER",
-      "instrument": "Hermès International (RMS)",
-      "details": "vendre environ 1/3 de la ligne, stop mental proche sur le reste",
-      "rationale": "Seuil de perte largement franchi et nouvelle chute du luxe jusqu'à un plus-bas depuis 2022."
-    },
-    {
-      "action": "ALLÉGER",
-      "instrument": "D-Wave Quantum (QBTS)",
-      "details": "vendre environ la moitié de la ligne, idéalement sur rebond, stop mental sur le reste",
-      "rationale": "Perte profonde et catalyseur négatif dans une tendance baissière."
-    }
+    {"action": "VENDRE", "instrument": "Ottobock SE (OBCK)", "details": "vendre la totalité de la ligne restante", "rationale": "Stop mental cassé, plus-bas historique et objectifs d'analystes en baisse."},
+    {"action": "ALLÉGER", "instrument": "Hermès International (RMS)", "details": "vendre environ 1/3 de la ligne, stop mental proche sur le reste", "rationale": "Seuil de perte largement franchi et tendance baissière sans rebond."},
+    {"action": "VENDRE", "instrument": "D-Wave Quantum (QBTS)", "details": "vendre la totalité de la ligne (durci : était la moitié)", "rationale": "Stop cassé, nouveau plus-bas annuel et class action : position spéculative à clore."}
   ],
   "risk_flags": [
     "Concentration : deux lignes ETF dépassent chacune 25 % du portefeuille.",
-    "Seuils de perte franchis (estimations) : Ottobock, Hermès, D-Wave, IperionX ; CATL au cours douteux.",
-    "Hermès proche de son stop mental après −5 % le 17/11.",
-    "Restrictions US sur les puces IA et riposte chinoise annoncée : lignes tech exposées.",
-    "Ordres D-Wave et Hermès non confirmés depuis 6 runs, Ottobock depuis 2 runs.",
-    "Données de référence anciennes et ISIN manquants ; pas de cours récent pour plusieurs lignes."
+    "Seuils de perte franchis (estimations) : D-Wave, IperionX, Ottobock, Hermès ; CATL non estimable.",
+    "Stops : D-Wave cassé, Ottobock et Hermès à moins de 2 %.",
+    "Macro : craintes de hausse des taux, DAX sous sa moyenne 21 jours, deux séances de baisse en Europe.",
+    "Ordres Hermès et D-Wave non confirmés depuis 7 runs, Ottobock depuis 3 runs.",
+    "Données de référence anciennes et ISIN manquants ; pas de cours récent pour IperionX et les ETF."
   ]
 }

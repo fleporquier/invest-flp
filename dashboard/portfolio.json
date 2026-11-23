@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T08:16:00+01:00",
+  "generated_at": "2026-11-23T08:17:00+01:00",
   "broker_count": 2,
   "positions": [
     {
@@ -8,23 +8,23 @@
       "pnl_pct": -15.7,
       "signal": "VENDRE",
       "confidence": "moyen",
-      "rationale": "Collé à son plus-bas historique, bien sous le prix d'IPO, objectifs d'analystes abaissés : aucune stabilisation."
+      "rationale": "Nouveau plus-bas historique, stop mental cassé et objectifs d'analystes abaissés : tendance et seuil concordants."
     },
     {
       "ticker": "RMS",
       "name": "Hermès",
       "pnl_pct": -14.5,
-      "signal": "ALLÉGER",
+      "signal": "VENDRE",
       "confidence": "moyen",
-      "rationale": "Clôture au plus-bas du jour, baisse sur 5 séances et luxe sous pression : tendance baissière intacte, stop mental proche."
+      "rationale": "Clôture sous le stop mental et sous le plus-bas annuel précédent, luxe toujours en tête des baisses."
     },
     {
       "ticker": "IPX",
       "name": "IperionX",
       "pnl_pct": 7.3,
-      "signal": "HOLD",
-      "confidence": "faible",
-      "rationale": "Cours récents contradictoires et proches du plus-bas annuel : pas de signal fiable, stop mental."
+      "signal": "VENDRE",
+      "confidence": "moyen",
+      "rationale": "Cours confirmé par deux places : stop mental cassé sur fort volume, perte estimée bien au-delà du seuil de réévaluation."
     },
     {
       "ticker": "3750",
@@ -32,15 +32,15 @@
       "pnl_pct": -0.6,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Cours HKD daté incertain et P&L non estimable : vérifier le cours réel."
+      "rationale": "Proche du plus-bas annuel mais P&L non estimable : vérifier le cours réel, stop mental sous le plus-bas annuel."
     },
     {
       "ticker": "ASML",
       "name": "ASML Holding",
       "pnl_pct": 11.4,
-      "signal": "HOLD",
-      "confidence": "moyen",
-      "rationale": "Rebond à Amsterdam probablement effacé par la chute de l'ADR US : pas de signal net, stop mental."
+      "signal": "ALLÉGER",
+      "confidence": "faible",
+      "rationale": "Stop mental cassé lors du krach des semi-conducteurs : sortie partielle à privilégier sur rebond."
     },
     {
       "ticker": "SIE",
@@ -48,7 +48,7 @@
       "pnl_pct": 0.0,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Analystes positifs mais tendance courte baissière avec le marché : renfort reporté jusqu'à stabilisation."
+      "rationale": "Plus-bas de 6 mois mais perte modérée et stop mental non cassé ; renforcement suspendu."
     },
     {
       "ticker": "QBTS",
@@ -56,7 +56,7 @@
       "pnl_pct": 27.8,
       "signal": "VENDRE",
       "confidence": "moyen",
-      "rationale": "Nouveau plus-bas annuel, stop mental cassé et class action : tendance, seuil et catalyseur concordants."
+      "rationale": "Nouveau plus-bas annuel, stop cassé et class actions : position spéculative à clore."
     },
     {
       "ticker": "MSCIW",
@@ -64,7 +64,7 @@
       "pnl_pct": 29.8,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "ETF cœur en correction de marché généralisée, sans signal propre."
+      "rationale": "ETF cœur dans une correction générale : ne pas vendre dans la panique, pas de renforcement."
     },
     {
       "ticker": "EUE",
@@ -72,7 +72,7 @@
       "pnl_pct": 7.2,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Cinquième séance de baisse, correction de swing depuis les records : pas de signal propre."
+      "rationale": "Baisse de marché sans signal propre ; ligne cœur conservée."
     },
     {
       "ticker": "EXA1",
@@ -80,7 +80,7 @@
       "pnl_pct": 6.9,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Banques plus résistantes que le marché, sans catalyseur négatif propre ; ligne au-dessus du plafond, pas de renforcement."
+      "rationale": "Pas de cours fiable du jour, secteur moins exposé à l'IA ; ligne au-dessus du plafond, pas de renforcement."
     }
   ],
   "orders_to_consider": [
@@ -88,27 +88,39 @@
       "action": "VENDRE",
       "instrument": "Ottobock SE (OBCK)",
       "details": "vendre la totalité de la ligne restante",
-      "rationale": "Stop mental cassé, plus-bas historique et objectifs d'analystes en baisse."
+      "rationale": "Nouveau plus-bas historique et stop mental cassé."
+    },
+    {
+      "action": "VENDRE",
+      "instrument": "Hermès International (RMS)",
+      "details": "vendre la totalité de la ligne (variante : au moins 2/3)",
+      "rationale": "Stop mental déclenché en clôture, tendance baissière intacte."
+    },
+    {
+      "action": "VENDRE",
+      "instrument": "IperionX (IPX)",
+      "details": "vendre la totalité de la ligne",
+      "rationale": "Stop mental cassé sur fort volume, perte estimée très importante."
     },
     {
       "action": "ALLÉGER",
-      "instrument": "Hermès International (RMS)",
-      "details": "vendre environ 1/3 de la ligne, stop mental proche sur le reste",
-      "rationale": "Seuil de perte largement franchi et tendance baissière sans rebond."
+      "instrument": "ASML Holding (ASML)",
+      "details": "vendre environ la moitié de la ligne, de préférence sur rebond",
+      "rationale": "Stop mental cassé lors du krach des semi-conducteurs."
     },
     {
       "action": "VENDRE",
       "instrument": "D-Wave Quantum (QBTS)",
       "details": "vendre la totalité de la ligne",
-      "rationale": "Stop cassé, nouveau plus-bas annuel et class action : position spéculative à clore."
+      "rationale": "Nouveau plus-bas annuel et stop cassé."
     }
   ],
   "risk_flags": [
+    "Krach de marché : S&P 500 en correction après 7 baisses d'affilée, Nasdaq en forte chute, CAC et DAX en nette baisse sur la semaine.",
     "Concentration : deux lignes ETF dépassent chacune 25 % du portefeuille.",
     "Seuils de perte franchis (estimations) : D-Wave, IperionX, Ottobock, Hermès ; CATL non estimable.",
-    "Stops : D-Wave cassé, Ottobock et Hermès à moins de 2 %.",
-    "Macro : Wall Street −2 % jeudi (6e baisse du S&P 500), Europe en 4e-5e séance de baisse, risque d'ouverture en gap baissier.",
-    "Ordres Hermès et D-Wave non confirmés depuis 8 runs, Ottobock depuis 4 runs.",
-    "Données de référence anciennes et ISIN manquants ; pas de cours fiable récent pour IperionX, CATL et les ETF."
+    "Stops cassés : D-Wave, IperionX, Ottobock, Hermès, ASML ; Siemens proche de son stop.",
+    "Ordres Hermès et D-Wave non confirmés depuis 9 runs, Ottobock depuis 5 runs.",
+    "Données de référence anciennes et ISIN manquants ; pas de cours fiable du jour pour les ETF."
   ]
 }

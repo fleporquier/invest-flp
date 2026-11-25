@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T08:15:00+01:00",
+  "generated_at": "2026-11-25T08:16:00+01:00",
   "broker_count": 2,
   "positions": [
     {
@@ -8,7 +8,7 @@
       "pnl_pct": -15.7,
       "signal": "VENDRE",
       "confidence": "moyen",
-      "rationale": "Ne profite pas du rebond général et reste collée à son plus-bas historique, objectifs d'analystes en baisse."
+      "rationale": "Toujours collée à son plus-bas historique, objectifs d'analystes en baisse : seuil de perte et tendance concordent."
     },
     {
       "ticker": "RMS",
@@ -16,7 +16,7 @@
       "pnl_pct": -14.5,
       "signal": "VENDRE",
       "confidence": "moyen",
-      "rationale": "Rebond modeste toujours sous le stop mental et sous le plus-bas annuel cassé : occasion de sortie plutôt que retournement."
+      "rationale": "Au contact du stop mental, loin sous sa moyenne mobile 200 jours, objectif d'analyste abaissé."
     },
     {
       "ticker": "IPX",
@@ -24,7 +24,7 @@
       "pnl_pct": 7.3,
       "signal": "VENDRE",
       "confidence": "faible",
-      "rationale": "Stop mental cassé sur fort volume et perte estimée très au-delà du seuil de réévaluation ; cours du jour à vérifier."
+      "rationale": "Toujours sous le stop cassé ; l'annonce de redomiciliation aux États-Unis ne change pas la tendance baissière."
     },
     {
       "ticker": "3750",
@@ -32,15 +32,15 @@
       "pnl_pct": -0.6,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Au-dessus du plus-bas annuel, sans actualité propre ; cours en euros à vérifier."
+      "rationale": "Au-dessus du plus-bas annuel, entrée prochaine dans un indice tech de Hong Kong ; cours en euros à vérifier."
     },
     {
       "ticker": "ASML",
       "name": "ASML Holding",
       "pnl_pct": 11.4,
-      "signal": "HOLD",
+      "signal": "POSER UN STOP",
       "confidence": "moyen",
-      "rationale": "Fort rebond des semi-conducteurs, cours revenu au-dessus du stop : l'allègement proposé hier est annulé."
+      "rationale": "Rend l'essentiel du rebond et clôture pile sur le stop mental : matérialiser un stop sur environ la moitié de la ligne."
     },
     {
       "ticker": "SIE",
@@ -48,7 +48,7 @@
       "pnl_pct": 0.0,
       "signal": "HOLD",
       "confidence": "moyen",
-      "rationale": "Rebond franc jusqu'au prix d'achat, stop mental conservé, pas de renfort en marché volatil."
+      "rationale": "Rechute avec le marché allemand sans actu propre négative ; stop mental non touché."
     },
     {
       "ticker": "QBTS",
@@ -56,7 +56,7 @@
       "pnl_pct": 27.8,
       "signal": "VENDRE",
       "confidence": "moyen",
-      "rationale": "Rebond mécanique du secteur quantique sans changement de tendance ni de contexte juridique : moment de sortir."
+      "rationale": "Rend le rebond de lundi, forte baisse sur un mois et contexte juridique défavorable."
     },
     {
       "ticker": "MSCI World",
@@ -64,7 +64,7 @@
       "pnl_pct": 29.8,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "ETF cœur, rebond de marché ; pas de renfort car la ligne dépasse le plafond de pondération."
+      "rationale": "ETF cœur, repli dans la marge de bruit ; pas de renfort car la ligne dépasse le plafond de pondération."
     },
     {
       "ticker": "EUE",
@@ -72,7 +72,7 @@
       "pnl_pct": 7.2,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Rebond de marché sans signal propre ; ligne cœur."
+      "rationale": "Mouvement de marché dans le bruit, sans signal propre ; ligne cœur."
     },
     {
       "ticker": "EXA1",
@@ -80,7 +80,7 @@
       "pnl_pct": 6.9,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Banques en hausse sans cours fiable de l'indice ; ligne au-dessus du plafond, renfort interdit."
+      "rationale": "Repli des banques non confirmé de façon fiable ; ligne au-dessus du plafond, renfort interdit."
     }
   ],
   "orders_to_consider": [
@@ -93,8 +93,8 @@
     {
       "action": "VENDRE",
       "instrument": "Hermès (RMS)",
-      "details": "vendre la totalité (ou au moins ~2/3), ordre limite sur le rebond",
-      "rationale": "Toujours sous le stop mental malgré le rebond du marché."
+      "details": "vendre la totalité (ou au moins ~2/3), ordre limite",
+      "rationale": "Au contact du stop mental, sans signal de retournement."
     },
     {
       "action": "VENDRE",
@@ -105,12 +105,18 @@
     {
       "action": "VENDRE",
       "instrument": "D-Wave Quantum (QBTS)",
-      "details": "vendre la totalité, ordre limite sur le rebond",
-      "rationale": "Ligne spéculative perdante ; le rebond améliore le prix de sortie."
+      "details": "vendre la totalité, ordre limite",
+      "rationale": "Ligne spéculative perdante, rebond déjà effacé."
+    },
+    {
+      "action": "POSER UN STOP",
+      "instrument": "ASML Holding (ASML)",
+      "details": "ordre stop sur ~la moitié de la ligne, juste sous le stop mental",
+      "rationale": "Le cours clôture exactement sur le niveau de stop après une rechute des semi-conducteurs."
     }
   ],
   "risk_flags": [
-    "Volatilité extrême : krach puis rebond de plus de 6 % du Nasdaq en deux séances, VIX encore élevé.",
+    "Volatilité élevée : rebond tech de lundi à moitié effacé, semi-conducteurs en rechute.",
     "Concentration : deux ETF au-dessus de 25 % du portefeuille.",
     "Quatre lignes avec des pertes estimées bien au-delà du seuil de réévaluation de −15 %.",
     "Ordres reconduits depuis plusieurs runs sans confirmation d'exécution.",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T08:17:00+01:00",
+  "generated_at": "2026-11-27T08:16:00+01:00",
   "broker_count": 2,
   "positions": [
     {
@@ -8,7 +8,7 @@
       "pnl_pct": -15.7,
       "signal": "VENDRE",
       "confidence": "moyen",
-      "rationale": "Petit rebond technique sans catalyseur près du plus-bas historique, objectifs d'analystes abaissés : fenêtre de sortie."
+      "rationale": "Rebond modeste depuis le plus-bas historique, sans catalyseur et inférieur au marché : fenêtre de sortie."
     },
     {
       "ticker": "RMS",
@@ -16,7 +16,7 @@
       "pnl_pct": -14.5,
       "signal": "VENDRE",
       "confidence": "moyen",
-      "rationale": "Rebond du matin effacé, toujours collé au stop mental, analyste restant à la vente."
+      "rationale": "Rebond sectoriel technique dans une tendance baissière, cours juste au-dessus du stop mental."
     },
     {
       "ticker": "IPX",
@@ -24,7 +24,7 @@
       "pnl_pct": 7.3,
       "signal": "VENDRE",
       "confidence": "faible",
-      "rationale": "Toujours sous le stop cassé, objectif d'analyste abaissé ; liquidité réduite pendant Thanksgiving."
+      "rationale": "Toujours sous le stop cassé ; restructuration annoncée qui ajoute un risque technique sur la cotation."
     },
     {
       "ticker": "3750",
@@ -32,23 +32,23 @@
       "pnl_pct": -0.6,
       "signal": "ALLÉGER",
       "confidence": "faible",
-      "rationale": "Chute de 12 % sous le stop mental avec prévisions abaissées, ventes forcées et quotas européens sur les hybrides chinois."
+      "rationale": "Pas de rebond malgré la hausse de Hong Kong, stop mental toujours cassé, quotas européens imminents."
     },
     {
       "ticker": "ASML",
       "name": "ASML Holding",
       "pnl_pct": 11.4,
-      "signal": "ALLÉGER",
+      "signal": "POSER UN STOP",
       "confidence": "moyen",
-      "rationale": "Clôture sous le stop mental et perte estimée au-delà du seuil de réévaluation, risque réglementaire US sur la Chine."
+      "rationale": "Le rebond ramène la perte estimée sous le seuil de réévaluation ; stop sous le plus-bas récent plutôt qu'un allègement."
     },
     {
       "ticker": "SIE",
       "name": "Siemens",
       "pnl_pct": 0.0,
-      "signal": "ALLÉGER",
+      "signal": "POSER UN STOP",
       "confidence": "moyen",
-      "rationale": "Clôture sous le stop mental avec un DAX qui casse ses supports ; allègement partiel car la perte reste modérée."
+      "rationale": "Clôture revenue au-dessus du stop mental, cassure non confirmée ; stop resserré sous le plus-bas de la semaine."
     },
     {
       "ticker": "QBTS",
@@ -56,7 +56,7 @@
       "pnl_pct": 27.8,
       "signal": "VENDRE",
       "confidence": "moyen",
-      "rationale": "Nouveau plus-bas annuel en séance, tendance baissière jamais invalidée."
+      "rationale": "Plus-bas annuel récent, prises de commandes et trésorerie en baisse, tendance baissière intacte."
     },
     {
       "ticker": "MSCI World",
@@ -64,7 +64,7 @@
       "pnl_pct": 29.8,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "ETF cœur, repli de marché sans signal propre ; pas de renfort car la ligne dépasse le plafond de pondération."
+      "rationale": "ETF cœur, rebond de marché sans signal propre ; pas de renfort car la ligne dépasse le plafond de pondération."
     },
     {
       "ticker": "EUE",
@@ -72,7 +72,7 @@
       "pnl_pct": 7.2,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Indice au plus bas depuis mai, mais mouvement de marché sans signal spécifique."
+      "rationale": "L'indice efface une bonne partie de ses pertes de début de semaine ; aucun signal spécifique."
     },
     {
       "ticker": "EXA1",
@@ -80,7 +80,7 @@
       "pnl_pct": 6.9,
       "signal": "HOLD",
       "confidence": "faible",
-      "rationale": "Deuxième jour de repli des banques, à surveiller de près ; ligne au-dessus du plafond, renfort interdit."
+      "rationale": "Pas de signal sectoriel propre ; ligne au-dessus du plafond, renfort interdit, seuil d'alerte maintenu près du PRU."
     }
   ],
   "orders_to_consider": [
@@ -88,51 +88,51 @@
       "action": "VENDRE",
       "instrument": "Ottobock (OBCK)",
       "details": "vendre la totalité de la ligne restante, ordre limite",
-      "rationale": "Profiter du rebond technique pour sortir d'une tendance baissière persistante."
+      "rationale": "Profiter du rebond pour sortir d'une tendance baissière persistante."
     },
     {
       "action": "VENDRE",
       "instrument": "Hermès (RMS)",
       "details": "vendre la totalité (ou au moins ~2/3), ordre limite",
-      "rationale": "Au contact du stop mental, sans signal de retournement."
+      "rationale": "Rebond technique juste au-dessus du stop mental, sans signal de retournement."
     },
     {
       "action": "VENDRE",
       "instrument": "IperionX (IPX)",
-      "details": "vendre la totalité, limite recalée sur le cours EUR du courtier, idéalement à la réouverture US",
-      "rationale": "Stop cassé et perte très au-delà du seuil de réévaluation."
+      "details": "vendre la totalité, limite recalée sur le cours EUR du courtier, pendant la séance US",
+      "rationale": "Stop cassé, perte très au-delà du seuil de réévaluation, restructuration en cours."
     },
     {
       "action": "VENDRE",
       "instrument": "D-Wave Quantum (QBTS)",
       "details": "vendre la totalité, ordre limite",
-      "rationale": "Ligne spéculative perdante, nouveau plus-bas annuel."
-    },
-    {
-      "action": "ALLÉGER",
-      "instrument": "ASML Holding (ASML)",
-      "details": "vendre ~la moitié de la ligne (sauf si le stop proposé hier s'est déjà déclenché)",
-      "rationale": "Stop mental cassé et perte estimée au-delà de −10 %."
-    },
-    {
-      "action": "ALLÉGER",
-      "instrument": "Siemens (SIE)",
-      "details": "vendre ~la moitié de la ligne, ordre limite, stop mental sur le reste",
-      "rationale": "Clôture sous le stop mental dans un marché allemand qui casse ses supports."
+      "rationale": "Ligne spéculative perdante, plus-bas annuel récent."
     },
     {
       "action": "ALLÉGER",
       "instrument": "CATL (3750)",
       "details": "vendre ~la moitié de la ligne, limite recalée sur le cours EUR du courtier",
-      "rationale": "Stop mental cassé sur une chute de 12 % avec plusieurs catalyseurs négatifs."
+      "rationale": "Stop mental cassé et aucun rebond malgré la reprise du marché de Hong Kong."
+    },
+    {
+      "action": "POSER UN STOP",
+      "instrument": "ASML Holding (ASML)",
+      "details": "stop sur clôture sous le plus-bas du 25/11 ; remplace l'allègement proposé hier",
+      "rationale": "Perte estimée revenue sous le seuil de réévaluation, mais tendance encore fragile."
+    },
+    {
+      "action": "POSER UN STOP",
+      "instrument": "Siemens (SIE)",
+      "details": "stop sur clôture sous le plus-bas de la semaine ; remplace l'allègement proposé hier",
+      "rationale": "Cassure du stop non confirmée en clôture."
     }
   ],
   "risk_flags": [
-    "Marché baissier : Euro Stoxx 50 au plus bas depuis mai, DAX sous 25 000, Hang Seng en baisse sept séances d'affilée.",
-    "Trois nouveaux stops mentaux cassés (ASML, Siemens, CATL).",
-    "Concentration : deux ETF au-dessus de 25 % du portefeuille, dont l'ETF banques en repli.",
+    "Rebond européen d'environ 2 % sur faibles volumes et sans Wall Street : retournement non confirmé.",
+    "Quatre lignes sous leurs stops mentaux (ASML, CATL, D-Wave, IperionX) ; Hermès juste au-dessus du sien.",
+    "Concentration : deux ETF au-dessus de 25 % du portefeuille.",
     "Quatre lignes avec des pertes estimées bien au-delà du seuil de réévaluation de −15 %.",
-    "Wall Street fermée pour Thanksgiving : liquidité réduite sur les titres US.",
+    "IperionX : restructuration en cours (changement de société mère), risque technique sur la cotation.",
     "Ordres reconduits depuis plusieurs runs sans confirmation d'exécution ; positions de référence anciennes."
   ]
 }
